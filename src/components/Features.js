@@ -8,7 +8,7 @@ class Features extends Component {
             <div>
                   <div class="container-fluid">
             <div class="row" id="features_mainRows">
-         A       <a href="#" id="features_header_text">
+               <a href="#" id="features_header_text">
                     <h3><b>FEATURES ></b></h3>
                 </a>
 

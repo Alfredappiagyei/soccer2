@@ -146,18 +146,18 @@ class Home extends Component {
                         {/* Wrapper for slides  */}
                         <div class="carousel-inner" role="listbox">
                             <div class="item active">
-                                <div class="col-md-3 col-xs-6">
+                                  
+                            <div class="col-md-3 col-xs-6">
                                     <div class="thumbnail">
-                                      <player 
-                                      playsInline
-                                      poster="/assets/poster.png"
-                                      src="https://media.w3.og/2010/05/sintel/trailer_hd.mp4"/>
+                                        <img src={soccerHomeimage1} alt="pizza"
+                                            class="img-responsive" />
                                         <div class="caption">
                                             <h3>Thumbnail label</h3>
-                                            
+                                             
                                         </div>
                                     </div>
                                 </div>
+                               
                                 <div class="col-md-3 col-xs-6">
                                     <div class="thumbnail">
                                         <img src={soccerHomeimage1} alt="pizza"
@@ -196,7 +196,7 @@ class Home extends Component {
                                         <img src={soccerHomeimage1} alt="pizza"
                                             class="img-responsive" />
                                         <div class="caption">
-                                            <h3>Thumbnail label</h3>
+                                            <h3>Thumbnail </h3>
                                         </div>
                                     </div>
                                 </div>
