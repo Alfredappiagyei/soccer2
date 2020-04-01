@@ -349,138 +349,186 @@ class Home extends Component {
             <div class="MultiCarousel-inner">
                 <div class="item">
                     <div class="pad15">
-                        <p class="lead">Multi Item Carousel</p>
-                        <p>₹ 1</p>
-                        <p>₹ 6000</p>
-                        <p>50% off</p>
+                    <div class="card">
+                     <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
+                      <div class="card-body">
+                      <a href="#" class="card-link">1</a>
+                      <a href="#" class="card-link">Another link</a>
+                      </div>
+                 </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="pad15">
-                        <p class="lead">Multi Item Carousel</p>
-                        <p>₹ 1</p>
-                        <p>₹ 6000</p>
-                        <p>50% off</p>
+                    <div class="card">
+                     <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
+                      <div class="card-body">
+                      <a href="#" class="card-link">1</a>
+                      <a href="#" class="card-link">Another link</a>
+                      </div>
+                 </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="pad15">
-                        <p class="lead">Multi Item Carousel</p>
-                        <p>₹ 1</p>
-                        <p>₹ 6000</p>
-                        <p>50% off</p>
+                    <div class="card">
+                     <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
+                      <div class="card-body">
+                      <a href="#" class="card-link">1</a>
+                      <a href="#" class="card-link">Another link</a>
+                      </div>
+                 </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="pad15">
-                        <p class="lead">Multi Item Carousel</p>
-                        <p>₹ 1</p>
-                        <p>₹ 6000</p>
-                        <p>50% off</p>
+                    <div class="card">
+                     <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
+                      <div class="card-body">
+                      <a href="#" class="card-link">1</a>
+                      <a href="#" class="card-link">Another link</a>
+                      </div>
+                 </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="pad15">
-                        <p class="lead">Multi Item Carousel</p>
-                        <p>₹ 1</p>
-                        <p>₹ 6000</p>
-                        <p>50% off</p>
+                    <div class="card">
+                     <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
+                      <div class="card-body">
+                      <a href="#" class="card-link">1</a>
+                      <a href="#" class="card-link">Another link</a>
+                      </div>
+                 </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="pad15">
-                        <p class="lead">Multi Item Carousel</p>
-                        <p>₹ 1</p>
-                        <p>₹ 6000</p>
-                        <p>50% off</p>
+                    <div class="card">
+                     <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
+                      <div class="card-body">
+                      <a href="#" class="card-link">1</a>
+                      <a href="#" class="card-link">Another link</a>
+                      </div>
+                 </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="pad15">
-                        <p class="lead">Multi Item Carousel</p>
-                        <p>₹ 1</p>
-                        <p>₹ 6000</p>
-                        <p>50% off</p>
+                    <div class="card">
+                     <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
+                      <div class="card-body">
+                      <a href="#" class="card-link">1</a>
+                      <a href="#" class="card-link">Another link</a>
+                      </div>
+                 </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="pad15">
-                        <p class="lead">Multi Item Carousel</p>
-                        <p>₹ 1</p>
-                        <p>₹ 6000</p>
-                        <p>50% off</p>
+                    <div class="card">
+                     <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
+                      <div class="card-body">
+                      <a href="#" class="card-link">1</a>
+                      <a href="#" class="card-link">Another link</a>
+                      </div>
+                 </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="pad15">
-                        <p class="lead">Multi Item Carousel</p>
-                        <p>₹ 1</p>
-                        <p>₹ 6000</p>
-                        <p>50% off</p>
+                    <div class="card">
+                     <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
+                      <div class="card-body">
+                      <a href="#" class="card-link">1</a>
+                      <a href="#" class="card-link">Another link</a>
+                      </div>
+                 </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="pad15">
-                        <p class="lead">Multi Item Carousel</p>
-                        <p>₹ 1</p>
-                        <p>₹ 6000</p>
-                        <p>50% off</p>
+                    <div class="card">
+                     <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
+                      <div class="card-body">
+                      <a href="#" class="card-link">1</a>
+                      <a href="#" class="card-link">Another link</a>
+                      </div>
+                 </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="pad15">
-                        <p class="lead">Multi Item Carousel</p>
-                        <p>₹ 1</p>
-                        <p>₹ 6000</p>
-                        <p>50% off</p>
+                    <div class="card">
+                     <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
+                      <div class="card-body">
+                      <a href="#" class="card-link">1</a>
+                      <a href="#" class="card-link">Another link</a>
+                      </div>
+                 </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="pad15">
-                        <p class="lead">Multi Item Carousel</p>
-                        <p>₹ 1</p>
-                        <p>₹ 6000</p>
-                        <p>50% off</p>
+                    <div class="card">
+                     <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
+                      <div class="card-body">
+                      <a href="#" class="card-link">1</a>
+                      <a href="#" class="card-link">Another link</a>
+                      </div>
+                 </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="pad15">
-                        <p class="lead">Multi Item Carousel</p>
-                        <p>₹ 1</p>
-                        <p>₹ 6000</p>
-                        <p>50% off</p>
+                    <div class="card">
+                     <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
+                      <div class="card-body">
+                      <a href="#" class="card-link">1</a>
+                      <a href="#" class="card-link">Another link</a>
+                      </div>
+                 </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="pad15">
-                        <p class="lead">Multi Item Carousel</p>
-                        <p>₹ 1</p>
-                        <p>₹ 6000</p>
-                        <p>50% off</p>
+                    <div class="card">
+                     <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
+                      <div class="card-body">
+                      <a href="#" class="card-link">1</a>
+                      <a href="#" class="card-link">Another link</a>
+                      </div>
+                 </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="pad15">
-                        <p class="lead">Multi Item Carousel</p>
-                        <p>₹ 1</p>
-                        <p>₹ 6000</p>
-                        <p>50% off</p>
+                    <div class="card">
+                     <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
+                      <div class="card-body">
+                      <a href="#" class="card-link">1</a>
+                      <a href="#" class="card-link">Another link</a>
+                      </div>
+                 </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="pad15">
-                        <p class="lead">Multi Item Carousel</p>
-                        <p>₹ 1</p>
-                        <p>₹ 6000</p>
-                        <p>50% off</p>
+                    <div class="card">
+                     <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
+                      <div class="card-body">
+                      <a href="#" class="card-link">1</a>
+                      <a href="#" class="card-link">Another link</a>
+                      </div>
+                 </div>
                     </div>
                 </div>
             </div>
-            <button class="btn btn-primary leftLst">..</button>
-            <button class="btn btn-primary rightLst">></button>
+            <button class="btn  leftLst"><h2></h2> </button>
+            <button class="btn  rightLst"><h2>></h2></button>
 
                           
-
+   
                  </div>
              </div>
 
@@ -502,10 +550,12 @@ class Home extends Component {
  
 
     {/* ABOUT LEAGUE  */ }
-    <div class="row" id="league">
-        <div class="col-md-6" id="league_headline" id="lague_first_colon">kbjbuibrlhlrugthisbystshustr</div>
-        <div class="col-md-6" id="league_headline">tjgnlpghubvghkgvgyubhrgtuyvgtru</div>
-    </div>
+   <div className="container-fluid">
+       <div className="row" id="league">
+           <div className="col-md-6" id="league_initial_colon">fghjkbvcxcvbnm,.,mn</div>
+           <div className="col-md-6">dfghjklkjhgfdfghjkjhg</div>
+       </div>
+   </div>
 
 
 
