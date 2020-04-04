@@ -12,6 +12,7 @@ import soccerHomeimage1 from '../soccer/photos/soccer1.JPG'
 
 class Home extends Component {
     render() {
+        
                 
         $(document).ready(function () {
             var itemsMainDiv = ('.MultiCarousel');
@@ -141,7 +142,7 @@ class Home extends Component {
                         <div class="carousel-inner carousel-content" role="listbox">
                             <div class="row" id="line"></div>
                             <div class="item active" id="carousel_item1" >
-                                <div class="row" id="items_row">
+                                {/* <div class="row" id="items_row">
                                     <div class="col-md-4">
                                         <img src={soccerHomeimage1} alt="pizza" class="img-responsive" />
                                     </div>
@@ -152,15 +153,16 @@ class Home extends Component {
                                             <div class="col-xs-7 col-md-8">
                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                                 
-                                </div>
+                                       </div>
                                         </div>
+                                        
                                         <div class="row">
                                             <div class="col-xs-5 col-md-4"> <img src={soccerHomeimage1} alt="pizza"
                                                 class="img-responsive" /></div>
                                             <div class="col-xs-7 col-md-8">
                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                                 
-                                </div>
+                                        </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-xs-5 col-md-4"> <img src={soccerHomeimage1} alt="pizza"
@@ -175,11 +177,11 @@ class Home extends Component {
                                     <div class="col-md-4">
                                         <img src={soccerHomeimage1} alt="pizza" class="img-responsive" />
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
 
                             <div class="item" id="carousel_item2">
-                                <div class="row">
+                                {/* <div class="row">
                                     <div class="col-xs-12 col-md-4"  id="lastmatch_colon">
                                         <p id="last_match_header_text"><b>LAST MATCH</b></p>
                                         <div class="col-xs-4  col-md-4"> <img src={soccerHomeimage1} alt="pizza"
@@ -221,7 +223,7 @@ class Home extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
 

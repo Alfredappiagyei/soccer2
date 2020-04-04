@@ -13,6 +13,7 @@ class SocialMedia extends Component {
     render() {
         return (
             <div>
+            
                 <div className="container-fluid">
                     <div className="row" style={{ backgroundColor: "#E31B23", color: "#FFFFFF" }}><h3><b>SEA ON  SOCIAL MEDIA</b></h3> </div>
 

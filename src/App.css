@@ -78,20 +78,19 @@ body {
 
 #carousel_item1 {
   background-color: red;
-  margin: 0px 0px 0px 0px;
-  padding: 43px 15px;
+  padding: 0px 0px;
 }
 
 
 #carousel_item2 {
-  background: url(soccer/photos/soccer26.JPG);
-  margin: 0px 0px 0px 0px;
+  background: url(soccer/photos/soccer26.JPG); 
+  padding: 0px 0px;
   
 }
 
 
 img {
-  border: 3px solid #555;
+  border: 3px solid #fff;
 }
 
 #first-carousel-mainrow {
@@ -151,7 +150,7 @@ img {
   font-size: 25px;
   font-family: sans-serif;
   font-weight: bold;
-  margin: 0px 0px 50px 0px;
+  margin: 0px 0px 20px 0px;
 }
 
 
@@ -163,28 +162,27 @@ img {
   font-size: 25px;
   font-family: sans-serif;
   font-weight: bold;
-  margin: 0px 0px 50px 0px;
+  margin: 0px 0px 20px 0px;
 }
 
 
 
 #lastmatch_colon{
   background-color: rgba(20,20,20,0.55);
-  margin: 50px 0px 30px 0px;
   background-size: cover;
   font-family: sans-serif;
-  min-height: 300px;
+  min-height: 322px;
   border:3px solid #fff ;
+  margin: 0px 0px 5px 0px;
   
   }
 
   
 #upcoming_colon{
   background-color: rgba(20,20,20,0.65);
-  margin: 50px 0px 50px 0px;
   background-size: cover;
   font-family: sans-serif;
-  min-height: 300px;
+  min-height: 322px;
   border:3px solid #fff ;
   
   
@@ -212,27 +210,14 @@ min-height: 500px;
   background-color: rgba(60,50,50,0.95);
   min-height: 500px;
 } 
-#slide_row{
- 
-  padding: 20px 40px;
-}
-#slide_item_row{
-  margin: 0px 0px 20px 5px ;
-}
 
 
-#match_text {
-  
-  margin: 0px 0px 0px 0px;
-}
 
 #featured-vid-button{
   margin: 40px 0px;
 }
 
-#matches_row {
-  padding: 50px 0px 0px 0px
-}
+
 
 
 #advertisment1 {
@@ -328,3 +313,11 @@ min-height: 500px;
     .MultiCarousel .rightLst { right:0; }
     
         .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+
+
+
+
+
+
+
+  

@@ -19,6 +19,10 @@ import {
 import Firstteam from './components/Team/Firstteam';
 import Academy from './components/Team/Academy';
 import SocialMedia from './components/Fans/SocialMedia';
+import SeatvGo from './components/Fans/SeatvGo';
+import Under23 from './components/Match/Under23';
+import Under18 from './components/Match/Under18';
+
 
 
 
@@ -79,6 +83,9 @@ function App() {
                     </button>
                     <div class="dropdown-content">
                       <Link to="/transfarenews"><b>FIXTURES AND RESULTS#</b> </Link>
+                      
+                      <Link to="/under23"><b>U23S</b> </Link>
+                      <Link to="/under18"><b>U18S</b> </Link>
                       <Link to="/latestnews"><b>LEAGUE TABLE#</b> </Link>
                     </div>
                   </div>
@@ -133,7 +140,7 @@ function App() {
                     </button>
                     <div class="dropdown-content">
                       <Link to="#"><b>MEMBERSHIP#</b> </Link>
-                      <Link to="#"><b>SEA TV#</b> </Link>
+                      <Link to="/seatvgo"><b>SEA TV</b> </Link>
                       <Link to="/socialmedia"><b>SOCIAL MEDIA</b> </Link>
                     </div>
                   </div>
@@ -206,6 +213,12 @@ function App() {
           <Route path="/firstteam" exact component={Firstteam} /> 
           <Route path="/academy" exact component={Academy} /> 
           <Route path="/socialmedia" exact component={SocialMedia} /> 
+          <Route path="/seatvgo" exact component={SeatvGo} /> 
+          <Route path="/under23" exact component={Under23} /> 
+          <Route path="/under18" exact component={Under18} /> 
+          
+              
+
              </Switch>
 
 
