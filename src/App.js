@@ -22,6 +22,7 @@ import SocialMedia from './components/Fans/SocialMedia';
 import SeatvGo from './components/Fans/SeatvGo';
 import Under23 from './components/Match/Under23';
 import Under18 from './components/Match/Under18';
+import Atoz from './components/Legal/Atoz';
 
 
 
@@ -39,7 +40,7 @@ function App() {
     <Router>
       <div>
 
-        <nav class="navbar navbar-default" style={{ backgroundColor: '#E31B23', color: "#fff", }}>
+        <nav class="navbar navbar-default" style={{ backgroundColor: '#444444', color: "#fff", }}>
           <div class="container-fluid">
 
             <div class="navbar-header">
@@ -181,7 +182,7 @@ function App() {
                     <div class="dropdown-content">
                       <Link to="#"><b>FAQS#</b> </Link>
                       <Link to="/contacts"><b>CONTACT</b> </Link>
-                      <Link to="#"><b>A - Z#</b> </Link>
+                      <Link to="/atoz"><b>A - Z#</b> </Link>
                     </div>
                   </div>
                 </li>
@@ -216,6 +217,7 @@ function App() {
           <Route path="/seatvgo" exact component={SeatvGo} /> 
           <Route path="/under23" exact component={Under23} /> 
           <Route path="/under18" exact component={Under18} /> 
+          <Route path="/atoz" exact component={Atoz} /> 
           
               
 
@@ -224,6 +226,7 @@ function App() {
 
       </div>
     </Router>
+    
   );
 }
 

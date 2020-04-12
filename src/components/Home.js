@@ -2,16 +2,45 @@
 import React, {Component} from "react";
 
 
-import video1 from "../components/video/vid1.MP4"
+// import video1 from "../components/video/vid2.MTS"
+// import video2 from "../components/video/vid3.MTS"
+// import video3 from "../components/video/vid4.MTS"
+// import video4 from "../components/video/vid5.MTS"
+// import video5 from "../components/video/vid6.MTS"
+// import video6 from "../components/video/vid7.MTS"
+// import video7 from "../components/video/vid8.MTS"
+// import video8 from "../components/video/vid9.MTS"
+
 import $ from "jquery"
 
+
+
 import soccerHomeimage1 from '../soccer/photos/soccer1.JPG'
+import soccerHomeimage2 from '../soccer/photos/soccer30.jpg'
+import soccerHomeimage3 from '../soccer/photos/soccer14.JPG'
+import soccerangelslogo from '../soccer/photos/soccerangelslogo.JPG'
+import Chairmanshipposition from '../soccer/photos/chaimanship.JPG'
+import headimage from '../soccer/photos/headimage.jpg'
+import jerseyimage1 from '../soccer/photos/Picture8.jpg'
+import jerseyimage2 from '../soccer/photos/Picture9.jpg'
+import jerseyimage3 from '../soccer/photos/Picture7.jpg'
+import jerseygrid from '../soccer/photos/0.gif'
+import jerseyimage4 from '../soccer/photos/Picture10.jpg'
+import logo1 from '../soccer/photos/Picture3.gif'
+import logo2 from '../soccer/photos/1.gif'
+import logo3 from '../soccer/photos/2.gif'
+import logo4 from '../soccer/photos/3.gif'
+import logo5 from '../soccer/photos/4.gif'
+
+
 
 
 
 
 class Home extends Component {
     render() {
+
+
         
                 
         $(document).ready(function () {
@@ -128,6 +157,12 @@ class Home extends Component {
         return (
             <div>
 
+                <div className="container">
+                    <div className="row">
+                    <img style={{width:"100%"}} src={soccerangelslogo} alt="pizza" class="img-responsive" />
+                    </div>
+                </div>
+
             <div class="container-fluid">
                 <div class="row" >
                     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -141,89 +176,53 @@ class Home extends Component {
                         {/* Wrapper for slides  */}
                         <div class="carousel-inner carousel-content" role="listbox">
                             <div class="row" id="line"></div>
-                            <div class="item active" id="carousel_item1" >
-                                {/* <div class="row" id="items_row">
-                                    <div class="col-md-4">
-                                        <img src={soccerHomeimage1} alt="pizza" class="img-responsive" />
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="row">
-                                            <div class="col-xs-5 col-md-4"> <img src={soccerHomeimage1} alt="pizza"
-                                                class="img-responsive" /></div>
-                                            <div class="col-xs-7 col-md-8">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                
-                                       </div>
-                                        </div>
-                                        
-                                        <div class="row">
-                                            <div class="col-xs-5 col-md-4"> <img src={soccerHomeimage1} alt="pizza"
-                                                class="img-responsive" /></div>
-                                            <div class="col-xs-7 col-md-8">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                
-                                        </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-xs-5 col-md-4"> <img src={soccerHomeimage1} alt="pizza"
-                                                class="img-responsive" /></div>
-                                            <div class="col-xs-7 col-md-8">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                
-                                </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="col-md-4">
-                                        <img src={soccerHomeimage1} alt="pizza" class="img-responsive" />
-                                    </div>
-                                </div> */}
-                            </div>
-
-                            <div class="item" id="carousel_item2">
-                                {/* <div class="row">
+                            <div class="item active"  id="carousel_item1" >
+                            <div class="row">
                                     <div class="col-xs-12 col-md-4"  id="lastmatch_colon">
                                         <p id="last_match_header_text"><b>LAST MATCH</b></p>
-                                        <div class="col-xs-4  col-md-4"> <img src={soccerHomeimage1} alt="pizza"
-                                            class="img-responsive" /></div>
+                                        <div class="col-xs-4  col-md-4"> <img src={soccerangelslogo} alt="pizza"
+                                            class="img-responsive" /><p >Soccer Angels Academy</p></div>
                                         <div class="col-xs-4  col-md-4">
-                                            <button id="last_match_button"><b>0-0</b></button>
+                                            <button id="last_match_button"><b>2-2</b></button>
                                         </div>
                                         <div class="col-xs-4  col-md-4"> <img src={soccerHomeimage1} alt="pizza"
-                                            class="img-responsive" /></div><br />
-                                        <div id="match_text">
-                                            <p >SKGBUBS VBHXBJGB,HFJ</p>
-                                        </div>
+                                            class="img-responsive" /><p ></p>Coperative Utd</div><br />
+                                       
                                     </div>
                                     <div class="col-xs-12 col-md-8" >
                                         <div class="col-xs-12 col-md-6" id="upcoming_colon">
                                         <p id="upcoming_match_header_text"><b>UPCOMING MATCH</b></p>
                                             <div class="col-xs-4  col-md-4"> <img src={soccerHomeimage1} alt="pizza"
-                                                class="img-responsive" /></div>
+                                                class="img-responsive" /><p >Suampongman Utd</p></div>
                                             <div class="col-xs-4  col-md-4">
                                                 <button id="upcoming_match_button"><b>VS</b></button>
                                             </div>
-                                            <div class="col-xs-4  col-md-4"> <img src={soccerHomeimage1} alt="pizza"
-                                                class="img-responsive" /></div>
+                                            <div class="col-xs-4  col-md-4"> <img src={soccerangelslogo} alt="pizza"
+                                                class="img-responsive" /><p >  Soccer Angels Academy</p></div>
                                             <div id="match_text">
-                                                <p>SKGBUBS VBHXBJGB,HFJ</p>
+                                              
                                             </div>
                                         </div>
                                         <div class="col-xs-12 col-md-6" id="upcoming_colon">
                                         <p id="upcoming_match_header_text"><b>UPCOMING MATCH</b></p>
-                                            <div class="col-xs-4  col-md-4"> <img src={soccerHomeimage1} alt="pizza"
-                                                class="img-responsive" /></div>
+                                            <div class="col-xs-4  col-md-4"> <img src={soccerangelslogo} alt="pizza"
+                                                class="img-responsive" /><p >Soccer Angels Academy</p></div>
                                             <div class="col-xs-4  col-md-4">
                                                 <button id="upcoming_match_button"><b>VS</b></button>
                                             </div>
                                             <div class="col-xs-4  col-md-4"> <img src={soccerHomeimage1} alt="pizza"
-                                                class="img-responsive" /></div>
+                                                class="img-responsive" /><p >Twifo Wasko</p></div>
                                             <div id="match_text">
-                                                <p>SKGBUBS VBHXBJGB,HFJ</p>
+                                                
                                             </div>
                                         </div>
+                               
+                            </div>
+
+                            <div class="item">
+                                
                                     </div>
-                                </div> */}
+                                </div>
                             </div>
                         </div>
 
@@ -237,26 +236,117 @@ class Home extends Component {
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
-
                 </div>
             </div><br />
 
 
 
             <div class="row" id="line"></div>
-
-            <video src={video1}  controls="controls" class="img-responsive"/>
-            <div class="container-fluid">
+            {/* <div class="container-fluid">
                 <div class="row">
                     <a href="#"><button id="more_button">MORE ></button></a>
                     <h2 id="featured-vid-button"><b>Featured Videos</b></h2>
-                    
+
+                    <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
+            <div class="MultiCarousel-inner">
+                <div class="item">
+                    <div class="pad15">
+                    <div class="card">
+                     <a href="#">  <video src={video1}  controls="controls" class="img-responsive"/></a>
+                      <div class="card-body">
+                      <a href="#" class="card-link">Another link</a>
+                      </div>
+                 </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pad15">
+                    <div class="card">
+                     <a href="#"> <video src={video2}  controls="controls" class="img-responsive"/></a>
+                      <div class="card-body">
+                      <a href="#" class="card-link">Another link</a>
+                      </div>
+                 </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pad15">
+                    <div class="card">
+                     <a href="#"><video src={video3}  controls="controls" class="img-responsive"/></a>
+                      <div class="card-body">
+                      <a href="#" class="card-link">Another link</a>
+                      </div>
+                 </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pad15">
+                    <div class="card">
+                     <a href="#"><video src={video4}  controls="controls" class="img-responsive"/></a>
+                      <div class="card-body">
+                      <a href="#" class="card-link">Another link</a>
+                      </div>
+                 </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pad15">
+                    <div class="card">
+                     <a href="#"><video src={video5}  controls="controls" class="img-responsive"/></a>
+                      <div class="card-body">
+                      <a href="#" class="card-link">Another link</a>
+                      </div>
+                 </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pad15">
+                    <div class="card">
+                    <a href="#"><video src={video6}  controls="controls" class="img-responsive"/></a>
+                      <div class="card-body">
+                      <a href="#" class="card-link">Another link</a>
+                      </div>
+                 </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pad15">
+                    <div class="card">
+                     <a href="#"><video src={video7}  controls="controls" class="img-responsive"/></a>
+                      <div class="card-body">
+                      <a href="#" class="card-link">Another link</a>
+                      </div>
+                 </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pad15">
+                    <div class="card">
+                     <a href="#"><video src={video8}  controls="controls" class="img-responsive"/></a>
+                      <div class="card-body">
+                      <a href="#" class="card-link">Another link</a>
+                      </div>
+                 </div>
+                    </div>
+                </div>
+               
+            </div>
+            <button class="btn  leftLst"><h2></h2> </button>
+            <button class="btn  rightLst"><h2>></h2></button>
+
+                          
+   
+                 </div>
+             
+             
 
                     
-                  
-                   
+
+
+                               
                 </div>
-            </div>
+            </div> */}
+            
 
 
 
@@ -270,14 +360,14 @@ class Home extends Component {
                             <div class="col-md-6 col-xs-12">
                                 <div class="row" >
                                     <div class="col-md-4 col-xs-4">
-                                        <a href="#"> <img src={soccerHomeimage1} alt="pizza"
+                                        <a href="#"> <img src={Chairmanshipposition} alt="pizza"
                                             class="img-responsive" /></a>
                                     </div>
                                     <div class="col-md-8 col-xs-8">
                                         <a href="#" id="transfare_news_sub_headline">
                                             <p>
                                                 <b>
-                                                    Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod
+                                                    The C.E.O of Soccer Angels Academy is the new Assin district football association chairman
                                                     
                                 </b>
                                             </p>
@@ -294,9 +384,11 @@ class Home extends Component {
                                         <a href="#" id="transfare_news_sub_headline">
                                             <p>
                                                 <b>
-                                                    Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod
+                                                    Dreams Football Club has officially signed Soccer Angels
+                                                     supper star Percious Boah on a four year long deal from
+                                                      Soccer Angels Academy.
                                                     
-                                </b>
+                                                 </b>
                                             </p>
                                         </a>
                                     </div>
@@ -308,14 +400,15 @@ class Home extends Component {
 
                                 <div class="row">
                                     <div class="col-md-4 col-xs-4">
-                                        <a href="#"> <img src={soccerHomeimage1} alt="pizza"
+                                        <a href="#"> <img src={jerseyimage1} alt="pizza"
                                             class="img-responsive" /></a>
                                     </div>
                                     <div class="col-md-8 col-xs-8">
                                         <a href="#" id="transfare_news_sub_headline">
                                             <p>
                                                 <b>
-                                                    Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod
+                                                    Soccer Angels unviel its new jersey for the 2020-2021
+                                                    league
                                                     
                                 </b>
                                             </p>
@@ -325,7 +418,7 @@ class Home extends Component {
 
                                 <div class="row">
                                     <div class="col-md-4 col-xs-4">
-                                        <a href="#"> <img src={soccerHomeimage1} alt="pizza"
+                                        <a href="#"> <img src={jerseyimage2} alt="pizza"
                                             class="img-responsive" /></a>
                                     </div>
                                     <div class="col-md-8 col-xs-8">
@@ -536,7 +629,14 @@ class Home extends Component {
 
              </div>
                 </div>
-                <div class="col-md-3 col-xs-12">jkmgaebgthghggkjh</div>
+                <div class="col-md-3 col-xs-12">
+                    <div className="row" style={{minHeight:"200px", backgroundColor:"grey"}}>
+                    <a href="#"> <img src={jerseygrid} alt="pizza"
+                                class="img-responsive" /></a>
+
+
+                    </div>
+                </div>
             </div>
         
             
@@ -554,8 +654,19 @@ class Home extends Component {
     {/* ABOUT LEAGUE  */ }
    <div className="container-fluid">
        <div className="row" id="league">
-           <div className="col-md-6" id="league_initial_colon">fghjkbvcxcvbnm,.,mn</div>
-           <div className="col-md-6">dfghjklkjhgfdfghjkjhg</div>
+           <div className="col-md-6">fghjkbvcxcvbnm,.,mn</div>
+           <div className="col-md-6"  id="league_initial_colon">
+               <h1><b>OFFICIALL ANOUNCEMENT</b></h1>
+               <ul  style={{margin:"20px 0x 0px 0px"  }}>
+                   <li>ISSAC ENTSIE</li>
+                   <li>BENJAMIN APPIAH</li>
+                   <li>PRINCE MAHAMA</li>
+                   <li>MILLER AUGUSTINE</li>
+                   <li>ERNEST OPPONG</li>
+                 
+               </ul>
+               <h1><b>JOINS THE SENIOR SIDE OF SOCCER ANGELS ACADEMY</b></h1>
+           </div>
        </div>
    </div>
 
@@ -575,7 +686,7 @@ class Home extends Component {
                 <div class="col-md-6">
                     <div class="row" id="features_subRows">
                         <div class="col-md-12 col-xs-12">
-                            <a href="#"> <img src={soccerHomeimage1} alt="pizza"
+                            <a href="#"> <img src={jerseyimage1} alt="pizza"
                                 class="img-responsive" /></a>
                         </div>
                         <div class="col-md-12 col-xs-12">
@@ -594,7 +705,7 @@ class Home extends Component {
                 <div class="col-md-6">
                     <div class="row" id="features_subRows">
                         <div class="col-md-4 col-xs-5">
-                            <a href="#"> <img src={soccerHomeimage1} alt="pizza"
+                            <a href="#"> <img src={jerseyimage2} alt="pizza"
                                 class="img-responsive" /></a>
                         </div>
                         <div class="col-md-8 col-xs-7">
@@ -611,7 +722,7 @@ class Home extends Component {
 
                     <div class="row" id="features_subRows">
                         <div class="col-md-4 col-xs-5">
-                            <a href="#"> <img src={soccerHomeimage1} alt="pizza"
+                            <a href="#"> <img src={jerseyimage1} alt="pizza"
                                 class="img-responsive" /></a>
                         </div>
                         <div class="col-md-8 col-xs-7">
@@ -628,7 +739,7 @@ class Home extends Component {
 
                     <div class="row" id="features_subRows">
                         <div class="col-md-4 col-xs-5">
-                            <a href="#"> <img src={soccerHomeimage1} alt="pizza"
+                            <a href="#"> <img src={jerseyimage3} alt="pizza"
                                 class="img-responsive" /></a>
                         </div>
                         <div class="col-md-8 col-xs-7">
@@ -643,9 +754,11 @@ class Home extends Component {
                         </div>
                     </div>
 
+                    
+
                     <div class="row" id="features_subRows">
                         <div class="col-md-4 col-xs-5">
-                            <a href="#"> <img src={soccerHomeimage1} alt="pizza"
+                            <a href="#"> <img src={jerseyimage4} alt="pizza"
                                 class="img-responsive" /></a>
                         </div>
                         <div class="col-md-8 col-xs-7">
@@ -667,10 +780,6 @@ class Home extends Component {
 
 
 
-
-
-
-        
 
 
 
@@ -683,14 +792,14 @@ class Home extends Component {
                 <div class="col-md-6">
                     <div class="row" id="features_subRows">
                         <div class="col-md-12 col-xs-12">
-                            <a href="#"> <img src={soccerHomeimage1} alt="pizza"
+                            <a href="#"> <img src={soccerHomeimage3} alt="pizza"
                                 class="img-responsive" /></a>
                         </div>
                         <div class="col-md-12 col-xs-12">
                             <a href="#" id="transfare_news_main_headline">
-                                <p>
+                                <p style={{ fontSize:"25px", color: "#141414", }}>
                                     <b>
-                                        Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod
+                                        Soccer angels could look for creative solution to solve a tranfare problem
                                         
                                 </b>
                                 </p>
@@ -702,15 +811,34 @@ class Home extends Component {
                 <div class="col-md-6">
                     <div class="row" id="features_subRows">
                         <div class="col-md-4 col-xs-5">
+                            <a href="#"> <img src={soccerHomeimage2} alt="pizza"
+                                class="img-responsive" /></a>
+                        </div>
+                        <div class="col-md-8 col-xs-7">
+                            <a href="#" id="transfare_news_sub_headline">
+                            <h4><b>OFFICIAL:PERCIOUS BOAH JOINS DREAMS FC</b> </h4>
+                                <p>
+                                    <b>
+                                      Percious Boah welcomes Dreams fc move, but Soccer Angels Academy
+                                       will recognise truth about his trajectory  
+    
+                                   </b>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row" id="features_subRows">
+                        <div class="col-md-4 col-xs-5">
                             <a href="#"> <img src={soccerHomeimage1} alt="pizza"
                                 class="img-responsive" /></a>
                         </div>
                         <div class="col-md-8 col-xs-7">
                             <a href="#" id="transfare_news_sub_headline">
+                                <h4><b>OFFICIAL:JUSTICE ASAMOAH JOINS SOCCER ANGELS</b> </h4>
                                 <p>
-                                    <b>
-                                        Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod
-                                        
+                                 <b>
+                                   Soccer Angels has officcially signed Justice Asamoah from Mighty Ocean       
                                 </b>
                                 </p>
                             </a>
@@ -724,10 +852,10 @@ class Home extends Component {
                         </div>
                         <div class="col-md-8 col-xs-7">
                             <a href="#" id="transfare_news_sub_headline">
+                            <h4><b>OFFICIAL:GODFRED AMOAKOH BOATENG JOINS SOCCER ANGELS</b> </h4>
                                 <p>
-                                    <b>
-                                        Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod
-                                        
+                                 <b>
+                                   Soccer Angels has officcially signed Godfred Amoakoh Boateng from Victory fc       
                                 </b>
                                 </p>
                             </a>
@@ -741,10 +869,10 @@ class Home extends Component {
                         </div>
                         <div class="col-md-8 col-xs-7">
                             <a href="#" id="transfare_news_sub_headline">
+                            <h4><b>OFFICIAL:MUSTAPHA OSMAN JOINS SOCCER ANGELS</b> </h4>
                                 <p>
-                                    <b>
-                                        Lorem ipsum dolor sit amet,adipisicing elit, sed do eiusmod
-                                        
+                                 <b>
+                                   Soccer Angels has officcially signed Mustapha Osman from Lakers fc       
                                 </b>
                                 </p>
                             </a>
@@ -758,15 +886,123 @@ class Home extends Component {
                         </div>
                         <div class="col-md-8 col-xs-7">
                             <a href="#" id="transfare_news_sub_headline">
+                            <h4><b>OFFICIAL:PATRICK ASIEDU JOINS SOCCER ANGELS</b> </h4>
                                 <p>
-                                    <b>
-                                        Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod
-                                        
+                                 <b>
+                                   Soccer Angels has officcially signed Patrick Asiedu from Suapongman fc       
                                 </b>
                                 </p>
                             </a>
                         </div>
                     </div>
+
+                    <div class="row" id="features_subRows">
+                        <div class="col-md-4 col-xs-5">
+                            <a href="#"> <img src={soccerHomeimage1} alt="pizza"
+                                class="img-responsive" /></a>
+                        </div>
+                        <div class="col-md-8 col-xs-7">
+                            <a href="#" id="transfare_news_sub_headline">
+                            <h4><b>OFFICIAL:JONATHAN ODOOM (GOALKEEPER) JOINS SOCCER ANGELS</b> </h4>
+                                <p>
+                                 <b>
+                                   Soccer Angels has officcially signed Jonathan Odoom       
+                                </b>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row" id="features_subRows">
+                        <div class="col-md-4 col-xs-5">
+                            <a href="#"> <img src={soccerHomeimage1} alt="pizza"
+                                class="img-responsive" /></a>
+                        </div>
+                        <div class="col-md-8 col-xs-7">
+                            <a href="#" id="transfare_news_sub_headline">
+                            <h4><b>OFFICIAL:JEREMIAH ANSAH JOINS SOCCER ANGELS</b> </h4>
+                                <p>
+                                 <b>
+                                   Soccer Angels has officcially signed Jeremiah Ansah        
+                                </b>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row" id="features_subRows">
+                        <div class="col-md-4 col-xs-5">
+                            <a href="#"> <img src={soccerHomeimage1} alt="pizza"
+                                class="img-responsive" /></a>
+                        </div>
+                        <div class="col-md-8 col-xs-7">
+                            <a href="#" id="transfare_news_sub_headline">
+                            <h4><b>OFFICIAL:BENARD KOKONU JUNIOR JOINS SOCCER ANGELS</b> </h4>
+                                <p>
+                                 <b>
+                                   Soccer Angels has officcially signed Benard Kokonu Junior        
+                                </b>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row" id="features_subRows">
+                        <div class="col-md-4 col-xs-5">
+                            <a href="#"> <img src={soccerHomeimage1} alt="pizza"
+                                class="img-responsive" /></a>
+                        </div>
+                        <div class="col-md-8 col-xs-7">
+                            <a href="#" id="transfare_news_sub_headline">
+                            <h4><b>OFFICIAL:CHRISTIAN ATHUR JOINS SOCCER ANGELS</b> </h4>
+                                <p>
+                                 <b>
+                                   Soccer Angels has officcially signed Christian Athur       
+                                </b>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+
+                    
+                    <div class="row" id="features_subRows">
+                        <div class="col-md-4 col-xs-5">
+                            <a href="#"> <img src={soccerHomeimage1} alt="pizza"
+                                class="img-responsive" /></a>
+                        </div>
+                        <div class="col-md-8 col-xs-7">
+                            <a href="#" id="transfare_news_sub_headline">
+                            <h4><b>OFFICIAL:DOUGLAS COFFIE JOINS SOCCER ANGELS</b> </h4>
+                                <p>
+                                 <b>
+                                   Soccer Angels has officcially signed Douglas Coffei       
+                                </b>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+
+                    
+                    <div class="row" id="features_subRows">
+                        <div class="col-md-4 col-xs-5">
+                            <a href="#"> <img src={soccerHomeimage1} alt="pizza"
+                                class="img-responsive" /></a>
+                        </div>
+                        <div class="col-md-8 col-xs-7">
+                            <a href="#" id="transfare_news_sub_headline">
+                            <h4><b>OFFICIAL:CHRISTIAN ATHUR JOINS SOCCER ANGELS</b> </h4>
+                                <p>
+                                 <b>
+                                   Soccer Angels has officcially signed Christian Athur       
+                                </b>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+
+
+
+
 
                 </div>
 
@@ -783,43 +1019,21 @@ class Home extends Component {
 
 
 
-
-
         <div class="container-fluid"  id="footer_first_container"> 
-
-        <section class="bottomFooter">
-    <div class="footerText">
-
-        <div class="footer-middleBottom">
-            <a title="Go to Privacy Policy" href="http://www.liverpoolfc.com/legal/privacy-policy">Privacy Policy</a> <span>|</span>
-            <a title="Go to Terms and Conditions" href="http://www.liverpoolfc.com/legal/terms-and-conditions">Terms and Conditions</a> <span>|</span>
-            <a title="Go to Anti-Slavery" href="http://www.liverpoolfc.com/corporate/anti-slavery">Anti-Slavery</a> <span>|</span>
-            <a title="Go to Cookies" href="http://www.liverpoolfc.com/legal/cookies">Cookies</a> <span>|</span>
-            <a title="Go to Help" href="https://help.liverpoolfc.com/">Help</a> <span>|</span>
-            <a title="Go to Browser Support" href="http://www.liverpoolfc.com/corporate/browser-support">Browser Support</a> <span>|</span>
-            <a title="Go to RSS Feeds" href="http://www.liverpoolfc.com/corporate/rss-feeds">RSS Feeds</a> <span>|</span>
-            <a title="Go to Contact Us" href="http://www.liverpoolfc.com/contactus">Contact Us</a> <span>|</span>
-            <a title="Go to Accessibility" href="http://www.liverpoolfc.com/accessible/accessible">Accessibility</a> <br/>
+        <div className="row" id="footer-first-row" style={{display:"flex",padding:"0px 0px 0px 520px"}}>
+        <a href="https://twitter.com/SoccerAngelAca1" > <img  style={{textAlign:"center"}} src={logo1} alt="pizza"
+                                class="img-responsive" width="40" height="40" /></a>
+         <a href="https://web.facebook.com/Soccer-Angels-Academy-115197873244725/" > <img  style={{textAlign:"center"}} src={logo2} alt="pizza"
+                                class="img-responsive" width="40" height="40" /></a>
+         <a href="https://www.youtube.com/channel/UC6AD72yTtZpE7ox25eb6GZg" > <img  style={{textAlign:"center"}} src={logo3} alt="pizza"
+                                class="img-responsive" width="40" height="40" /></a>
+         <a href="#" > <img  style={{textAlign:"center"}} src={logo4} alt="pizza"
+                                class="img-responsive" width="40" height="40" /></a>
+         <a href="#" > <img  style={{textAlign:"center"}} src={logo5} alt="pizza"
+                                class="img-responsive" width="40" height="40" /></a>
+             
         </div>
-
-        <div class="footer-left">
-            &copy; Copyright 2020 The Soccer Angels Football Acadeny . All rights reserved.
-        </div>
-
-        <div class="footer-right">
-            Developed and maintained by the LFC Technology and Transformation Team
-        </div>
-
-        <div class="footer-middle">
-            Match Statistics supplied by Opta Sports Data Limited. Reproduced under licence from Football DataCo Limited. All rights reserved.
-        </div>
-
-    
-
-</div>
-
-
-</section>
+       
          </div>
         
 

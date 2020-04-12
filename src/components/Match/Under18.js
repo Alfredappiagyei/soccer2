@@ -18,9 +18,9 @@ class Under18 extends Component {
     render() {
         return (
             <div>
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row" style={{ backgroundColor: "#E31B23", color: "#ddd" }}><h3>FIXTURES AND RESULLTS</h3>  </div>
-                    <div class="row">
+                    <div class="row"  id="carousel_item1">
                                     <div class="col-xs-12 col-md-4"  id="lastmatch_colon">
                                         <p id="last_match_header_text"><b>LAST MATCH</b></p>
                                         <div class="col-xs-4  col-md-4"> <img src={under18image1 } alt="pizza"

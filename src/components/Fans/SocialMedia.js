@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 
-import socialmediafacebookimage from "../Fans/photos/so3.jpeg"
+import socialmediafacebookimage from "../Fans/photos/so7.PNG"
 import socialmediatweeterimage from "../Fans/photos/so2.png"
 import socialmediainstagramimage from "../Fans/photos/so1.jpeg"
-// import socialmediafacebookimage from "../Fans/photos/so4.png"
+import socialmediayoutubeimage from "../Fans/photos/so5.JPG"
+import socialmediasnapchatimage from "../Fans/photos/so6.JPG"
 
-import soccerHomeimage1 from '../Fans/photos/soccer1.JPG'
+import socialmediafirstimage from '../Fans/photos/so8.JPG'
 
 
 
@@ -20,7 +21,7 @@ class SocialMedia extends Component {
                     <div className="row">
                         <div className="col-md-9">
                             <div className="row" style={{ height: "200px",  backgroundColor: "red"}}>
-                            <a href="#"><img src={soccerHomeimage1 } style={{ height: "200px",width: "100%"}} alt="angels" class="img-responsive" /></a> 
+                            <a href="#"><img src={socialmediafirstimage} style={{ height: "200px",width: "100%"}} alt="angels" class="img-responsive" /></a> 
                             </div>
                             <hr />
 
@@ -32,15 +33,15 @@ class SocialMedia extends Component {
                             <hr />
 
                             <div className="row">
-                                <a href="#"><img src={socialmediafacebookimage} alt="angels" class="img-responsive" /></a>
-                                <h4>Like us <a href="#">@SoccerAngelsAcademy</a>for daily news,videos,interviews and look out for SEA facebook live events!</h4>
+                                <a href="https://web.facebook.com/Soccer-Angels-Academy-115197873244725/"><img src={socialmediafacebookimage} alt="angels" class="img-responsive" /></a>
+                                <h4>Like us <a href="https://web.facebook.com/Soccer-Angels-Academy-115197873244725/">@SoccerAngelsAcademy</a>for daily news,videos,interviews and look out for SEA facebook live events!</h4>
                             </div>
 
                             <hr />
 
                             <div className="row">
-                                <a href="#"><img src={socialmediatweeterimage} alt="angels" class="img-responsive" /></a>
-                                <h4>Follo us <a href="#">@SEA</a> for breaking news,stats,team news, videos,photos and much more.</h4>
+                                <a href="https://twitter.com/SoccerAngelAca1"><img src={socialmediatweeterimage} alt="angels" class="img-responsive" /></a>
+                                <h4>Follo us <a href="https://twitter.com/SoccerAngelAca1">@SEA</a> for breaking news,stats,team news, videos,photos and much more.</h4>
                             </div>
                             <hr />
 
@@ -54,7 +55,7 @@ class SocialMedia extends Component {
                             <hr />
 
                             <div className="row">
-                                <a href="#"> <img src={socialmediafacebookimage} alt="angels" class="img-responsive" /></a>
+                                <a href="#"> <img src={socialmediasnapchatimage} alt="angels" class="img-responsive" /></a>
                                 <h4>
                                     Add SEA for exclusive behind-the-scenes stories,photos and videos on matchdays.
                               </h4>
@@ -62,7 +63,7 @@ class SocialMedia extends Component {
                             <hr />
 
                             <div className="row">
-                                <a href="#"><img src={socialmediafacebookimage} alt="angels" class="img-responsive" /></a>
+                                <a href="https://www.youtube.com/channel/UC6AD72yTtZpE7ox25eb6GZg"><img src={socialmediayoutubeimage} alt="angels" class="img-responsive" /></a>
                                 <h4>
                                     Watch exclusive video content on the official SEA YouTube channel.With hundreds
                                     of videos posted, it's the best way to watch the best clips from the academy

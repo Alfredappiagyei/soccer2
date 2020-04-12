@@ -3,21 +3,7 @@ body {
 }
 
 .dropbtn {
-  background-color:#E31B23;
-  color: white;
-  padding: 5px;
-  font: 16px;
-  border: none;
-  margin: 13px 5px;
-  font: 16px sans-serif;
-  text-decoration: none;
-  font-family: sans-serif;
-}
-
-
-
-.navhomebuttons {
-  background-color:#E31B23;
+  background-color:#444444;
   color: white;
   padding: 5px;
   font: 16px;
@@ -34,7 +20,7 @@ body {
   font-family: sans-serif;
   font-style: italic;
   font-size: 20px;
-  color: yellow;
+  color: limegreen;
   
 }
 
@@ -47,7 +33,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color:#E31B23;
+  background-color:#444444;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px
   rgba(0,0,0,0.2);
@@ -68,30 +54,22 @@ body {
 }
 
 
-.dropdown-content a:hover {background-color: #E31B23;}
+.dropdown-content a:hover {background-color: limegreen;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover  .dropbtn {background-color:#b21534;}
+.dropdown:hover  .dropbtn {background-color:limegreen;}
+
 
 
 
 #carousel_item1 {
-  background-color: red;
-  padding: 0px 0px;
-}
-
-
-#carousel_item2 {
   background: url(soccer/photos/soccer26.JPG); 
-  padding: 0px 0px;
-  
+  padding: 50px 0px;
 }
 
 
-img {
-  border: 3px solid #fff;
-}
+
 
 #first-carousel-mainrow {
   background-color: red;
@@ -108,6 +86,29 @@ img {
 }
 
 
+
+#lastmatch_colon{
+  background-color: rgba(20,20,20,0.65);
+  background-size: cover;
+  font-family: sans-serif;
+  border:3px solid #fff ;
+  color: #fff;
+  min-height: 322px;
+  
+  }
+   
+#upcoming_colon{
+  background-color: rgba(20,20,20,0.65);
+  background-size: cover;
+  font-family: sans-serif;
+  border:3px solid #fff ;
+  color: #fff;
+  min-height: 322px;
+  
+  
+  }
+
+
 #transfare_news_sub_headline {
   color:#141414;
   text-decoration: none;
@@ -121,16 +122,6 @@ img {
 
 }
 
-
-
-#transfare_news_main_headline {
-  font: 24px "Signika Negative Bold",;
-  font-family: sans-serif;
-  text-decoration: none;
-  columns: #141414;
-  max-width: 0px 12px 18px 0px;
-
-}
 
 #transfare_news_header_text {
   color: red;
@@ -150,7 +141,7 @@ img {
   font-size: 25px;
   font-family: sans-serif;
   font-weight: bold;
-  margin: 0px 0px 20px 0px;
+  margin: 20px 0px 60px 0px;
 }
 
 
@@ -162,32 +153,8 @@ img {
   font-size: 25px;
   font-family: sans-serif;
   font-weight: bold;
-  margin: 0px 0px 20px 0px;
+  margin: 20px 0px 60px 0px;
 }
-
-
-
-#lastmatch_colon{
-  background-color: rgba(20,20,20,0.55);
-  background-size: cover;
-  font-family: sans-serif;
-  min-height: 322px;
-  border:3px solid #fff ;
-  margin: 0px 0px 5px 0px;
-  
-  }
-
-  
-#upcoming_colon{
-  background-color: rgba(20,20,20,0.65);
-  background-size: cover;
-  font-family: sans-serif;
-  min-height: 322px;
-  border:3px solid #fff ;
-  
-  
-  }
-
 
 
 #features_header_text {
@@ -206,9 +173,12 @@ min-height: 500px;
  }
 
 
+
+
 #league_initial_colon {
   background-color: rgba(60,50,50,0.95);
   min-height: 500px;
+  color: #fff;
 } 
 
 
@@ -234,32 +204,37 @@ min-height: 500px;
   color: #ddd;
 }
 #last_match_button{
-  padding: 20px 20px;
-  margin: 0px 0px 0px 0px;
+  padding: 20px;
   font: 16px sans-serif;
   font-size: 20px;
   color: #ddd;
-  background-color: red;
+  border: none;
+  background-color: #444444;
 }
 
 #upcoming_match_button{
   padding: 20px;
-  margin: 0px 0px 0px 0px;
   font: 16px sans-serif;
   font-size: 20px;
   color: #ddd;
-  background-color: red;
+  border: none;
+  background-color: #444444;
 }
 
 #line {
   min-height: 5px;
-  background-color: red;
+  background-color:lawngreen;
 }
 
 
 #transfare_news_container {
   margin: 70px 0px 75px 0px;
 }
+
+
+
+
+
 
 #more_button {
   float: right;
@@ -273,31 +248,14 @@ min-height: 500px;
 }
 
 #footer_first_container {
-  min-height: 400px;
-  background-color:#E31B23;
-  margin: 75px 0px 0px 0px;
-}
-
-.footerText {
-  text-align: center;
-  align-items: center;
-  align-content: center;
-  color: #fff;
-}
-
-.footer-middleBottom {
-  color: #fff;
-  text-decoration: #fff;
-  margin: 150px 0px 30px 0px;
+  min-height: 200px;
+  background-color:limegreen;
+  margin: 0px 0px 0px 0px;
 }
 
 
-.footer-middleBottom  a{
-  
-  color: #fff;
-  text-decoration: #fff;
-  margin: 150px 0px 30px 0px;
-}
+
+
 
 
 
@@ -312,7 +270,7 @@ min-height: 500px;
     .MultiCarousel .leftLst { left:0; }
     .MultiCarousel .rightLst { right:0; }
     
-        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+    .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
 
 
 
