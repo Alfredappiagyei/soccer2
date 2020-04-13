@@ -2,14 +2,6 @@
 import React, {Component} from "react";
 
 
-// import video1 from "../components/video/vid2.MTS"
-// import video2 from "../components/video/vid3.MTS"
-// import video3 from "../components/video/vid4.MTS"
-// import video4 from "../components/video/vid5.MTS"
-// import video5 from "../components/video/vid6.MTS"
-// import video6 from "../components/video/vid7.MTS"
-// import video7 from "../components/video/vid8.MTS"
-// import video8 from "../components/video/vid9.MTS"
 
 import $ from "jquery"
 
@@ -20,7 +12,6 @@ import soccerHomeimage2 from '../soccer/photos/soccer30.jpg'
 import soccerHomeimage3 from '../soccer/photos/soccer14.JPG'
 import soccerangelslogo from '../soccer/photos/soccerangelslogo.JPG'
 import Chairmanshipposition from '../soccer/photos/chaimanship.JPG'
-import headimage from '../soccer/photos/headimage.jpg'
 import jerseyimage1 from '../soccer/photos/Picture8.jpg'
 import jerseyimage2 from '../soccer/photos/Picture9.jpg'
 import jerseyimage3 from '../soccer/photos/Picture7.jpg'
@@ -34,7 +25,19 @@ import logo5 from '../soccer/photos/4.gif'
 
 
 
+import video1 from "../components/video/vid1.MP4"
 
+
+
+
+import {
+
+    // BrowserRouter as Router,
+    // Switch,
+    // Route,
+    Link
+  
+  } from "react-router-dom";
 
 
 class Home extends Component {
@@ -242,101 +245,18 @@ class Home extends Component {
 
 
             <div class="row" id="line"></div>
-            {/* <div class="container-fluid">
+             <div class="container-fluid">
                 <div class="row">
-                    <a href="#"><button id="more_button">MORE ></button></a>
+                <Link to="/seatvgo"><button id="more_button">MORE ></button> </Link>
+                    
                     <h2 id="featured-vid-button"><b>Featured Videos</b></h2>
+                    <div className="row">
+                        <div className="col-md-3 col-xs-6"><video src={video1} className="img-responsive" controls></video> </div>
+                        <div className="col-md-3 col-xs-6"><video src={video1} className="img-responsive" controls></video></div>
+                        <div className="col-md-3 col-xs-6"><video src={video1} className="img-responsive" controls></video></div>
+                        <div className="col-md-3 col-xs-6"><video src={video1} className="img-responsive" controls></video></div>
+                    </div>
 
-                    <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
-            <div class="MultiCarousel-inner">
-                <div class="item">
-                    <div class="pad15">
-                    <div class="card">
-                     <a href="#">  <video src={video1}  controls="controls" class="img-responsive"/></a>
-                      <div class="card-body">
-                      <a href="#" class="card-link">Another link</a>
-                      </div>
-                 </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pad15">
-                    <div class="card">
-                     <a href="#"> <video src={video2}  controls="controls" class="img-responsive"/></a>
-                      <div class="card-body">
-                      <a href="#" class="card-link">Another link</a>
-                      </div>
-                 </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pad15">
-                    <div class="card">
-                     <a href="#"><video src={video3}  controls="controls" class="img-responsive"/></a>
-                      <div class="card-body">
-                      <a href="#" class="card-link">Another link</a>
-                      </div>
-                 </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pad15">
-                    <div class="card">
-                     <a href="#"><video src={video4}  controls="controls" class="img-responsive"/></a>
-                      <div class="card-body">
-                      <a href="#" class="card-link">Another link</a>
-                      </div>
-                 </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pad15">
-                    <div class="card">
-                     <a href="#"><video src={video5}  controls="controls" class="img-responsive"/></a>
-                      <div class="card-body">
-                      <a href="#" class="card-link">Another link</a>
-                      </div>
-                 </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pad15">
-                    <div class="card">
-                    <a href="#"><video src={video6}  controls="controls" class="img-responsive"/></a>
-                      <div class="card-body">
-                      <a href="#" class="card-link">Another link</a>
-                      </div>
-                 </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pad15">
-                    <div class="card">
-                     <a href="#"><video src={video7}  controls="controls" class="img-responsive"/></a>
-                      <div class="card-body">
-                      <a href="#" class="card-link">Another link</a>
-                      </div>
-                 </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pad15">
-                    <div class="card">
-                     <a href="#"><video src={video8}  controls="controls" class="img-responsive"/></a>
-                      <div class="card-body">
-                      <a href="#" class="card-link">Another link</a>
-                      </div>
-                 </div>
-                    </div>
-                </div>
-               
-            </div>
-            <button class="btn  leftLst"><h2></h2> </button>
-            <button class="btn  rightLst"><h2>></h2></button>
-
-                          
-   
-                 </div>
              
              
 
@@ -345,7 +265,7 @@ class Home extends Component {
 
                                
                 </div>
-            </div> */}
+            </div> 
             
 
 
@@ -630,7 +550,7 @@ class Home extends Component {
              </div>
                 </div>
                 <div class="col-md-3 col-xs-12">
-                    <div className="row" style={{minHeight:"200px", backgroundColor:"grey"}}>
+                    <div className="row" style={{minHeight:"200px",}}>
                     <a href="#"> <img src={jerseygrid} alt="pizza"
                                 class="img-responsive" /></a>
 

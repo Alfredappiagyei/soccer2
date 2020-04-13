@@ -23,6 +23,7 @@ import SeatvGo from './components/Fans/SeatvGo';
 import Under23 from './components/Match/Under23';
 import Under18 from './components/Match/Under18';
 import Atoz from './components/Legal/Atoz';
+import History from './components/Academy/History';
 
 
 
@@ -165,7 +166,7 @@ function App() {
                       <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
-                      <Link to="#"><b>HISTORY#</b> </Link>
+                      <Link to="/history"><b>HISTORY#</b> </Link>
                       <Link to="#"><b>HOUNORS#</b> </Link>
                       <Link to="#"><b>COPERATE INFOMATION#</b> </Link>
                       <Link to="#"><b> PARTNERS#</b> </Link>
@@ -217,6 +218,7 @@ function App() {
           <Route path="/seatvgo" exact component={SeatvGo} /> 
           <Route path="/under23" exact component={Under23} /> 
           <Route path="/under18" exact component={Under18} /> 
+          <Route path="/history" exact component={History} /> 
           <Route path="/atoz" exact component={Atoz} /> 
           
               
