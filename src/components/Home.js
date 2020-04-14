@@ -25,7 +25,7 @@ import logo5 from '../soccer/photos/4.gif'
 
 
 
-import video1 from "../components/video/vid1.MP4"
+import video1 from "../components/video/vid2.MP4"
 
 
 
