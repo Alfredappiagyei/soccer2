@@ -254,6 +254,16 @@ min-height: 500px;
 }
 
 
+#footer-first-row {  
+  display: block;
+  display: flex;
+  background-color: #444444;
+  justify-content: center;
+  
+ 
+}
+
+
 
 
 

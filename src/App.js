@@ -41,7 +41,7 @@ function App() {
     <Router>
       <div>
 
-        <nav class="navbar navbar-default" style={{ backgroundColor: '#444444', color: "#fff", }}>
+        <nav class="navbar navbar-default" style={{position:"relative", backgroundColor: '#444444', color: "#fff", }}>
           <div class="container-fluid">
 
             <div class="navbar-header">

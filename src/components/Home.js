@@ -940,16 +940,16 @@ class Home extends Component {
 
 
         <div class="container-fluid"  id="footer_first_container"> 
-        <div className="row" id="footer-first-row" style={{display:"flex",padding:"0px 0px 0px 520px"}}>
-        <a href="https://twitter.com/SoccerAngelAca1" > <img  style={{textAlign:"center"}} src={logo1} alt="pizza"
+        <div className="row " id="footer-first-row">
+        <a href="https://twitter.com/SoccerAngelAca1" > <img   src={logo1} alt="pizza"
                                 class="img-responsive" width="40" height="40" /></a>
-         <a href="https://web.facebook.com/Soccer-Angels-Academy-115197873244725/" > <img  style={{textAlign:"center"}} src={logo2} alt="pizza"
+         <a href="https://web.facebook.com/Soccer-Angels-Academy-115197873244725/" > <img   src={logo2} alt="pizza"
                                 class="img-responsive" width="40" height="40" /></a>
-         <a href="https://www.youtube.com/channel/UC6AD72yTtZpE7ox25eb6GZg" > <img  style={{textAlign:"center"}} src={logo3} alt="pizza"
+         <a href="https://www.youtube.com/channel/UC6AD72yTtZpE7ox25eb6GZg" > <img   src={logo3} alt="pizza"
                                 class="img-responsive" width="40" height="40" /></a>
-         <a href="#" > <img  style={{textAlign:"center"}} src={logo4} alt="pizza"
+         <a href="#" > <img   src={logo4} alt="pizza"
                                 class="img-responsive" width="40" height="40" /></a>
-         <a href="#" > <img  style={{textAlign:"center"}} src={logo5} alt="pizza"
+         <a href="#" > <img   src={logo5} alt="pizza"
                                 class="img-responsive" width="40" height="40" /></a>
              
         </div>
