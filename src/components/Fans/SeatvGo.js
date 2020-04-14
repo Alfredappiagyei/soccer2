@@ -2,6 +2,12 @@ import React, { Component } from "react";
 import video1 from "../Fans/video/vid2.MP4"
 // import socialmediafacebookimage from "../Fans/photos/so4.png"
 
+import logo1 from '../Fans/photos/Picture3.gif'
+import logo2 from '../Fans/photos/1.gif'
+import logo3 from '../Fans/photos/2.gif'
+import logo4 from '../Fans/photos/3.gif'
+import logo5 from '../Fans/photos/4.gif'
+
 
 
 
