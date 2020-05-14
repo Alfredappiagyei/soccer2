@@ -24,6 +24,7 @@ import Under23 from './components/Match/Under23';
 import Under18 from './components/Match/Under18';
 import Atoz from './components/Legal/Atoz';
 import History from './components/Academy/History';
+import History2 from './components/Academy/history2';
 
 
 
@@ -219,6 +220,7 @@ function App() {
           <Route path="/under23" exact component={Under23} /> 
           <Route path="/under18" exact component={Under18} /> 
           <Route path="/history" exact component={History} /> 
+          <Route path="/history2" exact component={History2} /> 
           <Route path="/atoz" exact component={Atoz} /> 
           
               

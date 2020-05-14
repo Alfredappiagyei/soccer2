@@ -1,5 +1,11 @@
-body {
-  background-color:lightgrey;
+
+#body{
+  background: url(soccer/photos/soccer26.JPG); 
+  margin: 0px 10px;
+}
+.home {
+  background-color: #f1f1f1;
+  
 }
 
 .dropbtn {
@@ -108,14 +114,46 @@ body {
   
   }
 
+  #features_main_headline{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    color: #141414;
 
-#transfare_news_sub_headline {
+  }
+
+
+#transfare_news_sub_headline h4 {
   color:#141414;
   text-decoration: none;
   font-weight: bolder;
-  font-size: 16px "Open Sans"  serif;
+  font-size: 25px " Sans serif" ;
   font-family: sans-serif;
 }
+
+
+
+#transfare_news_sub_headline p {
+  color:#141414;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 16px " Sans serif" ;
+  font-family: sans-serif;
+}
+
+
+
+
+
+#latest_news_sub_headline p {
+  color:#141414;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 20px " Sans serif" ;
+  font-family: sans-serif;
+}
+
 
 #features_subRows {
   margin: 20px 0px 0px 0px;
@@ -144,7 +182,12 @@ body {
   margin: 20px 0px 60px 0px;
 }
 
-
+#features_sub_headline p{
+  font-size: 20px;
+  color: #141414;
+  text-decoration: none;
+  font-family: sans-serif;
+}
 
 
 #upcoming_match_header_text {
@@ -165,7 +208,7 @@ body {
 
 
 #league{
-margin: 50px 0px 400px 0px;
+margin: 50px 0px 50px 0px;
 background: url(soccer/photos/soccer26.JPG);
 background-size: cover;
 font-family: sans-serif;
@@ -228,7 +271,7 @@ min-height: 500px;
 
 
 #transfare_news_container {
-  margin: 70px 0px 75px 0px;
+  margin: 50px 0px 40px 0px;
 }
 
 
@@ -250,7 +293,7 @@ min-height: 500px;
 #footer_first_container {
   min-height: 200px;
   background-color:limegreen;
-  margin: 0px 0px 0px 0px;
+  margin: 50px 0px 0px 0px;
 }
 
 
@@ -259,10 +302,100 @@ min-height: 500px;
   display: flex;
   background-color: #444444;
   justify-content: center;
-  
+   
  
 }
 
+
+
+#story{
+  background: url(soccer/photos/soccer26.JPG);
+ 
+}
+
+.year{
+  display: flex;
+}
+
+
+
+.year h1{
+  font-size: 50px;
+  margin: 0px 10px 0px 0px;
+}
+
+
+
+
+.book {
+  height: 15rem;
+  width: auto;
+  font-size: 1.4rem;
+  box-shadow: 1rem 2rem 3rem rgba(#000, .25);
+  text-align: center;
+  position: relative;
+  color: #484e4a;
+}
+/* 
+.page {
+  width: 100%;
+  height: 15rem;
+  perspective: 1500px;
+  
+  &__1 { // Front of first page
+    background-color: #557a95;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; // Allows to add padding and margin to rear pseudo element
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: all 1s .3s ;
+    transform-origin: 0 50%;
+    z-index: 2;
+    
+    &::after { // Back of first page
+      content: "Neat, huh?";
+      color: #eff0eb;
+      position: absolute;
+      padding-top: 1.5rem;
+      top: 0;
+      left: 0;
+      background-color: #5d5c61;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      opacity: 0;
+      transform: rotateY(180deg);
+      transition: all .3s .5s;
+    }
+  }
+  
+  &__2 { // Back of second page
+    background-color: #b1a296;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+  }
+  
+  &:hover &__1 {
+    transform: rotateY(-180deg);
+    box-shadow: 1.5rem 2rem 3rem rgba(#000, .25);
+    
+    &:after { // Back of first page hover
+      opacity: 1;
+    }
+    
+  }
+
+}
+ 
+ */
 
 
 
