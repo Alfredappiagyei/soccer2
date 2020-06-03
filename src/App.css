@@ -1,12 +1,13 @@
-
+/* 
 #body{
   background: url(soccer/photos/soccer26.JPG); 
   margin: 0px 10px;
-}
+} */
 .home {
   background-color: #f1f1f1;
   
 }
+
 
 .dropbtn {
   background-color:#444444;
@@ -14,7 +15,7 @@
   padding: 5px;
   font: 16px;
   border: none;
-  margin: 13px 5px;
+  margin: 30px 20px 0px 20px;
   font: 16px sans-serif;
   text-decoration: none;
   font-family: sans-serif;
@@ -60,11 +61,11 @@
 }
 
 
-.dropdown-content a:hover {background-color: limegreen;}
+.dropdown-content a:hover {background-color: black;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover  .dropbtn {background-color:limegreen;}
+.dropdown:hover  .dropbtn {background-color:black;}
 
 
 
@@ -290,115 +291,60 @@ min-height: 500px;
   
 }
 
-#footer_first_container {
-  min-height: 200px;
-  background-color:limegreen;
-  margin: 50px 0px 0px 0px;
-}
 
 
-#footer-first-row {  
-  display: block;
-  display: flex;
-  background-color: #444444;
-  justify-content: center;
-   
- 
-}
-
-
-
+/* 
 #story{
   background: url(soccer/photos/soccer26.JPG);
- 
-}
+} */
 
 .year{
   display: flex;
 }
-
-
 
 .year h1{
   font-size: 50px;
   margin: 0px 10px 0px 0px;
 }
 
+#footer-container{
+  background-color: #141414;
+}
 
-
-
-.book {
-  height: 15rem;
-  width: auto;
-  font-size: 1.4rem;
-  box-shadow: 1rem 2rem 3rem rgba(#000, .25);
+#contacts{
+  min-height: 100px;
   text-align: center;
-  position: relative;
-  color: #484e4a;
-}
-/* 
-.page {
-  width: 100%;
-  height: 15rem;
-  perspective: 1500px;
-  
-  &__1 { // Front of first page
-    background-color: #557a95;
-    color: #fff;
-    width: 100%;
-    height: 100%;
-    overflow: hidden; // Allows to add padding and margin to rear pseudo element
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 1;
-    transition: all 1s .3s ;
-    transform-origin: 0 50%;
-    z-index: 2;
-    
-    &::after { // Back of first page
-      content: "Neat, huh?";
-      color: #eff0eb;
-      position: absolute;
-      padding-top: 1.5rem;
-      top: 0;
-      left: 0;
-      background-color: #5d5c61;
-      width: 100%;
-      height: 100%;
-      z-index: 1;
-      opacity: 0;
-      transform: rotateY(180deg);
-      transition: all .3s .5s;
-    }
-  }
-  
-  &__2 { // Back of second page
-    background-color: #b1a296;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 1;
-  }
-  
-  &:hover &__1 {
-    transform: rotateY(-180deg);
-    box-shadow: 1.5rem 2rem 3rem rgba(#000, .25);
-    
-    &:after { // Back of first page hover
-      opacity: 1;
-    }
-    
-  }
 
 }
+#contacts span{
+ font-size: 20px;
+ display: inline-flex;
+ margin: 50px;
+ color: #fff;
  
- */
+}
 
+#footer-first-row{
+  min-height: 50px;
+  display: block;
+  align-content: center;
 
+}
 
+#footer-first-row a{
+  color: #141414;
+  
+
+}
+
+#footer-first-row span{
+ padding: 5px 10px;
+ margin: 5px 10px;
+ font-size: 20px;
+ float: right;
+ background-color: #f1f1f1;
+ 
+}
 
 
 

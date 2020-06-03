@@ -18,11 +18,9 @@ import jerseyimage3 from '../soccer/photos/Picture7.jpg'
 import jerseyimage5 from '../soccer/photos/Picture2.gif'
 import jerseygrid from '../soccer/photos/0.gif'
 import jerseyimage4 from '../soccer/photos/Picture10.jpg'
-import logo1 from '../soccer/photos/Picture3.gif'
-import logo2 from '../soccer/photos/1.gif'
-import logo3 from '../soccer/photos/2.gif'
-import logo4 from '../soccer/photos/3.gif'
-import logo5 from '../soccer/photos/4.gif'
+
+// profile images
+import appiah from '../soccer/photos/Appiah.JPG'
 
 
 
@@ -161,12 +159,6 @@ class Home extends Component {
         return (
             <div id="body">
             <div className="home">
-              <div className="container">
-                    <div className="row">
-                    <img style={{width:"100%"}} src={soccerangelslogo} alt="pizza" class="img-responsive" />
-                    </div>
-                </div>
-
             <div class="container-fluid">
                 <div class="row" >
                     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -419,7 +411,7 @@ class Home extends Component {
                 <div class="item">
                     <div class="pad15">
                     <div class="card">
-                     <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
+                     <a href="#"> <img src={appiah} alt="pizza"  class="img-responsive" /></a>
                       <div class="card-body">
                       <a href="#" class="card-link">1</a>
                       <a href="#" class="card-link">Another link</a>
@@ -926,18 +918,19 @@ class Home extends Component {
 
 
 
-  <div class="container-fluid"  id="footer_first_container"> 
+  <div class="container-fluid"  id="footer-container"> 
+  <div class="row" id="contacts">
+            <h3 style={{color:"#fff"}}>Contact us</h3>
+            <span><i class="fa fa-envelope"> Info@name.com</i></span>
+            <span><i class="fa fa-envelope">Nname@domain.com</i></span>
+            <span><i class="fa fa-phone"></i>#########/#######</span>
+            
+          </div>
         <div className="row " id="footer-first-row">
-           <a href="https://twitter.com/SoccerAngelAca1" > <img   src={logo1} alt="pizza"
-                                class="img-responsive" width="40" height="40" /></a>
-            <a href="https://web.facebook.com/Soccer-Angels-Academy-115197873244725/" > <img   src={logo2} alt="pizza"
-                                class="img-responsive" width="40" height="40" /></a>
-            <a href="https://www.youtube.com/channel/UC6AD72yTtZpE7ox25eb6GZg" > <img   src={logo3} alt="pizza"
-                                class="img-responsive" width="40" height="40" /></a>
-           <a href="#" > <img   src={logo4} alt="pizza"
-                                class="img-responsive" width="40" height="40" /></a>
-           <a href="https://www.instagram.com/p/CAIWNzvF676/" > <img   src={logo5} alt="pizza"
-                                class="img-responsive" width="40" height="40" /></a>           
+             <span><a href="https://twitter.com/SoccerAngelAca1"><i class="fa fa-twitter"></i></a></span> 
+             <span><a href="https://web.facebook.com/Soccer-Angels-Academy-115197873244725/"><i class="fa fa-facebook"></i></a></span> 
+             <span><a  href="https://www.youtube.com/channel/UC6AD72yTtZpE7ox25eb6GZg" ><i class="fa fa-youtube"></i></a></span> 
+             <span><a href="https://www.instagram.com/p/CAIWNzvF676/"><i class="fa fa-instagram"></i></a></span>  
            </div>      
       </div>
         
@@ -945,6 +938,9 @@ class Home extends Component {
           
       
  </div > 
+
+
+      
 
         );
     }

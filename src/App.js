@@ -26,23 +26,15 @@ import Atoz from './components/Legal/Atoz';
 import History from './components/Academy/History';
 import History2 from './components/Academy/history2';
 
-
-
-
-
-
-
+import logo from './soccer/photos/soccerangelslogo.JPG'
 
 
 function App() {
-
-
-
   return (
     <Router>
       <div>
 
-        <nav class="navbar navbar-default" style={{position:"relative", backgroundColor: '#444444', color: "#fff", }}>
+        <nav class="navbar navbar-default" style={{position:"relative", backgroundColor: '#444444', color: "#fff", alignContent:"center" }}>
           <div class="container-fluid">
 
             <div class="navbar-header">
@@ -52,9 +44,7 @@ function App() {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-
-              <Link to="/" className="navbar-brand" id="logo"><b>SOCCER ANGELS.COM</b> </Link>
-
+              <img src={logo}  className="img-responsive" height="100px" width="100px" style={{borderRadius:"50%"}} />
             </div>
 
 
@@ -71,8 +61,6 @@ function App() {
                       <Link to="/transfarenews"><b>TRANSFARE NEWS</b> </Link>
                       <Link to="/#"><b>LATEST NEWS#</b> </Link>
                       <Link to="#"><b>FIRST TEAM#</b> </Link>
-                      <Link to="#"><b>TICKET NEWS#</b> </Link>
-                      <Link to="#"><b>MEDIA WATCH#</b> </Link>
                       <Link to="#"><b>ANOUNCEMENTS#</b> </Link>
 
                     </div>
@@ -85,32 +73,13 @@ function App() {
                       <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
-                      <Link to="/transfarenews"><b>FIXTURES AND RESULTS#</b> </Link>
-                      
+                      <Link to="/transfarenews"><b>FIXTURES AND RESULTS#</b> </Link>  
                       <Link to="/under23"><b>U23S</b> </Link>
                       <Link to="/under18"><b>U18S</b> </Link>
-                      <Link to="/latestnews"><b>LEAGUE TABLE#</b> </Link>
+                      <Link to="#"><b>LEAGUE TABLE#</b> </Link>
                     </div>
                   </div>
                 </li>
-
-
-                <li>
-                  <div class="dropdown">
-                    <button class="dropbtn"><b>TICKETS</b>
-                      <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                    <Link to="/latestnews"><b>TICKET AVAILABILITY#</b> </Link>
-                      <Link to="/transfarenews"><b>MATCH HOSPITALITY#</b> </Link>
-                      <Link to="/latestnews"><b>HOW TO BUY TICKETS#</b> </Link>
-                      <Link to="/latestnews"><b>AWAY TRAVEL#</b> </Link>
-                      <Link to="/latestnews"><b>FUN UPDATE#</b> </Link>
-                     
-                    </div>
-                  </div>
-                </li>
-
 
                 <li>
                   <div class="dropdown">
@@ -124,42 +93,19 @@ function App() {
                   </div>
                 </li>
 
-                <li>
-                  <div class="dropdown">
-                    <button class="dropbtn"><b>JOMSCO</b>
-                      <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                      <Link to="#"><b>#</b> </Link>
-                      <Link to="#"><b>#</b> </Link>
-                    </div>
-                  </div>
-                </li>
-
+               
                 <li>
                   <div class="dropdown">
                     <button class="dropbtn"><b>FANS</b>
                       <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
-                      <Link to="#"><b>MEMBERSHIP#</b> </Link>
                       <Link to="/seatvgo"><b>SEA TV</b> </Link>
                       <Link to="/socialmedia"><b>SOCIAL MEDIA</b> </Link>
                     </div>
                   </div>
                 </li>
 
-                <li>
-                  <div class="dropdown">
-                    <button class="dropbtn"><b>SHOP</b>
-                      <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                      <Link to="#"><b>ONLINE STORE#</b> </Link>
-                      <Link to="#"><b>WHOLESALE PARTNERS#</b> </Link>
-                    </div>
-                  </div>
-                </li>
                
                 <li>
                   <div class="dropdown">
@@ -169,9 +115,6 @@ function App() {
                     <div class="dropdown-content">
                       <Link to="/history"><b>HISTORY#</b> </Link>
                       <Link to="#"><b>HOUNORS#</b> </Link>
-                      <Link to="#"><b>COPERATE INFOMATION#</b> </Link>
-                      <Link to="#"><b> PARTNERS#</b> </Link>
-                      <Link to="#"><b> FANS EXPERIENSE#</b> </Link>
                     </div>
                   </div>
                 </li>
@@ -189,16 +132,9 @@ function App() {
                   </div>
                 </li>
 
-
-
-
-
-
-              
-
-
               </ul>
               <ul class="nav navbar-nav navbar-right">
+                <li><Link to="/" className="navbar-brand" id="logo"><b>SOCCER ANGELS.COM</b> </Link> </li>
 
               </ul>
             </div>
