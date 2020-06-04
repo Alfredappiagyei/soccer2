@@ -921,7 +921,8 @@ class Home extends Component {
   <div class="container-fluid"  id="footer-container"> 
   <div class="row" id="contacts">
             <h3 style={{color:"#fff"}}>Contact us</h3>
-            <span><i class="fa fa-envelope"><a href="mailto:appiagyeialfred815@gmail.com">soccerangels@email.com</a></i></span>
+            <span><i class="fa fa-envelope"><a href="mailto:appiagyeialfred815@gmail.com?
+            subject=hello%20everyone%20here">soccerangels@email.com</a></i></span>
             <span><i class="fa fa-envelope">Nname@domain.com</i></span>
             <span><i class="fa fa-phone"></i>#########/#######</span>
             
