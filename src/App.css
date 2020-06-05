@@ -98,7 +98,7 @@
   background-color: rgba(20,20,20,0.65);
   background-size: cover;
   font-family: sans-serif;
-  border:3px solid #fff ;
+  border:3px solid lawngreen ;
   color: #fff;
   min-height: 322px;
   
@@ -108,7 +108,7 @@
   background-color: rgba(20,20,20,0.65);
   background-size: cover;
   font-family: sans-serif;
-  border:3px solid #fff ;
+  border:3px solid lawngreen ;
   color: #fff;
   min-height: 322px;
   
@@ -362,7 +362,15 @@ min-height: 500px;
     .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
 
 
-
+/* first team */
+#jerseynumber{
+  background-color: #141414;
+  color: lawngreen;
+  display: block;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
 
 
 

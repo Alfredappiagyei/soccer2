@@ -158,6 +158,9 @@ function App() {
           <Route path="/history" exact component={History} /> 
           <Route path="/history2" exact component={History2} /> 
           <Route path="/atoz" exact component={Atoz} /> 
+          {/* firstteam */}
+          <Route path="/appiah" exact component={Appiah} /> 
+          
           
               
 

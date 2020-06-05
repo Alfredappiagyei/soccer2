@@ -411,10 +411,32 @@ class Home extends Component {
                 <div class="item">
                     <div class="pad15">
                     <div class="card">
-                     <a href="#"> <img src={appiah} alt="pizza"  class="img-responsive" /></a>
+                     <a href="#"><img src={appiah} alt="pizza"  class="img-responsive" /></a>
                       <div class="card-body">
-                      <a href="#" class="card-link">1</a>
-                      <a href="#" class="card-link">Another link</a>
+                     <div className="col-md-2">34</div>
+                     <div className="col-md-10"><b>Daniel</b></div>
+                      </div>
+                     </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pad15">
+                    <div class="card">
+                     <a href="#"><img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
+                      <div class="card-body">
+                      <div className="col-md-2">34</div>
+                      <div className="col-md-10"><b>Daniel</b></div>
+                      </div>
+                     </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pad15">
+                    <div class="card">
+                     <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
+                      <div class="card-body">
+                      <div className="col-md-2">34</div>
+                     <div className="col-md-10"><b>Daniel</b></div>
                       </div>
                  </div>
                     </div>
@@ -424,8 +446,8 @@ class Home extends Component {
                     <div class="card">
                      <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
                       <div class="card-body">
-                      <a href="#" class="card-link">1</a>
-                      <a href="#" class="card-link">Another link</a>
+                      <div className="col-md-2">34</div>
+                     <div className="col-md-10"><b>Daniel</b></div>
                       </div>
                  </div>
                     </div>
@@ -435,8 +457,8 @@ class Home extends Component {
                     <div class="card">
                      <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
                       <div class="card-body">
-                      <a href="#" class="card-link">1</a>
-                      <a href="#" class="card-link">Another link</a>
+                      <div className="col-md-2">34</div>
+                     <div className="col-md-10"><b>Daniel</b></div>
                       </div>
                  </div>
                     </div>
@@ -446,8 +468,8 @@ class Home extends Component {
                     <div class="card">
                      <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
                       <div class="card-body">
-                      <a href="#" class="card-link">1</a>
-                      <a href="#" class="card-link">Another link</a>
+                      <div className="col-md-2">34</div>
+                     <div className="col-md-10"><b>Daniel</b></div>
                       </div>
                  </div>
                     </div>
@@ -457,8 +479,8 @@ class Home extends Component {
                     <div class="card">
                      <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
                       <div class="card-body">
-                      <a href="#" class="card-link">1</a>
-                      <a href="#" class="card-link">Another link</a>
+                      <div className="col-md-2">34</div>
+                     <div className="col-md-10"><b>Daniel</b></div>
                       </div>
                  </div>
                     </div>
@@ -468,8 +490,8 @@ class Home extends Component {
                     <div class="card">
                      <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
                       <div class="card-body">
-                      <a href="#" class="card-link">1</a>
-                      <a href="#" class="card-link">Another link</a>
+                      <div className="col-md-2">34</div>
+                     <div className="col-md-10"><b>Daniel</b></div>
                       </div>
                  </div>
                     </div>
@@ -479,8 +501,8 @@ class Home extends Component {
                     <div class="card">
                      <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
                       <div class="card-body">
-                      <a href="#" class="card-link">1</a>
-                      <a href="#" class="card-link">Another link</a>
+                      <div className="col-md-2">34</div>
+                     <div className="col-md-10"><b>Daniel</b></div>
                       </div>
                  </div>
                     </div>
@@ -490,8 +512,8 @@ class Home extends Component {
                     <div class="card">
                      <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
                       <div class="card-body">
-                      <a href="#" class="card-link">1</a>
-                      <a href="#" class="card-link">Another link</a>
+                      <div className="col-md-2">34</div>
+                     <div className="col-md-10"><b>Daniel</b></div>
                       </div>
                  </div>
                     </div>
@@ -501,8 +523,8 @@ class Home extends Component {
                     <div class="card">
                      <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
                       <div class="card-body">
-                      <a href="#" class="card-link">1</a>
-                      <a href="#" class="card-link">Another link</a>
+                      <div className="col-md-2">34</div>
+                     <div className="col-md-10"><b>Daniel</b></div>
                       </div>
                  </div>
                     </div>
@@ -512,8 +534,8 @@ class Home extends Component {
                     <div class="card">
                      <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
                       <div class="card-body">
-                      <a href="#" class="card-link">1</a>
-                      <a href="#" class="card-link">Another link</a>
+                      <div className="col-md-2">34</div>
+                     <div className="col-md-10"><b>Daniel</b></div>
                       </div>
                  </div>
                     </div>
@@ -523,8 +545,8 @@ class Home extends Component {
                     <div class="card">
                      <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
                       <div class="card-body">
-                      <a href="#" class="card-link">1</a>
-                      <a href="#" class="card-link">Another link</a>
+                      <div className="col-md-2">34</div>
+                     <div className="col-md-10"><b>Daniel</b></div>
                       </div>
                  </div>
                     </div>
@@ -534,8 +556,8 @@ class Home extends Component {
                     <div class="card">
                      <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
                       <div class="card-body">
-                      <a href="#" class="card-link">1</a>
-                      <a href="#" class="card-link">Another link</a>
+                      <div className="col-md-2">34</div>
+                     <div className="col-md-10"><b>Daniel</b></div>
                       </div>
                  </div>
                     </div>
@@ -545,43 +567,18 @@ class Home extends Component {
                     <div class="card">
                      <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
                       <div class="card-body">
-                      <a href="#" class="card-link">1</a>
-                      <a href="#" class="card-link">Another link</a>
-                      </div>
-                 </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pad15">
-                    <div class="card">
-                     <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
-                      <div class="card-body">
-                      <a href="#" class="card-link">1</a>
-                      <a href="#" class="card-link">Another link</a>
-                      </div>
-                 </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pad15">
-                    <div class="card">
-                     <a href="#"> <img src={soccerHomeimage1} alt="pizza"  class="img-responsive" /></a>
-                      <div class="card-body">
-                      <a href="#" class="card-link">1</a>
-                      <a href="#" class="card-link">Another link</a>
+                      <div className="col-md-2">34</div>
+                     <div className="col-md-10"><b>Daniel</b></div>
                       </div>
                  </div>
                     </div>
                 </div>
             </div>
-            <button class="btn  leftLst"><h2></h2> </button>
-            <button class="btn  rightLst"><h2>></h2></button>
-
-                        
+               <button class="btn  leftLst"><h2></h2> </button>
+               <button class="btn  rightLst"><h2>></h2></button>
+                       
                  </div>
              </div>
-
-
        </div>
    </div>
 
@@ -922,7 +919,7 @@ class Home extends Component {
   <div class="row" id="contacts">
             <h3 style={{color:"#fff"}}>Contact us</h3>
             <span><i class="fa fa-envelope"><a href="mailto:appiagyeialfred815@gmail.com?
-            subject=hello%20everyone%20here">soccerangels@email.com</a></i></span>
+            subject=hello%20everyone%20">soccerangels@email.com</a></i></span>
             <span><i class="fa fa-envelope">Nname@domain.com</i></span>
             <span><i class="fa fa-phone"></i>#########/#######</span>
             
