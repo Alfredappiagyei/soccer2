@@ -372,6 +372,70 @@ min-height: 500px;
   justify-content: center;
 }
 
+.appiah {
+background: url(components/firstTeam/photos/Appiah.JPG);
+background-size: cover;
+font-family: sans-serif;
+min-height: 550px;
+width: 100%;
+
+}
+#appiahdetails {
+  background-color: rgba(0,0,0,0);
+  color: #fff;
+  width: 100%;
+}
+.stat span {
+  display: flex;
+}
+.stat p {
+  margin: 10px 0px 0px 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+#teammates {
+  padding: 10px 128px;
+  background-color: lawngreen;
+   color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+#dropdowninside {
+  background-color: #141414;
+  padding: 10px 128px;
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+
+}
+#dropdownMenu1 {
+  border-bottom: 3px solid lawngreen;
+}
+
+#dropdownMenu1 :hover {background-color: lawngreen;}
+
+ .dropdown-menu {display: block;}
+ .playerinfo {
+   font-size: 26px;
+   padding: 5px 10px;
+  background-color: red;
+  
+  color: #fff;
+ }
+ ul {
+  display: block;
+  padding-inline-start: 0px;
+  list-style-type: none;
+   
+}
+ #playername {
+  margin-left: 170px;
+  
+}
+
 
 
 

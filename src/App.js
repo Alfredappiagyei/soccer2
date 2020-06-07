@@ -25,6 +25,7 @@ import Under18 from './components/Match/Under18';
 import Atoz from './components/Legal/Atoz';
 import History from './components/Academy/History';
 import History2 from './components/Academy/history2';
+import Appiah from './components/firstTeam/Appiah';
 
 import logo from './soccer/photos/soccerangelslogo.JPG'
 
