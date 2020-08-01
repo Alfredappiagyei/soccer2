@@ -299,37 +299,29 @@ class Home extends Component {
                             <div class="col-md-6 col-xs-12">
                                 <div class="row" >
                                     <div class="col-md-4 col-xs-4">
-                                        <a href="#"> <img src={Chairmanshipposition} alt="pizza"
-                                            class="img-responsive" /></a>
+                                    <div className="row">
+                                       <Link to="#"><img src={Chairmanshipposition} alt="pizza"
+                                            class="img-responsive" /></Link>                   
+                                     </div>
                                     </div>
                                     <div class="col-md-8 col-xs-8">
-                                        <a href="#" id="latest_news_sub_headline" style={{textDecoration:"none",fontFamily:"sans serif"}}>
-                                            <p>
-                                                <b>
-                                                    The C.E.O of Soccer Angels Academy is the new Assin district football association chairman
-                                                    
-                                                </b>
-                                            </p>
-                                        </a>
+                                    <p className="latest_news_sub_headline">     
+                                         The C.E.O of Soccer Angels Academy is the new Assin district football association chairman                                     
+                                    </p>   
                                     </div>
                                 </div>
 
                                 <div class="row" >
                                     <div class="col-md-4 col-xs-4">
-                                        <a href="#"> <img src={soccerHomeimage1} alt="pizza"
-                                            class="img-responsive" /></a>
+                                    <Link to="#"><img src={soccerHomeimage1} alt="pizza"
+                                            class="img-responsive" /></Link>  
                                     </div>
                                     <div class="col-md-8 col-xs-8">
-                                        <a href="#" id="latest_news_sub_headline" style={{textDecoration:"none",fontFamily:"sans serif"}}>
-                                            <p>
-                                                <b>
-                                                    Dreams Football Club has officially signed Soccer Angels
-                                                     supper star Percious Boah on a four year long deal from
-                                                      Soccer Angels Academy.
-                                                    
-                                                 </b>
-                                            </p>
-                                        </a>
+                                    <p className="latest_news_sub_headline">     
+                                    Dreams Football Club has officially signed Soccer Angels  supper star Percious Boah on a four year long deal from
+                                     Soccer Angels Academy.
+                                                                                    
+                                    </p>   
                                     </div>
                                 </div>
 
@@ -339,36 +331,28 @@ class Home extends Component {
 
                                 <div class="row">
                                     <div class="col-md-4 col-xs-4">
-                                        <a href="#"> <img src={jerseyimage1} alt="pizza"
-                                            class="img-responsive" /></a>
+                                    <Link to="#"><img src={jerseyimage1} alt="pizza"
+                                            class="img-responsive" /></Link>  
+                                       
                                     </div>
                                     <div class="col-md-8 col-xs-8">
-                                        <a href="#" id="latest_news_sub_headline" style={{textDecoration:"none",fontFamily:"sans serif"}}>
-                                            <p>
-                                                <b>
-                                                    Soccer Angels unviel its new jersey for the 2020-2021
-                                                    league
-                                                    
-                                               </b>
-                                            </p>
-                                        </a>
+                                    <p className="latest_news_sub_headline">     
+                                    Soccer Angels unviel its new jersey for the 2020-2021  league                                                                                                       
+                                    </p>   
+                                       
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="col-md-4 col-xs-4">
-                                        <a href="#"> <img src={jerseyimage2} alt="pizza"
-                                            class="img-responsive" /></a>
+                                    <Link to="#"><img src={jerseyimage2} alt="pizza"
+                                            class="img-responsive" /></Link>  
+                                       
                                     </div>
                                     <div class="col-md-8 col-xs-8">
-                                        <a href="#" id="latest_news_sub_headline" style={{textDecoration:"none",fontFamily:"sans serif"}}>
-                                            <p>
-                                                <b>
-                                                    Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod
-                                                    
-                                               </b>
-                                            </p>
-                                        </a>
+                                    <p className="latest_news_sub_headline">     
+                                        Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod                                                                                                      
+                                    </p>                                         
                                     </div>
                                 </div>
                               
@@ -379,7 +363,7 @@ class Home extends Component {
            
                        <div class="col-md-3 col-xs-12">
                          <div className="row" style={{minHeight:"200px",}}>
-                            <a href="#"> <img src={jerseygrid} alt="pizza" class="img-responsive" /> </a>                 
+                             <img src={jerseygrid} alt="jersaecollection" class="img-responsive" />                 
                         </div>
                         </div>
                  
@@ -661,8 +645,7 @@ class Home extends Component {
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-12 col-xs-12" style={{padding:"40px"}}>
-                            <a href="#"> <img src={jerseyimage1} alt="pizza"
-                                class="img-responsive"/></a>
+                        <Link to="#"> <img src={jerseyimage1} alt="pizza" class="img-responsive"/></Link>      
                                 <div className="line"></div>
                         </div>
                         <div class="col-md-12 col-xs-12">
@@ -675,8 +658,8 @@ class Home extends Component {
                 <div class="col-md-6">
                     <div class="row" id="features_subRows">
                         <div class="col-md-4 col-xs-5">
-                            <a href="#"> <img src={jerseyimage2} alt="pizza"
-                                class="img-responsive" /></a>
+                        <Link to="#"> <img src={jerseyimage2} alt="pizza" class="img-responsive"/></Link>     
+                            
                         </div>
                         <div class="col-md-8 col-xs-7 ">
                                 <p className="features_sub_headline">     
@@ -687,8 +670,8 @@ class Home extends Component {
 
                     <div class="row" id="features_subRows">
                         <div class="col-md-4 col-xs-5">
-                            <a href="#"> <img src={jerseyimage5} alt="pizza"
-                                class="img-responsive" /></a>
+                        <Link to="#"> <img src={jerseyimage5} alt="pizza" class="img-responsive"/></Link>     
+                            
                         </div>
                         <div class="col-md-8 col-xs-7">
                             <p className="features_sub_headline">     
@@ -699,8 +682,8 @@ class Home extends Component {
 
                     <div class="row" id="features_subRows">
                         <div class="col-md-4 col-xs-5">
-                            <a href="#"> <img src={jerseyimage3} alt="pizza"
-                                class="img-responsive" /></a>
+                        <Link to="#"> <img src={jerseyimage3} alt="pizza" class="img-responsive"/></Link>     
+                            
                         </div>
                         <div class="col-md-8 col-xs-7">
                            <p className="features_sub_headline">     
@@ -713,8 +696,8 @@ class Home extends Component {
                     
                     <div class="row" id="features_subRows">
                         <div class="col-md-4 col-xs-5">
-                            <a href="#"> <img src={jerseyimage4} alt="pizza"
-                                class="img-responsive" /></a>
+                        <Link to="#"> <img src={jerseyimage4} alt="pizza" class="img-responsive"/></Link>     
+ 
                         </div>
                         <div class="col-md-8 col-xs-7">
                            <p className="features_sub_headline">     
@@ -763,9 +746,8 @@ class Home extends Component {
                 <div className="col-md-6">
                     <div className="row" id="features_subRows">
                         <div className="col-md-12 col-xs-12">
-                            <a href="#"> <img src={soccerHomeimage3} alt="pizza"
-                                class="img-responsive" /></a>
-                                  <div className="line"></div>
+                        <Link to="#"> <img src={soccerHomeimage3} alt="pizza" class="img-responsive"/></Link>                            
+                         <div className="line"></div>
                         </div>
                         <div className="col-md-12 col-xs-12">
                         <div class="col-md-12 col-xs-12">
@@ -780,72 +762,62 @@ class Home extends Component {
                 <div class="col-md-6">
                     <div class="row" id="features_subRows">
                         <div class="col-md-4 col-xs-5">
-                            <a href="#"> <img src={soccerHomeimage2} alt="pizza"
-                                class="img-responsive" />
-                            </a>
-                        </div>
-                        <div class="col-md-8 col-xs-7">
-                            <a href="#" id="transfare_news_sub_headline" style={{textDecoration:"none", fontFamily:"sans serif"}}>
-                             <h4><b>OFFICIAL:PERCIOUS BOAH JOINS DREAMS FC</b> </h4>
-                                <p>
-                                    <b>
-                                      Percious Boah welcomes Dreams fc move, but Soccer Angels Academy
-                                       will recognise truth about his trajectory  
-                                     </b>
+                        <Link to="#"> <img src={soccerHomeimage2} alt="pizza" class="img-responsive"/></Link> 
+                           
+                        </div>                 
+                        <div class="col-md-8 col-xs-7 transfare_news_sub_headline">
+                        <Link to="#">
+                          <h4><b>OFFICIAL:PERCIOUS BOAH JOINS DREAMS FC</b> </h4>
+                                <p>   
+                                 Percious Boah welcomes Dreams fc move, but Soccer Angels Academy 
+                                 will recognise truth about his trajectory                   
                                 </p>
-                            </a>
-                        </div>
+                        </Link> 
+                        </div>    
                     </div>
 
                     <div class="row" id="features_subRows">
                         <div class="col-md-4 col-xs-5">
-                            <a href="#"> <img src={soccerHomeimage1} alt="pizza"
-                                class="img-responsive" />
-                            </a>
+                        <Link to="#"> <img src={soccerHomeimage1} alt="pizza" class="img-responsive"/></Link> 
+                            
                         </div>
-                        <div class="col-md-8 col-xs-7">
-                            <a href="#" id="transfare_news_sub_headline" style={{textDecoration:"none", fontFamily:"sans serif"}}>
-                                <h4><b>OFFICIAL:JUSTICE ASAMOAH JOINS SOCCER ANGELS</b> </h4>
-                                <p>
-                                    <b>
-                                      Soccer Angels has officcially signed Justice Asamoah from Mighty Ocean       
-                                    </b>
+                        <div class="col-md-8 col-xs-7 transfare_news_sub_headline">
+                        <Link to="#">
+                        <h4><b>OFFICIAL:JUSTICE ASAMOAH JOINS SOCCER ANGELS</b> </h4>
+                                <p>   
+                                   Soccer Angels has officcially signed Godfred Amoakoh Boateng from Victory fc                 
                                 </p>
-                            </a>
-                        </div>
+                        </Link> 
+                        </div>          
                     </div>
 
                     <div class="row" id="features_subRows">
                         <div class="col-md-4 col-xs-5">
-                            <a href="#"> <img src={soccerHomeimage1} alt="pizza"
-                                class="img-responsive" /></a>
+                        <Link to="#"> <img src={soccerHomeimage1} alt="pizza" class="img-responsive"/></Link> 
+                            
                         </div>
-                        <div class="col-md-8 col-xs-7">
-                            <a href="#" id="transfare_news_sub_headline" style={{textDecoration:"none", fontFamily:"sans serif"}}>
+                        <div class="col-md-8 col-xs-7 transfare_news_sub_headline">
+                        <Link to="#">
                             <h4><b>OFFICIAL:GODFRED AMOAKOH BOATENG JOINS SOCCER ANGELS</b> </h4>
-                                <p>
-                                 <b>
-                                   Soccer Angels has officcially signed Godfred Amoakoh Boateng from Victory fc       
-                                </b>
+                                <p>   
+                                   Soccer Angels has officcially signed Godfred Amoakoh Boateng from Victory fc                 
                                 </p>
-                            </a>
+                        </Link> 
                         </div>
                     </div>
 
                     <div class="row" id="features_subRows">
                         <div class="col-md-4 col-xs-5">
-                            <a href="#"> <img src={soccerHomeimage1} alt="pizza"
-                                class="img-responsive" /></a>
+                        <Link to="#"> <img src={soccerHomeimage1} alt="pizza" class="img-responsive"/></Link> 
+                           
                         </div>
-                        <div class="col-md-8 col-xs-7">
-                            <a href="#" id="transfare_news_sub_headline" style={{textDecoration:"none", fontFamily:"sans serif"}}>
+                        <div class="col-md-8 col-xs-7 transfare_news_sub_headline">
+                        <Link to="#">
                             <h4><b>OFFICIAL:MUSTAPHA OSMAN JOINS SOCCER ANGELS</b> </h4>
-                                <p>
-                                 <b>
+                                <p>                                
                                    Soccer Angels has officcially signed Mustapha Osman from Lakers fc       
-                                </b>
                                 </p>
-                            </a>
+                        </Link> 
                         </div>
                     </div>
 

@@ -2,23 +2,22 @@ import React, { Component } from "react";
 
 import appiah from '../firstTeam/photos/Appiah.JPG'
 import cosmos from '../firstTeam/photos/cosmos.JPG'
-import elvis from '../firstTeam/photos/Elvis.JPG'
 import andrews from '../firstTeam/photos/Andrews.JPG'
 import shargaa from '../firstTeam/photos/shargaa.JPG'
 import theophilus from '../firstTeam/photos/theophilus.JPG'
 import cobby from '../firstTeam/photos/cobby.JPG'
-import richmond from '../firstTeam/photos/Richmond.JPG'
 
 
 import jerseygrid from '../firstTeam/photos/0.gif'
+ 
 import {
 
-    BrowserRouter as Router,
-    Switch,
-    Route,
+    // BrowserRouter as Router,
+    // Switch,
+    // Route,
     Link
-
-} from "react-router-dom";
+  
+  } from "react-router-dom";
 
 class Appiah extends Component {
     render() {
@@ -489,8 +488,8 @@ class Appiah extends Component {
 
                         </div>
                         <div className="col-md-3 col-xs-12">
-
-                            <div className="row">
+ 
+                        <div className="row">
                                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                     <div class="panel panel-default">
                                         <div class="panel-heading" role="tab" id="headingOne">
@@ -502,21 +501,26 @@ class Appiah extends Component {
                                         </div>
                                         <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                                             <div class="panel-body">
-                                                <ul>
+                                                <ul>                                       
                                                     <li>
-                                                        <a href="#"><img src={andrews} className="img-responsive"></img></a>
+                                                    <Link to="#">
+                                                         <img src={andrews} alt="pizza" class="img-responsive"/>
                                                         <div className="playerinfo">
                                                             <span>3</span>
                                                             <span id="playername">Andrews</span>
                                                         </div>
+                                                        </Link> 
                                                     </li>
+                                                  
 
                                                     <li>
-                                                        <a href="#"><img src={cobby} className="img-responsive"></img></a>
+                                                        <Link to="#">
+                                                        <a><img src={cobby} className="img-responsive"></img></a>
                                                         <div className="playerinfo">
                                                             <span>2</span>
                                                             <span id="playername">Cobby</span>
                                                         </div>
+                                                        </Link>
                                                     </li>
                                                     <li></li>
                                                     <li></li>
@@ -536,19 +540,23 @@ class Appiah extends Component {
                                             <div class="panel-body">
                                             <ul>
                                                     <li>
+                                                    <Link to="#">
                                                         <a href="#"><img src={shargaa} className="img-responsive"></img></a>
                                                         <div className="playerinfo">
                                                             <span>3</span>
                                                             <span id="playername">Enock</span>
                                                         </div>
+                                                        </Link>
                                                     </li>
 
                                                     <li>
+                                                    <Link to="#">
                                                         <a href="#"><img src={cosmos} className="img-responsive"></img></a>
                                                         <div className="playerinfo">
                                                             <span>2</span>
                                                             <span id="playername">Cosmos</span>
                                                         </div>
+                                                        </Link>
                                                     </li>
                                                     <li></li>
                                                     <li></li>
@@ -568,19 +576,23 @@ class Appiah extends Component {
                                             <div class="panel-body">
                                             <ul>
                                                     <li>
+                                                    <Link to="#">
                                                         <a href="#"><img src={appiah} className="img-responsive"></img></a>
                                                         <div className="playerinfo">
                                                             <span>3</span>
                                                             <span id="playername">Appiah</span>
                                                         </div>
+                                                        </Link>
                                                     </li>
 
                                                     <li>
+                                                    <Link to="#">
                                                         <a href="#"><img src={theophilus} className="img-responsive"></img></a>
                                                         <div className="playerinfo">
                                                             <span>2</span>
                                                             <span id="playername">Theophilus</span>
                                                         </div>
+                                                        </Link>
                                                     </li>
                                                     <li></li>
                                                     <li></li>

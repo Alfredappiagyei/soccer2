@@ -1,15 +1,23 @@
 import React, { Component } from "react";
 
+
 import appiah from '../firstTeam/photos/Appiah.JPG'
+import cosmos from '../firstTeam/photos/cosmos.JPG'
+import andrews from '../firstTeam/photos/Andrews.JPG'
+import shargaa from '../firstTeam/photos/shargaa.JPG'
+import theophilus from '../firstTeam/photos/theophilus.JPG'
+import cobby from '../firstTeam/photos/cobby.JPG'
+
 import jerseygrid from '../firstTeam/photos/0.gif'
+ 
 import {
 
-    BrowserRouter as Router,
-    Switch,
-    Route,
+    // BrowserRouter as Router,
+    // Switch,
+    // Route,
     Link
-
-} from "react-router-dom";
+  
+  } from "react-router-dom";
 
 class Cosmos extends Component {
     render() {
@@ -481,7 +489,7 @@ class Cosmos extends Component {
                         </div>
                         <div className="col-md-3 col-xs-12">
 
-                            <div className="row">
+                        <div className="row">
                                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                     <div class="panel panel-default">
                                         <div class="panel-heading" role="tab" id="headingOne">
@@ -493,21 +501,26 @@ class Cosmos extends Component {
                                         </div>
                                         <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                                             <div class="panel-body">
-                                                <ul>
+                                                <ul>                                       
                                                     <li>
-                                                        <a href="#"><img src={appiah} className="img-responsive"></img></a>
+                                                    <Link to="#">
+                                                         <img src={andrews} alt="pizza" class="img-responsive"/>
                                                         <div className="playerinfo">
                                                             <span>3</span>
-                                                            <span id="playername">Appiah</span>
+                                                            <span id="playername">Andrews</span>
                                                         </div>
+                                                        </Link> 
                                                     </li>
+                                                  
 
                                                     <li>
-                                                        <a href="#"><img src={appiah} className="img-responsive"></img></a>
+                                                        <Link to="#">
+                                                        <a><img src={cobby} className="img-responsive"></img></a>
                                                         <div className="playerinfo">
-                                                            <span>3</span>
-                                                            <span id="playername">Appiah</span>
+                                                            <span>2</span>
+                                                            <span id="playername">Cobby</span>
                                                         </div>
+                                                        </Link>
                                                     </li>
                                                     <li></li>
                                                     <li></li>
@@ -525,7 +538,29 @@ class Cosmos extends Component {
                                         </div>
                                         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                                             <div class="panel-body">
-                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                            <ul>
+                                                    <li>
+                                                    <Link to="#">
+                                                        <a href="#"><img src={shargaa} className="img-responsive"></img></a>
+                                                        <div className="playerinfo">
+                                                            <span>3</span>
+                                                            <span id="playername">Enock</span>
+                                                        </div>
+                                                        </Link>
+                                                    </li>
+
+                                                    <li>
+                                                    <Link to="#">
+                                                        <a href="#"><img src={cosmos} className="img-responsive"></img></a>
+                                                        <div className="playerinfo">
+                                                            <span>2</span>
+                                                            <span id="playername">Cosmos</span>
+                                                        </div>
+                                                        </Link>
+                                                    </li>
+                                                    <li></li>
+                                                    <li></li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -539,7 +574,29 @@ class Cosmos extends Component {
                                         </div>
                                         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                             <div class="panel-body">
+                                            <ul>
+                                                    <li>
+                                                    <Link to="#">
+                                                        <a href="#"><img src={appiah} className="img-responsive"></img></a>
+                                                        <div className="playerinfo">
+                                                            <span>3</span>
+                                                            <span id="playername">Appiah</span>
+                                                        </div>
+                                                        </Link>
+                                                    </li>
 
+                                                    <li>
+                                                    <Link to="#">
+                                                        <a href="#"><img src={theophilus} className="img-responsive"></img></a>
+                                                        <div className="playerinfo">
+                                                            <span>2</span>
+                                                            <span id="playername">Theophilus</span>
+                                                        </div>
+                                                        </Link>
+                                                    </li>
+                                                    <li></li>
+                                                    <li></li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -553,13 +610,16 @@ class Cosmos extends Component {
                                         </div>
                                         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                             <div class="panel-body">
-
+                                            <ul>
+                                                    <li></li>  
+                                                    <li></li>
+                                                    <li></li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
                             <div className="row">
                                 <img src={jerseygrid} alt="pizza" class="img-responsive" />
                             </div>

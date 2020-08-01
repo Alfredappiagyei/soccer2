@@ -20,7 +20,7 @@ class History2 extends Component {
                         </div>
 
                         <div className="col-md-5 col-xs-12">
-                            <img src={pop} className="img-responsive" height="500px" width="500px"/>
+                            <img src={pop} className="img-responsive" alt="timeline" height="500px" width="500px"/>
                         </div>
                     </div>
                 </div>

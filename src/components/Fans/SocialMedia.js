@@ -21,7 +21,7 @@ class SocialMedia extends Component {
                     <div className="row">
                         <div className="col-md-9">
                             <div className="row" style={{ height: "200px",  backgroundColor: "red"}}>
-                            <a href="#"><img src={socialmediafirstimage} style={{ height: "200px",width: "100%"}} alt="angels" class="img-responsive" /></a> 
+                            <img src={socialmediafirstimage} style={{ height: "200px",width: "100%"}} alt="angels" class="img-responsive" /> 
                             </div>
                             <hr />
 
@@ -46,7 +46,7 @@ class SocialMedia extends Component {
                             <hr />
 
                             <div className="row">
-                                <a href="#"><img src={socialmediainstagramimage} alt="angels" class="img-responsive" /></a>
+                                <a href="https://instagram.com/academysoccerangels?igshid=gwkqax81h7lw"><img src={socialmediainstagramimage} alt="angels" class="img-responsive" /></a>
                                 <h4>Follow us at soccerangelsacademy for classic and current shots,
                                 as well as our stories including matchday and behind-the-scenes
                                 coverage
@@ -54,13 +54,13 @@ class SocialMedia extends Component {
                             </div>
                             <hr />
 
-                            <div className="row">
-                                <a href="#"> <img src={socialmediasnapchatimage} alt="angels" class="img-responsive" /></a>
+                            {/* <div className="row">
+                                <a href=""> <img src={socialmediasnapchatimage} alt="angels" class="img-responsive" /></a>
                                 <h4>
                                     Add SEA for exclusive behind-the-scenes stories,photos and videos on matchdays.
                               </h4>
                             </div>
-                            <hr />
+                            <hr /> */}
 
                             <div className="row">
                                 <a  style={{justifyContent:"center"}}  href="https://www.youtube.com/channel/UC6AD72yTtZpE7ox25eb6GZg"><img src={socialmediayoutubeimage} alt="angels" class="img-responsive" /></a>

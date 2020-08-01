@@ -186,7 +186,7 @@ section {
  LATEST NEWS
  -------------------------------------------- */
 
-#latest_news_sub_headline p {
+#latest_news_sub_headline  {
   color:#141414;
   text-decoration: none;
   font-weight: bolder;
@@ -253,8 +253,8 @@ padding: 0px;
  TRANSFARE NEWS 
  ----------------------------------*/
  
-
- #transfare_news_sub_headline h4 {
+ 
+ .transfare_news_sub_headline  h4  {
   color:#141414;
   text-decoration: none;
   font-weight: bolder;
@@ -264,7 +264,7 @@ padding: 0px;
 
 
 
-#transfare_news_sub_headline p {
+.transfare_news_sub_headline  p {
   color:#141414;
   text-decoration: none;
   font-weight: bolder;
