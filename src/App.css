@@ -1,13 +1,45 @@
-/* 
-#body{
-  background: url(soccer/photos/soccer26.JPG); 
-  margin: 0px 10px;
-} */
+
+/*-------------------------
+ REUSERBLE CODE 
+ -------------------------*/
+
+ .line {
+  min-height: 5px;
+  background-color:lawngreen;
+}
+ 
+
+#more_button {
+  float: right;
+  background-color: red;
+  padding: 10px 30px ;
+  margin: 0px 20px 0px 0px;
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  
+}
+
+section {
+  padding: 80px 0px;
+}
+ 
+
+
+
+
+
+
+
+
+
+/*--------------------------------
+          HEADER
+ --------------------------------*/
 .home {
   background-color: #f1f1f1;
   
 }
-
 
 .dropbtn {
   background-color:#444444;
@@ -82,17 +114,6 @@
   background-color: red;
 }
 
-#latest_news {
-  margin: 60px 0px 75px 0px;
-}
-
-
-
-#latest_news_rows {
-  margin: 0px 0px 70px 0px;
-}
-
-
 
 #lastmatch_colon{
   background-color: rgba(20,20,20,0.65);
@@ -115,64 +136,7 @@
   
   }
 
-  #features_main_headline{
-    font-size: 30px;
-    font-family: sans-serif;
-    font-weight: bold;
-    justify-content: center;
-    color: #141414;
-
-  }
-
-
-#transfare_news_sub_headline h4 {
-  color:#141414;
-  text-decoration: none;
-  font-weight: bolder;
-  font-size: 25px " Sans serif" ;
-  font-family: sans-serif;
-}
-
-
-
-#transfare_news_sub_headline p {
-  color:#141414;
-  text-decoration: none;
-  font-weight: bolder;
-  font-size: 16px " Sans serif" ;
-  font-family: sans-serif;
-}
-
-
-
-
-
-#latest_news_sub_headline p {
-  color:#141414;
-  text-decoration: none;
-  font-weight: bolder;
-  font-size: 20px " Sans serif" ;
-  font-family: sans-serif;
-}
-
-
-#features_subRows {
-  margin: 20px 0px 0px 0px;
-
-}
-
-
-#transfare_news_header_text {
-  color: red;
-  text-decoration: none;
-}
-
-
-#latest_news_header_text {
-  color: red;
-  text-decoration: none;
-}
-
+  
 
 #last_match_header_text {
   color:#fff;
@@ -183,14 +147,6 @@
   margin: 20px 0px 60px 0px;
 }
 
-#features_sub_headline p{
-  font-size: 20px;
-  color: #141414;
-  text-decoration: none;
-  font-family: sans-serif;
-}
-
-
 #upcoming_match_header_text {
   color:#fff;
   text-decoration: none;
@@ -199,47 +155,6 @@
   font-weight: bold;
   margin: 20px 0px 60px 0px;
 }
-
-
-#features_header_text {
-  color: red;
-  text-decoration: none;
-}
-
-
-
-#league{
-margin: 50px 0px 50px 0px;
-background: url(soccer/photos/soccer26.JPG);
-background-size: cover;
-font-family: sans-serif;
-min-height: 500px;
- }
-
-
-
-
-#league_initial_colon {
-  background-color: rgba(60,50,50,0.95);
-  min-height: 500px;
-  color: #fff;
-} 
-
-
-
-#featured-vid-button{
-  margin: 40px 0px;
-}
-
-
-
-
-#advertisment1 {
-  margin: 0px 0px 50px 0px;
-  min-height: 200px;
-  background-color: lightgray;
-}
-
 
 
 #match_header{
@@ -265,47 +180,107 @@ min-height: 500px;
   background-color: #444444;
 }
 
-#line {
-  min-height: 5px;
-  background-color:lawngreen;
+
+
+/*--------------------------------------------
+ LATEST NEWS
+ -------------------------------------------- */
+
+#latest_news_sub_headline p {
+  color:#141414;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 20px " Sans serif" ;
+  font-family: sans-serif;
+}
+ 
+ 
+ 
+
+
+
+/*-----------------------------------
+ FEATURES 
+ ------------------------------------*/
+
+.features_sub_headline {
+  font-size: 22px;
+  color: #141414;
+  text-decoration: none;
+  font-family: sans-serif;
+  margin: 30px 0px;
+}
+
+.features_main_headline{
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  justify-content: center;
+  color: #141414;
+
+}
+ 
+
+#features_subRows {
+  margin: 20px 0px 0px 0px;
 }
 
 
-#transfare_news_container {
-  margin: 50px 0px 40px 0px;
-}
 
+/*-----------------------------
+ LEAGUE
+ ------------------------------ */
 
+.league{
+background: url(soccer/photos/soccer26.JPG);
+background-size: cover;
+font-family: sans-serif;
+padding: 0px;
+ }
 
-
-
-
-#more_button {
-  float: right;
-  background-color: red;
-  padding: 10px 30px ;
-  margin: 50px 0px 20px 0px;
+.league_second_colon {
+  background-color: rgba(60,50,50,0.95);
   color: #fff;
-  font-size: 15px;
-  border: none;
-  
+} 
+
+ 
+
+
+
+
+
+/*---------------------------------
+ TRANSFARE NEWS 
+ ----------------------------------*/
+ 
+
+ #transfare_news_sub_headline h4 {
+  color:#141414;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 25px " Sans serif" ;
+  font-family: sans-serif;
 }
 
 
 
-/* 
-#story{
-  background: url(soccer/photos/soccer26.JPG);
-} */
-
-.year{
-  display: flex;
+#transfare_news_sub_headline p {
+  color:#141414;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 16px " Sans serif" ;
+  font-family: sans-serif;
 }
 
-.year h1{
-  font-size: 50px;
-  margin: 0px 10px 0px 0px;
-}
+ 
+
+
+
+ 
+
+/*----------------------------------
+ FOOTER
+ ----------------------------------- */
 
 #footer-container{
   background-color: #141414;
@@ -323,6 +298,7 @@ min-height: 500px;
  color: #fff;
  
 }
+
 
 #footer-first-row{
   min-height: 50px;
@@ -350,19 +326,70 @@ min-height: 500px;
 
 
 
+/*-------------------------------
+ PLAYER PROFILE
+ -------------------------------- */
+.card-body {
+  display: flex;
+}
+
+.card-body:hover {
+  box-shadow: 0px 4px 35px -5px lawngreen;
+}
+
+.card-body  h4{
+  padding: 10px 15px;
+  background-color: #444444;
+  color: #f1f1f1;
+  margin: 0px;
+  font-size: 20px;
+}
+
+.card-body  h5{
+  padding: 0px 0px 0px 60px;
+  color: #141414;
+  font-size: 20px;
+  
+}
+
+
+#btne { 
+  color: #FFF;
+  display: block;
+  transition: all 0.5s ease-in-out;
+  border: none;
+
+}
+#btne:hover {
+  background: #444444;
+  box-shadow: 0px 4px 35px -5px lawngreen;
+  cursor: pointer;
+}
+
+
 .MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
 .MultiCarousel{ Height: 200px;}
     .MultiCarousel .MultiCarousel-inner { transition: 0.5s ease all; float: left; }
         .MultiCarousel .MultiCarousel-inner .item { float: left;}
         .MultiCarousel .MultiCarousel-inner .item > div { display: block; padding:5px; margin:5px; background:#f1f1f1; color:#666;}
-    .MultiCarousel .leftLst, .MultiCarousel .rightLst { border: none; position:absolute; color: #fff; background-color: red; padding: 50px 15px;}
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst { border: none; position:absolute; color: #fff; background-color: lawngreen; padding: 70px 15px;}
     .MultiCarousel .leftLst { left:0; }
     .MultiCarousel .rightLst { right:0; }
     
     .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
 
 
-/* first team */
+
+
+
+
+
+
+
+/* ---------------------------------
+       FIRST TEAM 
+-----------------------------------*/
+/* reuserble code */
 #jerseynumber{
   background-color: #141414;
   color: lawngreen;
@@ -371,7 +398,7 @@ min-height: 500px;
   align-content: center;
   justify-content: center;
 }
-
+/* appiah */
 .appiah {
 background: url(components/firstTeam/photos/Appiah.JPG);
 background-size: cover;
@@ -380,11 +407,148 @@ min-height: 550px;
 width: 100%;
 
 }
+
 #appiahdetails {
   background-color: rgba(0,0,0,0);
   color: #fff;
   width: 100%;
 }
+
+/* cosmos */
+.cosmos {
+  background: url(components/firstTeam/photos/cosmos.JPG);
+  background-size: cover;
+  font-family: sans-serif;
+  min-height: 550px;
+  width: 100%;
+  
+  }
+  
+#cosmosdetails {
+  background-color: rgba(0,0,0,0);
+  color: #fff;
+  width: 100%;
+}
+
+
+/* elvis */
+.elvis {
+  background: url(components/firstTeam/photos/Elvis.JPG);
+  background-size: cover;
+  font-family: sans-serif;
+  min-height: 550px;
+  width: 100%;
+  
+  }
+  
+#elvisdetails {
+  background-color: rgba(0,0,0,0);
+  color: #fff;
+  width: 100%;
+}
+
+
+
+/* Enock*/
+.enock {
+  background: url(components/firstTeam/photos/shargaa.JPG);
+  background-size: cover;
+  font-family: sans-serif;
+  min-height: 550px;
+  width: 100%;
+  
+  }
+  
+#enockdetails {
+  background-color: rgba(0,0,0,0);
+  color: #fff;
+  width: 100%;
+}
+
+
+
+/* Cobby*/
+.cobby {
+  background: url(components/firstTeam/photos/cobby.JPG);
+  background-size: cover;
+  font-family: sans-serif;
+  min-height: 550px;
+  width: 100%;
+  
+  }
+  
+#cobbydetails {
+  background-color: rgba(0,0,0,0);
+  color: #fff;
+  width: 100%;
+}
+
+
+
+/* Andrews*/
+.andrews {
+  background: url(components/firstTeam/photos/Andrews.JPG);
+  background-size: cover;
+  font-family: sans-serif;
+  min-height: 550px;
+  width: 100%;
+  
+  }
+  
+#andrewsdetails {
+  background-color: rgba(0,0,0,0);
+  color: #fff;
+  width: 100%;
+}
+
+
+
+/* Richmond*/
+.richmond {
+  background: url(components/firstTeam/photos/Richmond.JPG);
+  background-size: cover;
+  font-family: sans-serif;
+  min-height: 550px;
+  width: 100%;
+  
+  }
+  
+#richmonddetails {
+  background-color: rgba(0,0,0,0);
+  color: #fff;
+  width: 100%;
+}
+
+
+
+/* Richmond*/
+.theophilus {
+  background: url(components/firstTeam/photos/theophilus.JPG);
+  background-size: cover;
+  font-family: sans-serif;
+  min-height: 550px;
+  width: 100%;
+  
+  }
+  
+#theophilusdetails {
+  background-color: rgba(0,0,0,0);
+  color: #fff;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/*----------------------------
+ PLAYER STATS
+ ----------------------------- */
+
 .stat span {
   display: flex;
 }
@@ -434,9 +598,35 @@ width: 100%;
  #playername {
   margin-left: 170px;
   
+} 
+.panel-default>.panel-heading {
+  color: #fff;
+  background-color: #141414;
+  border: 3px solid lawngreen;
+  
+  /* border-color: #ddd; */
+
+  display: block;
+  text-align: center;
 }
 
-
-
+ .discription {
+   display: block;
+   text-align: center;
+ }
+  
+ .progres {
+  height: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: #f5f5f5;
+  /* border-radius: 4px; */
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+#figures {
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+}
 
   

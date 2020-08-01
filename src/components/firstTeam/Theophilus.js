@@ -20,12 +20,12 @@ import {
 
 } from "react-router-dom";
 
-class Appiah extends Component {
+class Theophilus extends Component {
     render() {
         return (
             <div>
-                <div className="appiah">
-                    <div className="container" id="appiahdetails">
+                <div className="theophilus">
+                    <div className="container" id="theophilusdetails">
                         <div className="col-md-6 col-xs-12">
                             <h1 style={{ fontSize: "80px", marginBottom: "20px" }}><b>34</b></h1>
                             <h1 style={{ fontSize: "50px" }}><b>Daniel</b></h1>
@@ -621,4 +621,4 @@ class Appiah extends Component {
     }
 }
 
-export default Appiah;
+export default Theophilus;

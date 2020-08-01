@@ -1,15 +1,6 @@
 import React, { Component } from "react";
 
 import appiah from '../firstTeam/photos/Appiah.JPG'
-import cosmos from '../firstTeam/photos/cosmos.JPG'
-import elvis from '../firstTeam/photos/Elvis.JPG'
-import andrews from '../firstTeam/photos/Andrews.JPG'
-import shargaa from '../firstTeam/photos/shargaa.JPG'
-import theophilus from '../firstTeam/photos/theophilus.JPG'
-import cobby from '../firstTeam/photos/cobby.JPG'
-import richmond from '../firstTeam/photos/Richmond.JPG'
-
-
 import jerseygrid from '../firstTeam/photos/0.gif'
 import {
 
@@ -20,12 +11,12 @@ import {
 
 } from "react-router-dom";
 
-class Appiah extends Component {
+class Cosmos extends Component {
     render() {
         return (
             <div>
-                <div className="appiah">
-                    <div className="container" id="appiahdetails">
+                <div className="cosmos">
+                    <div className="container" id="cosmosdetails">
                         <div className="col-md-6 col-xs-12">
                             <h1 style={{ fontSize: "80px", marginBottom: "20px" }}><b>34</b></h1>
                             <h1 style={{ fontSize: "50px" }}><b>Daniel</b></h1>
@@ -504,18 +495,18 @@ class Appiah extends Component {
                                             <div class="panel-body">
                                                 <ul>
                                                     <li>
-                                                        <a href="#"><img src={andrews} className="img-responsive"></img></a>
+                                                        <a href="#"><img src={appiah} className="img-responsive"></img></a>
                                                         <div className="playerinfo">
                                                             <span>3</span>
-                                                            <span id="playername">Andrews</span>
+                                                            <span id="playername">Appiah</span>
                                                         </div>
                                                     </li>
 
                                                     <li>
-                                                        <a href="#"><img src={cobby} className="img-responsive"></img></a>
+                                                        <a href="#"><img src={appiah} className="img-responsive"></img></a>
                                                         <div className="playerinfo">
-                                                            <span>2</span>
-                                                            <span id="playername">Cobby</span>
+                                                            <span>3</span>
+                                                            <span id="playername">Appiah</span>
                                                         </div>
                                                     </li>
                                                     <li></li>
@@ -534,25 +525,7 @@ class Appiah extends Component {
                                         </div>
                                         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                                             <div class="panel-body">
-                                            <ul>
-                                                    <li>
-                                                        <a href="#"><img src={shargaa} className="img-responsive"></img></a>
-                                                        <div className="playerinfo">
-                                                            <span>3</span>
-                                                            <span id="playername">Enock</span>
-                                                        </div>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="#"><img src={cosmos} className="img-responsive"></img></a>
-                                                        <div className="playerinfo">
-                                                            <span>2</span>
-                                                            <span id="playername">Cosmos</span>
-                                                        </div>
-                                                    </li>
-                                                    <li></li>
-                                                    <li></li>
-                                                </ul>
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                                             </div>
                                         </div>
                                     </div>
@@ -566,25 +539,7 @@ class Appiah extends Component {
                                         </div>
                                         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                             <div class="panel-body">
-                                            <ul>
-                                                    <li>
-                                                        <a href="#"><img src={appiah} className="img-responsive"></img></a>
-                                                        <div className="playerinfo">
-                                                            <span>3</span>
-                                                            <span id="playername">Appiah</span>
-                                                        </div>
-                                                    </li>
 
-                                                    <li>
-                                                        <a href="#"><img src={theophilus} className="img-responsive"></img></a>
-                                                        <div className="playerinfo">
-                                                            <span>2</span>
-                                                            <span id="playername">Theophilus</span>
-                                                        </div>
-                                                    </li>
-                                                    <li></li>
-                                                    <li></li>
-                                                </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -598,11 +553,7 @@ class Appiah extends Component {
                                         </div>
                                         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                             <div class="panel-body">
-                                            <ul>
-                                                    <li></li>  
-                                                    <li></li>
-                                                    <li></li>
-                                                </ul>
+
                                             </div>
                                         </div>
                                     </div>
@@ -621,4 +572,4 @@ class Appiah extends Component {
     }
 }
 
-export default Appiah;
+export default Cosmos;

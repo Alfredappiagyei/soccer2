@@ -16,6 +16,7 @@ import {
   Link
 
 } from "react-router-dom";
+
 import Firstteam from './components/Team/Firstteam';
 import Academy from './components/Team/Academy';
 import SocialMedia from './components/Fans/SocialMedia';
@@ -25,17 +26,28 @@ import Under18 from './components/Match/Under18';
 import Atoz from './components/Legal/Atoz';
 import History from './components/Academy/History';
 import History2 from './components/Academy/history2';
-import Appiah from './components/firstTeam/Appiah';
-
 import logo from './soccer/photos/soccerangelslogo.JPG'
+
+
+// Firstteam
+import Appiah from './components/firstTeam/Appiah';
+import Cosmos from './components/firstTeam/Cosmos';
+import Elvis from './components/firstTeam/Elvis';
+import Enock from './components/firstTeam/Enock';
+import Cobby from './components/firstTeam/Cobby';
+import Andrews from './components/firstTeam/Andrews';
+import Richmond from './components/firstTeam/Richmond';
+import Theophilus from './components/firstTeam/Theophilus';
+
+
 
 
 function App() {
   return (
-    <Router>
+    <Router> 
       <div>
 
-        <nav class="navbar navbar-default" style={{position:"relative", backgroundColor: '#444444', color: "#fff", alignContent:"center" }}>
+        <nav class="navbar navbar-default" style={{position:"relative",top:"0px", left:"0px", zIndex:"2",  backgroundColor: '#444444', color: "#fff", alignContent:"center" }}>
           <div class="container-fluid">
 
             <div class="navbar-header">
@@ -161,6 +173,13 @@ function App() {
           <Route path="/atoz" exact component={Atoz} /> 
           {/* firstteam */}
           <Route path="/appiah" exact component={Appiah} /> 
+          <Route path="/cosmos" exact component={Cosmos} /> 
+          <Route path="/elvis" exact component={Elvis} /> 
+          <Route path="/enock" exact component={Enock} /> 
+          <Route path="/cobby" exact component={Cobby} /> 
+          <Route path="/andrews" exact component={Andrews} /> 
+          <Route path="/richmond" exact component={Richmond} /> 
+          <Route path="/theophilus" exact component={Theophilus} /> 
           
           
               
