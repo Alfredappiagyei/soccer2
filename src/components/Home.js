@@ -125,9 +125,9 @@ class Home extends Component {
                 var rightBtn = ('.rightLst');
                 var translateXval = '';
                 var divStyle = $(el + ' ' + itemsDiv).css('transform');
-                var values = divStyle.match(/-?[\d\.]+/g);
+                var values = divStyle.match(/-?[\d.]+/g);
                 var xds = Math.abs(values[4]);
-                if (e == 0) {
+                if (e === 0) {
                     translateXval = parseInt(xds) - parseInt(itemWidth * s);
                     $(el + ' ' + rightBtn).removeClass("over");
         
@@ -136,7 +136,7 @@ class Home extends Component {
                         $(el + ' ' + leftBtn).addClass("over");
                     }
                 }
-                else if (e == 1) {
+                else if (e === 1) {
                     var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
                     translateXval = parseInt(xds) + parseInt(itemWidth * s);
                     $(el + ' ' + leftBtn).removeClass("over");
@@ -773,13 +773,11 @@ class Home extends Component {
                                   Soccer angels could look for creative solution to solve a tranfare problem 
                              </h4>
                           </div>
-                            
                         </div>  
                     </div>
                 </div>
 
                 <div class="col-md-6">
-
                     <div class="row" id="features_subRows">
                         <div class="col-md-4 col-xs-5">
                             <a href="#"> <img src={soccerHomeimage2} alt="pizza"
