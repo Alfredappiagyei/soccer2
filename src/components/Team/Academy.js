@@ -1,7 +1,9 @@
 import React, { Component } from "react";
+import appiah from '../Team/photos/Appiah.JPG' 
+import jerseygrid from '../Team/photos/0.gif'
 
 
-// import soccerFirstteamImage1 from "../soccer/photos/soccer1.JPG"
+
 
 import {
 
@@ -46,78 +48,150 @@ class Academy extends Component {
 
 
 
-
-
-
+ 
                             <div className="row">
                                 <h3><b>GOALKEEPERS</b></h3>
                             </div>
-                            <div class="row" id="line"></div>
+                            <div class="row line"></div>
                             <div className="row">
+                            <Link to="#"> 
                                 <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
-                                    <div className="col-md-4">sdfgh</div>
-                                    <div className="col-md-2">4</div>
-                                    <div className="col-md-6">dfghjkjhgfdfgh</div>
+                                <div className="col-md-8">
+                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                    </div>
+                                    <div className="col-md-1" id="jerseynumber"><b>3</b></div>
+                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
                                 </div>
+                                </Link>
 
+                                <Link to="#"> 
                                 <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
-                                    <div className="col-md-4">fghjj</div>
-                                    <div className="col-md-2">4</div>
-                                    <div className="col-md-6">cvbnmncvbncvb</div>
+                                <div className="col-md-8">
+                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                    </div>
+                                    <div className="col-md-1" id="jerseynumber"><b>3</b></div>
+                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
                                 </div>
+                                </Link>
+                                <Link to="#"> 
                                 <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
-                                    <div className="col-md-4">fghj</div>
-                                    <div className="col-md-2">4</div>
-                                    <div className="col-md-6">sdfghjhgfddfg</div>
+                                <div className="col-md-8">
+                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                    </div>
+                                    <div className="col-md-1" id="jerseynumber"><b>3</b></div>
+                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
                                 </div>
+                                </Link>
+
                             </div>
 
 
                             <div className="row">
                                 <h3><b>DEFENDERS</b></h3>
                             </div>
-                            <div class="row" id="line"></div>
+                            <div class="row line"></div>
                             <div className="row">
+                            <Link to="#"> 
                                 <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
-                                    <div className="col-md-4">sdfgh</div>
-                                    <div className="col-md-2">4</div>
-                                    <div className="col-md-6">dfghjkjhgfdfgh</div>
+                                <div className="col-md-8">
+                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                    </div>
+                                    <div className="col-md-1" id="jerseynumber"><b>3</b></div>
+                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
                                 </div>
+                                </Link>
 
+
+                                <Link to="#"> 
                                 <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
-                                    <div className="col-md-4">fghjj</div>
-                                    <div className="col-md-2">4</div>
-                                    <div className="col-md-6">cvbnmncvbncvb</div>
+                                <div className="col-md-8">
+                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                    </div>
+                                    <div className="col-md-1" id="jerseynumber"><b>3</b></div>
+                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
                                 </div>
+                                </Link>
+
+                                <Link to="#"> 
                                 <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
-                                    <div className="col-md-4">fghj</div>
-                                    <div className="col-md-2">4</div>
-                                    <div className="col-md-6">sdfghjhgfddfg</div>
+                                <div className="col-md-8">
+                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                    </div>
+                                    <div className="col-md-1" id="jerseynumber"><b>3</b></div>
+                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
                                 </div>
+                                </Link>
+                            </div>
+                            <hr/> 
+                            <div className="row">
+                            <Link to="#"> 
+                                <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
+                                <div className="col-md-8">
+                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                    </div>
+                                    <div className="col-md-1" id="jerseynumber"><b>3</b></div>
+                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
+                                </div>
+                                </Link>
+
+                                <Link to="#"> 
+                                <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
+                                <div className="col-md-8">
+                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                    </div>
+                                    <div className="col-md-1" id="jerseynumber"><b>3</b></div>
+                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
+                                </div>
+                                </Link>
+
+                                <Link to="#"> 
+                                <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
+                                <div className="col-md-8">
+                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                    </div>
+                                    <div className="col-md-1" id="jerseynumber"><b>3</b></div>
+                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
+                                </div>
+                                </Link>
+
                             </div>
 
 
                             <div className="row">
                                 <h3><b>MIDFIELDERS</b></h3>
                             </div>
-                            <div class="row" id="line"></div>
+                            <div class="row line"></div>
                             <div className="row">
+                            <Link to="#"> 
                                 <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
-                                    <div className="col-md-4">sdfgh</div>
-                                    <div className="col-md-2">4</div>
-                                    <div className="col-md-6">dfghjkjhgfdfgh</div>
+                                <div className="col-md-8">
+                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                    </div>
+                                    <div className="col-md-1" id="jerseynumber"><b>3</b></div>
+                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
                                 </div>
+                                </Link>
 
+
+                                <Link to="#"> 
                                 <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
-                                    <div className="col-md-4">fghjj</div>
-                                    <div className="col-md-2">4</div>
-                                    <div className="col-md-6">cvbnmncvbncvb</div>
+                                <div className="col-md-8">
+                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                    </div>
+                                    <div className="col-md-1" id="jerseynumber"><b>3</b></div>
+                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
                                 </div>
+                                </Link>
+
+                                <Link to="#"> 
                                 <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
-                                    <div className="col-md-4">fghj</div>
-                                    <div className="col-md-2">4</div>
-                                    <div className="col-md-6">sdfghjhgfddfg</div>
+                                <div className="col-md-8">
+                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                    </div>
+                                    <div className="col-md-1" id="jerseynumber"><b>3</b></div>
+                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
                                 </div>
+                                </Link>
                             </div>
 
 
@@ -125,53 +199,99 @@ class Academy extends Component {
                             <div className="row">
                                 <h3><b>FORWARDS</b></h3>
                             </div>
-                            <div class="row" id="line"></div>
+                            <div class="row line"></div>
                             <div className="row">
+                            <Link to="#"> 
                                 <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
-                                    <div className="col-md-4">sdfgh</div>
-                                    <div className="col-md-2">4</div>
-                                    <div className="col-md-6">dfghjkjhgfdfgh</div>
+                                <div className="col-md-8">
+                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                    </div>
+                                    <div className="col-md-1" id="jerseynumber"><b>3</b></div>
+                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
                                 </div>
+                                </Link>
 
+
+                                <Link to="#"> 
                                 <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
-                                    <div className="col-md-4">fghjj</div>
-                                    <div className="col-md-2">4</div>
-                                    <div className="col-md-6">cvbnmncvbncvb</div>
+                                <div className="col-md-8">
+                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                    </div>
+                                    <div className="col-md-1" id="jerseynumber"><b>3</b></div>
+                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
                                 </div>
+                                </Link>
+
+                                <Link to="#"> 
                                 <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
-                                    <div className="col-md-4">fghj</div>
-                                    <div className="col-md-2">4</div>
-                                    <div className="col-md-6">sdfghjhgfddfg</div>
+                                <div className="col-md-8">
+                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                    </div>
+                                    <div className="col-md-1" id="jerseynumber"><b>3</b></div>
+                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
                                 </div>
+                                </Link>
                             </div>
 
 
                             <div className="row">
                                 <h3><b>ON LOAN</b></h3>
                             </div>
-                            <div class="row" id="line"></div>
+                            <div className="row line"></div>
                             <div className="row">
+                            <Link to="#"> 
                                 <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
-                                    <div className="col-md-4">sdfgh</div>
-                                    <div className="col-md-2">4</div>
-                                    <div className="col-md-6">dfghjkjhgfdfgh</div>
+                                <div className="col-md-8">
+                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                    </div>
+                                    <div className="col-md-1" id="jerseynumber"><b>3</b></div>
+                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
                                 </div>
+                                </Link>
+         
 
+                                <Link to="#"> 
                                 <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
-                                    <div className="col-md-4">fghjj</div>
-                                    <div className="col-md-2">4</div>
-                                    <div className="col-md-6">cvbnmncvbncvb</div>
+                                <div className="col-md-8">
+                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                    </div>
+                                    <div className="col-md-1" id="jerseynumber"><b>3</b></div>
+                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
                                 </div>
+                                </Link>
+                                
+                                <Link to="#"> 
                                 <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
-                                    <div className="col-md-4">fghj</div>
-                                    <div className="col-md-2">4</div>
-                                    <div className="col-md-6">sdfghjhgfddfg</div>
+                                <div className="col-md-8">
+                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                    </div>
+                                    <div className="col-md-1" id="jerseynumber"><b>3</b></div>
+                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
                                 </div>
+                                </Link>
+
+{/*                                 
+                                 <Link to="#"> 
+                                <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
+                                <div className="col-md-8">
+                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                    </div>
+                                    <div className="col-md-1" id="jerseynumber"><b>3</b></div>
+                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
+                                </div>
+                                </Link> */}
+
                             </div>
+                            <hr/> 
 
                         </div>
 
-                        <div className="col-md-3"></div>
+                        <div className="col-md-3">
+                        <div className="row">
+                            <img src={jerseygrid} alt="pizza"
+                                class="img-responsive" />
+                            </div>
+                        </div>
                     </div>
                 </div>
 

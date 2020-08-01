@@ -46,7 +46,6 @@ class Cobby extends Component {
                                     <div class="container-fluid">
                                         <div class="navbar-header">
                                             <Link to="/firstteam" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", background: "lawngreen" }}><b>Daniel Appiah</b> </Link>
-                                            <Link to="#" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", }}><b>Stats </b> </Link>
                                             <Link to="/academy" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", fontStyle: "linethrough" }}><b>Videos</b> </Link>
 
                                         </div>
@@ -60,7 +59,7 @@ class Cobby extends Component {
                                 <span><h4> <b>Honours:</b></h4> <p>dfzjbzvdjf</p></span>
                             </div>
                             <hr />
-                            <div className="row">
+                            <div className="row" style={{margin:"0px",width:"100%"}}>
                                 <h4>\bfvhzdfvgzhjdbjh jbvhbdfhvdfbjvhdbfjfhvgbjvhbjhvvkbdjhvzbdjvhzbdfjhbvdzjlfh
                                 shhdfblnfzdvdhfjvjdhf vdhjlfldvbffvnzkjlbdfvdjfvjhfbvlhdfvbjhlbvjhbvjhdbdbh
                                 vfhvbfduvydbvdufvgfdvfgvkgvkhvhbdkvblahvblgdvfbdfvgblfhdbljdfhvbldfjvhlbdfvlb
@@ -74,27 +73,7 @@ class Cobby extends Component {
                             <div className="row" style={{ background: "lawngreen", color: "#fff" }}>
                                 <h4><b>Player Stats</b></h4>
                             </div>
-                            <div className="row">
-                                <nav class="navbar navbar-default">
-                                    <div class="container-fluid">
-                                        {/* <!-- Brand and toggle get grouped for better mobile display --> */}
-                                        <div class="navbar-header">
-                                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                                <span class="sr-only">Toggle navigation</span>
-                                                <span class="icon-bar"></span>
-                                                <span class="icon-bar"></span>
-                                                <span class="icon-bar"></span>
-                                            </button>
-                                            <a class="navbar-brand" href="#">General</a>
-                                            <a class="navbar-brand" href="#">Attack</a>
-                                            <a class="navbar-brand" href="#">Defence</a>
-                                            <a class="navbar-brand" href="#">Distribution</a>
-                                            <a class="navbar-brand" href="#">Discipline</a>
-                                        </div>
-                                        {/* <!-- Collect the nav links, forms, and other content for toggling --> */}
-                                    </div>
-                                </nav>
-                            </div>
+                            
                             <div className="row">
                                 <div className="col-md-6"></div>
                                 <div className="col-md-6" style={{ display: "block", justifyContent: "center", color: "#fff", textAlign: "center", background: "#414141" }}>
@@ -515,7 +494,7 @@ class Cobby extends Component {
 
                                                     <li>
                                                         <Link to="#">
-                                                        <a><img src={cobby} className="img-responsive"></img></a>
+                                                        <img src={cobby} className="img-responsive"></img>
                                                         <div className="playerinfo">
                                                             <span>2</span>
                                                             <span id="playername">Cobby</span>
@@ -541,7 +520,7 @@ class Cobby extends Component {
                                             <ul>
                                                     <li>
                                                     <Link to="#">
-                                                        <a href="#"><img src={shargaa} className="img-responsive"></img></a>
+                                                        <img src={shargaa} className="img-responsive"></img>
                                                         <div className="playerinfo">
                                                             <span>3</span>
                                                             <span id="playername">Enock</span>
@@ -551,7 +530,7 @@ class Cobby extends Component {
 
                                                     <li>
                                                     <Link to="#">
-                                                        <a href="#"><img src={cosmos} className="img-responsive"></img></a>
+                                                        <img src={cosmos} className="img-responsive"></img>
                                                         <div className="playerinfo">
                                                             <span>2</span>
                                                             <span id="playername">Cosmos</span>
@@ -577,7 +556,7 @@ class Cobby extends Component {
                                             <ul>
                                                     <li>
                                                     <Link to="#">
-                                                        <a href="#"><img src={appiah} className="img-responsive"></img></a>
+                                                          <img src={appiah} className="img-responsive"></img>
                                                         <div className="playerinfo">
                                                             <span>3</span>
                                                             <span id="playername">Appiah</span>
@@ -587,7 +566,7 @@ class Cobby extends Component {
 
                                                     <li>
                                                     <Link to="#">
-                                                        <a href="#"><img src={theophilus} className="img-responsive"></img></a>
+                                                          <img src={theophilus} className="img-responsive"></img>
                                                         <div className="playerinfo">
                                                             <span>2</span>
                                                             <span id="playername">Theophilus</span>

@@ -57,7 +57,7 @@ function App() {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <img src={logo}  className="img-responsive" height="100px" width="100px" style={{borderRadius:"50%"}} />
+              <img src={logo} alt="soccerangelslogo"  className="img-responsive" height="100px" width="100px" style={{borderRadius:"50%"}} />
             </div>
 
 

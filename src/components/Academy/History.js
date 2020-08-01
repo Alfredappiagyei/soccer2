@@ -2,16 +2,15 @@ import React, { Component } from "react";
 
 import pop from "./photos/pop.GIF"
 
-
+ 
 import {
 
-    BrowserRouter as Router,
+    // BrowserRouter as Router,
     // Switch,
     // Route,
     Link
   
   } from "react-router-dom";
-
 class History extends Component {
     render() {
 
@@ -32,7 +31,7 @@ class History extends Component {
 
                       <div className="col-md-5 col-xs-12">
                             <img src={pop} className="img-responsive" height="500px" width="500px"/>
-                           <a style={{color:"#444444"}}> <button> <Link to="/history2"><b>Timeline</b> </Link></button></a>
+                         <button> <Link to="/history2"><b>Timeline</b> </Link></button>
                         </div>
                     </div>
                 </div>
