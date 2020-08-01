@@ -22,9 +22,6 @@ class Features extends Component {
         return(
             
 
- 
-
-
      
          <section class="container-fluid">
          <div className="row">
@@ -35,8 +32,7 @@ class Features extends Component {
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-12 col-xs-12" style={{padding:"40px"}}>
-                            <a href="#"> <img src={jerseyimage1} alt="pizza"
-                                class="img-responsive"/></a>
+                        <Link to="#"> <img src={jerseyimage1} alt="pizza" class="img-responsive"/></Link>      
                                 <div className="line"></div>
                         </div>
                         <div class="col-md-12 col-xs-12">
@@ -49,8 +45,8 @@ class Features extends Component {
                 <div class="col-md-6">
                     <div class="row" id="features_subRows">
                         <div class="col-md-4 col-xs-5">
-                            <a href="#"> <img src={jerseyimage2} alt="pizza"
-                                class="img-responsive" /></a>
+                        <Link to="#"> <img src={jerseyimage2} alt="pizza" class="img-responsive"/></Link>     
+                            
                         </div>
                         <div class="col-md-8 col-xs-7 ">
                                 <p className="features_sub_headline">     
@@ -61,8 +57,8 @@ class Features extends Component {
 
                     <div class="row" id="features_subRows">
                         <div class="col-md-4 col-xs-5">
-                            <a href="#"> <img src={jerseyimage5} alt="pizza"
-                                class="img-responsive" /></a>
+                        <Link to="#"> <img src={jerseyimage5} alt="pizza" class="img-responsive"/></Link>     
+                            
                         </div>
                         <div class="col-md-8 col-xs-7">
                             <p className="features_sub_headline">     
@@ -73,8 +69,8 @@ class Features extends Component {
 
                     <div class="row" id="features_subRows">
                         <div class="col-md-4 col-xs-5">
-                            <a href="#"> <img src={jerseyimage3} alt="pizza"
-                                class="img-responsive" /></a>
+                        <Link to="#"> <img src={jerseyimage3} alt="pizza" class="img-responsive"/></Link>     
+                            
                         </div>
                         <div class="col-md-8 col-xs-7">
                            <p className="features_sub_headline">     
@@ -87,8 +83,8 @@ class Features extends Component {
                     
                     <div class="row" id="features_subRows">
                         <div class="col-md-4 col-xs-5">
-                            <a href="#"> <img src={jerseyimage4} alt="pizza"
-                                class="img-responsive" /></a>
+                        <Link to="#"> <img src={jerseyimage4} alt="pizza" class="img-responsive"/></Link>     
+ 
                         </div>
                         <div class="col-md-8 col-xs-7">
                            <p className="features_sub_headline">     
@@ -101,7 +97,6 @@ class Features extends Component {
             </div>
         </section>
  
-
 
 
 

@@ -483,7 +483,7 @@ class Theophilus extends Component {
                                                 <ul>                                       
                                                     <li>
                                                     <Link to="#">
-                                                         <img src={andrews} alt="pizza" class="img-responsive"/>
+                                                         <img src={andrews} alt="andrews" class="img-responsive"/>
                                                         <div className="playerinfo">
                                                             <span>3</span>
                                                             <span id="playername">Andrews</span>
@@ -494,7 +494,7 @@ class Theophilus extends Component {
 
                                                     <li>
                                                         <Link to="#">
-                                                        <img src={cobby} className="img-responsive"></img>
+                                                        <img src={cobby}  alt="cobby"  className="img-responsive"></img>
                                                         <div className="playerinfo">
                                                             <span>2</span>
                                                             <span id="playername">Cobby</span>
@@ -520,7 +520,7 @@ class Theophilus extends Component {
                                             <ul>
                                                     <li>
                                                     <Link to="#">
-                                                        <img src={shargaa} className="img-responsive"></img>
+                                                        <img src={shargaa}  alt="shargaa"  className="img-responsive"></img>
                                                         <div className="playerinfo">
                                                             <span>3</span>
                                                             <span id="playername">Enock</span>
@@ -530,7 +530,7 @@ class Theophilus extends Component {
 
                                                     <li>
                                                     <Link to="#">
-                                                    <img src={cosmos} className="img-responsive"></img>
+                                                    <img src={cosmos}  alt="cosmos"  className="img-responsive"></img>
                                                         <div className="playerinfo">
                                                             <span>2</span>
                                                             <span id="playername">Cosmos</span>
@@ -556,7 +556,7 @@ class Theophilus extends Component {
                                             <ul>
                                                     <li>
                                                     <Link to="#">
-                                                        <img src={appiah} className="img-responsive"></img>
+                                                        <img src={appiah}  alt="appiah"  className="img-responsive"></img>
                                                         <div className="playerinfo">
                                                             <span>3</span>
                                                             <span id="playername">Appiah</span>
@@ -566,7 +566,7 @@ class Theophilus extends Component {
 
                                                     <li>
                                                     <Link to="#">
-                                                        <img src={theophilus} className="img-responsive"></img>
+                                                        <img src={theophilus}  alt="theophilus"  className="img-responsive"></img>
                                                         <div className="playerinfo">
                                                             <span>2</span>
                                                             <span id="playername">Theophilus</span>

@@ -468,6 +468,7 @@ class Enock extends Component {
 
                         </div>
                         <div className="col-md-3 col-xs-12">
+                       
                         <div className="row">
                                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                     <div class="panel panel-default">
@@ -483,7 +484,7 @@ class Enock extends Component {
                                                 <ul>                                       
                                                     <li>
                                                     <Link to="#">
-                                                         <img src={andrews} alt="pizza" class="img-responsive"/>
+                                                         <img src={andrews} alt="andrews" class="img-responsive"/>
                                                         <div className="playerinfo">
                                                             <span>3</span>
                                                             <span id="playername">Andrews</span>
@@ -494,7 +495,7 @@ class Enock extends Component {
 
                                                     <li>
                                                         <Link to="#">
-                                                        <img src={cobby} className="img-responsive"></img>
+                                                        <img src={cobby}  alt="cobby"  className="img-responsive"></img>
                                                         <div className="playerinfo">
                                                             <span>2</span>
                                                             <span id="playername">Cobby</span>
@@ -520,7 +521,7 @@ class Enock extends Component {
                                             <ul>
                                                     <li>
                                                     <Link to="#">
-                                                        <img src={shargaa} className="img-responsive"></img>
+                                                        <img src={shargaa}  alt="shargaa"  className="img-responsive"></img>
                                                         <div className="playerinfo">
                                                             <span>3</span>
                                                             <span id="playername">Enock</span>
@@ -530,7 +531,7 @@ class Enock extends Component {
 
                                                     <li>
                                                     <Link to="#">
-                                                        <img src={cosmos} className="img-responsive"></img>
+                                                    <img src={cosmos}  alt="cosmos"  className="img-responsive"></img>
                                                         <div className="playerinfo">
                                                             <span>2</span>
                                                             <span id="playername">Cosmos</span>
@@ -556,7 +557,7 @@ class Enock extends Component {
                                             <ul>
                                                     <li>
                                                     <Link to="#">
-                                                          <img src={appiah} className="img-responsive"></img>
+                                                        <img src={appiah}  alt="appiah"  className="img-responsive"></img>
                                                         <div className="playerinfo">
                                                             <span>3</span>
                                                             <span id="playername">Appiah</span>
@@ -566,7 +567,7 @@ class Enock extends Component {
 
                                                     <li>
                                                     <Link to="#">
-                                                          <img src={theophilus} className="img-responsive"></img>
+                                                        <img src={theophilus}  alt="theophilus"  className="img-responsive"></img>
                                                         <div className="playerinfo">
                                                             <span>2</span>
                                                             <span id="playername">Theophilus</span>
@@ -599,8 +600,6 @@ class Enock extends Component {
                                     </div>
                                 </div>
                             </div>
-
-
                             <div className="row">
                                 <img src={jerseygrid} alt="pizza" class="img-responsive" />
                             </div>

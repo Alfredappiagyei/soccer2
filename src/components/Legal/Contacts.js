@@ -1,6 +1,15 @@
 import React, {Component} from "react";
 
 
+import {
+
+    // BrowserRouter as Router,
+    // Switch,
+    // Route,
+    Link
+  
+  } from "react-router-dom";
+
 
 class Contacts extends Component {
     render () {
@@ -14,8 +23,8 @@ class Contacts extends Component {
 
                             <div className="row">
                                 - On this page<br/>
-                                <a>Fan Servis contact information</a><br/>
-                                <a>Fan Servis contact information</a>
+                                <p>Fan Servis contact information</p><br/>
+                                <p>Fan Servis contact information</p>
                             </div>
                             <hr/>
 
@@ -34,7 +43,7 @@ class Contacts extends Component {
 
 
                                <p><b>Email Us</b></p><br/>
-                               <p> We're now on Tweeter to help you with your queastions. You can find us<a href="#">@SEAHelp</a></p>
+                               <p> We're now on Tweeter to help you with your queastions. You can find us <Link to="#">@SEAHelp </Link></p>
                                <br/>
                                
                                <p><b>Tweet Us</b></p><br/>
