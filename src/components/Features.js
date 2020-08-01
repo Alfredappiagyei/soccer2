@@ -1,6 +1,21 @@
 import React, {Component} from "react";
 
-import soccerHomeimage1 from '../soccer/photos/soccer1.JPG'
+import jerseyimage1 from '../soccer/photos/Picture8.jpg'
+import jerseyimage2 from '../soccer/photos/Picture9.jpg'
+import jerseyimage3 from '../soccer/photos/Picture7.jpg'
+import jerseyimage5 from '../soccer/photos/Picture2.gif'
+import jerseyimage4 from '../soccer/photos/Picture10.jpg'
+
+
+
+import {
+
+    // BrowserRouter as Router,
+    // Switch,
+    // Route,
+    Link
+  
+  } from "react-router-dom";
 
 class Features extends Component {
     render () {
