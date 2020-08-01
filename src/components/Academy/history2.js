@@ -20,7 +20,7 @@ class History2 extends Component {
                         </div>
 
                         <div className="col-md-5 col-xs-12">
-                            <img src={pop} alt="popimage" className="img-responsive" alt="timeline" height="500px" width="500px"/>
+                            <img src={pop}  className="img-responsive" alt="timeline" height="500px" width="500px"/>
                         </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ class History2 extends Component {
                                 Ours is still being written
                             </p>
                         </div>
-                        <div className="col-md-6" className="year">
+                        <div className="col-md-6">
                             <h1><b>2019</b></h1>
                             <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
