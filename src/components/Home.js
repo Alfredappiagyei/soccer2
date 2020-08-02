@@ -30,6 +30,7 @@ import theophilus from '../soccer/photos/theophilus.JPG'
 import cobby from '../soccer/photos/cobby.JPG'
 
 
+
 import video1 from "../components/video/vid2.MP4"
 
 
@@ -43,6 +44,7 @@ import {
     Link
   
   } from "react-router-dom";
+import Footer from "./Footer";
 
 
 class Home extends Component {
@@ -157,10 +159,118 @@ class Home extends Component {
             }
         
         });
-          
-          
-          
 
+
+        // FEATURED VIDEOS
+
+           
+                
+        $(document).ready(function () {
+            var itemsMainDiv = ('.vidMultiCarousel');
+            var itemsDiv = ('.vidMultiCarousel-inner');
+            var itemWidth = "";
+        
+            $('.leftslide, .rightslide').click(function () {
+                var condition = $(this).hasClass("leftslide");
+                if (condition)
+                    click(0, this);
+                else
+                    click(1, this)
+            });
+        
+           ResCarouselSize();
+        
+        
+        
+        
+            $(window).resize(function () {
+                ResCarouselSize();
+            });
+        
+            //this function define the size of the items
+            function ResCarouselSize() {
+                var incno = 0;
+                var dataItems = ("data-items");
+                var itemClass = ('.video');
+                var id = 0;
+                var btnParentSb = '';
+                var itemsSplit = '';
+                var sampwidth = $(itemsMainDiv).width();
+                var bodyWidth = $('body').width();
+                $(itemsDiv).each(function () {
+                    id = id + 1;
+                    var itemNumbers = $(this).find(itemClass).length;
+                    btnParentSb = $(this).parent().attr(dataItems);
+                    itemsSplit = btnParentSb.split(',');
+                    $(this).parent().attr("id", "vidMultiCarousel" + id);
+        
+        
+                    if (bodyWidth >= 1200) {
+                        incno = itemsSplit[2];
+                        itemWidth = sampwidth / incno;
+                    }
+                    else if (bodyWidth >= 992) {
+                        incno = itemsSplit[2];
+                        itemWidth = sampwidth / incno;
+                    }
+                    else if (bodyWidth >= 768) {
+                        incno = itemsSplit[1];
+                        itemWidth = sampwidth / incno;
+                    }
+                    else {
+                        incno = itemsSplit[0];
+                        itemWidth = sampwidth / incno;
+                    }
+                    $(this).css({ 'transform': 'translateX(0px)', 'width': itemWidth * itemNumbers });
+                    $(this).find(itemClass).each(function () {
+                        $(this).outerWidth(itemWidth);
+                    });
+        
+                    $(".leftslide").addClass("over");
+                    $(".rightslide").removeClass("over");
+        
+                });
+            }
+        
+        
+            //this function used to move the items
+            function ResCarousel(e, el, s) {
+                var leftBtn = ('.leftslide');
+                var rightBtn = ('.rightslide');
+                var translateXval = '';
+                var divStyle = $(el + ' ' + itemsDiv).css('transform');
+                var values = divStyle.match(/-?[\d.]+/g);
+                var xds = Math.abs(values[4]);
+                if (e === 0) {
+                    translateXval = parseInt(xds) - parseInt(itemWidth * s);
+                    $(el + ' ' + rightBtn).removeClass("over");
+        
+                    if (translateXval <= itemWidth / 2) {
+                        translateXval = 0;
+                        $(el + ' ' + leftBtn).addClass("over");
+                    }
+                }
+                else if (e === 1) {
+                    var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
+                    translateXval = parseInt(xds) + parseInt(itemWidth * s);
+                    $(el + ' ' + leftBtn).removeClass("over");
+        
+                    if (translateXval >= itemsCondition - itemWidth / 2) {
+                        translateXval = itemsCondition;
+                        $(el + ' ' + rightBtn).addClass("over");
+                    }
+                }
+                $(el + ' ' + itemsDiv).css('transform', 'translateX(' + -translateXval + 'px)');
+            }
+        
+            //It is used to get some elements from btn
+            function click(ell, ee) {
+                var Parent = "#" + $(ee).parent().attr("id");
+                var slide = $(Parent).attr("data-slide");
+                ResCarousel(ell, Parent, slide);
+            }
+        
+        });
 
         return (
             <div id="body">
@@ -264,11 +374,162 @@ class Home extends Component {
                     <Link to="/seatvgo"><button id="more_button">MORE</button> </Link>
                     <h2><b>Featured Videos</b></h2>
                     </div>       
-                <div className="row">                
-                        <div className="col-md-3 col-xs-6"><video src={video1} className="img-responsive" controls></video> </div>
-                        <div className="col-md-3 col-xs-6"><video src={video1} className="img-responsive" controls></video></div>
-                        <div className="col-md-3 col-xs-6"><video src={video1} className="img-responsive" controls></video></div>
-                        <div className="col-md-3 col-xs-6"><video src={video1} className="img-responsive" controls></video></div>                                
+                <div className="row">
+                <div>
+         <div class="vidMultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
+            <div class="vidMultiCarousel-inner">
+                <div class="video">
+                    <div class="pad15">
+                     <div class="thumbnail">
+                     <video src={video1} className="img-responsive" controls></video>
+                        <div class="caption">
+                        <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
+                        <p>...</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="pad15">
+                     <div class="thumbnail">
+                     <video src={video1} className="img-responsive" controls></video>
+                    <div class="caption">
+                    <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
+                        <p>...</p>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="pad15">
+                    <div class="thumbnail">
+                    <video src={video1} className="img-responsive" controls></video>
+                    <div class="caption">
+                    <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
+                        <p>...</p>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="pad15">
+                    <div class="thumbnail">
+                    <video src={video1} className="img-responsive" controls></video>
+                    <div class="caption">
+                    <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
+                        <p>...</p>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="pad15">
+                    <div class="thumbnail">
+                    <video src={video1} className="img-responsive" controls></video>
+                    <div class="caption">
+                    <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
+                        <p>...</p>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="pad15">
+                    <div class="thumbnail">
+                    <video src={video1} className="img-responsive" controls></video>
+                    <div class="caption">
+                    <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
+                        <p>...</p>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="pad15">
+                    <div class="thumbnail">
+                    <video src={video1} className="img-responsive" controls></video>
+                    <div class="caption">
+                    <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
+                        <p>...</p>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="pad15">
+                    <div class="thumbnail">
+                    <video src={video1} className="img-responsive" controls></video>
+                    <div class="caption">
+                    <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
+                        <p>...</p>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="pad15">
+                    <div class="thumbnail">
+                    <video src={video1} className="img-responsive" controls></video>
+                    <div class="caption">
+                        <h3>Thumbnail label</h3>
+                        <p>...</p>
+                        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                
+                <div class="video">
+                    <div class="pad15">
+                    <div class="thumbnail">
+                    <video src={video1} className="img-responsive" controls></video>
+                    <div class="caption">
+                    <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
+                        <p>...</p>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="pad15">
+                    <div class="thumbnail">
+                    <video src={video1} className="img-responsive" controls></video>
+                    <div class="caption">
+                    <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
+                        <p>...</p>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="pad15">
+                    <div class="thumbnail">
+                    <video src={video1} className="img-responsive" controls></video>
+                    <div class="caption">
+                    <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
+                        <p>...</p>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="pad15">
+                    <div class="thumbnail">
+                    <video src={video1} className="img-responsive" controls></video>
+                    <div class="caption">
+                    <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
+                        <p>...</p>
+                        
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+               <button class="btn  leftslide" id="btne"><span className="glyphicon glyphicon-menu-left"></span> </button>
+                 <button class="btn  rightslide" id="btne"><span className="glyphicon glyphicon-menu-right"></span> </button>
+                       
+                 </div>
+             </div>
                 </div>
             </section>
  
@@ -764,7 +1025,8 @@ class Home extends Component {
                         <div class="col-md-4 col-xs-5">
                         <Link to="#"> <img src={soccerHomeimage2} alt="pizza" class="img-responsive"/></Link> 
                            
-                        </div>                 
+                        </div>
+                        
                         <div class="col-md-8 col-xs-7 transfare_news_sub_headline">
                         <Link to="#">
                           <h4><b>OFFICIAL:PERCIOUS BOAH JOINS DREAMS FC</b> </h4>
@@ -834,21 +1096,8 @@ class Home extends Component {
 
 
 
-   <footer class="container-fluid" id="footer-container">
-        <div class="row" id="contacts">
-            <h3 style={{color:"#fff"}}>Contact us</h3>
-            <span><i class="fa fa-envelope"><a href="mailto:appiagyeialfred815@gmail.com?
-            subject=hello%20everyone%20">soccerangels@email.com</a></i></span>
-            <span><i class="fa fa-envelope">Nname@domain.com</i></span>
-            <span><i class="fa fa-phone"></i>#########/#######</span>         
-       </div>
-        <div className="row " id="footer-first-row">
-             <span><a href="https://twitter.com/SoccerAngelAca1"><i class="fa fa-twitter"></i></a></span> 
-             <span><a href="https://web.facebook.com/Soccer-Angels-Academy-115197873244725/"><i class="fa fa-facebook"></i></a></span> 
-             <span><a  href="https://www.youtube.com/channel/UC6AD72yTtZpE7ox25eb6GZg" ><i class="fa fa-youtube"></i></a></span> 
-             <span><a href="https://www.instagram.com/p/CAIWNzvF676/"><i class="fa fa-instagram"></i></a></span>  
-           </div>      
-      
+   <footer class="container-fluid footer-container">
+           <Footer/>
       </footer>
 
      </div>     

@@ -42,6 +42,7 @@ import Theophilus from './components/firstTeam/Theophilus';
 
 
 
+
 function App() {
   return (
     <Router> 
@@ -57,7 +58,10 @@ function App() {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <img src={logo} alt="soccerangelslogo"  className="img-responsive" height="100px" width="100px" style={{borderRadius:"50%"}} />
+              <div style={{display:"flex"}}> <img src={logo} alt="soccerangelslogo"  className="img-responsive" height="100px" width="100px" style={{borderRadius:"50%"}} />
+              <Link to="/" className="navbar-brand" id="logo"><b><h2>SAFA</h2></b></Link></div>
+             
+             
             </div>
 
 
@@ -68,7 +72,6 @@ function App() {
                 <li>
                   <div class="dropdown">
                     <button class="dropbtn"><b>NEWS</b>
-                      <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
                       <Link to="/transfarenews"><b>TRANSFARE NEWS</b> </Link>
@@ -83,7 +86,6 @@ function App() {
                 <li>
                   <div class="dropdown">
                     <button class="dropbtn"><b>MATCH</b>
-                      <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
                       <Link to="/transfarenews"><b>FIXTURES AND RESULTS#</b> </Link>  
@@ -97,7 +99,6 @@ function App() {
                 <li>
                   <div class="dropdown">
                     <button class="dropbtn"><b>TEAM</b>
-                      <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
                       <Link to="/firstteam"><b>FIRST TEAM</b> </Link>
@@ -110,7 +111,6 @@ function App() {
                 <li>
                   <div class="dropdown">
                     <button class="dropbtn"><b>FANS</b>
-                      <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
                       <Link to="/seatvgo"><b>SEA TV</b> </Link>
@@ -123,7 +123,6 @@ function App() {
                 <li>
                   <div class="dropdown">
                     <button class="dropbtn"><b>ACADEMY</b>
-                      <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
                       <Link to="/history"><b>HISTORY#</b> </Link>
@@ -135,7 +134,6 @@ function App() {
                 <li>
                   <div class="dropdown">
                     <button class="dropbtn"><b>HELP</b>
-                      <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
                       <Link to="#"><b>FAQS#</b> </Link>
@@ -146,10 +144,7 @@ function App() {
                 </li>
 
               </ul>
-              <ul class="nav navbar-nav navbar-right">
-                <li><Link to="/" className="navbar-brand" id="logo"><b>SOCCER ANGELS.COM</b> </Link> </li>
-
-              </ul>
+              
             </div>
           </div>
         </nav>
@@ -171,6 +166,8 @@ function App() {
           <Route path="/history" exact component={History} /> 
           <Route path="/history2" exact component={History2} /> 
           <Route path="/atoz" exact component={Atoz} /> 
+          
+
           {/* firstteam */}
           <Route path="/appiah" exact component={Appiah} /> 
           <Route path="/cosmos" exact component={Cosmos} /> 

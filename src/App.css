@@ -57,7 +57,6 @@ section {
   text-decoration: none;
   font-weight: bolder;
   font-family: sans-serif;
-  font-style: italic;
   font-size: 20px;
   color: limegreen;
   
@@ -182,6 +181,33 @@ section {
 
 
 
+/* ------------------------
+FEATURED VIDEOS
+ ------------------------*/
+
+.exampleSlide .item {width: 20%;}
+
+.exampleSlide .item {width: 33.333%;}
+
+.exampleSlide .item {width: 50%;}
+
+.exampleSlide .item {width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------
  LATEST NEWS
  -------------------------------------------- */
@@ -282,47 +308,58 @@ padding: 0px;
  FOOTER
  ----------------------------------- */
 
-#footer-container{
+.footer-container{
   background-color: #141414;
-}
-
-#contacts{
-  min-height: 100px;
-  text-align: center;
-
-}
-#contacts span{
- font-size: 20px;
- display: inline-flex;
- margin: 50px;
- color: #fff;
- 
+  padding: 0px;
 }
 
 
-#footer-first-row{
-  min-height: 50px;
-  display: block;
-  align-content: center;
-
+.footer-container .contacts{
+  float: left;
+  margin-right: 20px;
 }
 
-#footer-first-row a{
-  color: #141414;
+
+.footer-container .socialinks{
+  float: right;
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+
+.footer-container .socialinks a{
+  color: #fff;
+  
+}
+
+
+.footer-container .contacts{
+  color: #fff;
+}
+
+
+.footer-container .contacts a{
+  color: #fff;
+  text-decoration: none;
+}
   
 
+.footer-container p{
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
 }
 
-#footer-first-row span{
- padding: 5px 10px;
- margin: 5px 10px;
- font-size: 20px;
- float: right;
- background-color: #f1f1f1;
  
+
+.footer-container img {
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 50%;
 }
-
-
+ 
+ 
 
 
 
@@ -368,19 +405,35 @@ padding: 0px;
 
 
 .MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
-.MultiCarousel{ Height: 200px;}
-    .MultiCarousel .MultiCarousel-inner { transition: 0.5s ease all; float: left; }
+.MultiCarousel{ min-height: 200px;}
+    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
         .MultiCarousel .MultiCarousel-inner .item { float: left;}
         .MultiCarousel .MultiCarousel-inner .item > div { display: block; padding:5px; margin:5px; background:#f1f1f1; color:#666;}
-    .MultiCarousel .leftLst, .MultiCarousel .rightLst { border: none; position:absolute; color: #fff; background-color: lawngreen; padding: 70px 15px;}
-    .MultiCarousel .leftLst { left:0; }
-    .MultiCarousel .rightLst { right:0; }
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst { border: none; position:absolute; color: #fff; background-color: lawngreen;
+       padding: 10px 10px; border-radius: 50%; margin-top: 80px;}
+    .MultiCarousel .leftLst { left:0; border: none; }
+    .MultiCarousel .rightLst { right:0; border: none; }
     
     .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
 
 
 
+ 
 
+
+    .vidMultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+    .vidMultiCarousel{ min-height: 200px;}
+        .vidMultiCarousel .vidMultiCarousel-inner { transition: 1s ease all; float: left; }
+            .vidMultiCarousel .vidMultiCarousel-inner .video { float: left;}
+            .vidMultiCarousel .vidMultiCarousel-inner .video > div { display: block; padding:5px; margin:5px; background:#f1f1f1; color:#666;}
+        .vidMultiCarousel .leftslide, .vidMultiCarousel .rightslide { border: none; position:absolute; color: #fff; background-color: lawngreen;
+           padding: 10px 10px; border-radius: 50%; margin-top: 80px;}
+        .vidMultiCarousel .leftslide { left:0; border: none; }
+        .vidMultiCarousel .rightslide { right:0; border: none; }
+        
+        .vidMultiCarousel .leftslide.over, .vidMultiCarousel .rightslide.over { pointer-events: none; background:#ccc; }
+    
+ 
 
 
 
