@@ -406,7 +406,7 @@ padding: 0px;
 
 .MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
 .MultiCarousel{ min-height: 200px;}
-    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+    .MultiCarousel .MultiCarousel-inner { transition: 0.5s ease all; float: left; }
         .MultiCarousel .MultiCarousel-inner .item { float: left;}
         .MultiCarousel .MultiCarousel-inner .item > div { display: block; padding:5px; margin:5px; background:#f1f1f1; color:#666;}
     .MultiCarousel .leftLst, .MultiCarousel .rightLst { border: none; position:absolute; color: #fff; background-color: lawngreen;
@@ -423,7 +423,7 @@ padding: 0px;
 
     .vidMultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
     .vidMultiCarousel{ min-height: 200px;}
-        .vidMultiCarousel .vidMultiCarousel-inner { transition: 1s ease all; float: left; }
+        .vidMultiCarousel .vidMultiCarousel-inner { transition: 0.5s ease all; float: left; }
             .vidMultiCarousel .vidMultiCarousel-inner .video { float: left;}
             .vidMultiCarousel .vidMultiCarousel-inner .video > div { display: block; padding:5px; margin:5px; background:#f1f1f1; color:#666;}
         .vidMultiCarousel .leftslide, .vidMultiCarousel .rightslide { border: none; position:absolute; color: #fff; background-color: lawngreen;

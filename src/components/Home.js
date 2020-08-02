@@ -840,39 +840,8 @@ class Home extends Component {
                  </div>
                     </div>
                 </div>
-                <div class="item">
-                    <div class="pad15">
-                    <div class="card">
-                    <Link to="/appiah">   <img src={appiah} alt="pizza"  class="img-responsive" /> </Link>   
-                      <div class="card-body">
-                      <div className="col-md-2">34</div>
-                     <div className="col-md-10"><b>Daniel</b></div>
-                      </div>
-                 </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pad15">
-                    <div class="card">
-                    <Link to="/appiah">   <img src={appiah} alt="pizza"  class="img-responsive" /> </Link>   
-                      <div class="card-body">
-                      <div className="col-md-2">34</div>
-                     <div className="col-md-10"><b>Daniel</b></div>
-                      </div>
-                 </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="pad15">
-                    <div class="card">
-                    <Link to="/appiah">   <img src={appiah} alt="pizza"  class="img-responsive" /> </Link>   
-                      <div class="card-body">
-                      <div className="col-md-2">34</div>
-                     <div className="col-md-10"><b>Daniel</b></div>
-                      </div>
-                 </div>
-                    </div>
-                </div>
+                
+               
             </div>
                <button class="btn  leftLst" id="btne"><span className="glyphicon glyphicon-menu-left"></span> </button>
                  <button class="btn  rightLst" id="btne"><span className="glyphicon glyphicon-menu-right"></span> </button>
