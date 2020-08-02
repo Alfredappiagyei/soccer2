@@ -58,9 +58,10 @@ function App() {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <div style={{display:"flex"}}> <img src={logo} alt="soccerangelslogo"  className="img-responsive" height="100px" width="100px" style={{borderRadius:"50%"}} />
-              <Link to="/" className="navbar-brand" id="logo"><b><h2>SAFA</h2></b></Link></div>
-             
+              <div style={{display:"inlineBlock"}}> 
+              <img src={logo} alt="soccerangelslogo"  className="img-responsive" height="100px" width="100px" style={{borderRadius:"50%"}} />
+              
+              </div>
              
             </div>
 
@@ -185,6 +186,7 @@ function App() {
 
 
       </div>
+      
     </Router>
     
   );
