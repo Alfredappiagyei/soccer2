@@ -23,6 +23,12 @@
 section {
   padding: 80px 0px;
 }
+
+.header {
+  font-family: 'Open Sans', sans-serif;
+  color: #141414;
+  text-decoration: none;
+}
  
 
 
@@ -215,9 +221,9 @@ FEATURED VIDEOS
 #latest_news_sub_headline  {
   color:#141414;
   text-decoration: none;
-  font-weight: bolder;
   font-size: 20px " Sans serif" ;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
 }
  
  
@@ -233,13 +239,13 @@ FEATURED VIDEOS
   font-size: 22px;
   color: #141414;
   text-decoration: none;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 30px 0px;
 }
 
 .features_main_headline{
   font-size: 30px;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   justify-content: center;
   color: #141414;
@@ -260,7 +266,7 @@ FEATURED VIDEOS
 .league{
 background: url(soccer/photos/soccer26.JPG);
 background-size: cover;
-font-family: sans-serif;
+font-family: 'Open Sans', sans-serif;
 padding: 0px;
  }
 
@@ -284,8 +290,8 @@ padding: 0px;
   color:#141414;
   text-decoration: none;
   font-weight: bolder;
-  font-size: 25px " Sans serif" ;
-  font-family: sans-serif;
+  font-size: 25px ;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -294,8 +300,9 @@ padding: 0px;
   color:#141414;
   text-decoration: none;
   font-weight: bolder;
-  font-size: 16px " Sans serif" ;
-  font-family: sans-serif;
+  font-size: 16px  ;
+  font-family: 'Open Sans', sans-serif;
+  
 }
 
  
@@ -354,9 +361,10 @@ padding: 0px;
 
 .footer-container img {
   position: relative;
-  text-align: center;
+  display: block;
   margin-top: 10px;
   border-radius: 50%;
+  margin: auto;
 }
  
  
@@ -451,11 +459,13 @@ padding: 0px;
   align-content: center;
   justify-content: center;
 }
+
+
 /* appiah */
 .appiah {
 background: url(components/firstTeam/photos/Appiah.JPG);
 background-size: cover;
-font-family: sans-serif;
+font-family: 'Open Sans', sans-serif;
 min-height: 550px;
 width: 100%;
 
@@ -471,7 +481,7 @@ width: 100%;
 .cosmos {
   background: url(components/firstTeam/photos/cosmos.JPG);
   background-size: cover;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   min-height: 550px;
   width: 100%;
   
@@ -488,7 +498,7 @@ width: 100%;
 .elvis {
   background: url(components/firstTeam/photos/Elvis.JPG);
   background-size: cover;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   min-height: 550px;
   width: 100%;
   
@@ -506,7 +516,7 @@ width: 100%;
 .enock {
   background: url(components/firstTeam/photos/shargaa.JPG);
   background-size: cover;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   min-height: 550px;
   width: 100%;
   
@@ -524,7 +534,7 @@ width: 100%;
 .cobby {
   background: url(components/firstTeam/photos/cobby.JPG);
   background-size: cover;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   min-height: 550px;
   width: 100%;
   
@@ -542,7 +552,7 @@ width: 100%;
 .andrews {
   background: url(components/firstTeam/photos/Andrews.JPG);
   background-size: cover;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   min-height: 550px;
   width: 100%;
   
@@ -560,7 +570,7 @@ width: 100%;
 .richmond {
   background: url(components/firstTeam/photos/Richmond.JPG);
   background-size: cover;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   min-height: 550px;
   width: 100%;
   
@@ -578,7 +588,7 @@ width: 100%;
 .theophilus {
   background: url(components/firstTeam/photos/theophilus.JPG);
   background-size: cover;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   min-height: 550px;
   width: 100%;
   
@@ -615,7 +625,7 @@ width: 100%;
   background-color: lawngreen;
    color: #fff;
   font-size: 20px;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
 }
 
@@ -624,7 +634,7 @@ width: 100%;
   padding: 10px 128px;
   color: #fff;
   font-size: 20px;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
 
 }

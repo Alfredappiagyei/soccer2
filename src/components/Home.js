@@ -372,7 +372,7 @@ class Home extends Component {
            <section className="container-fluid"> 
                   <div className="row" >
                     <Link to="/seatvgo"><button id="more_button">MORE</button> </Link>
-                    <h2><b>Featured Videos</b></h2>
+                    <Link to="#"  className="header"> <h2><b>Featured videos</b></h2></Link> 
                     </div>       
                 <div className="row">
                 <div>
@@ -550,7 +550,7 @@ class Home extends Component {
 
           <section  class="container-fluid" id="latest_news">
               <div className="row">
-              <Link to="#"> <h2><b>Latest News</b></h2></Link>                   
+              <Link to="#"  className="header"> <h2><b>Latest News</b></h2></Link>                   
               </div>
             
                 <div class="row" id="latest_news_rows">                 
@@ -867,7 +867,7 @@ class Home extends Component {
      
          <section class="container-fluid">
          <div className="row">
-              <Link to="#"> <h2><b>Features</b></h2></Link>                   
+              <Link to="#"  className="header"> <h2><b>Features</b></h2></Link>                   
               </div>
    
             <div class="row" id="features_mainRows">
@@ -967,7 +967,7 @@ class Home extends Component {
 
      <section class="container-fluid" id="transfare_news_container">
          <div className="row">
-              <Link to="#"> <h2><b>Transfare News</b></h2></Link>                   
+              <Link to="#" className="header"> <h2><b>Transfare News</b></h2></Link>                   
               </div>
          
 
