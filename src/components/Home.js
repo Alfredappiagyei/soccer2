@@ -471,9 +471,8 @@ class Home extends Component {
                     <div class="thumbnail">
                     <video src={video1} className="img-responsive" controls></video>
                     <div class="caption">
-                        <h3>Thumbnail label</h3>
+                    <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
                         <p>...</p>
-                        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
                     </div>
                     </div>
                     </div>
