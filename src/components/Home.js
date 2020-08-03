@@ -31,7 +31,8 @@ import cobby from '../soccer/photos/cobby.JPG'
 
 
 
-import video1 from "../components/video/vid2.MP4"
+
+
 
 
 
@@ -381,7 +382,9 @@ class Home extends Component {
                 <div class="video">
                     <div class="pad15">
                      <div class="thumbnail">
-                     <video src={video1} className="img-responsive" controls></video>
+                     <iframe width="560" height="315" src="https://www.youtube.com/embed/_-Oe7lq0tBc" className="img-responsive" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+                     </iframe>
                         <div class="caption">
                         <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
                         <p>...</p>
@@ -392,7 +395,9 @@ class Home extends Component {
                 <div class="video">
                     <div class="pad15">
                      <div class="thumbnail">
-                     <video src={video1} className="img-responsive" controls></video>
+                     <iframe width="560" height="315" src="https://www.youtube.com/embed/Hz1m-qHj7cI" frameborder="0"  className="img-responsive" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+                     </iframe>
                     <div class="caption">
                     <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
                         <p>...</p>
@@ -403,7 +408,8 @@ class Home extends Component {
                 <div class="video">
                     <div class="pad15">
                     <div class="thumbnail">
-                    <video src={video1} className="img-responsive" controls></video>
+                    <iframe width="560" height="315" className="img-responsive" src="https://www.youtube.com/embed/mVVehlZoBU8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>                
                     <div class="caption">
                     <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
                         <p>...</p>
@@ -414,7 +420,7 @@ class Home extends Component {
                 <div class="video">
                     <div class="pad15">
                     <div class="thumbnail">
-                    <video src={video1} className="img-responsive" controls></video>
+                    ......
                     <div class="caption">
                     <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
                         <p>...</p>
@@ -425,7 +431,7 @@ class Home extends Component {
                 <div class="video">
                     <div class="pad15">
                     <div class="thumbnail">
-                    <video src={video1} className="img-responsive" controls></video>
+                    ......
                     <div class="caption">
                     <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
                         <p>...</p>
@@ -436,7 +442,7 @@ class Home extends Component {
                 <div class="video">
                     <div class="pad15">
                     <div class="thumbnail">
-                    <video src={video1} className="img-responsive" controls></video>
+                    ......
                     <div class="caption">
                     <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
                         <p>...</p>
@@ -447,7 +453,7 @@ class Home extends Component {
                 <div class="video">
                     <div class="pad15">
                     <div class="thumbnail">
-                    <video src={video1} className="img-responsive" controls></video>
+                   ..............
                     <div class="caption">
                     <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
                         <p>...</p>
@@ -458,7 +464,7 @@ class Home extends Component {
                 <div class="video">
                     <div class="pad15">
                     <div class="thumbnail">
-                    <video src={video1} className="img-responsive" controls></video>
+                   ..............
                     <div class="caption">
                     <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
                         <p>...</p>
@@ -469,7 +475,7 @@ class Home extends Component {
                 <div class="video">
                     <div class="pad15">
                     <div class="thumbnail">
-                    <video src={video1} className="img-responsive" controls></video>
+                    ................
                     <div class="caption">
                     <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
                         <p>...</p>
@@ -478,51 +484,7 @@ class Home extends Component {
                     </div>
                 </div>
                 
-                <div class="video">
-                    <div class="pad15">
-                    <div class="thumbnail">
-                    <video src={video1} className="img-responsive" controls></video>
-                    <div class="caption">
-                    <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
-                        <p>...</p>
-                    </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="video">
-                    <div class="pad15">
-                    <div class="thumbnail">
-                    <video src={video1} className="img-responsive" controls></video>
-                    <div class="caption">
-                    <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
-                        <p>...</p>
-                    </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="video">
-                    <div class="pad15">
-                    <div class="thumbnail">
-                    <video src={video1} className="img-responsive" controls></video>
-                    <div class="caption">
-                    <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
-                        <p>...</p>
-                    </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="video">
-                    <div class="pad15">
-                    <div class="thumbnail">
-                    <video src={video1} className="img-responsive" controls></video>
-                    <div class="caption">
-                    <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
-                        <p>...</p>
-                        
-                    </div>
-                    </div>
-                    </div>
-                </div>
+                
             </div>
                <button class="btn  leftslide" id="btne"><span className="glyphicon glyphicon-menu-left"></span> </button>
                  <button class="btn  rightslide" id="btne"><span className="glyphicon glyphicon-menu-right"></span> </button>
@@ -991,7 +953,7 @@ class Home extends Component {
                 <div class="col-md-6">
                     <div class="row" id="features_subRows">
                         <div class="col-md-4 col-xs-5">
-                        <Link to="#"> <img src={soccerHomeimage2} alt="pizza" class="img-responsive"/></Link> 
+                         <Link to="#"> <img src={soccerHomeimage2} alt="pizza" class="img-responsive"/></Link> 
                            
                         </div>
                         

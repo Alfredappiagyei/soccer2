@@ -17,12 +17,10 @@ import {
 
 } from "react-router-dom";
 
-import Firstteam from './components/Team/Firstteam';
-import Academy from './components/Team/Academy';
+import Firstteam from './components/Team/Secdiv';
+import Academy from './components/Team/Uten';
 import SocialMedia from './components/Fans/SocialMedia';
 import SeatvGo from './components/Fans/SeatvGo';
-import Under23 from './components/Match/Under23';
-import Under18 from './components/Match/Under18';
 import Atoz from './components/Legal/Atoz';
 import History from './components/Academy/History';
 import History2 from './components/Academy/history2';
@@ -38,6 +36,13 @@ import Cobby from './components/firstTeam/Cobby';
 import Andrews from './components/firstTeam/Andrews';
 import Richmond from './components/firstTeam/Richmond';
 import Theophilus from './components/firstTeam/Theophilus';
+import Uten from './components/Team/Uten';
+import Uthirdteen from './components/Team/Uthidteen';
+import Secdiv from './components/Team/Secdiv';
+import Thirdiv from './components/Team/Thirdiv';
+import Useventeen from './components/Team/Useventeen';
+
+
 
 
 
@@ -48,7 +53,7 @@ function App() {
     <Router> 
       <div>
 
-        <nav class="navbar navbar-default" style={{position:"relative",top:"0px", left:"0px", zIndex:"2",  backgroundColor: '#444444', color: "#fff", alignContent:"center" }}>
+        <nav class="navbar navbar-default" style={{position:"relative", width:"100%",marginBottom:"0px", left:"0px", border:"none",borderRadius:"none", zIndex:"2",  backgroundColor: '#444444', color: "#fff", alignContent:"center" }}>
           <div class="container-fluid">
 
             <div class="navbar-header">
@@ -58,8 +63,8 @@ function App() {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <div style={{display:"inlineBlock"}}> 
-              <img src={logo} alt="soccerangelslogo"  className="img-responsive" height="100px" width="100px" style={{borderRadius:"50%"}} />     
+              <div> 
+              <img src={logo} alt="soccerangelslogo" id="logo"  className="img-responsive" height="100px" width="100px" style={{borderRadius:"50%"}} />     
               </div>
              
             </div>
@@ -67,17 +72,16 @@ function App() {
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li> <button class="dropbtn"><Link to="/"><b>HOME</b></Link></button></li>
-                <li> <button class="dropbtn"><Link to="/features"><b>FEATURES</b></Link></button></li>
+                <li ><button class="dropbtn"><Link to="/"><p>HOME</p></Link></button></li>
+                <li><button class="dropbtn"><Link to="/features"><p>FEATURES</p></Link></button></li>
                 <li>
                   <div class="dropdown">
-                    <button class="dropbtn"><b>NEWS</b>
+                    <button class="dropbtn"><p>NEWS</p>
                     </button>
                     <div class="dropdown-content">
-                      <Link to="/transfarenews"><b>TRANSFARE NEWS</b> </Link>
-                      <Link to="/#"><b>LATEST NEWS#</b> </Link>
-                      <Link to="#"><b>FIRST TEAM#</b> </Link>
-                      <Link to="#"><b>ANOUNCEMENTS#</b> </Link>
+                      <Link to="/transfarenews"><p>LATEST NEWS#</p> </Link>
+                      <Link to="#"><p>FIRST TEAM#</p> </Link>
+                      <Link to="#"><p>ANOUNCEMENTS#</p> </Link>
 
                     </div>
                   </div>
@@ -85,36 +89,30 @@ function App() {
 
                 <li>
                   <div class="dropdown">
-                    <button class="dropbtn"><b>MATCH</b>
+                    <button class="dropbtn"><p>FIXTURES</p>
                     </button>
                     <div class="dropdown-content">
                       <Link to="/transfarenews"><b>FIXTURES AND RESULTS#</b> </Link>  
-                      <Link to="/under23"><b>U23S</b> </Link>
-                      <Link to="/under18"><b>U18S</b> </Link>
-                      <Link to="#"><b>LEAGUE TABLE#</b> </Link>
+                      <Link to="/under23"><p>U10S</p> </Link>
+                      <Link to="/under18"><p>U13S</p> </Link>
+                      <Link to="/under18"><p>U17S</p> </Link>
+                      <Link to="/under18"><p>2ND DIVISION</p> </Link>
+                      <Link to="/under18"><p>3RD DIVISION</p> </Link>
+                      <Link to="#"><p>LEAGUE TABLE#</p> </Link>
                     </div>
                   </div>
                 </li>
 
                 <li>
                   <div class="dropdown">
-                    <button class="dropbtn"><b>TEAM</b>
+                    <button class="dropbtn"><p>TEAM</p>
                     </button>
                     <div class="dropdown-content">
-                      <Link to="/firstteam"><b>FIRST TEAM</b> </Link>
-                      <Link to="/academy"><b>ACADEMY</b> </Link>
-                    </div>
-                  </div>
-                </li>
-
-               
-                <li>
-                  <div class="dropdown">
-                    <button class="dropbtn"><b>FANS</b>
-                    </button>
-                    <div class="dropdown-content">
-                      <Link to="/seatvgo"><b>SEA TV</b> </Link>
-                      <Link to="/socialmedia"><b>SOCIAL MEDIA</b> </Link>
+                      <Link to="/under10"><p>U10</p> </Link>
+                      <Link to="/under13"><p>U13</p> </Link>
+                      <Link to="/under17"><p>U17</p> </Link>
+                      <Link to="/secondiv"><p>3RD DIVISION</p> </Link>
+                      <Link to="/thirdiv"><p>2ND DIVISION</p> </Link>
                     </div>
                   </div>
                 </li>
@@ -122,23 +120,36 @@ function App() {
                
                 <li>
                   <div class="dropdown">
-                    <button class="dropbtn"><b>ACADEMY</b>
+                    <button class="dropbtn"><p>FANS</p>
                     </button>
                     <div class="dropdown-content">
-                      <Link to="/history"><b>HISTORY#</b> </Link>
-                      <Link to="#"><b>HOUNORS#</b> </Link>
+                      <Link to="/seatvgo"><p>SEA TV</p> </Link>
+                      <Link to="/socialmedia"><p>SOCIAL MEDIA</p> </Link>
+                    </div>
+                  </div>
+                </li>
+
+               
+                <li>
+                  <div class="dropdown">
+                    <button class="dropbtn"><p>ACADEMY</p>
+                    </button>
+                    <div class="dropdown-content">
+                      <Link to="/history"><p>HISTORY#</p> </Link>
+                      <Link to="#"><p>HOUNORS#</p> </Link>
                     </div>
                   </div>
                 </li>
 
                 <li>
                   <div class="dropdown">
-                    <button class="dropbtn"><b>HELP</b>
+                  <button class="dropbtn"><p>HELP</p>
                     </button>
+                    
                     <div class="dropdown-content">
-                      <Link to="#"><b>FAQS#</b> </Link>
-                      <Link to="/contacts"><b>CONTACT</b> </Link>
-                      <Link to="/atoz"><b>A - Z#</b> </Link>
+                      <Link to="#"><p>FAQS#</p> </Link>
+                      <Link to="/contacts"><p>CONTACT </p></Link>
+                      <Link to="/atoz"><p>A - Z#</p> </Link>
                     </div>
                   </div>
                 </li>
@@ -161,8 +172,11 @@ function App() {
           <Route path="/academy" exact component={Academy} /> 
           <Route path="/socialmedia" exact component={SocialMedia} /> 
           <Route path="/seatvgo" exact component={SeatvGo} /> 
-          <Route path="/under23" exact component={Under23} /> 
-          <Route path="/under18" exact component={Under18} /> 
+          <Route path="/under10" exact component={Uten} /> 
+          <Route path="/under13" exact component={Uthirdteen} /> 
+          <Route path="/under17" exact component={Useventeen} /> 
+          <Route path="/secondiv" exact component={Secdiv} /> 
+          <Route path="/thirdiv" exact component={Thirdiv} /> 
           <Route path="/history" exact component={History} /> 
           <Route path="/history2" exact component={History2} /> 
           <Route path="/atoz" exact component={Atoz} /> 
