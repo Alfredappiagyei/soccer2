@@ -382,7 +382,7 @@ class Home extends Component {
                 <div class="video">
                     <div class="pad15">
                      <div class="thumbnail">
-                     <iframe width="560" height="315" src="https://www.youtube.com/embed/_-Oe7lq0tBc" className="img-responsive" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                     <iframe width="560" title="soccerangels" height="315" src="https://www.youtube.com/embed/_-Oe7lq0tBc" className="img-responsive" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 
                      </iframe>
                         <div class="caption">
@@ -395,7 +395,7 @@ class Home extends Component {
                 <div class="video">
                     <div class="pad15">
                      <div class="thumbnail">
-                     <iframe width="560" height="315" src="https://www.youtube.com/embed/Hz1m-qHj7cI" frameborder="0"  className="img-responsive" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                     <iframe width="560" height="315" title="soccerangels" src="https://www.youtube.com/embed/Hz1m-qHj7cI" frameborder="0"  className="img-responsive" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 
                      </iframe>
                     <div class="caption">
@@ -408,7 +408,7 @@ class Home extends Component {
                 <div class="video">
                     <div class="pad15">
                     <div class="thumbnail">
-                    <iframe width="560" height="315" className="img-responsive" src="https://www.youtube.com/embed/mVVehlZoBU8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    <iframe width="560" height="315" title="soccerangels" className="img-responsive" src="https://www.youtube.com/embed/mVVehlZoBU8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                         </iframe>                
                     <div class="caption">
                     <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
