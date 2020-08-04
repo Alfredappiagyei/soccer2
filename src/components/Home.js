@@ -5,10 +5,8 @@ import React, {Component} from "react";
 
 import $ from "jquery"
 
-
-
 import soccerHomeimage1 from '../soccer/photos/soccer1.JPG'
-import soccerHomeimage2 from '../soccer/photos/soccer30.jpg'
+import soccerHomeimage2 from '../soccer/photos/soccer31.jpg'
 import soccerHomeimage3 from '../soccer/photos/soccer14.JPG'
 import soccerangelslogo from '../soccer/photos/soccerangelslogo.JPG'
 import Chairmanshipposition from '../soccer/photos/chaimanship.JPG'
@@ -18,7 +16,7 @@ import jerseyimage3 from '../soccer/photos/Picture7.jpg'
 import jerseyimage5 from '../soccer/photos/Picture2.gif'
 import jerseygrid from '../soccer/photos/0.gif'
 import jerseyimage4 from '../soccer/photos/Picture10.jpg'
-
+import asante from '../soccer/photos/W-asante.JPG'
 // profile images
 import appiah from '../soccer/photos/Appiah.JPG'
 import elvis  from '../soccer/photos/Elvis.JPG'
@@ -28,6 +26,7 @@ import richmond from '../soccer/photos/Richmond.JPG'
 import shargaa from '../soccer/photos/shargaa.JPG'
 import theophilus from '../soccer/photos/theophilus.JPG'
 import cobby from '../soccer/photos/cobby.JPG'
+import ketu from '../soccer/photos/Ketu.JPG'
 
 
 
@@ -274,7 +273,7 @@ class Home extends Component {
         });
 
         return (
-            <div id="body">
+            <div className="body">
 
                 <header class="container-fluid">        
                  <div class="row" >
@@ -292,14 +291,9 @@ class Home extends Component {
                             <div class="item active"  id="carousel_item1" >
                             <div class="row">
                                     <div class="col-xs-12 col-md-4"  id="lastmatch_colon">
-                                        <p id="last_match_header_text"><b>LAST MATCH</b></p>
-                                        <div class="col-xs-4  col-md-4"> <img src={soccerangelslogo} alt="pizza"
-                                            class="img-responsive" /><p >Soccer Angels Academy</p></div>
-                                        <div class="col-xs-4  col-md-4">
-                                            <button id="last_match_button"><b>2-2</b></button>
-                                        </div>
-                                        <div class="col-xs-4  col-md-4"> <img src={soccerHomeimage1} alt="pizza"
-                                            class="img-responsive" /><p ></p>Coperative Utd</div><br />
+                                    <div className="row" style={{minHeight:"200px",}}>
+                             <img src={jerseygrid} alt="jersaecollection" class="img-responsive" />                 
+                        </div>
                                        
                                     </div>
                                     <div class="col-xs-12 col-md-8" >
@@ -373,7 +367,7 @@ class Home extends Component {
            <section className="container-fluid"> 
                   <div className="row" >
                     <Link to="/seatvgo"><button id="more_button">MORE</button> </Link>
-                    <Link to="#"  className="header"> <h2><b>Featured videos</b></h2></Link> 
+                    <Link to="#"  className="header"> <h2>Featured videos</h2></Link> 
                     </div>       
                 <div className="row">
                 <div>
@@ -388,7 +382,8 @@ class Home extends Component {
                         <div class="caption">
                         <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
                         <p>...</p>
-                        </div>
+                        </div>  
+
                         </div>
                     </div>
                 </div>
@@ -418,7 +413,7 @@ class Home extends Component {
                     </div>
                 </div>
                 <div class="video">
-                    <div class="pad15">
+                    <div                    class="pad15">
                     <div class="thumbnail">
                     ......
                     <div class="caption">
@@ -501,18 +496,11 @@ class Home extends Component {
 
 
 
-
-
-
-
-
-          
-            
-
+ 
 
           <section  class="container-fluid" id="latest_news">
               <div className="row">
-              <Link to="#"  className="header"> <h2><b>Latest News</b></h2></Link>                   
+              <Link to="#"  className="header"> <h2>Latest News</h2></Link>                   
               </div>
             
                 <div class="row" id="latest_news_rows">                 
@@ -532,10 +520,10 @@ class Home extends Component {
                                     </p>   
                                     </div>
                                 </div>
-
+                                <hr/>
                                 <div class="row" >
                                     <div class="col-md-4 col-xs-4">
-                                    <Link to="#"><img src={soccerHomeimage1} alt="pizza"
+                                    <Link to="#"><img src={soccerHomeimage2} alt="pizza"
                                             class="img-responsive" /></Link>  
                                     </div>
                                     <div class="col-md-8 col-xs-8">
@@ -546,6 +534,36 @@ class Home extends Component {
                                     </p>   
                                     </div>
                                 </div>
+                                <hr/>
+                                <div class="row" >
+                                    <div class="col-md-4 col-xs-4">
+                                    <Link to="#"><img src={asante} alt="pizza"
+                                            class="img-responsive" /></Link>  
+                                    </div>
+                                    <div class="col-md-8 col-xs-8">
+                                    <p className="latest_news_sub_headline">     
+                                       Soccer Angels Academy has officcially appointed Mr.WILLIAM ASANTE as the new 
+                                       communication director of the team.
+                                                                                    
+                                    </p>   
+                                    </div>
+                                </div>
+                                <hr/>
+
+                                <div class="row" >
+                                    <div class="col-md-4 col-xs-4">
+                                    <Link to="#"><img src={asante} alt="pizza"
+                                            class="img-responsive" /></Link>  
+                                    </div>
+                                    <div class="col-md-8 col-xs-8">
+                                    <p className="latest_news_sub_headline">     
+                                       Soccer Angels Academy has officcially appointed NANA KWAKU PASCAL (Head of sports, SPLASH FM) as
+                                       Communication Team member .
+                                                                                    
+                                    </p>   
+                                    </div>
+                                </div>
+
 
                             </div>
 
@@ -564,7 +582,7 @@ class Home extends Component {
                                        
                                     </div>
                                 </div>
-
+                                <hr/>
                                 <div class="row">
                                     <div class="col-md-4 col-xs-4">
                                     <Link to="#"><img src={jerseyimage2} alt="pizza"
@@ -573,7 +591,21 @@ class Home extends Component {
                                     </div>
                                     <div class="col-md-8 col-xs-8">
                                     <p className="latest_news_sub_headline">     
-                                        Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod                                                                                                      
+                                        Soccer Angels home tracksuit                                                                                                     
+                                    </p>                                         
+                                    </div>
+                                </div>
+                                  <hr/>
+                                <div class="row">
+                                    <div class="col-md-4 col-xs-4">
+                                    <Link to="#"><img src={jerseyimage2} alt="pizza"
+                                            class="img-responsive" /></Link>  
+                                       
+                                    </div>
+                                    <div class="col-md-8 col-xs-8">
+                                    <p className="latest_news_sub_headline">     
+                                       Soccer Angels Academy has officcially appointed JAY JAY (Sports presenter at NKWA FM) as the new 
+                                       Deputy communication director of the team.                                                                                                   
                                     </p>                                         
                                     </div>
                                 </div>
@@ -581,6 +613,10 @@ class Home extends Component {
                             </div>
                           </div>
                         </div>
+
+
+
+                        
 
            
                        <div class="col-md-3 col-xs-12">
@@ -615,7 +651,7 @@ class Home extends Component {
        <div className="row">
            <div className="col-md-6">fghjkbvcxcvbnm,.,mn</div>
            <div className="col-md-6  league_second_colon" >
-               <h1><b>OFFICIALL ANOUNCEMENT</b></h1>
+               <h1>OFFICIALL ANOUNCEMENT</h1>
                <ul>
                    <li>ISSAC ENTSIE</li>
                    <li>BENJAMIN APPIAH</li>
@@ -624,7 +660,7 @@ class Home extends Component {
                    <li>ERNEST OPPONG</li>
                  
                </ul>
-               <h1><b>JOINS THE SENIOR SIDE OF SOCCER ANGELS ACADEMY</b></h1>
+               <h2>JOINS THE SENIOR SIDE OF SOCCER ANGELS ACADEMY</h2>
            </div>
        </div>
        </div>
@@ -761,10 +797,10 @@ class Home extends Component {
                 <div class="item">
                     <div class="pad15">
                     <div class="card">
-                    <Link to="/appiah">   <img src={appiah} alt="pizza"  class="img-responsive" /> </Link>   
+                    <Link to="/ketu">   <img src={ketu} alt="pizza"  class="img-responsive" /> </Link>   
                       <div class="card-body">
                       <h4><strong>3</strong></h4>
-                      <h5><b>Daniel</b></h5>   
+                      <h5><b>Ketu</b></h5>   
                       </div>
                  </div>
                     </div>
@@ -827,9 +863,9 @@ class Home extends Component {
 
 
      
-         <section class="container-fluid">
+         <section class="container-fluid" id="features">
          <div className="row">
-              <Link to="#"  className="header"> <h2><b>Features</b></h2></Link>                   
+              <Link to="#"  className="header"> <h2>Features</h2></Link>                   
               </div>
    
             <div class="row" id="features_mainRows">
@@ -927,9 +963,9 @@ class Home extends Component {
 
 
 
-     <section class="container-fluid" id="transfare_news_container">
+     <section class="container-fluid" id="transfare_news">
          <div className="row">
-              <Link to="#" className="header"> <h2><b>Transfare News</b></h2></Link>                   
+              <Link to="#" className="header"> <h2>Transfare News</h2></Link>                   
               </div>
          
 
@@ -937,7 +973,7 @@ class Home extends Component {
                 <div className="col-md-6">
                     <div className="row" id="features_subRows">
                         <div className="col-md-12 col-xs-12">
-                        <Link to="#"> <img src={soccerHomeimage3} alt="pizza" class="img-responsive"/></Link>                            
+                        <Link to="#"> <img src={soccerHomeimage3} alt="angels" class="img-responsive"/></Link>                            
                          <div className="line"></div>
                         </div>
                         <div className="col-md-12 col-xs-12">

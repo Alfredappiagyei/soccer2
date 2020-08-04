@@ -9,6 +9,7 @@ import {
     Link
   
   } from "react-router-dom";
+import Footer from "../Footer";
 
 
 class Contacts extends Component {
@@ -32,22 +33,25 @@ class Contacts extends Component {
                             <div className="row">
                                <p><h3>Fans Services contact information</h3></p><br/>
 
-                               <p>Need help with <b>ticketing</b>, SEA Oficial Membership, Statium Tours, The Online Store,
-                               SEATV GO, or have a general feedback about you <b>SEA</b> <b>Experience</b>? Here are the ways
-                               you can find an answer or get in touch:</p><br/>
+                               <p>Need help with <b  style={{color:"lawngreen"}}>ticketing</b>, SEA Oficial Membership, Statium Tours, The Online Store,
+                               SEATV GO, or have a general feedback about you <b  style={{color:"lawngreen"}}>SEA</b> <b style={{color:"lawngreen"}}>Experience</b>? Here are the ways
+                               you  can find an answer or get in touch:</p><br/>
 
 
 
                                <p><b>Call Us</b></p><br/>
-                               <p>For all Enquiries_....</p><br/>
+                               <p>For all Enquiries <a href="tel:+233240311729"  style={{textDecoration:"none",color:"lawngreen"}}> +233 240311729 </a>/ <a href="tel:+233547908886"  style={{textDecoration:"none",color:"lawngreen"}}> +233 240311729 </a></p><br/>
 
 
                                <p><b>Email Us</b></p><br/>
-                               <p> We're now on Tweeter to help you with your queastions. You can find us <Link to="#">@SEAHelp </Link></p>
+                                <span className="contacts"><i class="fa fa-envelope"></i><a href="mailto:soccerangelsa67@gmail.com? "  style={{textDecoration:"none",color:"lawngreen"}}> soccerangelsa67@gmail.com</a></span><br/>
+                                <span className="contacts"><i class="fa fa-envelope"></i><a href="mailto:soccerangels@gmail.com? "  style={{textDecoration:"none",color:"lawngreen"}}> soccerangels@gmail.com</a></span>
+                              
                                <br/>
                                
                                <p><b>Tweet Us</b></p><br/>
-                               <p>For all Enquiries_....</p>
+                               <p> We're now on Tweeter to help you with your queastions. You can find us <a href="https://twitter.com/SoccerAngelAca1" style={{textDecoration:"none",color:"lawngreen"}}>@SAFA</a></p><br/>
+                               
                                <br/>
 
                                <p><b>Team address</b></p>
@@ -67,6 +71,9 @@ class Contacts extends Component {
                     </div>
                 </div>
         
+                <div class="container-fluid"  style={{padding:"0px"}}>
+                   <Footer/>
+                </div>
          </div>
 
 

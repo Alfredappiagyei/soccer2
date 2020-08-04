@@ -7,6 +7,7 @@ import socialmediayoutubeimage from "../Fans/photos/so5.JPG"
 // import socialmediasnapchatimage from "../Fans/photos/so6.JPG"
 
 import socialmediafirstimage from '../Fans/photos/so8.JPG'
+import Footer from "../Footer";
 
 
 
@@ -41,8 +42,8 @@ class SocialMedia extends Component {
 
                             <div className="row">
                                 <a href="https://twitter.com/SoccerAngelAca1"><img src={socialmediatweeterimage} alt="angels" class="img-responsive" /></a>
-                                <h4>Follo us <a href="https://twitter.com/SoccerAngelAca1">@SEA</a> for breaking news,stats,team news, videos,photos and much more.</h4>
-                            </div>
+                                <h4>Follo us <a href="https://twitter.com/SoccerAngelAca1">@SEA</a>for breaking news,stats,team news, videos,photos and much more.</h4>
+                            </div> 
                             <hr />
 
                             <div className="row">
@@ -63,7 +64,8 @@ class SocialMedia extends Component {
                             <hr /> */}
 
                             <div className="row">
-                                <a  style={{justifyContent:"center"}}  href="https://www.youtube.com/channel/UC6AD72yTtZpE7ox25eb6GZg"><img src={socialmediayoutubeimage} alt="youtube" class="img-responsive" /></a>
+                                
+                                <a  style={{justifyContent:"center"}} style={{margin:"auto",position:"relative"}}  href="https://www.youtube.com/channel/UC6AD72yTtZpE7ox25eb6GZg"><img src={socialmediayoutubeimage} alt="youtube" class="img-responsive" /></a>
                                 <h4>
                                     Watch exclusive video content on the official SEA YouTube channel.With hundreds
                                     of videos posted, it's the best way to watch the best clips from the academy
@@ -77,8 +79,8 @@ class SocialMedia extends Component {
 
 
 
-                <div class="container-fluid" id="footer_first_container">
-
+                <div class="container-fluid" style={{padding:"0px"}}>
+                <Footer/>
                  
                 </div>
 

@@ -18,6 +18,7 @@ import {
     Link
   
   } from "react-router-dom";
+import Footer from "../Footer";
 
 class Appiah extends Component {
     render() {
@@ -46,9 +47,9 @@ class Appiah extends Component {
                                 <nav class="navbar navbar-default" style={{ backgroundColor: '#333333', color: "#fff", }}>
                                     <div class="container-fluid">
                                         <div class="navbar-header">
-                                            <Link to="/firstteam" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", background: "lawngreen" }}><b>Daniel Appiah</b> </Link>
+                                            <Link to="/firstteam" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", background: "lawngreen" }}><b>Appiah</b> </Link>
                                         
-                                            <Link to="/academy" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", fontStyle: "linethrough" }}><b>Videos</b> </Link>
+                                            {/* <Link to="/academy" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", fontStyle: "linethrough" }}><b>Videos</b> </Link> */}
 
                                         </div>
                                     </div>
@@ -606,6 +607,9 @@ class Appiah extends Component {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="container-fluid"  style={{padding:"0px"}}>
+                   <Footer/>
                 </div>
             </div>
 

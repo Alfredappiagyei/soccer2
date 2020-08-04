@@ -1,9 +1,15 @@
 import React, { Component } from "react";
 import appiah from '../Team/photos/Appiah.JPG' 
-import jerseygrid from '../Team/photos/0.gif'
-
-import second from "./photos/soccer11.JPG"
-
+import jerseygrid from './photos/0.gif'
+import andrews from "./photos/Andrews.JPG"
+import richmond from "./photos/richmond.JPG"
+import elvis from "./photos/Elvis.JPG"
+import ketu from "./photos/Ketu.JPG"
+import cosmos from "./photos/cosmos.JPG"
+import shargaa from "./photos/shargaa.JPG"
+import theophilus from "./photos/theophilus.JPG"
+import Seconddivission from "./photos/academy.JPG"
+import cobby from "./photos/cobby.JPG"
 import {
 
     // BrowserRouter as Router,
@@ -19,27 +25,26 @@ class Secdiv extends Component {
     render() {
         return (
             <div>
-
                 <div className="container">
                 <div className="line"></div>
                     <div className="row">
                         <div className="col-md-9">
                             <div className="row" style={{ backgroundColor: "#444444", color: "lawngreen" }}>
-                                <h3><b>FIRST TEAM</b></h3>
+                                <h3><b>SECOND DIVISION</b></h3>
                             </div>
                               <div className="line"></div>
                             <div className="row">
-                                 <img src={second} alt="angels"
-                                class="img-responsive" />
+                                 <img src={Seconddivission } alt="angels"
+                                class="img-responsive" /> 
                             </div>
                             <div className="line"></div>
                             <div className="row">
                                 <nav class="navbar navbar-default" style={{ backgroundColor: '#333333', color: "#fff", }}>
                                     <div class="container-fluid">
                                         <div class="navbar-header">
-                                            <Link to="/firstteam" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", }}><b>First Team</b> </Link>
-                                            <Link to="#" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", }}><b>Women </b> </Link>
-                                            <Link to="/academy" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", }}><b>Academy</b> </Link>
+                                            <Link to="/firstteam" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", }}><b>Second Division</b> </Link>
+                                            
+                
 
                                         </div>
                                     </div>
@@ -91,7 +96,7 @@ class Secdiv extends Component {
                             </div>
                             <div class="row line"></div>
                             <div className="row">
-                            <Link to="#"> 
+                            <Link to="/appiah"> 
                                 <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
                                 <div className="col-md-8">
                                      <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
@@ -102,35 +107,35 @@ class Secdiv extends Component {
                                 </Link>
 
 
-                                <Link to="#"> 
+                                <Link to="/richmond"> 
                                 <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
                                 <div className="col-md-8">
-                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                     <img src={richmond} alt="pizza"  class="img-responsive" width="100%" height="200px" />
                                     </div>
                                     <div className="col-md-1" id="jerseynumber"><b>3</b></div>
-                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
+                                    <div className="col-md-3"><b>Richmond Sarfoh</b></div>
                                 </div>
                                 </Link>
 
-                                <Link to="#"> 
+                                <Link to="/elvis"> 
                                 <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
                                 <div className="col-md-8">
-                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                     <img src={elvis} alt="pizza"  class="img-responsive" width="100%" height="200px" />
                                     </div>
                                     <div className="col-md-1" id="jerseynumber"><b>3</b></div>
-                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
+                                    <div className="col-md-3"><b>Elvis Botwe</b></div>
                                 </div>
                                 </Link>
                             </div>
                             <hr/> 
                             <div className="row">
-                            <Link to="#"> 
+                            <Link to="/theophilus"> 
                                 <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
                                 <div className="col-md-8">
-                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                     <img src={theophilus} alt="pizza"  class="img-responsive" width="100%" height="200px" />
                                     </div>
                                     <div className="col-md-1" id="jerseynumber"><b>3</b></div>
-                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
+                                    <div className="col-md-3"><b>Theophilus</b></div>
                                 </div>
                                 </Link>
 
@@ -165,31 +170,31 @@ class Secdiv extends Component {
                             <Link to="#"> 
                                 <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
                                 <div className="col-md-8">
-                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                     <img src={ketu} alt="pizza"  class="img-responsive" width="100%" height="200px" />
                                     </div>
                                     <div className="col-md-1" id="jerseynumber"><b>3</b></div>
-                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
+                                    <div className="col-md-3"><b>Alex Ketu</b></div>
                                 </div>
                                 </Link>
 
 
-                                <Link to="#"> 
+                                <Link to="/cosmos"> 
                                 <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
                                 <div className="col-md-8">
-                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                     <img src={cosmos} alt="pizza"  class="img-responsive" width="100%" height="200px" />
                                     </div>
                                     <div className="col-md-1" id="jerseynumber"><b>3</b></div>
-                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
+                                    <div className="col-md-3"><b>Cosmos</b></div>
                                 </div>
                                 </Link>
 
-                                <Link to="#"> 
+                                <Link to="/enock"> 
                                 <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
                                 <div className="col-md-8">
-                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                     <img src={shargaa} alt="pizza"  class="img-responsive" width="100%" height="200px" />
                                     </div>
                                     <div className="col-md-1" id="jerseynumber"><b>3</b></div>
-                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
+                                    <div className="col-md-3"><b>Enock</b></div>
                                 </div>
                                 </Link>
                             </div>
@@ -201,21 +206,21 @@ class Secdiv extends Component {
                             </div>
                             <div class="row line"></div>
                             <div className="row">
-                            <Link to="#"> 
+                            <Link to="/andrews"> 
                                 <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
                                 <div className="col-md-8">
-                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                     <img src={andrews} alt="pizza"  class="img-responsive" width="100%" height="200px" />
                                     </div>
                                     <div className="col-md-1" id="jerseynumber"><b>3</b></div>
-                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
+                                    <div className="col-md-3"><b>Andrews</b></div>
                                 </div>
                                 </Link>
 
 
-                                <Link to="#"> 
+                                <Link to="/cobby"> 
                                 <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
                                 <div className="col-md-8">
-                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                     <img src={cobby} alt="pizza"  class="img-responsive" width="100%" height="200px" />
                                     </div>
                                     <div className="col-md-1" id="jerseynumber"><b>3</b></div>
                                     <div className="col-md-3"><b>Daniel Appiah</b></div>

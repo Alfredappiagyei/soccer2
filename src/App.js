@@ -36,11 +36,18 @@ import Cobby from './components/firstTeam/Cobby';
 import Andrews from './components/firstTeam/Andrews';
 import Richmond from './components/firstTeam/Richmond';
 import Theophilus from './components/firstTeam/Theophilus';
+import Ketu from './components/firstTeam/Ketu';
+
+
+
+
+
 import Uten from './components/Team/Uten';
 import Uthirdteen from './components/Team/Uthidteen';
 import Secdiv from './components/Team/Secdiv';
 import Thirdiv from './components/Team/Thirdiv';
 import Useventeen from './components/Team/Useventeen';
+
 
 
 
@@ -79,8 +86,8 @@ function App() {
                     <button class="dropbtn"><p>NEWS</p>
                     </button>
                     <div class="dropdown-content">
-                      <Link to="/transfarenews"><p>LATEST NEWS#</p> </Link>
-                      <Link to="#"><p>FIRST TEAM#</p> </Link>
+                      <Link to="/transfarenews"><p>TEAM NEWS</p> </Link>
+                      {/* <Link to="#"><p>FIRST TEAM#</p> </Link> */}
                       <Link to="#"><p>ANOUNCEMENTS#</p> </Link>
 
                     </div>
@@ -93,12 +100,12 @@ function App() {
                     </button>
                     <div class="dropdown-content">
                       <Link to="/transfarenews"><b>FIXTURES AND RESULTS#</b> </Link>  
-                      <Link to="/under23"><p>U10S</p> </Link>
+                       {/* <Link to="/under23"><p>U10S</p> </Link>
                       <Link to="/under18"><p>U13S</p> </Link>
                       <Link to="/under18"><p>U17S</p> </Link>
                       <Link to="/under18"><p>2ND DIVISION</p> </Link>
                       <Link to="/under18"><p>3RD DIVISION</p> </Link>
-                      <Link to="#"><p>LEAGUE TABLE#</p> </Link>
+                      <Link to="#"><p>LEAGUE TABLE#</p> </Link>  */}
                     </div>
                   </div>
                 </li>
@@ -108,11 +115,11 @@ function App() {
                     <button class="dropbtn"><p>TEAM</p>
                     </button>
                     <div class="dropdown-content">
-                      <Link to="/under10"><p>U10</p> </Link>
+                      {/* <Link to="/under10"><p>U10</p> </Link>
                       <Link to="/under13"><p>U13</p> </Link>
-                      <Link to="/under17"><p>U17</p> </Link>
-                      <Link to="/secondiv"><p>3RD DIVISION</p> </Link>
-                      <Link to="/thirdiv"><p>2ND DIVISION</p> </Link>
+                      <Link to="/under17"><p>U17</p> </Link> */}
+                      <Link to="/secondiv"><p>2ND DIVISION</p> </Link>
+                      {/* <Link to="/thirdiv"><p>2ND DIVISION</p> </Link> */}
                     </div>
                   </div>
                 </li>
@@ -136,7 +143,7 @@ function App() {
                     </button>
                     <div class="dropdown-content">
                       <Link to="/history"><p>HISTORY#</p> </Link>
-                      <Link to="#"><p>HOUNORS#</p> </Link>
+                      {/* <Link to="#"><p>HOUNORS#</p></Link> */}
                     </div>
                   </div>
                 </li>
@@ -147,9 +154,9 @@ function App() {
                     </button>
                     
                     <div class="dropdown-content">
-                      <Link to="#"><p>FAQS#</p> </Link>
+                      {/* <Link to="#"><p>FAQS#</p> </Link> */}
                       <Link to="/contacts"><p>CONTACT </p></Link>
-                      <Link to="/atoz"><p>A - Z#</p> </Link>
+                      {/* <Link to="/atoz"><p>A - Z#</p> </Link> */}
                     </div>
                   </div>
                 </li>
@@ -182,7 +189,7 @@ function App() {
           <Route path="/atoz" exact component={Atoz} /> 
           
 
-          {/* firstteam */}
+          {/* Second division */}
           <Route path="/appiah" exact component={Appiah} /> 
           <Route path="/cosmos" exact component={Cosmos} /> 
           <Route path="/elvis" exact component={Elvis} /> 
@@ -191,6 +198,7 @@ function App() {
           <Route path="/andrews" exact component={Andrews} /> 
           <Route path="/richmond" exact component={Richmond} /> 
           <Route path="/theophilus" exact component={Theophilus} /> 
+          <Route path="/ketu" exact component={Ketu} /> 
           
           
               

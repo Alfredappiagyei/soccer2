@@ -25,8 +25,9 @@ class Footer extends Component {
 
                       <div className="row" style={{paddingTop:"20px"}}>
                           <div className="col-md-6 col-xs-12">
-                          <span className="contacts"><i class="fa fa-envelope"></i><a href="mailto:appiagyeialfred815@gmail.com?  subject=hello%20everyone%20"> soccerangels@email.com</a></span>
-                          <span className="contacts"><i class="fa fa-envelope"></i><a href="mailto:appiagyeialfred815@gmail.com?  subject=hello%20everyone%20"> +233######### / +233#######</a></span>
+                          <span className="contacts"><i class="fa fa-envelope"></i><a href="mailto:soccerangelsa67@gmail.com? "> soccerangelsa67@gmail.com</a></span>
+                          <span className="contacts"><i class="fa fa-envelope"></i><a href="mailto:soccerangels@gmail.com? "> soccerangels@gmail.com</a></span>
+                          <span className="contacts"><i class="fa fa-fone"></i><a href="tel:+233240311729"> +233 240311729 </a>/ <a href="tel:+233547908886"> +233 240311729 </a></span>
                           </div>
 
                           <div className="col-md-6 col-xs-12">
