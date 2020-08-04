@@ -65,7 +65,7 @@ class SocialMedia extends Component {
 
                             <div className="row">
                                 
-                                <a  style={{justifyContent:"center"}} style={{margin:"auto",position:"relative"}}  href="https://www.youtube.com/channel/UC6AD72yTtZpE7ox25eb6GZg"><img src={socialmediayoutubeimage} alt="youtube" class="img-responsive" /></a>
+                                <a  style={{margin:"auto",position:"relative"}}  href="https://www.youtube.com/channel/UC6AD72yTtZpE7ox25eb6GZg"><img src={socialmediayoutubeimage} alt="youtube" class="img-responsive" /></a>
                                 <h4>
                                     Watch exclusive video content on the official SEA YouTube channel.With hundreds
                                     of videos posted, it's the best way to watch the best clips from the academy

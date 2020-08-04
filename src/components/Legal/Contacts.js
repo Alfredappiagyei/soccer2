@@ -1,14 +1,14 @@
 import React, {Component} from "react";
 
 
-import {
+// import {
 
-    // BrowserRouter as Router,
-    // Switch,
-    // Route,
-    Link
+//     // BrowserRouter as Router,
+//     // Switch,
+//     // Route,
+//     Link
   
-  } from "react-router-dom";
+//   } from "react-router-dom";
 import Footer from "../Footer";
 
 
@@ -46,7 +46,6 @@ class Contacts extends Component {
                                <p><b>Email Us</b></p><br/>
                                 <span className="contacts"><i class="fa fa-envelope"></i><a href="mailto:soccerangelsa67@gmail.com? "  style={{textDecoration:"none",color:"lawngreen"}}> soccerangelsa67@gmail.com</a></span><br/>
                                 <span className="contacts"><i class="fa fa-envelope"></i><a href="mailto:soccerangels@gmail.com? "  style={{textDecoration:"none",color:"lawngreen"}}> soccerangels@gmail.com</a></span>
-                              
                                <br/>
                                
                                <p><b>Tweet Us</b></p><br/>
