@@ -17,6 +17,9 @@ import jerseyimage5 from '../soccer/photos/Picture2.gif'
 import jerseygrid from '../soccer/photos/0.gif'
 import jerseyimage4 from '../soccer/photos/Picture10.jpg'
 import asante from '../soccer/photos/W-asante.JPG'
+import pressrelease from '../soccer/photos/press.JPG'
+import justify from '../soccer/photos/justify.JPG'
+import jayjay from '../soccer/photos/jayjay.JPG'
 // profile images
 import appiah from '../soccer/photos/Appiah.JPG'
 import elvis  from '../soccer/photos/Elvis.JPG'
@@ -274,6 +277,11 @@ class Home extends Component {
 
         return (
             <div className="body">
+                <div className="container-fluid justify">
+                    <div className="container justifyimg_container">
+                        <img src={justify} className="img-responsive" style={{margin:"auto"}}></img>
+                    </div>
+                </div>
 
                 <header class="container-fluid">        
                  <div class="row" >
@@ -292,7 +300,7 @@ class Home extends Component {
                             <div class="row">
                                     <div class="col-xs-12 col-md-4"  id="lastmatch_colon">
                                     <div className="row" style={{minHeight:"200px",}}>
-                             <img src={jerseygrid} alt="jersaecollection" class="img-responsive" />                 
+                                    <img src={jerseygrid} alt="jersaecollection" class="img-responsive"  />                 
                         </div>
                                        
                                     </div>
@@ -333,15 +341,6 @@ class Home extends Component {
                             </div>
                         </div>
 
-                        
-                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
                     </div>
                 </div>
                 </header>
@@ -598,7 +597,7 @@ class Home extends Component {
                                   <hr/>
                                 <div class="row">
                                     <div class="col-md-4 col-xs-4">
-                                    <Link to="#"><img src={jerseyimage2} alt="pizza"
+                                    <Link to="#"><img src={jayjay} alt="pizza"
                                             class="img-responsive" /></Link>  
                                        
                                     </div>
@@ -649,9 +648,16 @@ class Home extends Component {
     <section> 
     <div className="container-fluid   league" >
        <div className="row">
-           <div className="col-md-6">fghjkbvcxcvbnm,.,mn</div>
+           <div className="col-md-6 league_first_colon">
+               <div className="row" style={{margin:"auto"}}>
+                   <h2>PRESS RELEASE</h2>
+                   </div>
+               <div className="row">
+                   <img src={pressrelease} className="img-responsive" />
+               </div>
+           </div>
            <div className="col-md-6  league_second_colon" >
-               <h1>OFFICIALL ANOUNCEMENT</h1>
+               <h2>OFFICIALL ANOUNCEMENT</h2>
                <ul>
                    <li>ISSAC ENTSIE</li>
                    <li>BENJAMIN APPIAH</li>
@@ -756,7 +762,7 @@ class Home extends Component {
                     <Link to="/cosmos">   <img src={cosmos} alt="pizza"  class="img-responsive" /> </Link>   
                       <div class="card-body">
                       <h4><strong>3</strong></h4>
-                      <h5><b>Daniel</b></h5>   
+                      <h5><b>Cosmos</b></h5>   
                       </div>
                  </div>
                     </div>
@@ -778,7 +784,7 @@ class Home extends Component {
                     <Link to="/enock">   <img src={shargaa} alt="pizza"  class="img-responsive" /> </Link>   
                       <div class="card-body">
                       <h4><strong>3</strong></h4>
-                      <h5><b>Daniel</b></h5>   
+                      <h5><b>Enock</b></h5>   
                       </div>
                  </div>
                     </div>

@@ -4,7 +4,7 @@ import './App.css';
 import './soccer/css/bootstrap.min.css';
 import Home from "./components/Home"
 import Features from './components/Features';
-import TransfareNews from './components/TransfareNews';
+import TransfareNews from './components/News/TransfareNews';
 import Contacts from './components/Legal/Contacts';
 
 
@@ -47,6 +47,9 @@ import Uthirdteen from './components/Team/Uthidteen';
 import Secdiv from './components/Team/Secdiv';
 import Thirdiv from './components/Team/Thirdiv';
 import Useventeen from './components/Team/Useventeen';
+
+// FIXTURES
+import SecondDivision from './components/Fixtures/Secdivision';
 
 
 
@@ -99,7 +102,7 @@ function App() {
                     <button class="dropbtn"><p>FIXTURES</p>
                     </button>
                     <div class="dropdown-content">
-                      <Link to="/transfarenews"><b>FIXTURES AND RESULTS#</b> </Link>  
+                      <Link to="/secondivision"><p>2ND DIVISION</p></Link>  
                        {/* <Link to="/under23"><p>U10S</p> </Link>
                       <Link to="/under18"><p>U13S</p> </Link>
                       <Link to="/under18"><p>U17S</p> </Link>
@@ -130,7 +133,7 @@ function App() {
                     <button class="dropbtn"><p>FANS</p>
                     </button>
                     <div class="dropdown-content">
-                      <Link to="/seatvgo"><p>SEA TV</p> </Link>
+                      <Link to="/seatvgo"><p>SAFA TV</p> </Link>
                       <Link to="/socialmedia"><p>SOCIAL MEDIA</p> </Link>
                     </div>
                   </div>
@@ -142,7 +145,7 @@ function App() {
                     <button class="dropbtn"><p>ACADEMY</p>
                     </button>
                     <div class="dropdown-content">
-                      <Link to="/history"><p>HISTORY#</p> </Link>
+                      <Link to="/history"><p>HISTORY</p> </Link>
                       {/* <Link to="#"><p>HOUNORS#</p></Link> */}
                     </div>
                   </div>
@@ -187,6 +190,11 @@ function App() {
           <Route path="/history" exact component={History} /> 
           <Route path="/history2" exact component={History2} /> 
           <Route path="/atoz" exact component={Atoz} /> 
+
+          {/* FIXTURES and RESULTS */}           
+          <Route path="/secondivision" exact component={SecondDivision} /> 
+        
+
           
 
           {/* Second division */}

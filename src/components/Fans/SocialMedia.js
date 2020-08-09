@@ -17,7 +17,7 @@ class SocialMedia extends Component {
             <div>
             
                 <div className="container-fluid">
-                    <div className="row" style={{ backgroundColor: "#444444", color: "lawngreen" }}><h3><b>SEA ON  SOCIAL MEDIA</b></h3> </div>
+                    <div className="row" style={{ backgroundColor: "#444444", color: "lawngreen" }}><h3><b>SAFA ON  SOCIAL MEDIA</b></h3> </div>
 
                     <div className="row">
                         <div className="col-md-9">
@@ -28,21 +28,21 @@ class SocialMedia extends Component {
 
                             <div className="row">
                                 <p>
-                                    <h4> Stay connected SEA via the clubs official social media platforms...</h4>
+                                    <h4> Stay connected SAFA via the clubs official social media platforms...</h4>
                                 </p>
                             </div>
                             <hr />
 
                             <div className="row">
                                 <a href="https://web.facebook.com/Soccer-Angels-Academy-115197873244725/"><img src={socialmediafacebookimage} alt="angels" class="img-responsive" /></a>
-                                <h4>Like us <a href="https://web.facebook.com/Soccer-Angels-Academy-115197873244725/">@SoccerAngelsAcademy</a>for daily news,videos,interviews and look out for SEA facebook live events!</h4>
+                                <h4>Like us <a href="https://web.facebook.com/Soccer-Angels-Academy-115197873244725/"   style={{color:"lawngreen"}}>@SoccerAngelsAcademy</a>for daily news,videos,interviews and look out for SAFA facebook live events!</h4>
                             </div>
 
                             <hr />
 
                             <div className="row">
                                 <a href="https://twitter.com/SoccerAngelAca1"><img src={socialmediatweeterimage} alt="angels" class="img-responsive" /></a>
-                                <h4>Follo us <a href="https://twitter.com/SoccerAngelAca1">@SEA</a>for breaking news,stats,team news, videos,photos and much more.</h4>
+                                <h4>Follow us <a href="https://twitter.com/SoccerAngelAca1"   style={{color:"lawngreen"}}> @SAFA</a> for breaking news,stats,team news, videos,photos and much more.</h4>
                             </div> 
                             <hr />
 
@@ -58,7 +58,7 @@ class SocialMedia extends Component {
                             {/* <div className="row">
                                 <a href=""> <img src={socialmediasnapchatimage} alt="angels" class="img-responsive" /></a>
                                 <h4>
-                                    Add SEA for exclusive behind-the-scenes stories,photos and videos on matchdays.
+                                    Add SAFA for exclusive behind-the-scenes stories,photos and videos on matchdays.
                               </h4>
                             </div>
                             <hr /> */}
@@ -67,7 +67,7 @@ class SocialMedia extends Component {
                                 
                                 <a  style={{margin:"auto",position:"relative"}}  href="https://www.youtube.com/channel/UC6AD72yTtZpE7ox25eb6GZg"><img src={socialmediayoutubeimage} alt="youtube" class="img-responsive" /></a>
                                 <h4>
-                                    Watch exclusive video content on the official SEA YouTube channel.With hundreds
+                                    Watch exclusive video content on the official SAFA YouTube channel.With hundreds
                                     of videos posted, it's the best way to watch the best clips from the academy
                               </h4>
                             </div>

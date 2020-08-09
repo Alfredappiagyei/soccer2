@@ -16,6 +16,7 @@ import {
     Link
   
   } from "react-router-dom";
+import Footer from "./Footer";
 
 class Features extends Component {
     render () {
@@ -23,7 +24,7 @@ class Features extends Component {
             
 
      
-         <section class="container-fluid">
+         <div class="container-fluid">
          <div className="row">
               <Link to="#"> <h2><b>Features</b></h2></Link>                   
               </div>
@@ -95,7 +96,10 @@ class Features extends Component {
                     </div> 
                 </div>
             </div>
-        </section>
+            <div className="row">
+                <Footer/>
+            </div>
+        </div>
  
 
 

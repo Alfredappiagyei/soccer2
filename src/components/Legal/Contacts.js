@@ -24,8 +24,8 @@ class Contacts extends Component {
 
                             <div className="row">
                                 - On this page<br/>
-                                <p>Fan Servis contact information</p><br/>
-                                <p>Fan Servis contact information</p>
+                                <p>Fan Service contact information</p>
+                                
                             </div>
                             <hr/>
 
@@ -33,10 +33,10 @@ class Contacts extends Component {
                             <div className="row">
                                <p><h3>Fans Services contact information</h3></p><br/>
 
-                               <p>Need help with <b  style={{color:"lawngreen"}}>ticketing</b>, SEA Oficial Membership, Statium Tours, The Online Store,
-                               SEATV GO, or have a general feedback about you <b  style={{color:"lawngreen"}}>SEA</b> <b style={{color:"lawngreen"}}>Experience</b>? Here are the ways
+                               <p>Need help with <b  style={{color:"lawngreen"}}>ticketing</b>, SAFA Oficial Membership, Statium Tours, The Online Store,
+                               SAFA TV , or have a general feedback about you <b  style={{color:"lawngreen"}}>SEA</b> <b style={{color:"lawngreen"}}>Experience</b>? Here are the ways
                                you  can find an answer or get in touch:</p><br/>
-
+ 
 
 
                                <p><b>Call Us</b></p><br/>
@@ -49,7 +49,7 @@ class Contacts extends Component {
                                <br/>
                                
                                <p><b>Tweet Us</b></p><br/>
-                               <p> We're now on Tweeter to help you with your queastions. You can find us <a href="https://twitter.com/SoccerAngelAca1" style={{textDecoration:"none",color:"lawngreen"}}>@SAFA</a></p><br/>
+                               <p> We're now on Tweeter to help you with your queastions. You can find us <a href="https://twitter.com/SoccerAngelAca1" style={{textDecoration:"none",color:"lawngreen"}}>@SAFA</a> </p><br/>
                                
                                <br/>
 

@@ -28,8 +28,8 @@ class Cosmos extends Component {
                     <div className="container" id="cosmosdetails">
                         <div className="col-md-6 col-xs-12">
                             <h1 style={{ fontSize: "80px", marginBottom: "20px" }}><b>34</b></h1>
-                            <h1 style={{ fontSize: "50px" }}><b>Daniel</b></h1>
-                            <h1 style={{ fontSize: "80px" }}><b>Appiah</b></h1>
+                            {/* <h1 style={{ fontSize: "50px" }}><b>Daniel</b></h1> */}
+                            <h1 style={{ fontSize: "80px" }}><b>Cosmos</b></h1>
                             <h2>DEFENDER</h2>
                         </div>
                         <div className="col-md-6 col-xs-12">
@@ -56,12 +56,12 @@ class Cosmos extends Component {
                             </div>
                             <div className="row  stat">
                                 <span><h4> <b>Sighned:</b></h4><p>2015</p></span>
-                                <span><h4> <b>Appearance:</b></h4> <p>23</p></span>
-                                <span><h4> <b>Goals:</b></h4> <p>2</p></span>
-                                <span><h4> <b>Honours:</b></h4> <p>dfzjbzvdjf</p></span>
+                                <span><h4> <b>Appearance:</b></h4> <p>0</p></span>
+                                <span><h4> <b>Goals:</b></h4> <p>0</p></span>
+                                <span><h4> <b>Honours:</b></h4> <p>Not yet</p></span>
                             </div>
                             <hr />
-                            <div className="row" style={{margin:"0px",width:"100%"}}>
+                            {/* <div className="row" style={{margin:"0px",width:"100%"}}>
                                 <h4>\bfvhzdfvgzhjdbjh jbvhbdfhvdfbjvhdbfjfhvgbjvhbjhvvkbdjhvzbdjvhzbdfjhbvdzjlfh
                                 shhdfblnfzdvdhfjvjdhf vdhjlfldvbffvnzkjlbdfvdjfvjhfbvlhdfvbjhlbvjhbvjhdbdbh
                                 vfhvbfduvydbvdufvgfdvfgvkgvkhvhbdkvblahvblgdvfbdfvgblfhdbljdfhvbldfjvhlbdfvlb
@@ -71,7 +71,7 @@ class Cosmos extends Component {
                                 gvgvggvvcgvhgvchgcghvkhczvhfhvdfjhbvzzdfkvuydvghbvdfhvubvdfybuyvdfbuyvdfbvfddhbv
                                 suvgkfgvvufvfd jdf df fdbvdfvbdvfbdzfbvdfbvdxvbz
                                 </h4>
-                            </div>
+                            </div> */}
                             <div className="row" style={{ background: "lawngreen", color: "#fff" }}>
                                 <h4><b>Player Stats</b></h4>
                             </div>
@@ -96,67 +96,65 @@ class Cosmos extends Component {
                                     </ul>
 
                                     {/* <!-- Tab panes --> */}
-                                    <div class="tab-content">
-                                        <div role="tabpanel" class="tab-pane active" id="home">
+                                    <div class="tab-content"> 
+                                    <div role="tabpanel" class="tab-pane active" id="home">
 
                                         <div className="discription"><p>Games Played</p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
+                                            <div className="col-md-2" id="figures">0</div>
+                                            <div className="col-md-10">
+                                            <div className="playerchat">
                                                 <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                        <span class="sr-only">0% Complete</span>
                                                     </div>
                                                 </div>
-                                              </div>        
+                                            </div>        
                                         </div>                                    
-                                       <div className="discription"><p>Minutes Played</p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
+                                        <div className="discription"><p>Minutes Played</p></div>
+                                            <div className="col-md-2" id="figures">0</div>
+                                            <div className="col-md-10">
+                                            <div className="playerchat">
                                                 <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                        <span class="sr-only">0% Complete</span>
                                                     </div>
                                                 </div>
-                                              </div>        
+                                            </div>        
                                         </div>
                                         <div className="discription"><p>Starts</p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
+                                            <div className="col-md-2" id="figures">0</div>
+                                            <div className="col-md-10">
+                                            <div className="playerchat">
                                                 <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                        <span class="sr-only">0% Complete</span>
                                                     </div>
                                                 </div>
-                                              </div>        
+                                            </div>        
                                         </div>
                                         <div className="discription"><p>Substited on</p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
+                                            <div className="col-md-2" id="figures">0</div>
+                                            <div className="col-md-10">
+                                            <div className="playerchat">
                                                 <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                        <span class="sr-only">0% Complete</span>
                                                     </div>
                                                 </div>
-                                              </div>        
+                                            </div>        
                                         </div>
                                         <div className="discription"><p>Substituted off</p></div>
-                                            <div className="col-md-2" id="figures"> 10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
+                                            <div className="col-md-2" id="figures"> 0</div>
+                                            <div className="col-md-10">
+                                            <div className="playerchat">
                                                 <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                        <span class="sr-only">0% Complete</span>
                                                     </div>
                                                 </div>
-                                              </div>        
+                                            </div>        
                                         </div>                                      
-                                   </div>                                      {/* home */}
-
-
+                                        </div>                                      {/* home */}
 
 
 
@@ -164,230 +162,238 @@ class Cosmos extends Component {
 
                                         <div role="tabpanel" class="tab-pane" id="attack">
                                             
-                                        <div className="discription"><p>Goals</p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
-                                                <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                            <div className="discription"><p>Goals</p></div>
+                                                <div className="col-md-2" id="figures">0</div>
+                                                <div className="col-md-10">
+                                                <div className="playerchat">
+                                                    <div class="progres">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                            <span class="sr-only">0% Complete</span>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                              </div>        
-                                        </div>                                    
-                                       <div className="discription"><p>Penalties</p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
-                                                <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                                </div>        
+                                            </div>                                    
+                                        <div className="discription"><p>Penalties</p></div>
+                                                <div className="col-md-2" id="figures">0</div>
+                                                <div className="col-md-10">
+                                                <div className="playerchat">
+                                                    <div class="progres">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                            <span class="sr-only">0% Complete</span>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                              </div>        
-                                        </div>
-                                        <div className="discription"><p>Shorts on target</p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
-                                                <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                                </div>        
+                                            </div>
+                                            <div className="discription"><p>Shorts on target</p></div>
+                                                <div className="col-md-2" id="figures">0</div>
+                                                <div className="col-md-10">
+                                                <div className="playerchat">
+                                                    <div class="progres">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                            <span class="sr-only">0% Complete</span>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                              </div>        
-                                        </div>
-                                        <div className="discription"><p>Shooting acuracy</p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
-                                                <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                                </div>        
+                                            </div>
+                                            <div className="discription"><p>Shooting acuracy</p></div>
+                                                <div className="col-md-2" id="figures">0</div>
+                                                <div className="col-md-10">
+                                                <div className="playerchat">
+                                                    <div class="progres">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                            <span class="sr-only">0% Complete</span>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                              </div>        
-                                        </div>
-                                        <div className="discription"><p>Successful crosses</p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
-                                                <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                                </div>        
+                                            </div>
+                                            <div className="discription"><p>Successful crosses</p></div>
+                                                <div className="col-md-2" id="figures">0</div>
+                                                <div className="col-md-10">
+                                                <div className="playerchat">
+                                                    <div class="progres">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                            <span class="sr-only">0% Complete</span>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                              </div>        
-                                        </div>
-                                        <div className="discription"><p>Assists</p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
-                                                <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                                </div>        
+                                            </div>
+                                            <div className="discription"><p>Assists</p></div>
+                                                <div className="col-md-2" id="figures">0</div>
+                                                <div className="col-md-10">
+                                                <div className="playerchat">
+                                                    <div class="progres">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                            <span class="sr-only">0% Complete</span>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                              </div>        
-                                        </div>
-                                        <div className="discription"><p>Key passes</p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
-                                                <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                                </div>        
+                                            </div>
+                                            <div className="discription"><p>Key passes</p></div>
+                                                <div className="col-md-2" id="figures">0</div>
+                                                <div className="col-md-10">
+                                                <div className="playerchat">
+                                                    <div class="progres">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                            <span class="sr-only">0% Complete</span>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                              </div>        
-                                        </div>
-                                        <div className="discription"><p>Penalties won</p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
-                                                <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                                </div>        
+                                            </div>
+                                            <div className="discription"><p>Penalties won</p></div>
+                                                <div className="col-md-2" id="figures">0</div>
+                                                <div className="col-md-10">
+                                                <div className="playerchat">
+                                                    <div class="progres">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                            <span class="sr-only">0% Complete</span>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                              </div>        
-                                        </div>
-                                        <div className="discription"><p>Offsides</p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
-                                                <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                                </div>        
+                                            </div>
+                                            <div className="discription"><p>Offsides</p></div>
+                                                <div className="col-md-2" id="figures">0</div>
+                                                <div className="col-md-10">
+                                                <div className="playerchat">
+                                                    <div class="progres">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                            <span class="sr-only">0% Complete</span>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                              </div>        
-                                        </div>                                     
-                                 </div>{/* attack */}
+                                                </div>        
+                                            </div>                                     
+                                        </div>{/* attack */}
+
 
 
 
                                         <div role="tabpanel" class="tab-pane" id="defence">
                                             
-                                        <div className="discription"><p>Tackles won</p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
-                                                <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                            <div className="discription"><p>Tackles won</p></div>
+                                                <div className="col-md-2" id="figures">0</div>
+                                                <div className="col-md-10">
+                                                <div className="playerchat">
+                                                    <div class="progres">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                            <span class="sr-only">0% Complete</span>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                              </div>        
-                                        </div>                                    
-                                       <div className="discription"><p>Tackles success rate</p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
-                                                <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                                </div>        
+                                            </div>                                    
+                                        <div className="discription"><p>Tackles success rate</p></div>
+                                                <div className="col-md-2" id="figures">0</div>
+                                                <div className="col-md-10">
+                                                <div className="playerchat">
+                                                    <div class="progres">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                            <span class="sr-only">0% Complete</span>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                              </div>        
-                                        </div>
-                                        <div className="discription"><p>Clearances</p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
-                                                <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                                </div>        
+                                            </div>
+                                            <div className="discription"><p>Clearances</p></div>
+                                                <div className="col-md-2" id="figures">0</div>
+                                                <div className="col-md-10">
+                                                <div className="playerchat">
+                                                    <div class="progres">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                            <span class="sr-only">0% Complete</span>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                              </div>        
-                                        </div>
-                                        <div className="discription"><p>Blocks</p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
-                                                <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                                </div>        
+                                            </div>
+                                            <div className="discription"><p>Blocks</p></div>
+                                                <div className="col-md-2" id="figures">0</div>
+                                                <div className="col-md-10">
+                                                <div className="playerchat">
+                                                    <div class="progres">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                            <span class="sr-only">0% Complete</span>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                              </div>        
-                                        </div>
-                                        <div className="discription"><p>Interceptions</p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
-                                                <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                                </div>        
+                                            </div>
+                                            <div className="discription"><p>Interceptions</p></div>
+                                                <div className="col-md-2" id="figures">0</div>
+                                                <div className="col-md-10">
+                                                <div className="playerchat">
+                                                    <div class="progres">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                            <span class="sr-only">0% Complete</span>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                              </div>        
-                                        </div>      
-                                     </div>     {/* defence */}
+                                                </div>        
+                                            </div>      
+                                        </div>     {/* defence */}
 
-                                   
+
+
+
 
 
 
                                         <div role="tabpanel" class="tab-pane" id="distribution">
                                         <div className="discription"><p>Successful passes</p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
+                                            <div className="col-md-2" id="figures">0</div>
+                                            <div className="col-md-10">
+                                            <div className="playerchat">
                                                 <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                        <span class="sr-only">0% Complete</span>
                                                     </div>
                                                 </div>
-                                              </div>        
+                                            </div>        
                                         </div>                                    
-                                       <div className="discription"><p>Passing acuracy</p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
+                                        <div className="discription"><p>Passing acuracy</p></div>
+                                            <div className="col-md-2" id="figures">0</div>
+                                            <div className="col-md-10">
+                                            <div className="playerchat">
                                                 <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                        <span class="sr-only">0% Complete</span>
                                                     </div>
                                                 </div>
-                                              </div>        
+                                            </div>        
                                         </div>
                                         <div className="discription"><p>Clearances</p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
+                                            <div className="col-md-2" id="figures">0</div>
+                                            <div className="col-md-10">
+                                            <div className="playerchat">
                                                 <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                        <span class="sr-only">0% Complete</span>
                                                     </div>
                                                 </div>
-                                              </div>        
+                                            </div>        
                                         </div>
                                         <div className="discription"><p>Passing acuracy in opponent half(%) </p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
+                                            <div className="col-md-2" id="figures">0</div>
+                                            <div className="col-md-10">
+                                            <div className="playerchat">
                                                 <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                        <span class="sr-only">0% Complete</span>
                                                     </div>
                                                 </div>
-                                              </div>        
-                                          </div>
-                                        <div className="discription"><p>Successful dribbles</p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
-                                                <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
-                                                    </div>
-                                                </div>
-                                              </div>        
+                                            </div>        
                                         </div>
-                                     </div>   {/* distribution */}
-                                  
+                                        <div className="discription"><p>Successful dribbles</p></div>
+                                            <div className="col-md-2" id="figures">0</div>
+                                            <div className="col-md-10">
+                                            <div className="playerchat">
+                                                <div class="progres">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                        <span class="sr-only">0% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </div>        
+                                        </div>
+                                        </div>   {/* distribution */}
+
+
+
+
+
+
 
 
 
@@ -395,62 +401,62 @@ class Cosmos extends Component {
 
                                         <div role="tabpanel" class="tab-pane" id="discipline">
                                             
-                                        <div className="discription"><p>Fouls won</p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
-                                                <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                            <div className="discription"><p>Fouls won</p></div>
+                                                <div className="col-md-2" id="figures">0</div>
+                                                <div className="col-md-10">
+                                                <div className="playerchat">
+                                                    <div class="progres">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                            <span class="sr-only">0% Complete</span>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                              </div>        
-                                        </div>                                    
-                                       <div className="discription"><p>Fouls conceeded</p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
-                                                <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                                </div>        
+                                            </div>                                    
+                                        <div className="discription"><p>Fouls conceeded</p></div>
+                                                <div className="col-md-2" id="figures">0</div>
+                                                <div className="col-md-10">
+                                                <div className="playerchat">
+                                                    <div class="progres">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                            <span class="sr-only">0% Complete</span>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                              </div>        
-                                        </div>
-                                        <div className="discription"><p>Penalties conceeded</p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
-                                                <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                                </div>        
+                                            </div>
+                                            <div className="discription"><p>Penalties conceeded</p></div>
+                                                <div className="col-md-2" id="figures">0</div>
+                                                <div className="col-md-10">
+                                                <div className="playerchat">
+                                                    <div class="progres">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                            <span class="sr-only">0% Complete</span>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                              </div>        
-                                        </div>
-                                        <div className="discription"><p>Yellow cards </p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
-                                                <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                                </div>        
+                                            </div>
+                                            <div className="discription"><p>Yellow cards </p></div>
+                                                <div className="col-md-2" id="figures">0</div>
+                                                <div className="col-md-10">
+                                                <div className="playerchat">
+                                                    <div class="progres">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                            <span class="sr-only">0% Complete</span>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                              </div>        
-                                        </div>
-                                        <div className="discription"><p>Red cards</p></div>
-                                            <div className="col-md-2" id="figures">10</div>
-                                             <div className="col-md-10">
-                                              <div className="playerchat">
-                                                <div class="progres">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "20%" }}>
-                                                        <span class="sr-only">60% Complete</span>
+                                                </div>        
+                                            </div>
+                                            <div className="discription"><p>Red cards</p></div>
+                                                <div className="col-md-2" id="figures">0</div>
+                                                <div className="col-md-10">
+                                                <div className="playerchat">
+                                                    <div class="progres">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                            <span class="sr-only">0% Complete</span>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                              </div>        
-                                        </div>
-                                     </div>    {/* discipline */}
+                                                </div>        
+                                            </div>
+                                        </div>    {/* discipline */}    
                                     </div>
                                 </div>
                             </div>
@@ -482,7 +488,7 @@ class Cosmos extends Component {
                                             <div class="panel-body">
                                                 <ul>                                       
                                                     <li>
-                                                    <Link to="#">
+                                                    <Link to="/andrews">
                                                          <img src={andrews} alt="andrews" class="img-responsive"/>
                                                         <div className="playerinfo">
                                                             <span>3</span>
@@ -493,7 +499,7 @@ class Cosmos extends Component {
                                                   
 
                                                     <li>
-                                                        <Link to="#">
+                                                        <Link to="/cobby">
                                                         <img src={cobby}  alt="cobby"  className="img-responsive"></img>
                                                         <div className="playerinfo">
                                                             <span>2</span>
@@ -519,7 +525,7 @@ class Cosmos extends Component {
                                             <div class="panel-body">
                                             <ul>
                                                     <li>
-                                                    <Link to="#">
+                                                    <Link to="/enock">
                                                         <img src={shargaa}  alt="shargaa"  className="img-responsive"></img>
                                                         <div className="playerinfo">
                                                             <span>3</span>
@@ -529,7 +535,7 @@ class Cosmos extends Component {
                                                     </li>
 
                                                     <li>
-                                                    <Link to="#">
+                                                    <Link to="/cosmos">
                                                     <img src={cosmos}  alt="cosmos"  className="img-responsive"></img>
                                                         <div className="playerinfo">
                                                             <span>2</span>
@@ -555,7 +561,7 @@ class Cosmos extends Component {
                                             <div class="panel-body">
                                             <ul>
                                                     <li>
-                                                    <Link to="#">
+                                                    <Link to="/appiah">
                                                         <img src={appiah}  alt="appiah"  className="img-responsive"></img>
                                                         <div className="playerinfo">
                                                             <span>3</span>
@@ -565,7 +571,7 @@ class Cosmos extends Component {
                                                     </li>
 
                                                     <li>
-                                                    <Link to="#">
+                                                    <Link to="theophilus">
                                                         <img src={theophilus}  alt="theophilus"  className="img-responsive"></img>
                                                         <div className="playerinfo">
                                                             <span>2</span>
@@ -599,6 +605,7 @@ class Cosmos extends Component {
                                     </div>
                                 </div>
                             </div>
+
                             <div className="row">
                                 <img src={jerseygrid} alt="pizza" class="img-responsive" />
                             </div>
