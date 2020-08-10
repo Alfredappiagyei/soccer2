@@ -8,6 +8,7 @@ import jerseyimage1 from './photos/Picture8.jpg'
 import jerseyimage2 from './photos/Picture9.jpg'
 import jerseygrid from './photos/0.gif'
 import asante from './photos/W-asante.JPG'
+import pascal from './photos/pascal.JPG'
 
 
 
@@ -79,7 +80,7 @@ class TransfareNews extends Component {
 
                                 <div class="row" >
                                     <div class="col-md-4 col-xs-4">
-                                    <Link to="#"><img src={asante} alt="pizza"
+                                    <Link to="#"><img src={pascal} alt="pizza"
                                             class="img-responsive" /></Link>  
                                     </div>
                                     <div class="col-md-8 col-xs-8">

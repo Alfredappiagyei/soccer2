@@ -41,7 +41,7 @@ section {
  -----------------------*/
 
  .justify {
-  background-color: rgba(60,50,50,0.95);
+  background-color: rgba(240, 255, 255, 0.486);
  
 
 } 
@@ -480,7 +480,7 @@ padding: 0px;
 
 .MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
 .MultiCarousel{ min-height: 200px;}
-    .MultiCarousel .MultiCarousel-inner { transition: 0.5s ease all; float: left; }
+    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
         .MultiCarousel .MultiCarousel-inner .item { float: left;}
         .MultiCarousel .MultiCarousel-inner .item > div { display: block; padding:5px; margin:5px; background:#f1f1f1; color:#666;}
     .MultiCarousel .leftLst, .MultiCarousel .rightLst { border: none; position:absolute; color: #fff; background-color: lawngreen;
@@ -497,7 +497,7 @@ padding: 0px;
 
     .vidMultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
     .vidMultiCarousel{ min-height: 200px;}
-        .vidMultiCarousel .vidMultiCarousel-inner { transition: 0.5s ease all; float: left; }
+        .vidMultiCarousel .vidMultiCarousel-inner { transition: 1s ease all; float: left; }
             .vidMultiCarousel .vidMultiCarousel-inner .video { float: left;}
             .vidMultiCarousel .vidMultiCarousel-inner .video > div { display: block; padding:5px; margin:5px; background:#f1f1f1; color:#666;}
         .vidMultiCarousel .leftslide, .vidMultiCarousel .rightslide { border: none; position:absolute; color: #fff; background-color: lawngreen;
@@ -900,3 +900,74 @@ body {
 
 
 
+
+/*----------------
+ HISTORY AND TIMELINE
+ ----------------- */
+ .history {
+  background: url(components/Academy/photos/history.JPG);
+  background-size: cover;
+  min-height: 550px;
+  width: 100%;
+ }
+
+
+ 
+ .timeline {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  position: relative;
+  background-color: grey;
+  width: 100%;
+}
+
+.timeline::before {
+	position: absolute;
+	content: "";
+	display: block;
+	width: 0.4rem;
+	height: 100%;
+	background: #888;
+	z-index: 1;
+}
+
+.time {
+	display: grid;
+	grid-template-columns: 1fr min-content 1fr;
+	grid-template-rows: 1fr;
+	grid-template-areas: "content-left image content-right";
+	align-items: center;
+	position: relative;
+	z-index: 2;
+}
+
+.time + .time {
+	margin-top: 4rem;
+}
+
+.wrap {
+	grid-area: content-left;
+	padding: 1rem;
+	max-width: 25rem;
+}
+
+.time:nth-child(even) .wrap {
+	grid-area: content-right;
+}
+
+.img {
+	width: 8rem;
+	height: 8rem;
+	background: #888;
+	border: 0.5rem solid #888;
+	border-radius: 50%;
+	grid-area: image;
+	overflow: hidden;
+}
+
+.img > img {
+	width: 100%;
+	height: auto;
+}
+ 

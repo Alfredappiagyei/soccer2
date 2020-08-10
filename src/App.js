@@ -23,8 +23,9 @@ import SocialMedia from './components/Fans/SocialMedia';
 import SeatvGo from './components/Fans/SeatvGo';
 import Atoz from './components/Legal/Atoz';
 import History from './components/Academy/History';
-import History2 from './components/Academy/history2';
+import Timeline from './components/Academy/Timeline';
 import logo from './soccer/photos/soccerangelslogo.JPG'
+import Anouncement from './components/News/Anouncement';
 
 
 // Firstteam
@@ -50,6 +51,8 @@ import Useventeen from './components/Team/Useventeen';
 
 // FIXTURES
 import SecondDivision from './components/Fixtures/Secdivision';
+
+
 
 
 
@@ -91,7 +94,7 @@ function App() {
                     <div class="dropdown-content">
                       <Link to="/transfarenews"><p>TEAM NEWS</p> </Link>
                       {/* <Link to="#"><p>FIRST TEAM#</p> </Link> */}
-                      <Link to="#"><p>ANOUNCEMENTS#</p> </Link>
+                      <Link to="/anouncement"><p>ANOUNCEMENTS</p> </Link>
 
                     </div>
                   </div>
@@ -188,9 +191,10 @@ function App() {
           <Route path="/secondiv" exact component={Secdiv} /> 
           <Route path="/thirdiv" exact component={Thirdiv} /> 
           <Route path="/history" exact component={History} /> 
-          <Route path="/history2" exact component={History2} /> 
+          <Route path="/timeline" exact component={Timeline } /> 
           <Route path="/atoz" exact component={Atoz} /> 
-
+          <Route path="/anouncement" exact component={Anouncement} /> 
+          
           {/* FIXTURES and RESULTS */}           
           <Route path="/secondivision" exact component={SecondDivision} /> 
         

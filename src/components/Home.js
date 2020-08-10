@@ -20,6 +20,7 @@ import asante from '../soccer/photos/W-asante.JPG'
 import pressrelease from '../soccer/photos/press.JPG'
 import justify from '../soccer/photos/justify.JPG'
 import jayjay from '../soccer/photos/jayjay.JPG'
+import pascal from '../soccer/photos/pascal.JPG'
 // profile images
 import appiah from '../soccer/photos/Appiah.JPG'
 import elvis  from '../soccer/photos/Elvis.JPG'
@@ -33,12 +34,6 @@ import ketu from '../soccer/photos/Ketu.JPG'
 
 
 
-
-
-
-
-
-
 import {
 
     // BrowserRouter as Router,
@@ -46,6 +41,8 @@ import {
     // Route,
     Link
   
+
+
   } from "react-router-dom";
 import Footer from "./Footer";
 
@@ -379,7 +376,7 @@ class Home extends Component {
 
                      </iframe>
                         <div class="caption">
-                        <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
+                        <Link to="/"> <h5><b>Soccer Angels</b></h5></Link> 
                         <p>...</p>
                         </div>  
 
@@ -393,7 +390,7 @@ class Home extends Component {
 
                      </iframe>
                     <div class="caption">
-                    <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
+                    <Link to="/"> <h5><b>Soccer Angels</b></h5></Link> 
                         <p>...</p>
                     </div>
                     </div>
@@ -405,7 +402,7 @@ class Home extends Component {
                     <iframe width="560" height="315" title="soccerangels" className="img-responsive" src="https://www.youtube.com/embed/mVVehlZoBU8?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                         </iframe>                
                     <div class="caption">
-                    <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
+                    <Link to="/"> <h5><b>Soccer Angels</b></h5></Link> 
                         <p>...</p>
                     </div>
                     </div>
@@ -414,11 +411,11 @@ class Home extends Component {
                 <div class="video">
                     <div                    class="pad15">
                     <div class="thumbnail">
-                    <iframe width="560" height="315" title="soccerangels" className="img-responsive" src="https://www.youtube.com/embed/GbJDh_-DHfY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    <iframe width="560" height="315" title="soccerangels" className="img-responsive" src="https://www.youtube.com/embed/GbJDh_-DHfY?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 
                     </iframe>
                     <div class="caption">
-                    <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
+                    <Link to="/"> <h5><b>Junior Premire League</b></h5></Link> 
                         <p>...</p>
                     </div>
                     </div>
@@ -427,53 +424,11 @@ class Home extends Component {
                 <div class="video">
                     <div class="pad15">
                     <div class="thumbnail">
-                    ......
+                    <iframe width="560" height="315" title="soccerangels" className="img-responsive" src="https://www.youtube.com/embed/CRmoY58VEeQ?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+                    </iframe>
                     <div class="caption">
-                    <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
-                        <p>...</p>
-                    </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="video">
-                    <div class="pad15">
-                    <div class="thumbnail">
-                    ......
-                    <div class="caption">
-                    <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
-                        <p>...</p>
-                    </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="video">
-                    <div class="pad15">
-                    <div class="thumbnail">
-                   ..............
-                    <div class="caption">
-                    <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
-                        <p>...</p>
-                    </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="video">
-                    <div class="pad15">
-                    <div class="thumbnail">
-                   ..............
-                    <div class="caption">
-                    <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
-                        <p>...</p>
-                    </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="video">
-                    <div class="pad15">
-                    <div class="thumbnail">
-                    ................
-                    <div class="caption">
-                    <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
+                    <Link to="/"> <h5><b>Soccer Aangels U13</b></h5></Link> 
                         <p>...</p>
                     </div>
                     </div>
@@ -517,7 +472,7 @@ class Home extends Component {
                                     </div>
                                     <div class="col-md-8 col-xs-8">
                                     <p className="latest_news_sub_headline">     
-                                         The C.E.O of Soccer Angels Academy is the new Assin district football association chairman                                     
+                                         The C.E.O of Soccer Angels Academy has been appointed the new Assin district football association chairman                                     
                                     </p>   
                                     </div>
                                 </div>
@@ -553,7 +508,7 @@ class Home extends Component {
 
                                 <div class="row" >
                                     <div class="col-md-4 col-xs-4">
-                                    <Link to="#"><img src={asante} alt="pizza"
+                                    <Link to="#"><img src={pascal} alt="pizza"
                                             class="img-responsive" /></Link>  
                                     </div>
                                     <div class="col-md-8 col-xs-8">
