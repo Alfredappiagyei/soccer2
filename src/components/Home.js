@@ -279,7 +279,7 @@ class Home extends Component {
             <div className="body">
                 <div className="container-fluid justify">
                     <div className="container justifyimg_container">
-                        <img src={justify} className="img-responsive" style={{margin:"auto"}}></img>
+                        <img src={justify} alt="justify" className="img-responsive" style={{margin:"auto"}}></img>
                     </div>
                 </div>
 
@@ -414,7 +414,9 @@ class Home extends Component {
                 <div class="video">
                     <div                    class="pad15">
                     <div class="thumbnail">
-                    ......
+                    <iframe width="560" height="315" title="soccerangels" className="img-responsive" src="https://www.youtube.com/embed/GbJDh_-DHfY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+                    </iframe>
                     <div class="caption">
                     <Link to="/"> <h5><b>Thumbnail label</b></h5></Link> 
                         <p>...</p>
@@ -653,7 +655,7 @@ class Home extends Component {
                    <h2>PRESS RELEASE</h2>
                    </div>
                <div className="row">
-                   <img src={pressrelease} className="img-responsive" />
+                   <img src={pressrelease} alt="pressrelease" className="img-responsive" />
                </div>
            </div>
            <div className="col-md-6  league_second_colon" >

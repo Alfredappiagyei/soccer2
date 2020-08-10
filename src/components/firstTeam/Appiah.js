@@ -477,6 +477,9 @@ class Appiah extends Component {
                         <div className="col-md-3 col-xs-12">
             
                         <div className="row">
+                        <div className="row teammates">
+                                <h3>TEAMMATES</h3>
+                            </div>
                                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                     <div class="panel panel-default">
                                         <div class="panel-heading" role="tab" id="headingOne">

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
-import under18image1 from '../Fixtures/photos/soccer1.JPG'
-import jerseygrid from './photos/0.gif'
+ 
+ 
 import soccerHomeimage1 from './photos/soccer1.JPG'
 import soccerangelslogo from './photos/soccerangelslogo.JPG'
 import {

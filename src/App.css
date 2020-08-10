@@ -702,15 +702,7 @@ width: 100%;
   font-size: 15px;
   font-weight: bold;
 }
-#teammates {
-  padding: 10px 128px;
-  background-color: lawngreen;
-   color: #fff;
-  font-size: 20px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-}
-
+ 
 #dropdowninside {
   background-color: #141414;
   padding: 10px 128px;
@@ -728,6 +720,18 @@ width: 100%;
    background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
  }
+
+.teammates {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color: #fff;
+  padding: 1px 0px;
+}
+
+
+.teammates h3 {
+  margin: 11px 0px;
+}
 
 
  ul {

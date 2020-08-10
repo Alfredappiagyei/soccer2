@@ -475,6 +475,9 @@ class Andrews extends Component {
 
                         </div>
                         <div className="col-md-3 col-xs-12">
+                            <div className="row teammates">
+                                <h3>TEAMMATES</h3>
+                            </div>
                         <div className="row">
                                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                     <div class="panel panel-default">
