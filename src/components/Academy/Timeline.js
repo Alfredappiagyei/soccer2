@@ -29,7 +29,7 @@ class Timeline extends Component {
                 <div className="container-fluid" style={{background:"grey"}}>
                 <div class="timeline">
                             <div class="time">
-                                <div class="img"><img src="https://picsum.photos/400"/></div>
+                                <div class="img"><img src="https://picsum.photos/400" alt="timeline"/></div>
                                 <div class="wrap">
                                     <div class="date">Upper heading</div>
                                     <h3 class="title">Heading</h3>
@@ -40,7 +40,7 @@ class Timeline extends Component {
                             </div>
 
                             <div class="time">
-                                <div class="img"><img src="https://picsum.photos/403"/></div>
+                                <div class="img"><img src="https://picsum.photos/403" alt="timeline"/></div>
                                 <div class="wrap">
                                     <div class="date">Upper heading</div>
                                     <h3 class="title">Heading</h3>
@@ -51,7 +51,7 @@ class Timeline extends Component {
                             </div>
 
                             <div class="time">
-                                <div class="img"><img src="https://picsum.photos/402"/></div>
+                                <div class="img"><img src="https://picsum.photos/402" alt="timeline"/></div>
                                 <div class="wrap">
                                     <div class="date">Upper heading</div>
                                     <h3 class="title">Heading</h3>
@@ -62,7 +62,7 @@ class Timeline extends Component {
                             </div>
 
                             <div class="time">
-                                <div class="img"><img src="https://picsum.photos/401"/></div>
+                                <div class="img"><img src="https://picsum.photos/401" alt="timeline"/></div>
                                 <div class="wrap">
                                     <div class="date">Upper heading</div>
                                     <h3 class="title">Heading</h3>
@@ -73,7 +73,7 @@ class Timeline extends Component {
                             </div>
 
                             <div class="time">
-                                <div class="img"><img src="https://picsum.photos/407"/></div>
+                                <div class="img"><img src="https://picsum.photos/407" alt="timeline"/></div>
                                 <div class="wrap">
                                     <div class="date">Upper heading</div>
                                     <h3 class="title">Heading</h3>
@@ -84,7 +84,7 @@ class Timeline extends Component {
                             </div>
 
                             <div class="time">
-                                <div class="img"><img src="https://picsum.photos/408"/></div>
+                                <div class="img"><img src="https://picsum.photos/408" alt="timeline"/></div>
                                 <div class="wrap">
                                     <div class="date">Upper heading</div>
                                     <h3 class="title">Heading</h3>
@@ -95,7 +95,7 @@ class Timeline extends Component {
                             </div>
 
                             <div class="time">
-                                <div class="img"><img src="https://picsum.photos/409"/></div>
+                                <div class="img"><img src="https://picsum.photos/409" alt="timeline"/></div>
                                 <div class="wrap">
                                     <div class="date">Upper heading</div>
                                     <h3 class="title">Heading</h3>

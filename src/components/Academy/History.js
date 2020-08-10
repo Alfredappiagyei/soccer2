@@ -2,15 +2,18 @@ import React, { Component } from "react";
 
 import pop from "./photos/pop.GIF"
 
- 
- import {
+  
 
-     BrowserRouter as Router,
-     Switch,
-     Route,
+import {
+
+    // BrowserRouter as Router,
+    // Switch,
+    // Route,
     Link
   
-   } from "react-router-dom";
+
+
+  } from "react-router-dom";
 class History extends Component {
     render() {
 
