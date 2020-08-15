@@ -19,6 +19,7 @@ import justify from "../soccer/photos/justify.JPG";
 import jayjay from "../soccer/photos/jayjay.JPG";
 import pascal from "../soccer/photos/pascal.JPG";
 // profile images
+import baaye from "../soccer/photos/Baaye.JPG";
 import appiah from "../soccer/photos/Appiah.JPG";
 import elvis from "../soccer/photos/Elvis.JPG";
 import cosmos from "../soccer/photos/cosmos.JPG";
@@ -815,20 +816,20 @@ class Home extends Component {
                   <div class="item">
                     <div class="pad15">
                       <div class="card">
-                        <Link to="/appiah">
+                        <Link to="/bismark">
                           {" "}
                           <img
-                            src={appiah}
+                            src={baaye}
                             alt="pizza"
                             class="img-responsive"
                           />{" "}
                         </Link>
                         <div class="card-body">
                           <h4>
-                            <strong>3</strong>
+                            <strong>16</strong>
                           </h4>
                           <h5>
-                            <b>Daniel</b>
+                            <b>Bismark</b>
                           </h5>
                         </div>
                       </div>
@@ -1136,7 +1137,6 @@ class Home extends Component {
         <section class="container-fluid">
           <div className="row">
             <Link to="#" className="header">
-              {" "}
               <h2>Features</h2>
             </Link>
           </div>

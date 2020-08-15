@@ -525,6 +525,34 @@ font-family: 'Open Sans', sans-serif;
 }
 
 
+
+/* bismark */
+
+.bismark {
+  background: url(components/firstTeam/photos/Baaye.JPG);
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  min-height: 550px;
+  width: 100%;
+  position: relative;
+  
+  }
+  
+  #bismarkdetails {
+    background-color: rgba(0,0,0,0);
+    color: #fff;
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
 /* appiah */
 .appiah {
 background: url(components/firstTeam/photos/Appiah.JPG);

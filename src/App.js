@@ -29,6 +29,7 @@ import Anouncement from './components/News/Anouncement';
 
 
 // Firstteam
+import Bismark from './components/firstTeam/Bismark';
 import Appiah from './components/firstTeam/Appiah';
 import Cosmos from './components/firstTeam/Cosmos';
 import Elvis from './components/firstTeam/Elvis';
@@ -51,6 +52,7 @@ import Useventeen from './components/Team/Useventeen';
 
 // FIXTURES
 import SecondDivision from './components/Fixtures/Secdivision';
+
 
 
 
@@ -204,6 +206,7 @@ function App() {
           
 
           {/* Second division */}
+          <Route path="/bismark" exact component={Bismark} /> 
           <Route path="/appiah" exact component={Appiah} /> 
           <Route path="/cosmos" exact component={Cosmos} /> 
           <Route path="/elvis" exact component={Elvis} /> 

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import baaye from "./photos/Baaye.JPG"
 import appiah from '../Team/photos/Appiah.JPG' 
 import jerseygrid from './photos/0.gif'
 import andrews from "./photos/Andrews.JPG"
@@ -59,13 +60,13 @@ class Secdiv extends Component {
                             </div>
                             <div class="row line"></div>
                             <div className="row">
-                            <Link to="#"> 
+                            <Link to="/bismark"> 
                                 <div className="col-md-4 col-xs-12" style={{ display: "flex", }}>
                                 <div className="col-md-8">
-                                     <img src={appiah} alt="pizza"  class="img-responsive" width="100%" height="200px" />
+                                     <img src={baaye} alt="pizza"  class="img-responsive" width="100%" height="200px" />
                                     </div>
-                                    <div className="col-md-1" id="jerseynumber"><b>3</b></div>
-                                    <div className="col-md-3"><b>Daniel Appiah</b></div>
+                                    <div className="col-md-1" id="jerseynumber"><b>16</b></div>
+                                    <div className="col-md-3"><b>Bismark Baaye</b></div>
                                 </div>
                                 </Link>
 

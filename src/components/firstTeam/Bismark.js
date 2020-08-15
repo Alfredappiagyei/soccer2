@@ -8,6 +8,7 @@ import theophilus from '../firstTeam/photos/theophilus.JPG'
 import cobby from '../firstTeam/photos/cobby.JPG'
 import baaye from '../firstTeam/photos/Baaye.JPG'
 
+
 import jerseygrid from '../firstTeam/photos/0.gif'
 
  
@@ -21,21 +22,21 @@ import {
   } from "react-router-dom";
   import Footer from "../Footer";
 
-class Andrews extends Component {
+class Bismark extends Component {
     render() {
         return (
             <div>
-                <div className="andrews">
-                    <div className="container" id="andrewsdetails">
+                <div className="bismark">
+                    <div className="container" id="bismarkdetails">
                         <div className="col-md-6 col-xs-12">
-                            <h1 style={{ fontSize: "80px", marginBottom: "20px" }}><b>34</b></h1>
-                            {/* <h1 style={{ fontSize: "50px" }}><b>Daniel</b></h1> */}
-                            <h1 style={{ fontSize: "80px" }}><b>Andrews</b></h1>
-                            <h2>FORWARD</h2>
+                            <h1 style={{ fontSize: "80px", marginBottom: "20px" }}><b>16</b></h1>
+                             <h1 style={{ fontSize: "50px" }}><b>Bismark</b></h1> 
+                            <h1 style={{ fontSize: "80px" }}><b>Baaye</b></h1>
+                            <h2>GOALKEEPER</h2>
                         </div>
                         <div className="col-md-6 col-xs-12">
-                            <h3>D.O.B <br /> <h2><b>dkfbjn</b></h2></h3>
-                            <h3>Place of birth <br /> <h2><b>Assin Dompim</b></h2></h3>
+                            <h3>D.O.B <br /> <h2><b>7/05/2003</b></h2></h3>
+                            <h3>Place of birth <br /> <h2><b>Tepa Achina</b></h2></h3>
 
                         </div>
                     </div>
@@ -48,7 +49,7 @@ class Andrews extends Component {
                                 <nav class="navbar navbar-default" style={{ backgroundColor: '#333333', color: "#fff", }}>
                                     <div class="container-fluid">
                                         <div class="navbar-header">
-                                            <Link to="/firstteam" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", background: "lawngreen" }}><b>Andrews</b> </Link>
+                                            <Link to="/firstteam" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", background: "lawngreen" }}><b>Bismark</b> </Link>
                                             
                                             {/* <Link to="/academy" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", fontStyle: "linethrough" }}><b>Videos</b> </Link> */}
 
@@ -81,7 +82,7 @@ class Andrews extends Component {
                             <div className="row">
                                 <div className="col-md-6"></div>
                                 <div className="col-md-6" style={{ display: "block", justifyContent: "center", color: "#fff", textAlign: "center", background: "#414141" }}>
-                                    <span><p>Andrews</p><b />Soccer Angels Academy</span>
+                                    <span><p>Bismark Baaye</p><b />Soccer Angels Academy</span>
                                 </div>
                             </div>
 
@@ -590,9 +591,7 @@ class Andrews extends Component {
                                             </div>
                                         </div>
                                     </div>
-
-                                    
-                                   <div class="panel panel-default">
+                                    <div class="panel panel-default">
                                         <div class="panel-heading" role="tab" id="headingFour">
                                             <h4 class="panel-title">
                                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
@@ -600,8 +599,8 @@ class Andrews extends Component {
                                                 </a>
                                             </h4>
                                         </div>
-                                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                                             <div class="panel-body">
+                                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                            <div class="panel-body">
                                             <ul>
                                                     <li>
                                                     <Link to="/bismark">
@@ -617,7 +616,7 @@ class Andrews extends Component {
                                                 </ul>
                                             </div>
                                         </div>
-                                    </div> 
+                                    </div>
                                 </div>
                             </div>
 
@@ -637,4 +636,4 @@ class Andrews extends Component {
     }
 }
 
-export default Andrews;
+export default Bismark;

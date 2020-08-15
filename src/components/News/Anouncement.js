@@ -67,7 +67,7 @@ class Anouncement extends Component {
 
                 <footer>
                   <Footer />
-              </footer>
+                 </footer>
       
             
 
