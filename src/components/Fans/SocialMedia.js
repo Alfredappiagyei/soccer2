@@ -17,7 +17,7 @@ class SocialMedia extends Component {
             <div>
             
                 <div className="container-fluid">
-                    <div className="row" style={{ backgroundColor: "#444444", color: "lawngreen" }}><h3><b>SAFA ON  SOCIAL MEDIA</b></h3> </div>
+                    <div className="row" style={{ backgroundColor: "lawngreen", color: "#141414" }}><h3>SAFA ON  SOCIAL MEDIA</h3> </div>
 
                     <div className="row">
                         <div className="col-md-9">

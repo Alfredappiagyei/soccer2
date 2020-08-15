@@ -20,18 +20,23 @@ class  SecondDivision extends Component {
         return (
 
             <div className="conatiner-fluid" style={{margin:"0px"}}>
-            <div className="row" style={{ backgroundColor: "#E31B23", color: "#ddd", margin:"0px 0px 0px 0px" }}><h3>FIXTURES AND RESULLTS</h3>  </div> 
+            <div className="row" style={{ backgroundColor: "lawngreen", color: "#141414", margin:"0px 0px 0px 0px" }}><h3>FIXTURES AND RESULLTS</h3>  </div> 
             <div class="carousel-inner carousel-content" role="listbox">
             <div class="item active"  id="carousel_item1" >
             <div class="row" style={{margin:"0px"}}>
                     <div class="col-xs-12 col-md-4"  id="lastmatch_colon">
+                        
                     <div className="row" style={{minHeight:"200px",}}>
                     <p id="upcoming_match_header_text">LAST MATCH</p>
+
                             <div class="col-xs-4  col-md-4"> <img src={soccerHomeimage1} alt="pizza"
-                                class="img-responsive" /><p >Suampongman Utd</p></div>
+                                class="img-responsive" /><p >Suampongman Utd</p>
+                                </div>
+
                             <div class="col-xs-4  col-md-4">
                                 <button id="upcoming_match_button"><b>VS</b></button>
                             </div>
+
                             <div class="col-xs-4  col-md-4"> <img src={soccerangelslogo} alt="pizza"
                                 class="img-responsive" /><p >  Soccer Angels Academy</p></div>
                             <div id="match_text">
@@ -94,7 +99,7 @@ class  SecondDivision extends Component {
 
                                 
                             <div className="row">
-                                <nav class="navbar navbar-default" style={{ backgroundColor: '#333333', color: "#fff", }}>
+                                <nav class="navbar navbar-default" style={{ backgroundColor: '#141414', color: "#fff", }}>
                                     <div class="container-fluid">
                                         <div class="navbar-header">
                                             <Link to="/secondivision" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", }}><p>2ND DIVISION</p> </Link>

@@ -14,12 +14,13 @@ import {
 
 
   } from "react-router-dom";
+import Footer from "../Footer";
 class History extends Component {
     render() {
 
         return (
             <div style={{margin:"0px"}}>
-                <div className="container-fluid history">
+                <section className="container-fluid history">
                     <div className="row"id="story" >
                         <div className="col-md-7 col-xs-12">
                             <div className="row">
@@ -34,10 +35,17 @@ class History extends Component {
 
                       <div className="col-md-5 col-xs-12"  style={{textAlign:"center"}}>
                             <img src={pop} className="img-responsive" alt="history" height="500px" width="500px"/>
-                          <button  style={{border:"none",padding:"15px 60px"}}> <Link to="/timeline"><b>Timeline</b> </Link></button> 
+                          <button  style={{border:"none",padding:"15px 60px",backgroundColor:"lawngreen"}}> <Link to="/timeline"><b>Timeline</b> </Link></button> 
                         </div>
                     </div>
-                </div>
+                </section>
+
+
+
+
+                <footer>
+                  <Footer />
+                 </footer>
               
             </div >
 

@@ -24,15 +24,15 @@ import Footer from "../Footer";
 class Secdiv extends Component {
     render() {
         return (
-            <div>
+            <div style={{backgroundColor:"lightgray"}}>
                 <div className="container">
-                <div className="line"></div>
+                
                     <div className="row">
                         <div className="col-md-9">
-                            <div className="row" style={{ backgroundColor: "#444444", color: "lawngreen" }}>
-                                <h3><b>SECOND DIVISION</b></h3>
+                            <div className="row" style={{ backgroundColor: "lawngreen", color: "#141414" }}>
+                                <h3>SECOND DIVISION</h3>
                             </div>
-                              <div className="line"></div>
+                              
                             <div className="row">
                                  <img src={Seconddivission } alt="angels"
                                 class="img-responsive" /> 

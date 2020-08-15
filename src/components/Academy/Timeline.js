@@ -1,13 +1,16 @@
 import React, { Component } from "react";
 
 import pop from "./photos/pop.GIF"
+import Footer from "../Footer";
 
 class Timeline extends Component {
     render() {
 
         return (
             <div style={{margin:"0px"}}>
-                <div className="container-fluid">
+
+                
+                <div className="container-fluid linefirst">
                     <div className="row"id="story" >
                         <div className="col-md-7 col-xs-12">
                             <div className="row">
@@ -26,7 +29,15 @@ class Timeline extends Component {
                 </div>
 
 
-                <div className="container-fluid" style={{background:"grey"}}>
+
+
+
+
+
+
+
+
+                <section className="container-fluid" style={{background:"lawngreen"}}>
                 <div class="timeline">
                             <div class="time">
                                 <div class="img"><img src="https://picsum.photos/400" alt="timeline"/></div>
@@ -106,7 +117,10 @@ class Timeline extends Component {
                             </div>
                         </div>
                    
-                </div>
+                </section>
+                <footer>
+                  <Footer />
+                 </footer>
               
             </div >
 
