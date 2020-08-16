@@ -255,7 +255,7 @@ class Home extends Component {
 
 
 
-        <section>
+        <section className="justify">
           <div className="container justifyimg_container">
             <img
               src={justify}
@@ -683,8 +683,8 @@ class Home extends Component {
                     </div>
                     <div class="col-md-8 col-xs-8">
                       <p className="latest_news_sub_headline">
-                        Soccer Angels unviel its new jersey for the 2020-2021
-                        league
+                        The new away kits of Soccer Angels for the 20201 season
+                        
                       </p>
                     </div>
                   </div>

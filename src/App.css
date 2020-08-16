@@ -44,8 +44,11 @@ section {
  -----------------------*/
 
  .justify {
-  background-color: rgba(240, 255, 255, 0.486);
- 
+    /* background-color: rgba(240, 255, 255, 0.486);  */
+    background-color: rgba(20,20,20,0.65);
+    background-size: cover;
+   
+  
 
 } 
 
@@ -158,7 +161,7 @@ section {
 
 
 #carousel_item1 {
-   background: url(soccer/photos/soccer26.JPG);  
+   background: url(soccer/photos/soccerangelslogo.JPG);  
   padding: 50px 0px;
   
 }
@@ -317,7 +320,7 @@ FEATURED VIDEOS
  ------------------------------ */
 
 .league{
-background: url(soccer/photos/soccer26.JPG);
+background: url(soccer/photos/soccerangelslogo.JPG);
 background-size: cover;
 font-family: 'Open Sans', sans-serif;
 
