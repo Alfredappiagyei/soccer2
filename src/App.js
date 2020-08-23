@@ -34,14 +34,14 @@ import Appiah from './components/firstTeam/Appiah';
 import Cosmos from './components/firstTeam/Cosmos';
 import Elvis from './components/firstTeam/Elvis';
 import Enock from './components/firstTeam/Enock';
-import Cobby from './components/firstTeam/Cobby';
+import Isaac from './components/firstTeam/Isaac';
 import Andrews from './components/firstTeam/Andrews';
 import Richmond from './components/firstTeam/Richmond';
 import Theophilus from './components/firstTeam/Theophilus';
 import Ketu from './components/firstTeam/Ketu';
-
-
-
+import Benard from './components/firstTeam/Benard';
+import Bright from './components/firstTeam/Bright';
+import Jonathan from './components/firstTeam/Jonathan';
 
 
 import Uten from './components/Team/Uten';
@@ -52,6 +52,11 @@ import Useventeen from './components/Team/Useventeen';
 
 // FIXTURES
 import SecondDivision from './components/Fixtures/Secdivision';
+
+
+
+
+
 
 
 
@@ -211,11 +216,14 @@ function App() {
           <Route path="/cosmos" exact component={Cosmos} /> 
           <Route path="/elvis" exact component={Elvis} /> 
           <Route path="/enock" exact component={Enock} /> 
-          <Route path="/cobby" exact component={Cobby} /> 
+          <Route path="/isaac" exact component={Isaac} /> 
           <Route path="/andrews" exact component={Andrews} /> 
           <Route path="/richmond" exact component={Richmond} /> 
           <Route path="/theophilus" exact component={Theophilus} /> 
           <Route path="/ketu" exact component={Ketu} /> 
+          <Route path="/benard" exact component={Benard} /> 
+          <Route path="/bright" exact component={Bright} /> 
+          <Route path="/jonathan" exact component={Jonathan} /> 
           
           
               

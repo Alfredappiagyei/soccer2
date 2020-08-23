@@ -28,13 +28,13 @@ class Richmond extends Component {
                 <div className="richmond">
                     <div className="container" id="richmonddetails">
                         <div className="col-md-6 col-xs-12">
-                            <h1 style={{ fontSize: "80px", marginBottom: "20px" }}><b>34</b></h1>
-                            {/* <h1 style={{ fontSize: "50px" }}><b>Daniel</b></h1> */}
-                            <h1 style={{ fontSize: "80px" }}><b>Richmond</b></h1>
+                            <h1 style={{ fontSize: "80px", marginBottom: "20px" }}><b>2</b></h1>
+                             <h1 style={{ fontSize: "50px" }}><b>Richmond</b></h1> 
+                            <h1 style={{ fontSize: "80px" }}><b>Sarfo</b></h1>
                             <h2>DEFENDER</h2>
                         </div>
                         <div className="col-md-6 col-xs-12">
-                            <h3>D.O.B <br /> <h2><b>dkfbjn</b></h2></h3>
+                            <h3>D.O.B <br /> <h2><b>27/1/2005</b></h2></h3>
                             <h3>Place of birth <br /> <h2><b>Assin Dompim</b></h2></h3>
 
                         </div>
@@ -48,7 +48,7 @@ class Richmond extends Component {
                                 <nav class="navbar navbar-default" style={{ backgroundColor: '#333333', color: "#fff", }}>
                                     <div class="container-fluid">
                                         <div class="navbar-header">
-                                            <Link to="/firstteam" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", background: "lawngreen" }}><b>Richmond</b> </Link>
+                                            <Link to="/firstteam" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", background: "lawngreen" }}><b>Richmond Sarfo</b> </Link>
                                             {/* <Link to="/academy" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", fontStyle: "linethrough" }}><b>Videos</b> </Link> */}
 
                                         </div>

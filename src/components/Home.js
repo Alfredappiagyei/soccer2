@@ -29,6 +29,9 @@ import shargaa from "../soccer/photos/shargaa.JPG";
 import theophilus from "../soccer/photos/theophilus.JPG";
 import cobby from "../soccer/photos/cobby.JPG";
 import ketu from "../soccer/photos/Ketu.JPG";
+import benard from "../soccer/photos/Benard.JPG";
+import bright from "../soccer/photos/Bright.JPG";
+import jonathan from "../soccer/photos/Jonathan.JPG";
 
 import {
   // BrowserRouter as Router,
@@ -37,6 +40,8 @@ import {
   Link,
 } from "react-router-dom";
 import Footer from "./Footer";
+import Isaac from "./firstTeam/Isaac";
+import Appiah from "./firstTeam/Appiah";
 
 class Home extends Component {
   render() {
@@ -838,20 +843,42 @@ class Home extends Component {
                   <div class="item">
                     <div class="pad15">
                       <div class="card">
-                        <Link to="/appiah">
+                        <Link to="/bright">
                           {" "}
                           <img
-                            src={appiah}
-                            alt="pizza"
+                            src={bright}
+                            alt="Bright"
                             class="img-responsive"
                           />{" "}
                         </Link>
                         <div class="card-body">
                           <h4>
-                            <strong>3</strong>
+                            <strong>99</strong>
                           </h4>
                           <h5>
-                            <b>Daniel</b>
+                            <b>Bright</b>
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="pad15">
+                      <div class="card">
+                        <Link to="/jonathan">
+                          {" "}
+                          <img
+                            src={jonathan}
+                            alt="Bright"
+                            class="img-responsive"
+                          />{" "}
+                        </Link>
+                        <div class="card-body">
+                          <h4>
+                            <strong>1</strong>
+                          </h4>
+                          <h5>
+                            <b>Jonathan</b>
                           </h5>
                         </div>
                       </div>
@@ -992,7 +1019,7 @@ class Home extends Component {
                   <div class="item">
                     <div class="pad15">
                       <div class="card">
-                        <Link to="/cobby">
+                        <Link to="/isaac">
                           {" "}
                           <img
                             src={cobby}
@@ -1005,7 +1032,7 @@ class Home extends Component {
                             <strong>3</strong>
                           </h4>
                           <h5>
-                            <b>Cobby</b>
+                            <b>Isaac</b>
                           </h5>
                         </div>
                       </div>
@@ -1036,20 +1063,20 @@ class Home extends Component {
                   <div class="item">
                     <div class="pad15">
                       <div class="card">
-                        <Link to="/appiah">
+                        <Link to="/benard">
                           {" "}
                           <img
-                            src={appiah}
+                            src={benard}
                             alt="pizza"
                             class="img-responsive"
                           />{" "}
                         </Link>
                         <div class="card-body">
                           <h4>
-                            <strong>3</strong>
+                            <strong>9</strong>
                           </h4>
                           <h5>
-                            <b>Daniel</b>
+                            <b>Benard</b>
                           </h5>
                         </div>
                       </div>
@@ -1071,7 +1098,7 @@ class Home extends Component {
                             <strong>3</strong>
                           </h4>
                           <h5>
-                            <b>Daniel</b>
+                            <b>Ishmael</b>
                           </h5>
                         </div>
                       </div>
@@ -1093,12 +1120,57 @@ class Home extends Component {
                             <strong>3</strong>
                           </h4>
                           <h5>
-                            <b>Daniel</b>
+                            <b>Ebenezer</b>
                           </h5>
                         </div>
                       </div>
                     </div>
                   </div>
+                  <div class="item">
+                    <div class="pad15">
+                      <div class="card">
+                        <Link to="/appiah">
+                          {" "}
+                          <img
+                            src={appiah}
+                            alt="pizza"
+                            class="img-responsive"
+                          />{" "}
+                        </Link>
+                        <div class="card-body">
+                          <h4>
+                            <strong>3</strong>
+                          </h4>
+                          <h5>
+                            <b>Christian</b>
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="pad15">
+                      <div class="card">
+                        <Link to="/appiah">
+                          {" "}
+                          <img
+                            src={appiah}
+                            alt="pizza"
+                            class="img-responsive"
+                          />{" "}
+                        </Link>
+                        <div class="card-body">
+                          <h4>
+                            <strong>3</strong>
+                          </h4>
+                          <h5>
+                            <b>Jeremiah</b>
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
                 </div>
                 <button class="btn  leftLst" id="btne">
                   <span className="glyphicon glyphicon-menu-left"></span>{" "}

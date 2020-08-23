@@ -19,7 +19,7 @@ import {
   
   } from "react-router-dom";
 import Footer from "../Footer";
-class Cobby extends Component {
+class Isaac extends Component {
     render() {
         return (
             <div>
@@ -27,12 +27,12 @@ class Cobby extends Component {
                     <div className="container" id="cobbydetails">
                         <div className="col-md-6 col-xs-12">
                             <h1 style={{ fontSize: "80px", marginBottom: "20px" }}><b>34</b></h1>
-                            {/* <h1 style={{ fontSize: "50px" }}><b>Daniel</b></h1> */}
-                            <h1 style={{ fontSize: "80px" }}><b>Cobby</b></h1>
-                            <h2>DEFENDER</h2>
+                             <h1 style={{ fontSize: "50px" }}><b>Issac</b></h1> 
+                            <h1 style={{ fontSize: "80px" }}><b>Entsie</b></h1>
+                            <h2>MIDFIELDER</h2>
                         </div>
                         <div className="col-md-6 col-xs-12">
-                            <h3>D.O.B <br /> <h2><b>dkfbjn</b></h2></h3>
+                            <h3>D.O.B <br /> <h2><b>19/11/2007</b></h2></h3>
                             <h3>Place of birth <br /> <h2><b>Assin Dompim</b></h2></h3>
 
                         </div>
@@ -46,7 +46,7 @@ class Cobby extends Component {
                                 <nav class="navbar navbar-default" style={{ backgroundColor: '#333333', color: "#fff", }}>
                                     <div class="container-fluid">
                                         <div class="navbar-header">
-                                            <Link to="/firstteam" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", background: "lawngreen" }}><b>Cobby</b> </Link>
+                                            <Link to="/firstteam" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", background: "lawngreen" }}><b>Isaac</b> </Link>
                                             {/* <Link to="/academy" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", fontStyle: "linethrough" }}><b>Videos</b> </Link> */}
 
                                         </div>
@@ -78,7 +78,7 @@ class Cobby extends Component {
                             <div className="row">
                                 <div className="col-md-6"></div>
                                 <div className="col-md-6" style={{ display: "block", justifyContent: "center", color: "#fff", textAlign: "center", background: "#414141" }}>
-                                    <span><p>Cobby</p><b />Soccer Angels Academy</span>
+                                    <span><p>Issac Entsie</p><b />Soccer Angels Academy</span>
                                 </div>
                             </div>
 
@@ -623,4 +623,4 @@ class Cobby extends Component {
     }
 }
 
-export default Cobby;
+export default Isaac;

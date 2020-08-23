@@ -29,12 +29,12 @@ class Enock extends Component {
                     <div className="container" id="enockdetails">
                         <div className="col-md-6 col-xs-12">
                             <h1 style={{ fontSize: "80px", marginBottom: "20px" }}><b>34</b></h1>
-                            {/* <h1 style={{ fontSize: "50px" }}><b>Daniel</b></h1> */}
-                            <h1 style={{ fontSize: "80px" }}><b>Enock</b></h1>
+                             <h1 style={{ fontSize: "50px" }}><b>Enock</b></h1> 
+                            <h1 style={{ fontSize: "80px" }}><b>Affum</b></h1>
                             <h2>MIDFIELDER</h2>
                         </div>
                         <div className="col-md-6 col-xs-12">
-                            <h3>D.O.B <br /> <h2><b>dkfbjn</b></h2></h3>
+                            <h3>D.O.B <br /> <h2><b>26/4/2004</b></h2></h3>
                             <h3>Place of birth <br /> <h2><b>Assin Dompim</b></h2></h3>
 
                         </div>
@@ -80,7 +80,7 @@ class Enock extends Component {
                             <div className="row">
                                 <div className="col-md-6"></div>
                                 <div className="col-md-6" style={{ display: "block", justifyContent: "center", color: "#fff", textAlign: "center", background: "#414141" }}>
-                                    <span><p>Enock</p><b />Soccer Angels Academy</span>
+                                    <span><p>Enock Affum</p><b />Soccer Angels Academy</span>
                                 </div>
                             </div>
 
@@ -507,7 +507,7 @@ class Enock extends Component {
                                                         <img src={cobby}  alt="cobby"  className="img-responsive"></img>
                                                         <div className="playerinfo">
                                                             <span>2</span>
-                                                            <span id="playername">Cobby</span>
+                                                            <span id="playername">Issac</span>
                                                         </div>
                                                         </Link>
                                                     </li>
