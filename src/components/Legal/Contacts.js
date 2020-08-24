@@ -5,8 +5,8 @@ class Contacts extends Component {
 render() {
 
     return (
-      <>
-        <div className="container">
+      <div style={{margin:"0px",padding:"0px"}}>
+        <div className="container" width="100%">
         <div className="row">
             <div className="col-md-8">
                 <div className="row"><h1><b>Contact Us</b></h1> </div>
@@ -52,22 +52,20 @@ render() {
                 <hr/>
             </div>
             <div className="col-md-4">
-              <h3>Get in touch with us</h3>
-                <div className="row">                            
-                <form action="https://formspree.io/appiagyeialfred815@gmail.com"  method="post">
+                <div className="row">  
+                <h3>Get in touch with us</h3>                          
+                <form action="https://formspree.io/soccerangelsa67@gmail.com"  method="post">
                   <label>name</label>
-                  <input type="text" name="name" />
+                  <input type="text" name="name" width="100%"/>
                   <label>email</label>
-                  <input type="text" name="email" />
+                  <input type="text" name="email"  width="100%"/>
                   <label>message</label>
-                  <input type="text" name="message" />
+                  <input type="text" name="message"  width="100%"/>
                   <br/><br/>
                   <button>
                   Send
                   </button>
                   </form>
-          
-    
                 </div>
             </div>
         </div>
@@ -80,12 +78,11 @@ render() {
 
 
      
-      </>
+      </div>
     )
   }
 }
 export default Contacts;
-
 
 
 
