@@ -54,7 +54,7 @@ render() {
             <div className="col-md-4">
                 <div className="row">  
                 <h3>Get in touch with us</h3>                          
-                <form action="https://formspree.io/soccerangelsa67@gmail.com"  method="post">
+                <form action="https://formspree.io/appiagyeialfred815@gmail.com"  method="post">
                   <label>name</label>
                   <input type="text" name="name" width="100%"/>
                   <label>email</label>
