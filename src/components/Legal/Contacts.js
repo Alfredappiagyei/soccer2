@@ -54,18 +54,16 @@ render() {
             <div className="col-md-4">
                 <div className="row">  
                 <h3>Get in touch with us</h3>                          
-                <form action="https://formspree.io/appiagyeialfred815@gmail.com"  method="post">
-                  <label>name</label>
-                  <input type="text" name="name" width="100%"/>
-                  <label>email</label>
-                  <input type="text" name="email"  width="100%"/>
-                  <label>message</label>
-                  <input type="text" name="message"  width="100%"/>
-                  <br/><br/>
-                  <button>
-                  Send
-                  </button>
-                  </form>
+                <form action="https://getform.io/f/275659fa-c96e-4145-8b25-ce4ebcb0fe6d" method="POST">
+                 <label>Your Name</label>
+              <input type="text" name="name"/>
+              <label>Email</label>
+              <input type="email" name="email"/>
+              <label>Message</label>
+              <input type="text" name="message"/>
+             <button type="submit">Send</button>
+
+            </form>
                 </div>
             </div>
         </div>
