@@ -1,6 +1,5 @@
  
 import Footer from "../Footer";
-import $ from "jquery";
 import React, { Component } from 'react'
 class Contacts extends Component {
 render() {

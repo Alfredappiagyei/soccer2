@@ -40,8 +40,6 @@ import {
   Link,
 } from "react-router-dom";
 import Footer from "./Footer";
-import Isaac from "./firstTeam/Isaac";
-import Appiah from "./firstTeam/Appiah";
 
 class Home extends Component {
   render() {
