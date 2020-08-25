@@ -24,6 +24,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+   
     <title>React App</title>
    
     <script src="https://kit.fontawesome.com/a076d05399.js"></script> 
@@ -33,6 +34,89 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+		<script>
+		  window.formbutton =
+			window.formbutton ||
+			function() {
+			  (formbutton.q = formbutton.q || []).push(arguments);
+			};
+		  formbutton("create", {
+			action: "https://getform.io/f/275659fa-c96e-4145-8b25-ce4ebcb0fe6d",
+			title: "Contact Us",
+			fields: [
+			  {
+				type: "text",
+				label: "Name:",
+				name: "name",
+			  },
+			  {
+				type: "email",
+				label: "Email:",
+				name: "email",
+			  },
+			  {
+				type: "text",
+				label: "Address:",
+				name: "address1",
+			  },
+			  
+			  {
+				type: "textarea",
+				label: "Message:",
+				name: "message",
+			  },
+			  
+			  { type: "submit", value: "Send" }
+			],
+			styles: {
+			  fontFamily: "Montserrat",
+			  modal: {
+				border: "1px solid #6D6875",
+				boxShadow: "6px 6px 0 #6D6875",
+        borderRadius: "0",
+        background: "lawngreen",
+			  },
+			  title: {
+				padding: "24px 24px 0px 24px",
+				background: "rgba(0,0,0,0)",
+				color: "#2e2a37",
+				fontFamily: "Marcellus SC",
+				fontSize: "25px",
+			  },
+			  body: {
+				  padding: "16px 24px 24px",
+			  },
+			  field: {
+				display: "flex",
+			  },
+			  submitField: {
+				justifyContent: "flex-end",            
+			  },
+			  label: {
+				width: "40%",
+			  },
+			  checkboxLabel: {
+				width: "auto",
+			  },
+			  input: {
+				borderRight: "1px solid rgba(0,0,0,0.1)",
+				borderBottom: "1px solid rgba(0,0,0,0.1)",
+				borderRadius: "0px"
+			  },
+			  button: {
+				background: "#141414",
+				fill: "lawngreen",
+				border: "1px solid #6D6875",
+				boxShadow: "3px 3px 0px lawngreen"
+			  },
+			  closeButton: {
+				textShadow: "0 0 0 #2e2a37",
+			  }
+			},
+			// initiallyVisible: true
+		  });
+		</script>
      
     <!--
       This HTML file is a template.
@@ -44,7 +128,7 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    
+    <script src="https://formspree.io/js/formbutton-v1.0.1.min.js" defer></script>
     <script src="jquery-3.4.1.min.js"></script>
     <script src="bootstrap.min.js"></script>
   </body>

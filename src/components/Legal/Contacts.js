@@ -3,7 +3,11 @@ import Footer from "../Footer";
 import React, { Component } from 'react'
 class Contacts extends Component {
 render() {
+           
 
+  /* easing functions from: https://github.com/gdsmith/jquery.easing/blob/master/jquery.easing.js
+*/
+ 
     return (
       <div style={{margin:"0px",padding:"0px"}}>
         <div className="container" width="100%">
@@ -64,6 +68,10 @@ render() {
              <button type="submit">Send</button>
 
             </form>
+                </div>
+
+                <div className="row">
+ 
                 </div>
             </div>
         </div>
