@@ -377,8 +377,6 @@ class Home extends Component {
                         <div id="match_text"></div>
                       </div>
                     </div>
-
-                    <div class="item"></div>
                   </div>
                 </div>
               </div>
