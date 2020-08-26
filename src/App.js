@@ -9,7 +9,6 @@ import Contacts from './components/Legal/Contacts';
 
 
 import {
-
   BrowserRouter as Router,
   Switch,
   Route,
@@ -52,6 +51,12 @@ import Useventeen from './components/Team/Useventeen';
 
 // FIXTURES
 import SecondDivision from './components/Fixtures/Secdivision';
+
+
+
+// FullDetails
+
+import BoahDetails from './FullDetails/TransfareDetails/Preciousboahdetails';
 
 
 
@@ -224,7 +229,13 @@ function App() {
           <Route path="/benard" exact component={Benard} /> 
           <Route path="/bright" exact component={Bright} /> 
           <Route path="/jonathan" exact component={Jonathan} /> 
-          
+
+
+
+          {/* --------------------------
+          FullDetais 
+          ------------------------------*/}
+             <Route path="/boahdetails" exact component={BoahDetails} /> 
           
               
 

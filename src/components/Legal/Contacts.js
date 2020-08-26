@@ -66,7 +66,6 @@ render() {
               <label>Message</label>
               <input type="text" name="message"/>
              <button type="submit">Send</button>
-
             </form>
                 </div>
 

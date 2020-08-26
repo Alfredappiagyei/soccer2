@@ -590,7 +590,7 @@ class Home extends Component {
 
         <section class="container-fluid">
           <div className="row">
-            <Link to="#" className="header">
+            <Link to="transfarenews" className="header">
               {" "}
               <h2>Latest News</h2>
             </Link>
@@ -670,7 +670,7 @@ class Home extends Component {
                     </div>
                   </div>
                 </div>
-
+              
                 <div class="col-md-6 col-xs-12">
                   <div class="row">
                     <div class="col-md-4 col-xs-4">
@@ -1223,10 +1223,10 @@ class Home extends Component {
                   </Link>
                   <div className="line"></div>
                 </div>
-                <div class="col-md-12 col-xs-12">
-                  <h4 className=" features_main_headline">
+                <div class="col-md-12 col-xs-12 features-headline">
+                  <h4>
                     {" "}
-                    Soccer Angels new home kit
+                    Soccer Angels new home kit for the 20201 season
                   </h4>
                 </div>
               </div>
@@ -1346,8 +1346,8 @@ class Home extends Component {
                   <div className="line"></div>
                 </div>
                 <div className="col-md-12 col-xs-12">
-                  <div class="col-md-12 col-xs-12">
-                    <h4 className=" features_main_headline">
+                  <div class="col-md-12 col-xs-12 transfarenews-headline">
+                    <h4>
                       Soccer angels could look for creative solution to solve a
                       tranfare problem
                     </h4>
@@ -1370,7 +1370,7 @@ class Home extends Component {
                 </div>
 
                 <div class="col-md-8 col-xs-7 transfare_news_sub_headline">
-                  <Link to="#">
+                  <Link to="boahdetails">
                     <h4>
                       <b>OFFICIAL:PERCIOUS BOAH JOINS DREAMS FC</b>{" "}
                     </h4>

@@ -26,7 +26,7 @@ import Footer from "../Footer";
 class TransfareNews extends Component {
     render () {
         return( 
-                <div>
+                <div id="transfare">
  
 
  <section class="container-fluid">
@@ -207,8 +207,8 @@ class TransfareNews extends Component {
                   <div className="line"></div>
                 </div>
                 <div className="col-md-12 col-xs-12">
-                  <div class="col-md-12 col-xs-12">
-                    <h4 className=" features_main_headline">
+                  <div class="col-md-12 col-xs-12  transfarenews-headline">
+                    <h4>
                       Soccer angels could look for creative solution to solve a
                       tranfare problem
                     </h4>
@@ -231,7 +231,7 @@ class TransfareNews extends Component {
                 </div>
 
                 <div class="col-md-8 col-xs-7 transfare_news_sub_headline">
-                  <Link to="#">
+                  <Link to="boahdetails">
                     <h4>
                       <b>OFFICIAL:PERCIOUS BOAH JOINS DREAMS FC</b>{" "}
                     </h4>
@@ -319,7 +319,6 @@ class TransfareNews extends Component {
             </div>
           </div>
         </section>
-
 
                   <footer>
                   <Footer />
