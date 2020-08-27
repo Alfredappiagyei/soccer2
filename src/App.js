@@ -57,6 +57,7 @@ import SecondDivision from './components/Fixtures/Secdivision';
 // FullDetails
 
 import BoahDetails from './FullDetails/TransfareDetails/Preciousboahdetails';
+import JuvenileScreening from './FullDetails/LatestNewsDetails/JuvinalleRegister';
 
 
 
@@ -235,9 +236,11 @@ function App() {
           {/* --------------------------
           FullDetais 
           ------------------------------*/}
+          {/* transfare */}
              <Route path="/boahdetails" exact component={BoahDetails} /> 
           
-              
+          {/* latestNews */}
+          <Route path="/juvinileregister" exact component={JuvenileScreening} /> 
 
              </Switch>
 

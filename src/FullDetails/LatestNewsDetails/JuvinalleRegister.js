@@ -1,9 +1,9 @@
 import React, {Component} from "react";
-import precious from "../photos/precious.jpg";
-import precious2 from "../photos/precious2.JPG";
+import ScreningImage1 from "../photos/juvinalle1.jpg";
+import ScreningImage2 from "../photos/juvinalle2.jpg";
 import jerseygrid from "../photos/0.gif";
 import soccerHomeimage1 from "../photos/soccer1.JPG";
-import juvenile2 from "../photos/juvinalle2.jpg";
+import precious from "../photos/precious.jpg";
  import {
 
      // BrowserRouter as Router,
@@ -17,7 +17,7 @@ import juvenile2 from "../photos/juvinalle2.jpg";
 import Footer from "../../components/Footer";
 import SocialHeader from "../../components/SocilaHeader";
 
-class BoahDetails extends Component {
+class JuvenileScreening extends Component {
     render () {
         return(
             <div>
@@ -25,8 +25,8 @@ class BoahDetails extends Component {
              <div className="container-fluid">
                   <div className='detailsHeading'>
                       <h1>
-                      Percious Boah welcomes Dreams fc move, but Soccer Angels
-                      Academy will recognise truth about his trajectory
+                      Central regional football association visited Assin District football association for 
+                      Juvenile screening
                       </h1>                     
                   </div>
 
@@ -38,35 +38,35 @@ class BoahDetails extends Component {
                <div className="col-md-9">
                    <div className="detailsImage">
                    <img
-                      src={precious}
+                      src={ScreningImage1}
                       alt="pizza"
                       class="img-responsive"
                     />
                    </div>
                    <div className="detailsContext">
                        <p>
-                       Former Dompim Soccer Angels Football play maker Precious Boah ends national U -20 call up.
-                       Precious Boah which has spend most of his time with Dompim Soccer Angels football Academy and now 
-                       with still believe Fc has been called to national
-                       U-20 male team by coach Karim Zito and Evans Adotey. Boah among 70 players invited by the coaches.
-                       </p>
-                       <p>
-                       Dompim Soccer Angels football Academy and now  with still believe Fc has been called to national           
-                       U-20 male team by coach Karim Zito and Evans Adotey. Boah among 70 players invited by the coaches.
-                       </p>
+                       On 26th August 2020 central regional football association visited 
+                       Assin District football association for Juvenile screening. The program 
+                       which is been held at Assin foso Jomsco Park were comprises of SOCCER ANGLES ACADEMY, 
+                       ANYINBEREM YOUNG STARS, BERLIN FC, DESTINY ACADEMY, KINGS ACADEMY, DAWOMAKO SUPER STARS and ASSIN HOMAHO CITY ACADEMY.
+                     
+
+                        </p>
+                      
                    </div>
 
                    <div className="detailsImage">
                    <img
-                      src={precious2}
+                      src={ScreningImage2}
                       alt="precious"
                       class="img-responsive"
                     />
                    </div>
                    <div className="detailsContext">
                        <p>
-                       Soccer Angels Football Academy is happy for their former player call up to the national team. 
-                       Boah deserve it and we wish him well said by the club Administration manager Francis Anapey.
+                       Unfortunately ASSIN HOMAHO CITY ACADEMY were not present due to one or two things.
+                       Representatives  from RFA were happy about the Clubs effort,
+                       By FRANCIS ANAPEY and IMMENSE
                        </p>
                    </div>
                </div>
@@ -85,24 +85,23 @@ class BoahDetails extends Component {
                      <hr/>
 
                 <div class="row" id="features_subRows">
+                <Link to="/boahdetails">
                     <div class="col-md-6 col-xs-5">
-                  <Link to="/juvinileregister">
                     {" "}
                     <img
-                      src={juvenile2}
+                      src={precious}
                       alt="pizza"
                       class="img-responsive"
-                    />
-                  </Link>
+                    />               
                 </div>
                 <div class="col-md-6 col-xs-7 details-tranfare">
-                  <Link to="#">
+                  
                     <p>
-                       Central regional football association visited Assin District football association for 
-                      Juvenile screening
-                    </p>
-                  </Link>
+                       Percious Boah welcomes Dreams fc move, but Soccer Angels
+                      Academy will recognise truth about his trajectory
+                 </p>                  
                 </div>
+                </Link>
               </div>
                 <hr/>
 
@@ -202,4 +201,4 @@ class BoahDetails extends Component {
     }
 }
 
-export default BoahDetails;
+export default JuvenileScreening;

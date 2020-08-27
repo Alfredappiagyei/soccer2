@@ -18,6 +18,7 @@ import pressrelease from "../soccer/photos/press.JPG";
 import justify from "../soccer/photos/justify.JPG";
 import jayjay from "../soccer/photos/jayjay.JPG";
 import pascal from "../soccer/photos/pascal.JPG";
+import juvenile2 from "../soccer/photos/juvinalle2.jpg";
 // profile images
 import baaye from "../soccer/photos/Baaye.JPG";
 import appiah from "../soccer/photos/Appiah.JPG";
@@ -32,6 +33,8 @@ import ketu from "../soccer/photos/Ketu.JPG";
 import benard from "../soccer/photos/Benard.JPG";
 import bright from "../soccer/photos/Bright.JPG";
 import jonathan from "../soccer/photos/Jonathan.JPG";
+
+
 
 import {
   // BrowserRouter as Router,
@@ -664,21 +667,21 @@ class Home extends Component {
               
                 <div class="col-md-6 col-xs-12">
                   <div class="row">
-                    <div class="col-md-4 col-xs-4">
-                      <Link to="#">
+                  <Link to="/juvinileregister">
+                    <div class="col-md-4 col-xs-4">            
                         <img
-                          src={jerseyimage1}
+                          src={juvenile2}
                           alt="pizza"
                           class="img-responsive"
                         />
-                      </Link>
                     </div>
                     <div class="col-md-8 col-xs-8">
                       <p className="latest_news_sub_headline">
-                        The new away kits of Soccer Angels for the 20201 season
-                        
+                      Central regional football association visited Assin District football association for 
+                      Juvenile screening                  
                       </p>
                     </div>
+                    </Link>
                   </div>
                   <hr />
                   <div class="row">
