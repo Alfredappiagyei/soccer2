@@ -256,7 +256,7 @@ class Home extends Component {
     return (
       <div className="body">
 
-
+          
 
         <section className="justify">
           <div className="container justifyimg_container">
@@ -268,15 +268,6 @@ class Home extends Component {
             ></img>
           </div>
           </section>
-
-
-
-
-
-
-
-
-
 
 
         <div className="line"></div>
@@ -621,14 +612,13 @@ class Home extends Component {
                   </div>
                   <hr />
                   <div class="row">
-                    <div class="col-md-4 col-xs-4">
-                      <Link to="#">
+                  <Link to="/boahdetails">
+                    <div class="col-md-4 col-xs-4">             
                         <img
                           src={soccerHomeimage2}
                           alt="pizza"
                           class="img-responsive"
                         />
-                      </Link>
                     </div>
                     <div class="col-md-8 col-xs-8">
                       <p className="latest_news_sub_headline">
@@ -637,6 +627,7 @@ class Home extends Component {
                         Soccer Angels Academy.
                       </p>
                     </div>
+                    </Link>
                   </div>
                   <hr />
                   <div class="row">
