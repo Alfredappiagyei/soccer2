@@ -2,18 +2,49 @@
 /*-------------------------
  REUSERBLE CODE 
  -------------------------*/
- * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+ 
+ .container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
+ 
 
  .line {
   min-height: 5px;
   background-color:lawngreen;
 }
  
+.bottom {
+  overflow: hidden;
+  text-align: center;
+  color: lawngreen;
+  padding: 5px;
+  background-color: #141414;
+  
+}
+.bottom:before,
+.bottom:after {
+  background-color: lawngreen;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+  
+}
+.bottom:before {
+  right: 0.5em;
+  margin-left: -50%;
+  color: red;
+}
+.bottom:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
 
 #more_button {
   float: right;
@@ -107,18 +138,23 @@ section {
  justify 
  -----------------------*/
 
- .justify {
-    /* background-color: rgba(240, 255, 255, 0.486);  */
-    background-color: rgba(20,20,20,0.65);
-    background-size: cover;
-   
-  
+ .mainHeadline {
+  background-color: #141414;
+}
+
+
+ .mainHeadline h1 {
+  color: lawngreen;
+  letter-spacing: -0.39px;
+  position: relative;
+  font-family: 'Airial Rounded' !important;
+  font-weight: 900;
+  padding: 5px 15px;
+  text-align: center;
+  margin: 10px 20x;
 
 } 
 
-.justifyimg_container {
-  margin: 0px 0px;
-}
 
 
 

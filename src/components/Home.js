@@ -15,10 +15,10 @@ import jerseygrid from "../soccer/photos/0.gif";
 import jerseyimage4 from "../soccer/photos/Picture10.jpg";
 import asante from "../soccer/photos/W-asante.JPG";
 import pressrelease from "../soccer/photos/press.JPG";
-import justify from "../soccer/photos/justify.JPG";
 import jayjay from "../soccer/photos/jayjay.JPG";
 import pascal from "../soccer/photos/pascal.JPG";
 import juvenile2 from "../soccer/photos/juvinalle2.jpg";
+import mainheadline from "../soccer/photos/headilineimg.jpg";
 // profile images
 import baaye from "../soccer/photos/Baaye.JPG";
 import appiah from "../soccer/photos/Appiah.JPG";
@@ -257,25 +257,31 @@ class Home extends Component {
     });
 
     return (
-      <div className="body">
+      <div className="container-fluid body">
 
-          
-
-        <section className="justify">
-          <div className="container justifyimg_container">
-            <img
-              src={justify}
-              alt="justify"
-              className="img-responsive"
-              style={{ margin: "auto" }}
-            ></img>
+        <section className="container">
+          <Link to="/boahdetails">
+          <div className="row">
+          <img
+                            src={mainheadline}
+                            alt="precious"
+                            class="img-responsive"
+                          />
           </div>
+          <div className="line"></div>
+
+          <div className="row mainHeadline">
+              <h1>
+                      Percious Boah welcomes Dreams fc move, but Soccer Angels
+                      Academy will recognise truth about his trajectory
+              </h1>
+          </div>
+          </Link>
           </section>
 
 
-        <div className="line"></div>
-
-        <header class="container-fluid">
+      
+        <header class="container">
           <div class="row">
             <div
               id="carousel-example-generic"
@@ -376,9 +382,10 @@ class Home extends Component {
               </div>
             </div>
           </div>
+          <div className="line"></div>
         </header>
 
-        <div className="line"></div>
+       
 
 
 
@@ -401,7 +408,7 @@ class Home extends Component {
 
 
 
-        <section className="container-fluid">
+        <section className="container">
           <div className="row">
             <Link to="/seatvgo">
               <button id="more_button">MORE</button>
@@ -556,9 +563,10 @@ class Home extends Component {
               </div>
             </div>
           </div>
+          <div className="line"></div>
         </section>
 
-        <div className="line"></div>
+       
 
 
 
@@ -582,7 +590,7 @@ class Home extends Component {
 
 
 
-        <section class="container-fluid">
+        <section class="container">
           <div className="row">
             <Link to="transfarenews" className="header">
               {" "}
@@ -729,9 +737,10 @@ class Home extends Component {
               </div>
             </div>
           </div>
+          
+        <div className="line"></div>
         </section>
 
-        <div className="line"></div>
 
 
 
@@ -797,7 +806,7 @@ class Home extends Component {
 
         <div className="line"></div>
 
-        <section class="container-fluid">
+        <section class="container">
           <div class="row">
             <div>
               <div
@@ -1171,32 +1180,15 @@ class Home extends Component {
               </div>
             </div>
           </div>
+          <div className="line"></div>
         </section>
 
-        <div className="line"></div>
+        
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <section class="container-fluid">
+        <section class="container">
           <div className="row">
             <Link to="#" className="header">
               <h2>Features</h2>
@@ -1206,16 +1198,15 @@ class Home extends Component {
           <div class="row" id="features_mainRows">
             <div class="col-md-6">
               <div class="row">
-                <div class="col-md-12 col-xs-12" style={{ padding: "40px" }}>
-                  <Link to="#">
+              <Link to="#">
+                <div class="col-md-12 col-xs-12" style={{ padding: "40px" }}>             
                     {" "}
                     <img
                       src={jerseyimage1}
                       alt="pizza"
                       class="img-responsive"
                     />
-                  </Link>
-                  <div className="line"></div>
+                    <h4 class="bottom"><b>Soccer Angels Academy</b></h4>
                 </div>
                 <div class="col-md-12 col-xs-12 features-headline">
                   <h4>
@@ -1223,6 +1214,7 @@ class Home extends Component {
                     Soccer Angels new home kit for the 20201 season
                   </h4>
                 </div>
+                </Link>
               </div>
             </div>
 
@@ -1317,7 +1309,7 @@ class Home extends Component {
 
 
 
-        <section class="container-fluid" id="transfare_news">
+        <section class="container" id="transfare_news">
           <div className="row">
             <Link to="#" className="header">
               {" "}
@@ -1328,16 +1320,15 @@ class Home extends Component {
           <div className="row" id="features_mainRows">
             <div className="col-md-6">
               <div className="row" id="features_subRows">
-                <div className="col-md-12 col-xs-12">
-                  <Link to="#">
+              <Link to="#">
+                <div className="col-md-12 col-xs-12">              
                     {" "}
                     <img
                       src={soccerHomeimage3}
                       alt="angels"
                       class="img-responsive"
                     />
-                  </Link>
-                  <div className="line"></div>
+                       <h4 class="bottom"><b>Transfare News</b></h4>                             
                 </div>
                 <div className="col-md-12 col-xs-12">
                   <div class="col-md-12 col-xs-12 transfarenews-headline">
@@ -1347,6 +1338,7 @@ class Home extends Component {
                     </h4>
                   </div>
                 </div>
+                </Link>      
               </div>
             </div>
 
@@ -1364,7 +1356,7 @@ class Home extends Component {
                 </div>
 
                 <div class="col-md-8 col-xs-7 transfare_news_sub_headline">
-                  <Link to="boahdetails">
+                  <Link to="/boahdetails">
                     <h4>
                       <b>OFFICIAL:PERCIOUS BOAH JOINS DREAMS FC</b>{" "}
                     </h4>

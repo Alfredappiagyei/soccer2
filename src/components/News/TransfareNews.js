@@ -29,7 +29,7 @@ class TransfareNews extends Component {
                 <div id="transfare">
  
 
- <section class="container-fluid">
+ <section class="container">
           <div className="row">
             <Link to="#" className="header">
               {" "}
@@ -184,7 +184,7 @@ class TransfareNews extends Component {
 
  
 
-        <section class="container-fluid" id="transfare_news">
+        <section class="container" id="transfare_news">
           <div className="row">
             <Link to="#" className="header">
               {" "}
@@ -195,15 +195,16 @@ class TransfareNews extends Component {
           <div className="row" id="features_mainRows">
             <div className="col-md-6">
               <div className="row" id="features_subRows">
-                <div className="col-md-12 col-xs-12">
-                  <Link to="#">
+              <Link to="#">
+                <div className="col-md-12 col-xs-12">      
                     {" "}
                     <img
                       src={soccerHomeimage3}
                       alt="angels"
                       class="img-responsive"
                     />
-                  </Link>
+                     <h4 class="bottom"><b>Transfare News</b></h4>   
+                
                   <div className="line"></div>
                 </div>
                 <div className="col-md-12 col-xs-12">
@@ -214,6 +215,7 @@ class TransfareNews extends Component {
                     </h4>
                   </div>
                 </div>
+                </Link>
               </div>
             </div>
 
