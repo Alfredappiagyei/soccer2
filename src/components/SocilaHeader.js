@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import footlogo from './Fans/photos/footlogo.JPG'
+
 
 
 
