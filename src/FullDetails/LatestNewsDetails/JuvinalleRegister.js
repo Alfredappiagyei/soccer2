@@ -89,7 +89,7 @@ class JuvenileScreening extends Component {
                     <div class="col-md-6 col-xs-5">
                     {" "}
                     <img
-                      src={precious}
+                      src={precious }
                       alt="pizza"
                       class="img-responsive"
                     />               

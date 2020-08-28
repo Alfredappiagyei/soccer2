@@ -679,11 +679,11 @@ font-family: 'Open Sans', sans-serif;
  
 
 
-    .vidMultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
-    .vidMultiCarousel{ min-height: 200px;}
+    .vidMultiCarousel { float: left; overflow: hidden; padding: 0px; width: 100%; position:relative; }
+    .vidMultiCarousel{ min-height: 100px;}
         .vidMultiCarousel .vidMultiCarousel-inner { transition: 1s ease all; float: left; }
             .vidMultiCarousel .vidMultiCarousel-inner .video { float: left;}
-            .vidMultiCarousel .vidMultiCarousel-inner .video > div { display: block; padding:5px; margin:5px; background:#f1f1f1; color:#666;}
+            .vidMultiCarousel .vidMultiCarousel-inner .video > div { display: block; padding:0px; margin:5px; background:#f1f1f1; color:#666;}
         .vidMultiCarousel .leftslide, .vidMultiCarousel .rightslide { border: none; position:absolute; color: #fff; background-color: lawngreen;
            padding: 10px 10px; border-radius: 50%; margin-top: 80px;}
         .vidMultiCarousel .leftslide { left:0; border: none; }
@@ -1220,6 +1220,11 @@ body {
   max-width: 854px;
   margin: 0 auto;
   padding: 20px 0;
+}
+
+
+.caption h4{
+  color: green;
 }
 
 .vid-main-wrapper {

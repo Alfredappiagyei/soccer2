@@ -42,6 +42,7 @@ import {
   // Route,
   Link,
 } from "react-router-dom";
+import TimeAgo from "timeago-react";
 import Footer from "./Footer";
 
 class Home extends Component {
@@ -255,7 +256,7 @@ class Home extends Component {
         ResCarousel(ell, Parent, slide);
       }
     });
-
+     
     return (
       <div className="body">
 
@@ -441,14 +442,15 @@ class Home extends Component {
                           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                           allowfullscreen
                         ></iframe>
-                        <div class="caption">
-                          <Link to="/">
+                        <div class="caption">                       
                             {" "}
-                            <h5>
-                              <b>Soccer Angels</b>
-                            </h5>
-                          </Link>
-                          <p>...</p>
+                            <h4>
+                             <b> Soccer Angels</b>
+                            </h4>                         
+                           <h3><b>hello</b></h3>
+                          <TimeAgo
+                          datetime={'2020-08-28 14:12:00'}
+                          locale='vi'/>
                         </div>
                       </div>
                     </div>
@@ -467,13 +469,13 @@ class Home extends Component {
                           allowfullscreen
                         ></iframe>
                         <div class="caption">
-                          <Link to="/">
-                            {" "}
-                            <h5>
-                              <b>Soccer Angels</b>
-                            </h5>
-                          </Link>
-                          <p>...</p>
+                        <h4>
+                             <b> Soccer Angels</b>
+                            </h4>                         
+                           <h3><b>hello</b></h3>
+                          <TimeAgo
+                          datetime={'2020-08-28 14:12:00'}
+                          locale='vi'/>
                         </div>
                       </div>
                     </div>
@@ -492,13 +494,13 @@ class Home extends Component {
                           allowfullscreen
                         ></iframe>
                         <div class="caption">
-                          <Link to="/">
-                            {" "}
-                            <h5>
-                              <b>Soccer Angels</b>
-                            </h5>
-                          </Link>
-                          <p>...</p>
+                        <h4>
+                             <b> Soccer Angels</b>
+                            </h4>                         
+                           <h3><b>hello</b></h3>
+                          <TimeAgo
+                          datetime={'2020-08-28 14:12:00'}
+                          locale='vi'/>
                         </div>
                       </div>
                     </div>
@@ -517,13 +519,14 @@ class Home extends Component {
                           allowfullscreen
                         ></iframe>
                         <div class="caption">
-                          <Link to="/">
-                            {" "}
-                            <h5>
-                              <b>Junior Premire League</b>
-                            </h5>
-                          </Link>
-                          <p>...</p>
+                        <h4>
+                             <b>Junior Premire League</b>
+                            </h4>                         
+                           <h3><b>hello</b></h3>
+                          <TimeAgo
+                          datetime={'2020-08-28 14:12:00'}
+                          locale='vi'/>
+                          
                         </div>
                       </div>
                     </div>
@@ -542,13 +545,13 @@ class Home extends Component {
                           allowfullscreen
                         ></iframe>
                         <div class="caption">
-                          <Link to="/">
-                            {" "}
-                            <h5>
-                              <b>Soccer Aangels U13</b>
-                            </h5>
-                          </Link>
-                          <p>...</p>
+                        <h4>
+                             <b> Soccer Angels U13</b>
+                            </h4>                         
+                           <h3><b>hello</b></h3>
+                          <TimeAgo
+                          datetime={'2020-08-28 14:12:00'}
+                          locale='vi'/>
                         </div>
                       </div>
                     </div>
