@@ -257,7 +257,7 @@ class Home extends Component {
     });
 
     return (
-      <div className="container-fluid body">
+      <div className="body">
 
         <section className="container">
           <Link to="/boahdetails">
