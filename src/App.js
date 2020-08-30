@@ -79,7 +79,7 @@ function App() {
     <Router> 
       <div>
 
-        <nav class="navbar navbar-default" style={{position:"relative", width:"100%",marginBottom:"0px", left:"0px", border:"none",borderRadius:"none", zIndex:"2",  backgroundColor: 'red', color: "#fff", alignContent:"center" }}>
+        <nav class="navbar navbar-default" style={{position:"relative", width:"100%",marginBottom:"0px", left:"0px", border:"none",borderRadius:"none", zIndex:"2",  backgroundColor: '#444444', color: "#fff", alignContent:"center" }}>
           <div class="container-fluid">
 
             <div class="navbar-header">
