@@ -19,7 +19,7 @@ import jayjay from "../soccer/photos/jayjay.JPG";
 import pascal from "../soccer/photos/pascal.JPG";
 import juvenile2 from "../soccer/photos/juvinalle2.jpg";
 import mainheadline from "../soccer/photos/headilineimg.jpg";
-import justifyimage from "../soccer/photos/justify.JPG";
+
 
 // profile images
 import baaye from "../soccer/photos/Baaye.JPG";
