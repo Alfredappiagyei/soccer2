@@ -79,105 +79,126 @@ function App() {
     <Router> 
       <div>
 
-        <nav class="navbar navbar-default" style={{position:"relative", width:"100%",marginBottom:"0px", left:"0px", border:"none",borderRadius:"none", zIndex:"2",  backgroundColor: '#444444', color: "#fff", alignContent:"center" }}>
-          <div class="container-fluid">
+        <nav className="navbar navbar-default" style={{position:"relative", width:"100%",marginBottom:"0px", left:"0px", border:"none",borderRadius:"none", zIndex:"2",  backgroundColor: '#444444', color: "#fff", alignContent:"center" }}>
+          <div className="container-fluid">
 
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+            <div className="navbar-header">
+              <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span className="sr-only">Toggle navigation</span>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
               </button>
               <div> 
             <Link to="/">
             <img src={logo} alt="soccerangelslogo" id="logo"  className="img-responsive" height="100px" width="100px" style={{borderRadius:"50%"}} /> 
+            <h3 id="textlogo">SAFA</h3>
             </Link>      
               </div>
              
             </div>
 
 
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-                <li ><button class="dropbtn"><Link to="/"><p>HOME</p></Link></button></li>
-                <li><button class="dropbtn"><Link to="/features"><p>FEATURES</p></Link></button></li>
+            <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul className="nav navbar-nav">
+                <li ><button className="dropbtn"><Link to="/"><p>HOME</p></Link></button></li>
+                <li><button className="dropbtn"><Link to="/features"><p>FEATURES</p></Link></button></li>
                 <li>
-                  <div class="dropdown">
-                    <button class="dropbtn"><p>NEWS</p>
+                  <div className="dropdown">
+                    <button className="dropbtn"><p>NEWS</p>
                     </button>
-                    <div class="dropdown-content">
-                      <Link to="/transfarenews"><p>TEAM NEWS</p> </Link>
-                      {/* <Link to="#"><p>FIRST TEAM#</p> </Link> */}
-                      <Link to="/anouncement"><p>ANOUNCEMENTS</p> </Link>
+                    <div className="dropdown-content">
+                      <ul>
+                        <li> <Link to="/transfarenews">TEAM NEWS </Link></li>
+                        <li> <Link to="/anouncement">ANOUNCEMENTS </Link></li>
+                        {/* <li>  <Link to="#"><p>FIRST TEAM#</p> </Link> </li> */}
+                      </ul>
+                     
+                   
+                     
 
                     </div>
                   </div>
                 </li>
 
                 <li>
-                  <div class="dropdown">
-                    <button class="dropbtn"><p>FIXTURES</p>
+                  <div className="dropdown">
+                    <button className="dropbtn"><p>FIXTURES</p>
                     </button>
-                    <div class="dropdown-content">
-                      <Link to="/secondivision"><p>2ND DIVISION</p></Link>  
-                       {/* <Link to="/under23"><p>U10S</p> </Link>
-                      <Link to="/under18"><p>U13S</p> </Link>
-                      <Link to="/under18"><p>U17S</p> </Link>
-                      <Link to="/under18"><p>2ND DIVISION</p> </Link>
-                      <Link to="/under18"><p>3RD DIVISION</p> </Link>
-                      <Link to="#"><p>LEAGUE TABLE#</p> </Link>  */}
+                    <div className="dropdown-content">
+                      <ul>
+                        <li> <Link to="/secondivision">2ND DIVISION</Link></li>
+                        {/* <li>  <Link to="/under23"><p>U10S</p> </Link></li>
+                        <li> <Link to="/under18"><p>U13S</p> </Link></li>
+                        <li> <Link to="/under18"><p>U17S</p> </Link></li>
+                        <li>  <Link to="/under18"><p>2ND DIVISION</p> </Link></li>
+                        <li> <Link to="/under18"><p>3RD DIVISION</p> </Link></li>
+                        <li> <Link to="#"><p>LEAGUE TABLE#</p> </Link>  </li> */}
+                      </ul>
+                     
                     </div>
                   </div>
                 </li>
 
                 <li>
-                  <div class="dropdown">
-                    <button class="dropbtn"><p>TEAM</p>
+                  <div className="dropdown">
+                    <button className="dropbtn"><p>TEAM</p>
                     </button>
-                    <div class="dropdown-content">
-                      {/* <Link to="/under10"><p>U10</p> </Link>
-                      <Link to="/under13"><p>U13</p> </Link>
-                      <Link to="/under17"><p>U17</p> </Link> */}
-                      <Link to="/secondiv"><p>2ND DIVISION</p> </Link>
-                      {/* <Link to="/thirdiv"><p>2ND DIVISION</p> </Link> */}
+                    <div className="dropdown-content">
+                      <ul>
+                        <li> <Link to="/secondiv">2ND DIVISION </Link></li>
+                        {/* <li> <Link to="/under10"><p>U10</p> </Link></li>
+                        <li> <Link to="/under13"><p>U13</p> </Link></li>
+                        <li> <Link to="/under17"><p>U17</p> </Link></li>
+                        <li> <Link to="/thirdiv"><p>2ND DIVISION</p> </Link> </li> */}
+                      </ul>                  
+                      
                     </div>
                   </div>
                 </li>
 
                
                 <li>
-                  <div class="dropdown">
-                    <button class="dropbtn"><p>FANS</p>
+                  <div className="dropdown">
+                    <button className="dropbtn"><p>FANS</p>
                     </button>
-                    <div class="dropdown-content">
-                      <Link to="/seatvgo"><p>SAFA TV</p> </Link>
-                      <Link to="/socialmedia"><p>SOCIAL MEDIA</p> </Link>
+                    <div className="dropdown-content">
+                      <ul>
+                        <li> <Link to="/seatvgo">SAFA TV</Link></li>
+                        <li>  <Link to="/socialmedia">SOCIAL MEDIA</Link></li>
+                      </ul>                
                     </div>
                   </div>
                 </li>
 
                
                 <li>
-                  <div class="dropdown">
-                    <button class="dropbtn"><p>ACADEMY</p>
+                  <div className="dropdown">
+                    <button className="dropbtn"><p>ACADEMY</p>
                     </button>
-                    <div class="dropdown-content">
-                      <Link to="/history"><p>HISTORY</p> </Link>
-                      {/* <Link to="#"><p>HOUNORS#</p></Link> */}
+                    <div className="dropdown-content">
+                      <ul>
+                        <li> <Link to="/history">HISTORY</Link></li>
+                        {/* <li> <Link to="#"><p>HOUNORS#</p></Link> </li> */}
+                      </ul>
                     </div>
                   </div>
                 </li>
 
                 <li>
-                  <div class="dropdown">
-                  <button class="dropbtn"><p>HELP</p>
+                  <div className="dropdown">
+                  <button className="dropbtn"><p>HELP</p>
                     </button>
                     
-                    <div class="dropdown-content">
-                      {/* <Link to="#"><p>FAQS#</p> </Link> */}
-                      <Link to="/contacts"><p>CONTACT </p></Link>
-                      {/* <Link to="/atoz"><p>A - Z#</p> </Link> */}
+                    <div className="dropdown-content">
+                      <ul>
+                        <li><Link to="/contacts">CONTACT</Link></li>
+                        {/* <li><Link to="#"><p>FAQS#</p> </Link></li>
+                        <li> <Link to="/atoz"><p>A - Z#</p> </Link> </li> */}
+                      </ul>
+                        
+                      
+                      
                     </div>
                   </div>
                 </li>

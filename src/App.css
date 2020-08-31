@@ -94,6 +94,25 @@ section {
  /*----------------------
   HEADER JS 
   -------------------------*/
+  #textlogo {
+   display: none;
+ } 
+  
+  
+@media only screen and (max-width: 600px) { 
+  #logo {
+    display: none;
+  }
+  #textlogo{
+    color: lawngreen;
+    display: inline-block;
+    font-family: 'Airial Rounded' !important;
+    font-size: 25px;
+    margin-left: 13px;
+
+  }
+  }
+
   .socialHead h3 {
     float: right;
     color: lawngreen;
@@ -189,7 +208,7 @@ section {
   padding: 5px;
   font: 16px;
   border: none;
-  margin: 30px 0px 0px 15px;
+  margin: 30px 5px 0px 5px;
   font: 16px;
   text-decoration: none;
   position: relative;
@@ -205,7 +224,7 @@ section {
     padding: 5px;
     font: 20px;
     border: none;
-    margin: 30px 20px 0px 20px;
+    margin: 30px 40px 0px 20px;
     font: 16px;
     text-decoration: none;
     position: relative;
@@ -224,15 +243,17 @@ section {
 .dropdown {
   position: relative;
   display: inline-block;
+  width: 100%;
   
 }
 
+ 
 .dropdown-content {
   display: none;
   background-color:#141414;
   min-width: 160px;
   position: absolute;
- 
+  width: auto;
   
 }
 
@@ -240,6 +261,8 @@ section {
 .dropdown-content {
   position: relative;
   color: #fff;
+  width: auto;
+  
 }
 }
  
@@ -249,7 +272,7 @@ section {
   display: block;
   font-size: 18px;
   color: #fff;
-  margin: 10px 0px 0px 10px;
+  margin: 12px 0px 0px 30px;
   
 
 }
@@ -1199,7 +1222,8 @@ width: 100%;
 
 .staff {
           text-decoration: none;
-          color: #141414;
+          color: green;
+          font-family: 'Airial Rounded' !important;
 }
 
 

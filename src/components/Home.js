@@ -55,7 +55,7 @@ class Home extends Component {
       var itemWidth = "";
 
       $(".leftLst, .rightLst").click(function () {
-        var condition = $(this).hasClass("leftLst");
+        var condition = $(this).hasclass("leftLst");
         if (condition) click(0, this);
         else click(1, this);
       });
@@ -70,7 +70,7 @@ class Home extends Component {
       function ResCarouselSize() {
         var incno = 0;
         var dataItems = "data-items";
-        var itemClass = ".item";
+        var itemclass = ".item";
         var id = 0;
         var btnParentSb = "";
         var itemsSplit = "";
@@ -78,7 +78,7 @@ class Home extends Component {
         var bodyWidth = $("body").width();
         $(itemsDiv).each(function () {
           id = id + 1;
-          var itemNumbers = $(this).find(itemClass).length;
+          var itemNumbers = $(this).find(itemclass).length;
           btnParentSb = $(this).parent().attr(dataItems);
           itemsSplit = btnParentSb.split(",");
           $(this)
@@ -103,13 +103,13 @@ class Home extends Component {
             width: itemWidth * itemNumbers,
           });
           $(this)
-            .find(itemClass)
+            .find(itemclass)
             .each(function () {
               $(this).outerWidth(itemWidth);
             });
 
-          $(".leftLst").addClass("over");
-          $(".rightLst").removeClass("over");
+          $(".leftList").addClass("over");
+          $(".rightList").removeClass("over");
         });
       }
 
@@ -123,20 +123,20 @@ class Home extends Component {
         var xds = Math.abs(values[4]);
         if (e === 0) {
           translateXval = parseInt(xds) - parseInt(itemWidth * s);
-          $(el + " " + rightBtn).removeClass("over");
+          $(el + " " + rightBtn).removeclass("over");
 
           if (translateXval <= itemWidth / 2) {
             translateXval = 0;
-            $(el + " " + leftBtn).addClass("over");
+            $(el + " " + leftBtn).addclass("over");
           }
         } else if (e === 1) {
           var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
           translateXval = parseInt(xds) + parseInt(itemWidth * s);
-          $(el + " " + leftBtn).removeClass("over");
+          $(el + " " + leftBtn).removeclass("over");
 
           if (translateXval >= itemsCondition - itemWidth / 2) {
             translateXval = itemsCondition;
-            $(el + " " + rightBtn).addClass("over");
+            $(el + " " + rightBtn).addclass("over");
           }
         }
         $(el + " " + itemsDiv).css(
@@ -161,7 +161,7 @@ class Home extends Component {
       var itemWidth = "";
 
       $(".leftslide, .rightslide").click(function () {
-        var condition = $(this).hasClass("leftslide");
+        var condition = $(this).hasclass("leftslide");
         if (condition) click(0, this);
         else click(1, this);
       });
@@ -176,7 +176,7 @@ class Home extends Component {
       function ResCarouselSize() {
         var incno = 0;
         var dataItems = "data-items";
-        var itemClass = ".video";
+        var itemclass = ".video";
         var id = 0;
         var btnParentSb = "";
         var itemsSplit = "";
@@ -184,7 +184,7 @@ class Home extends Component {
         var bodyWidth = $("body").width();
         $(itemsDiv).each(function () {
           id = id + 1;
-          var itemNumbers = $(this).find(itemClass).length;
+          var itemNumbers = $(this).find(itemclass).length;
           btnParentSb = $(this).parent().attr(dataItems);
           itemsSplit = btnParentSb.split(",");
           $(this)
@@ -209,7 +209,7 @@ class Home extends Component {
             width: itemWidth * itemNumbers,
           });
           $(this)
-            .find(itemClass)
+            .find(itemclass)
             .each(function () {
               $(this).outerWidth(itemWidth);
             });
@@ -229,20 +229,20 @@ class Home extends Component {
         var xds = Math.abs(values[4]);
         if (e === 0) {
           translateXval = parseInt(xds) - parseInt(itemWidth * s);
-          $(el + " " + rightBtn).removeClass("over");
+          $(el + " " + rightBtn).removeclass("over");
 
           if (translateXval <= itemWidth / 2) {
             translateXval = 0;
-            $(el + " " + leftBtn).addClass("over");
+            $(el + " " + leftBtn).addclass("over");
           }
         } else if (e === 1) {
           var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
           translateXval = parseInt(xds) + parseInt(itemWidth * s);
-          $(el + " " + leftBtn).removeClass("over");
+          $(el + " " + leftBtn).removeclass("over");
 
           if (translateXval >= itemsCondition - itemWidth / 2) {
             translateXval = itemsCondition;
-            $(el + " " + rightBtn).addClass("over");
+            $(el + " " + rightBtn).addclass("over");
           }
         }
         $(el + " " + itemsDiv).css(
@@ -270,7 +270,7 @@ class Home extends Component {
           <img
                             src={mainheadline}
                             alt="precious"
-                            class="img-responsive"
+                            className="img-responsive"
                           />
           </div>
           <div className="line"></div>
@@ -286,18 +286,18 @@ class Home extends Component {
 
 
       
-        <header class="container">
-          <div class="row">
+        <header className="container">
+          <div className="row">
             <div
               id="carousel-example-generic"
-              class="carousel slide"
+              className="carousel slide"
               data-ride="carousel"
             >
-              <ol class="carousel-indicators">
+              <ol className="carousel-indicators">
                 <li
                   data-target="#carousel-example-generic"
                   data-slide-to="0"
-                  class="active"
+                  className="active"
                 ></li>
                 <li
                   data-target="#carousel-example-generic"
@@ -309,73 +309,73 @@ class Home extends Component {
                 ></li>
               </ol>
 
-              <div class="carousel-inner carousel-content" role="listbox">
-                <div class="row" id="line"></div>
-                <div class="item active" id="carousel_item1">
-                  <div class="row">
-                    <div class="col-xs-12 col-md-4" id="lastmatch_colon">
+              <div className="carousel-inner carousel-content" role="listbox">
+                <div className="row" id="line"></div>
+                <div className="item active" id="carousel_item1">
+                  <div className="row">
+                    <div className="col-xs-12 col-md-4" id="lastmatch_colon">
                       <div className="row" style={{ minHeight: "200px" }}>
                         <img
                           src={jerseygrid}
                           alt="jersaecollection"
-                          class="img-responsive"
+                          className="img-responsive"
                         />
                       </div>
                     </div>
-                    <div class="col-xs-12 col-md-8">
-                      <div class="col-xs-12 col-md-6" id="upcoming_colon">
+                    <div className="col-xs-12 col-md-8">
+                      <div className="col-xs-12 col-md-6" id="upcoming_colon">
                         <p id="upcoming_match_header_text">
                           <b>UPCOMING MATCH</b>
                         </p>
-                        <div class="col-xs-4  col-md-4">
+                        <div className="col-xs-4  col-md-4">
                           {" "}
                           <img
                             src={soccerHomeimage1}
                             alt="pizza"
-                            class="img-responsive"
+                            className="img-responsive"
                           />
                           <p>Suampongman Utd</p>
                         </div>
-                        <div class="col-xs-4  col-md-4">
+                        <div className="col-xs-4  col-md-4">
                           <button id="upcoming_match_button">
                             <b>VS</b>
                           </button>
                         </div>
-                        <div class="col-xs-4  col-md-4">
+                        <div className="col-xs-4  col-md-4">
                           {" "}
                           <img
                             src={soccerangelslogo}
                             alt="pizza"
-                            class="img-responsive"
+                            className="img-responsive"
                           />
                           <p> Soccer Angels Academy</p>
                         </div>
                         <div id="match_text"></div>
                       </div>
-                      <div class="col-xs-12 col-md-6" id="upcoming_colon">
+                      <div className="col-xs-12 col-md-6" id="upcoming_colon">
                         <p id="upcoming_match_header_text">
                           <b>UPCOMING MATCH</b>
                         </p>
-                        <div class="col-xs-4  col-md-4">
+                        <div className="col-xs-4  col-md-4">
                           {" "}
                           <img
                             src={soccerangelslogo}
                             alt="pizza"
-                            class="img-responsive"
+                            className="img-responsive"
                           />
                           <p>Soccer Angels Academy</p>
                         </div>
-                        <div class="col-xs-4  col-md-4">
+                        <div className="col-xs-4  col-md-4">
                           <button id="upcoming_match_button">
                             <b>VS</b>
                           </button>
                         </div>
-                        <div class="col-xs-4  col-md-4">
+                        <div className="col-xs-4  col-md-4">
                           {" "}
                           <img
                             src={soccerHomeimage1}
                             alt="pizza"
-                            class="img-responsive"
+                            className="img-responsive"
                           />
                           <p>Twifo Wasko</p>
                         </div>
@@ -426,27 +426,27 @@ class Home extends Component {
           <div className="row">
             <div>
               <div
-                class="vidMultiCarousel"
+                className="vidMultiCarousel"
                 data-items="1,3,5,6"
                 data-slide="1"
                 id="MultiCarousel"
                 data-interval="1000"
               >
-                <div class="vidMultiCarousel-inner">
-                  <div class="video">
-                    <div class="pad15">
-                      <div class="thumbnail">
+                <div className="vidMultiCarousel-inner">
+                  <div className="video">
+                    <div className="pad15">
+                      <div className="thumbnail">
                         <iframe
                           width="560"
                           title="soccerangels"
                           height="315"
                           src="https://www.youtube.com/embed/_-Oe7lq0tBc?rel=0"
                           className="img-responsive"
-                          frameborder="0"
+                          frameBorder="0"
                           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen
+                          allowFullScreen
                         ></iframe>
-                        <div class="caption">                       
+                        <div className="caption">                       
                             {" "}
                             <h4>
                              <b> Soccer Angels</b>
@@ -459,20 +459,20 @@ class Home extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="video">
-                    <div class="pad15">
-                      <div class="thumbnail">
+                  <div className="video">
+                    <div className="pad15">
+                      <div className="thumbnail">
                         <iframe
                           width="560"
                           height="315"
                           title="soccerangels"
                           src="https://www.youtube.com/embed/Hz1m-qHj7cI?rel=0"
-                          frameborder="0"
+                          frameBorder="0"
                           className="img-responsive"
                           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen
+                          allowFullScreen
                         ></iframe>
-                        <div class="caption">
+                        <div className="caption">
                         <h4>
                              <b> Soccer Angels</b>
                             </h4>                         
@@ -484,20 +484,20 @@ class Home extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="video">
-                    <div class="pad15">
-                      <div class="thumbnail">
+                  <div className="video">
+                    <div className="pad15">
+                      <div className="thumbnail">
                         <iframe
                           width="560"
                           height="315"
                           title="soccerangels"
                           className="img-responsive"
                           src="https://www.youtube.com/embed/mVVehlZoBU8?rel=0"
-                          frameborder="0"
+                          frameBorder="0"
                           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen
+                          allowFullScreen
                         ></iframe>
-                        <div class="caption">
+                        <div className="caption">
                         <h4>
                              <b> Soccer Angels</b>
                             </h4>                         
@@ -509,20 +509,20 @@ class Home extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="video">
-                    <div class="pad15">
-                      <div class="thumbnail">
+                  <div className="video">
+                    <div className="pad15">
+                      <div className="thumbnail">
                         <iframe
                           width="560"
                           height="315"
                           title="soccerangels"
                           className="img-responsive"
                           src="https://www.youtube.com/embed/GbJDh_-DHfY?rel=0"
-                          frameborder="0"
+                          frameBorder="0"
                           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen
+                          allowFullScreen
                         ></iframe>
-                        <div class="caption">
+                        <div className="caption">
                         <h4>
                              <b>Junior Premire League</b>
                             </h4>                         
@@ -535,20 +535,20 @@ class Home extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="video">
-                    <div class="pad15">
-                      <div class="thumbnail">
+                  <div className="video">
+                    <div className="pad15">
+                      <div className="thumbnail">
                         <iframe
                           width="560"
                           height="315"
                           title="soccerangels"
                           className="img-responsive"
                           src="https://www.youtube.com/embed/CRmoY58VEeQ?rel=0"
-                          frameborder="0"
+                          frameBorder="0"
                           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen
+                          allowFullScreen
                         ></iframe>
-                        <div class="caption">
+                        <div className="caption">
                         <h4>
                              <b> Soccer Angels U13</b>
                             </h4>                         
@@ -561,10 +561,10 @@ class Home extends Component {
                     </div>
                   </div>
                 </div>
-                <button class="btn  leftslide" id="btne">
+                <button className="btn  leftslide" id="btne">
                   <span className="glyphicon glyphicon-menu-left"></span>{" "}
                 </button>
-                <button class="btn  rightslide" id="btne">
+                <button className="btn  rightslide" id="btne">
                   <span className="glyphicon glyphicon-menu-right"></span>{" "}
                 </button>
               </div>
@@ -597,7 +597,7 @@ class Home extends Component {
 
 
 
-        <section class="container">
+        <section className="container">
           <div className="row">
             <Link to="transfarenews" className="header">
               {" "}
@@ -605,23 +605,23 @@ class Home extends Component {
             </Link>
           </div>
 
-          <div class="row" id="latest_news_rows">
-            <div class="col-md-9 col-xs-12">
-              <div class="row" id="latest_news_rows">
-                <div class="col-md-6 col-xs-12">
-                  <div class="row">
-                    <div class="col-md-4 col-xs-4">
+          <div className="row" id="latest_news_rows">
+            <div className="col-md-9 col-xs-12">
+              <div className="row" id="latest_news_rows">
+                <div className="col-md-6 col-xs-12">
+                  <div className="row">
+                    <div className="col-md-4 col-xs-4">
                       <div className="row">
                         <Link to="#">
                           <img
                             src={Chairmanshipposition}
                             alt="pizza"
-                            class="img-responsive"
+                            className="img-responsive"
                           />
                         </Link>
                       </div>
                     </div>
-                    <div class="col-md-8 col-xs-8">
+                    <div className="col-md-8 col-xs-8">
                       <p className="latest_news_sub_headline">
                         The C.E.O of Soccer Angels Academy has been appointed
                         the new Assin district football association chairman
@@ -629,16 +629,16 @@ class Home extends Component {
                     </div>
                   </div>
                   <hr />
-                  <div class="row">
+                  <div className="row">
                   <Link to="/boahdetails">
-                    <div class="col-md-4 col-xs-4">             
+                    <div className="col-md-4 col-xs-4">             
                         <img
                           src={soccerHomeimage2}
                           alt="pizza"
-                          class="img-responsive"
+                          className="img-responsive"
                         />
                     </div>
-                    <div class="col-md-8 col-xs-8">
+                    <div className="col-md-8 col-xs-8">
                       <p className="latest_news_sub_headline">
                         Dreams Football Club has officially signed Soccer Angels
                         supper star Percious Boah on a four year long deal from
@@ -648,13 +648,13 @@ class Home extends Component {
                     </Link>
                   </div>
                   <hr />
-                  <div class="row">
-                    <div class="col-md-4 col-xs-4">
+                  <div className="row">
+                    <div className="col-md-4 col-xs-4">
                       <Link to="#">
-                        <img src={asante} alt="pizza" class="img-responsive" />
+                        <img src={asante} alt="pizza" className="img-responsive" />
                       </Link>
                     </div>
-                    <div class="col-md-8 col-xs-8">
+                    <div className="col-md-8 col-xs-8">
                       <p className="latest_news_sub_headline">
                         Soccer Angels Academy has officcially appointed
                         Mr.WILLIAM ASANTE as the new communication director of
@@ -664,13 +664,13 @@ class Home extends Component {
                   </div>
                   <hr />
 
-                  <div class="row">
-                    <div class="col-md-4 col-xs-4">
+                  <div className="row">
+                    <div className="col-md-4 col-xs-4">
                       <Link to="#">
-                        <img src={pascal} alt="pizza" class="img-responsive" />
+                        <img src={pascal} alt="pizza" className="img-responsive" />
                       </Link>
                     </div>
-                    <div class="col-md-8 col-xs-8">
+                    <div className="col-md-8 col-xs-8">
                       <p className="latest_news_sub_headline">
                         Soccer Angels Academy has officcially appointed NANA
                         KWAKU PASCAL (Head of sports, SPLASH FM) as
@@ -680,17 +680,17 @@ class Home extends Component {
                   </div>
                 </div>
               
-                <div class="col-md-6 col-xs-12">
-                  <div class="row">
+                <div className="col-md-6 col-xs-12">
+                  <div className="row">
                   <Link to="/juvinileregister">
-                    <div class="col-md-4 col-xs-4">            
+                    <div className="col-md-4 col-xs-4">            
                         <img
                           src={juvenile2}
                           alt="pizza"
-                          class="img-responsive"
+                          className="img-responsive"
                         />
                     </div>
-                    <div class="col-md-8 col-xs-8">
+                    <div className="col-md-8 col-xs-8">
                       <p className="latest_news_sub_headline">
                       Central regional football association visited Assin District football association for 
                       Juvenile screening                  
@@ -699,30 +699,30 @@ class Home extends Component {
                     </Link>
                   </div>
                   <hr />
-                  <div class="row">
-                    <div class="col-md-4 col-xs-4">
+                  <div className="row">
+                    <div className="col-md-4 col-xs-4">
                       <Link to="#">
                         <img
                           src={jerseyimage2}
                           alt="pizza"
-                          class="img-responsive"
+                          className="img-responsive"
                         />
                       </Link>
                     </div>
-                    <div class="col-md-8 col-xs-8">
+                    <div className="col-md-8 col-xs-8">
                       <p className="latest_news_sub_headline">
                         Soccer Angels home tracksuit
                       </p>
                     </div>
                   </div>
                   <hr />
-                  <div class="row">
-                    <div class="col-md-4 col-xs-4">
+                  <div className="row">
+                    <div className="col-md-4 col-xs-4">
                       <Link to="#">
-                        <img src={jayjay} alt="pizza" class="img-responsive" />
+                        <img src={jayjay} alt="pizza" className="img-responsive" />
                       </Link>
                     </div>
-                    <div class="col-md-8 col-xs-8">
+                    <div className="col-md-8 col-xs-8">
                       <p className="latest_news_sub_headline">
                         Soccer Angels Academy has officcially appointed JAY JAY
                         (Sports presenter at NKWA FM) as the new Deputy
@@ -734,12 +734,12 @@ class Home extends Component {
               </div>
             </div>
 
-            <div class="col-md-3 col-xs-12">
+            <div className="col-md-3 col-xs-12">
               <div className="row" style={{ minHeight: "200px" }}>
                 <img
                   src={jerseygrid}
                   alt="jersaecollection"
-                  class="img-responsive"
+                  className="img-responsive"
                 />
               </div>
             </div>
@@ -813,29 +813,29 @@ class Home extends Component {
 
         <div className="line"></div>
 
-        <section class="container">
-          <div class="row">
+        <section className="container">
+          <div className="row">
             <div>
               <div
-                class="MultiCarousel"
+                className="MultiCarousel"
                 data-items="1,3,5,6"
                 data-slide="1"
                 id="MultiCarousel"
                 data-interval="1000"
               >
-                <div class="MultiCarousel-inner">
-                  <div class="item">
-                    <div class="pad15">
-                      <div class="card">
+                <div className="MultiCarousel-inner">
+                  <div className="item">
+                    <div className="pad15">
+                      <div className="card">
                         <Link to="/bismark">
                           {" "}
                           <img
                             src={baaye}
                             alt="pizza"
-                            class="img-responsive"
+                            className="img-responsive"
                           />{" "}
                         </Link>
-                        <div class="card-body">
+                        <div className="card-body">
                           <h4>
                             <strong>16</strong>
                           </h4>
@@ -846,18 +846,18 @@ class Home extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="item">
-                    <div class="pad15">
-                      <div class="card">
+                  <div className="item">
+                    <div className="pad15">
+                      <div className="card">
                         <Link to="/bright">
                           {" "}
                           <img
                             src={bright}
                             alt="Bright"
-                            class="img-responsive"
+                            className="img-responsive"
                           />{" "}
                         </Link>
-                        <div class="card-body">
+                        <div className="card-body">
                           <h4>
                             <strong>99</strong>
                           </h4>
@@ -868,18 +868,18 @@ class Home extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="item">
-                    <div class="pad15">
-                      <div class="card">
+                  <div className="item">
+                    <div className="pad15">
+                      <div className="card">
                         <Link to="/jonathan">
                           {" "}
                           <img
                             src={jonathan}
                             alt="Bright"
-                            class="img-responsive"
+                            className="img-responsive"
                           />{" "}
                         </Link>
-                        <div class="card-body">
+                        <div className="card-body">
                           <h4>
                             <strong>1</strong>
                           </h4>
@@ -890,18 +890,18 @@ class Home extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="item">
-                    <div class="pad15">
-                      <div class="card">
+                  <div className="item">
+                    <div className="pad15">
+                      <div className="card">
                         <Link to="/richmond">
                           {" "}
                           <img
                             src={richmond}
                             alt="pizza"
-                            class="img-responsive"
+                            className="img-responsive"
                           />{" "}
                         </Link>
-                        <div class="card-body">
+                        <div className="card-body">
                           <h4>
                             <strong>3</strong>
                           </h4>
@@ -912,18 +912,18 @@ class Home extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="item">
-                    <div class="pad15">
-                      <div class="card">
+                  <div className="item">
+                    <div className="pad15">
+                      <div className="card">
                         <Link to="/theophilus">
                           {" "}
                           <img
                             src={theophilus}
                             alt="pizza"
-                            class="img-responsive"
+                            className="img-responsive"
                           />{" "}
                         </Link>
-                        <div class="card-body">
+                        <div className="card-body">
                           <h4>
                             <strong>3</strong>
                           </h4>
@@ -934,18 +934,18 @@ class Home extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="item">
-                    <div class="pad15">
-                      <div class="card">
+                  <div className="item">
+                    <div className="pad15">
+                      <div className="card">
                         <Link to="/elvis">
                           {" "}
                           <img
                             src={elvis}
                             alt="pizza"
-                            class="img-responsive"
+                            className="img-responsive"
                           />{" "}
                         </Link>
-                        <div class="card-body">
+                        <div className="card-body">
                           <h4>
                             <strong>3</strong>
                           </h4>
@@ -956,18 +956,18 @@ class Home extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="item">
-                    <div class="pad15">
-                      <div class="card">
+                  <div className="item">
+                    <div className="pad15">
+                      <div className="card">
                         <Link to="/cosmos">
                           {" "}
                           <img
                             src={cosmos}
                             alt="pizza"
-                            class="img-responsive"
+                            className="img-responsive"
                           />{" "}
                         </Link>
-                        <div class="card-body">
+                        <div className="card-body">
                           <h4>
                             <strong>3</strong>
                           </h4>
@@ -978,18 +978,18 @@ class Home extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="item">
-                    <div class="pad15">
-                      <div class="card">
+                  <div className="item">
+                    <div className="pad15">
+                      <div className="card">
                         <Link to="/andrews">
                           {" "}
                           <img
                             src={andrews}
                             alt="pizza"
-                            class="img-responsive"
+                            className="img-responsive"
                           />{" "}
                         </Link>
-                        <div class="card-body">
+                        <div className="card-body">
                           <h4>
                             <strong>3</strong>
                           </h4>
@@ -1000,18 +1000,18 @@ class Home extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="item">
-                    <div class="pad15">
-                      <div class="card">
+                  <div className="item">
+                    <div className="pad15">
+                      <div className="card">
                         <Link to="/enock">
                           {" "}
                           <img
                             src={shargaa}
                             alt="pizza"
-                            class="img-responsive"
+                            className="img-responsive"
                           />{" "}
                         </Link>
-                        <div class="card-body">
+                        <div className="card-body">
                           <h4>
                             <strong>3</strong>
                           </h4>
@@ -1022,18 +1022,18 @@ class Home extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="item">
-                    <div class="pad15">
-                      <div class="card">
+                  <div className="item">
+                    <div className="pad15">
+                      <div className="card">
                         <Link to="/isaac">
                           {" "}
                           <img
                             src={cobby}
                             alt="pizza"
-                            class="img-responsive"
+                            className="img-responsive"
                           />{" "}
                         </Link>
-                        <div class="card-body">
+                        <div className="card-body">
                           <h4>
                             <strong>3</strong>
                           </h4>
@@ -1044,18 +1044,18 @@ class Home extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="item">
-                    <div class="pad15">
-                      <div class="card">
+                  <div className="item">
+                    <div className="pad15">
+                      <div className="card">
                         <Link to="/ketu">
                           {" "}
                           <img
                             src={ketu}
                             alt="pizza"
-                            class="img-responsive"
+                            className="img-responsive"
                           />{" "}
                         </Link>
-                        <div class="card-body">
+                        <div className="card-body">
                           <h4>
                             <strong>3</strong>
                           </h4>
@@ -1066,18 +1066,18 @@ class Home extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="item">
-                    <div class="pad15">
-                      <div class="card">
+                  <div className="item">
+                    <div className="pad15">
+                      <div className="card">
                         <Link to="/benard">
                           {" "}
                           <img
                             src={benard}
                             alt="pizza"
-                            class="img-responsive"
+                            className="img-responsive"
                           />{" "}
                         </Link>
-                        <div class="card-body">
+                        <div className="card-body">
                           <h4>
                             <strong>9</strong>
                           </h4>
@@ -1088,18 +1088,18 @@ class Home extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="item">
-                    <div class="pad15">
-                      <div class="card">
+                  <div className="item">
+                    <div className="pad15">
+                      <div className="card">
                         <Link to="/appiah">
                           {" "}
                           <img
                             src={appiah}
                             alt="pizza"
-                            class="img-responsive"
+                            className="img-responsive"
                           />{" "}
                         </Link>
-                        <div class="card-body">
+                        <div className="card-body">
                           <h4>
                             <strong>3</strong>
                           </h4>
@@ -1110,18 +1110,18 @@ class Home extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="item">
-                    <div class="pad15">
-                      <div class="card">
+                  <div className="item">
+                    <div className="pad15">
+                      <div className="card">
                         <Link to="/appiah">
                           {" "}
                           <img
                             src={appiah}
                             alt="pizza"
-                            class="img-responsive"
+                            className="img-responsive"
                           />{" "}
                         </Link>
-                        <div class="card-body">
+                        <div className="card-body">
                           <h4>
                             <strong>3</strong>
                           </h4>
@@ -1132,18 +1132,18 @@ class Home extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="item">
-                    <div class="pad15">
-                      <div class="card">
+                  <div className="item">
+                    <div className="pad15">
+                      <div className="card">
                         <Link to="/appiah">
                           {" "}
                           <img
                             src={appiah}
                             alt="pizza"
-                            class="img-responsive"
+                            className="img-responsive"
                           />{" "}
                         </Link>
-                        <div class="card-body">
+                        <div className="card-body">
                           <h4>
                             <strong>3</strong>
                           </h4>
@@ -1154,18 +1154,18 @@ class Home extends Component {
                       </div>
                     </div>
                   </div>
-                  <div class="item">
-                    <div class="pad15">
-                      <div class="card">
+                  <div className="item">
+                    <div className="pad15">
+                      <div className="card">
                         <Link to="/appiah">
                           {" "}
                           <img
                             src={appiah}
                             alt="pizza"
-                            class="img-responsive"
+                            className="img-responsive"
                           />{" "}
                         </Link>
-                        <div class="card-body">
+                        <div className="card-body">
                           <h4>
                             <strong>3</strong>
                           </h4>
@@ -1178,10 +1178,10 @@ class Home extends Component {
                   </div>
                   
                 </div>
-                <button class="btn  leftLst" id="btne">
+                <button className="btn  leftLst" id="btne">
                   <span className="glyphicon glyphicon-menu-left"></span>{" "}
                 </button>
-                <button class="btn  rightLst" id="btne">
+                <button className="btn  rightLst" id="btne">
                   <span className="glyphicon glyphicon-menu-right"></span>{" "}
                 </button>
               </div>
@@ -1195,27 +1195,27 @@ class Home extends Component {
 
 
 
-        <section class="container">
+        <section className="container">
           <div className="row">
             <Link to="#" className="header">
               <h2>Features</h2>
             </Link>
           </div>
 
-          <div class="row" id="features_mainRows">
-            <div class="col-md-6">
-              <div class="row">
+          <div className="row" id="features_mainRows">
+            <div className="col-md-6">
+              <div className="row">
               <Link to="#">
-                <div class="col-md-12 col-xs-12" style={{ padding: "40px" }}>             
+                <div className="col-md-12 col-xs-12" style={{ padding: "40px" }}>             
                     {" "}
                     <img
                       src={jerseyimage1}
                       alt="pizza"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
-                    <h4 class="bottom"><b>Soccer Angels Academy</b></h4>
+                    <h4 className="bottom"><b>Soccer Angels Academy</b></h4>
                 </div>
-                <div class="col-md-12 col-xs-12 features-headline">
+                <div className="col-md-12 col-xs-12 features-headline">
                   <h4>
                     {" "}
                     Soccer Angels new home kit for the 20201 season
@@ -1225,73 +1225,73 @@ class Home extends Component {
               </div>
             </div>
 
-            <div class="col-md-6">
-              <div class="row" id="features_subRows">
-                <div class="col-md-4 col-xs-5">
+            <div className="col-md-6">
+              <div className="row" id="features_subRows">
+                <div className="col-md-4 col-xs-5">
                   <Link to="#">
                     {" "}
                     <img
                       src={jerseyimage2}
                       alt="pizza"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                   </Link>
                 </div>
-                <div class="col-md-8 col-xs-7 ">
+                <div className="col-md-8 col-xs-7 ">
                   <p className="features_sub_headline">
                     Soccer Angels men's tracksuit
                   </p>
                 </div>
               </div>
 
-              <div class="row" id="features_subRows">
-                <div class="col-md-4 col-xs-5">
+              <div className="row" id="features_subRows">
+                <div className="col-md-4 col-xs-5">
                   <Link to="#">
                     {" "}
                     <img
                       src={jerseyimage5}
                       alt="pizza"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                   </Link>
                 </div>
-                <div class="col-md-8 col-xs-7">
+                <div className="col-md-8 col-xs-7">
                   <p className="features_sub_headline">
                     Soccer Angels away jersey kit
                   </p>
                 </div>
               </div>
 
-              <div class="row" id="features_subRows">
-                <div class="col-md-4 col-xs-5">
+              <div className="row" id="features_subRows">
+                <div className="col-md-4 col-xs-5">
                   <Link to="#">
                     {" "}
                     <img
                       src={jerseyimage3}
                       alt="pizza"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                   </Link>
                 </div>
-                <div class="col-md-8 col-xs-7">
+                <div className="col-md-8 col-xs-7">
                   <p className="features_sub_headline">
                     Soccer angels goalkeeper's training kit
                   </p>
                 </div>
               </div>
 
-              <div class="row" id="features_subRows">
-                <div class="col-md-4 col-xs-5">
+              <div className="row" id="features_subRows">
+                <div className="col-md-4 col-xs-5">
                   <Link to="#">
                     {" "}
                     <img
                       src={jerseyimage4}
                       alt="pizza"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                   </Link>
                 </div>
-                <div class="col-md-8 col-xs-7">
+                <div className="col-md-8 col-xs-7">
                   <p className="features_sub_headline">
                     Soccer Angels shake up kit
                   </p>
@@ -1316,7 +1316,7 @@ class Home extends Component {
 
 
 
-        <section class="container" id="transfare_news">
+        <section className="container" id="transfare_news">
           <div className="row">
             <Link to="#" className="header">
               {" "}
@@ -1333,12 +1333,12 @@ class Home extends Component {
                     <img
                       src={soccerHomeimage3}
                       alt="angels"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
-                       <h4 class="bottom"><b>Transfare News</b></h4>                             
+                       <h4 className="bottom"><b>Transfare News</b></h4>                             
                 </div>
                 <div className="col-md-12 col-xs-12">
-                  <div class="col-md-12 col-xs-12 transfarenews-headline">
+                  <div className="col-md-12 col-xs-12 transfarenews-headline">
                     <h4>
                       Soccer angels could look for creative solution to solve a
                       tranfare problem
@@ -1349,20 +1349,20 @@ class Home extends Component {
               </div>
             </div>
 
-            <div class="col-md-6">
-              <div class="row" id="features_subRows">
-                <div class="col-md-4 col-xs-5">
+            <div className="col-md-6">
+              <div className="row" id="features_subRows">
+                <div className="col-md-4 col-xs-5">
                   <Link to="#">
                     {" "}
                     <img
                       src={soccerHomeimage2}
                       alt="pizza"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                   </Link>
                 </div>
 
-                <div class="col-md-8 col-xs-7 transfare_news_sub_headline">
+                <div className="col-md-8 col-xs-7 transfare_news_sub_headline">
                   <Link to="/boahdetails">
                     <h4>
                       <b>OFFICIAL:PERCIOUS BOAH JOINS DREAMS FC</b>{" "}
@@ -1375,18 +1375,18 @@ class Home extends Component {
                 </div>
               </div>
 
-              <div class="row" id="features_subRows">
-                <div class="col-md-4 col-xs-5">
+              <div className="row" id="features_subRows">
+                <div className="col-md-4 col-xs-5">
                   <Link to="#">
                     {" "}
                     <img
                       src={soccerHomeimage1}
                       alt="pizza"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                   </Link>
                 </div>
-                <div class="col-md-8 col-xs-7 transfare_news_sub_headline">
+                <div className="col-md-8 col-xs-7 transfare_news_sub_headline">
                   <Link to="#">
                     <h4>
                       <b>OFFICIAL:JUSTICE ASAMOAH JOINS SOCCER ANGELS</b>{" "}
@@ -1399,18 +1399,18 @@ class Home extends Component {
                 </div>
               </div>
 
-              <div class="row" id="features_subRows">
-                <div class="col-md-4 col-xs-5">
+              <div className="row" id="features_subRows">
+                <div className="col-md-4 col-xs-5">
                   <Link to="#">
                     {" "}
                     <img
                       src={soccerHomeimage1}
                       alt="pizza"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                   </Link>
                 </div>
-                <div class="col-md-8 col-xs-7 transfare_news_sub_headline">
+                <div className="col-md-8 col-xs-7 transfare_news_sub_headline">
                   <Link to="#">
                     <h4>
                       <b>
@@ -1425,18 +1425,18 @@ class Home extends Component {
                 </div>
               </div>
 
-              <div class="row" id="features_subRows">
-                <div class="col-md-4 col-xs-5">
+              <div className="row" id="features_subRows">
+                <div className="col-md-4 col-xs-5">
                   <Link to="#">
                     {" "}
                     <img
                       src={soccerHomeimage1}
                       alt="pizza"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                   </Link>
                 </div>
-                <div class="col-md-8 col-xs-7 transfare_news_sub_headline">
+                <div className="col-md-8 col-xs-7 transfare_news_sub_headline">
                   <Link to="#">
                     <h4>
                       <b>OFFICIAL:MUSTAPHA OSMAN JOINS SOCCER ANGELS</b>{" "}

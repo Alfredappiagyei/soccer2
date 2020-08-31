@@ -25,12 +25,12 @@ import Footer from "../Footer";
 class Secdiv extends Component {
     render() {
         return (
-            <div style={{backgroundColor:"lightgray"}}>
+            <div >
                 <div className="container">
                 
                     <div className="row">
                         <div className="col-md-9">
-                            <div className="row" style={{ backgroundColor: "lawngreen", color: "#141414" }}>
+                            <div className="row" style={{ backgroundColor: "#141414", color: "lawngreen" }}>
                                 <h3>SECOND DIVISION</h3>
                             </div>
                               
@@ -293,16 +293,19 @@ class Secdiv extends Component {
 
 
                         <div className="col-md-3">
-                            <div className="row"  style={{background:"lawngreen",padding:"0px 5px",marginTop:"20px"}}>
-                                <h3 style={{margin:"0px"}}><b>First Team Staff</b></h3>
+                            <div className="row"  style={{background:"#141414",padding:"0px 5px",marginTop:"0px"}}>
+                                <h3 style={{margin:"15px 0px 14px 0px", color:"lawngreen"}}><b>First Team Staff</b></h3>
                             </div>
                             <div className="row" style={{paddingLeft:"5px"}}>
-                            <Link to="/" className="staff"><h4>Thumbnail label</h4></Link> 
-                            <Link to="/" className="staff"><h4>Thumbnail label</h4></Link> 
-                            <Link to="/" className="staff"><h4>Thumbnail label</h4></Link> 
-                            <Link to="/" className="staff"><h4>Thumbnail label</h4></Link> 
-                            <Link to="/" className="staff"><h4>Thumbnail label</h4></Link> 
-                            <Link to="/" className="staff"><h4>Thumbnail label</h4></Link> 
+                            <Link to="/" className="staff"><h4>Emmanuel Danso Akonkoh</h4></Link> 
+                            <Link to="/" className="staff"><h4>Reginald Nana Appiagyei</h4></Link> 
+                            <Link to="/" className="staff"><h4>Emmanuel Essel Dadzie</h4></Link> 
+                            <Link to="/" className="staff"><h4>Fransis Anapey</h4></Link> 
+                            <Link to="/" className="staff"><h4>Obed Sarkey</h4></Link> 
+                            <Link to="/" className="staff"><h4>Emmanuel Yaw Duku</h4></Link> 
+                            <Link to="/" className="staff"><h4>William Asante</h4></Link> 
+                            <Link to="/" className="staff"><h4>Jay Jay</h4></Link> 
+                            <Link to="/" className="staff"><h4>Nana Kwaku</h4></Link> 
                             </div>
                             <div className="row">
                             <img src={jerseygrid} alt="pizza"

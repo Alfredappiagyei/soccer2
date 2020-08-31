@@ -40,7 +40,7 @@ class BoahDetails extends Component {
                    <img
                       src={precious}
                       alt="pizza"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                    </div>
                    <div className="detailsContext">
@@ -60,7 +60,7 @@ class BoahDetails extends Component {
                    <img
                       src={precious2}
                       alt="precious"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                    </div>
                    <div className="detailsContext">
@@ -76,7 +76,7 @@ class BoahDetails extends Component {
                      <img
                   src={jerseygrid}
                   alt="jersaecollection"
-                  class="img-responsive"
+                  className="img-responsive"
                 />
                      </div>
                      <div className="recomended">
@@ -84,18 +84,18 @@ class BoahDetails extends Component {
                      </div>
                      <hr/>
 
-                <div class="row" id="features_subRows">
-                    <div class="col-md-6 col-xs-5">
+                <div className="row" id="features_subRows">
+                    <div className="col-md-6 col-xs-5">
                   <Link to="/juvinileregister">
                     {" "}
                     <img
                       src={juvenile2}
                       alt="pizza"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                   </Link>
                 </div>
-                <div class="col-md-6 col-xs-7 details-tranfare">
+                <div className="col-md-6 col-xs-7 details-tranfare">
                   <Link to="#">
                     <p>
                        Central regional football association visited Assin District football association for 
@@ -107,18 +107,18 @@ class BoahDetails extends Component {
                 <hr/>
 
 
-              <div class="row" id="features_subRows">
-                    <div class="col-md-6 col-xs-5">
+              <div className="row" id="features_subRows">
+                    <div className="col-md-6 col-xs-5">
                   <Link to="#">
                     {" "}
                     <img
                       src={soccerHomeimage1}
                       alt="pizza"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                   </Link>
                 </div>
-                <div class="col-md-6 col-xs-7  details-tranfare">
+                <div className="col-md-6 col-xs-7  details-tranfare">
                   <Link to="#">
                     <p>
                       Soccer Angels has officcially signed Mustapha Osman from
@@ -129,18 +129,18 @@ class BoahDetails extends Component {
               </div>
               <hr/>
 
-              <div class="row" id="features_subRows">
-                    <div class="col-md-6 col-xs-6">
+              <div className="row" id="features_subRows">
+                    <div className="col-md-6 col-xs-6">
                   <Link to="#">
                     {" "}
                     <img
                       src={soccerHomeimage1}
                       alt="pizza"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                   </Link>
                 </div>
-                <div class="col-md-6 col-xs-6  details-tranfare">
+                <div className="col-md-6 col-xs-6  details-tranfare">
                   <Link to="#">
                     <p>
                       Soccer Angels has officcially signed Mustapha Osman from
@@ -152,18 +152,18 @@ class BoahDetails extends Component {
               <hr/>
 
 
-              <div class="row" id="features_subRows">
-                    <div class="col-md-6 col-xs-5">
+              <div className="row" id="features_subRows">
+                    <div className="col-md-6 col-xs-5">
                   <Link to="#">
                     {" "}
                     <img
                       src={soccerHomeimage1}
                       alt="pizza"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                   </Link>
                 </div>
-                <div class="col-md-6 col-xs-7  details-tranfare">
+                <div className="col-md-6 col-xs-7  details-tranfare">
                   <Link to="#">
                     <p>
                       Soccer Angels has officcially signed Mustapha Osman from

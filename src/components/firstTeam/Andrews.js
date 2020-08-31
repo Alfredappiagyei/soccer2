@@ -28,13 +28,13 @@ class Andrews extends Component {
                 <div className="andrews">
                     <div className="container" id="andrewsdetails">
                         <div className="col-md-6 col-xs-12">
-                            <h1 style={{ fontSize: "80px", marginBottom: "20px" }}><b>34</b></h1>
-                            {/* <h1 style={{ fontSize: "50px" }}><b>Daniel</b></h1> */}
-                            <h1 style={{ fontSize: "80px" }}><b>Andrews</b></h1>
-                            <h2>FORWARD</h2>
+                            <h1 style={{ fontSize: "80px", marginBottom: "20px" }}><b>10</b></h1>
+                             <h1 style={{ fontSize: "50px" }}><b>Andrews</b></h1> 
+                            <h1 style={{ fontSize: "80px" }}><b>Twum</b></h1>
+                            <h2>MIDFIELD</h2>
                         </div>
                         <div className="col-md-6 col-xs-12">
-                            <h3>D.O.B <br /> <h2><b>dkfbjn</b></h2></h3>
+                            <h3>D.O.B <br /> <h2><b>13/4/2004</b></h2></h3>
                             <h3>Place of birth <br /> <h2><b>Assin Dompim</b></h2></h3>
 
                         </div>
@@ -45,9 +45,9 @@ class Andrews extends Component {
                     <div className="row">
                         <div className="col-md-9 col-xs-12">
                             <div className="row">
-                                <nav class="navbar navbar-default" style={{ backgroundColor: '#333333', color: "#fff", }}>
-                                    <div class="container-fluid">
-                                        <div class="navbar-header">
+                                <nav className="navbar navbar-default" style={{ backgroundColor: '#333333', color: "#fff", }}>
+                                    <div className="container-fluid">
+                                        <div className="navbar-header">
                                             <Link to="/firstteam" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", background: "lawngreen" }}><b>Andrews</b> </Link>
                                             
                                             {/* <Link to="/academy" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", fontStyle: "linethrough" }}><b>Videos</b> </Link> */}
@@ -89,8 +89,8 @@ class Andrews extends Component {
                                 <div>
 
                                     {/* <!-- Nav tabs --> */}
-                                    <ul class="nav nav-tabs" role="tablist">
-                                        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">General</a></li>
+                                    <ul className="nav nav-tabs" role="tablist">
+                                        <li role="presentation" className="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">General</a></li>
                                         <li role="presentation"><a href="#attack" aria-controls="attack" role="tab" data-toggle="tab">Attack</a></li>
                                         <li role="presentation"><a href="#defence" aria-controls="defence" role="tab" data-toggle="tab">Diffence</a></li>
                                         <li role="presentation"><a href="#distribution" aria-controls="distribution" role="tab" data-toggle="tab">Distribution</a></li>
@@ -98,16 +98,16 @@ class Andrews extends Component {
                                     </ul>
 
                                     {/* <!-- Tab panes --> */}
-                                    <div class="tab-content">
-                                    <div role="tabpanel" class="tab-pane active" id="home">
+                                    <div className="tab-content">
+                                    <div role="tabpanel" className="tab-pane active" id="home">
 
                                                 <div className="discription"><p>Games Played</p></div>
                                                     <div className="col-md-2" id="figures">0</div>
                                                     <div className="col-md-10">
                                                     <div className="playerchat">
-                                                        <div class="progres">
-                                                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                <span class="sr-only">0% Complete</span>
+                                                        <div className="progres">
+                                                            <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                <span className="sr-only">0% Complete</span>
                                                             </div>
                                                         </div>
                                                     </div>        
@@ -116,9 +116,9 @@ class Andrews extends Component {
                                                     <div className="col-md-2" id="figures">0</div>
                                                     <div className="col-md-10">
                                                     <div className="playerchat">
-                                                        <div class="progres">
-                                                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                <span class="sr-only">0% Complete</span>
+                                                        <div className="progres">
+                                                            <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                <span className="sr-only">0% Complete</span>
                                                             </div>
                                                         </div>
                                                     </div>        
@@ -127,9 +127,9 @@ class Andrews extends Component {
                                                     <div className="col-md-2" id="figures">0</div>
                                                     <div className="col-md-10">
                                                     <div className="playerchat">
-                                                        <div class="progres">
-                                                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                <span class="sr-only">0% Complete</span>
+                                                        <div className="progres">
+                                                            <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                <span className="sr-only">0% Complete</span>
                                                             </div>
                                                         </div>
                                                     </div>        
@@ -138,9 +138,9 @@ class Andrews extends Component {
                                                     <div className="col-md-2" id="figures">0</div>
                                                     <div className="col-md-10">
                                                     <div className="playerchat">
-                                                        <div class="progres">
-                                                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                <span class="sr-only">0% Complete</span>
+                                                        <div className="progres">
+                                                            <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                <span className="sr-only">0% Complete</span>
                                                             </div>
                                                         </div>
                                                     </div>        
@@ -149,9 +149,9 @@ class Andrews extends Component {
                                                     <div className="col-md-2" id="figures"> 0</div>
                                                     <div className="col-md-10">
                                                     <div className="playerchat">
-                                                        <div class="progres">
-                                                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                <span class="sr-only">0% Complete</span>
+                                                        <div className="progres">
+                                                            <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                <span className="sr-only">0% Complete</span>
                                                             </div>
                                                         </div>
                                                     </div>        
@@ -162,15 +162,15 @@ class Andrews extends Component {
 
 
 
-                                                <div role="tabpanel" class="tab-pane" id="attack">
+                                                <div role="tabpanel" className="tab-pane" id="attack">
                                                     
                                                     <div className="discription"><p>Goals</p></div>
                                                         <div className="col-md-2" id="figures">0</div>
                                                         <div className="col-md-10">
                                                         <div className="playerchat">
-                                                            <div class="progres">
-                                                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                    <span class="sr-only">0% Complete</span>
+                                                            <div className="progres">
+                                                                <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                    <span className="sr-only">0% Complete</span>
                                                                 </div>
                                                             </div>
                                                         </div>        
@@ -179,9 +179,9 @@ class Andrews extends Component {
                                                         <div className="col-md-2" id="figures">0</div>
                                                         <div className="col-md-10">
                                                         <div className="playerchat">
-                                                            <div class="progres">
-                                                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                    <span class="sr-only">0% Complete</span>
+                                                            <div className="progres">
+                                                                <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                    <span className="sr-only">0% Complete</span>
                                                                 </div>
                                                             </div>
                                                         </div>        
@@ -190,9 +190,9 @@ class Andrews extends Component {
                                                         <div className="col-md-2" id="figures">0</div>
                                                         <div className="col-md-10">
                                                         <div className="playerchat">
-                                                            <div class="progres">
-                                                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                    <span class="sr-only">0% Complete</span>
+                                                            <div className="progres">
+                                                                <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                    <span className="sr-only">0% Complete</span>
                                                                 </div>
                                                             </div>
                                                         </div>        
@@ -201,9 +201,9 @@ class Andrews extends Component {
                                                         <div className="col-md-2" id="figures">0</div>
                                                         <div className="col-md-10">
                                                         <div className="playerchat">
-                                                            <div class="progres">
-                                                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                    <span class="sr-only">0% Complete</span>
+                                                            <div className="progres">
+                                                                <div className="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                    <span className="sr-only">0% Complete</span>
                                                                 </div>
                                                             </div>
                                                         </div>        
@@ -212,9 +212,9 @@ class Andrews extends Component {
                                                         <div className="col-md-2" id="figures">0</div>
                                                         <div className="col-md-10">
                                                         <div className="playerchat">
-                                                            <div class="progres">
-                                                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                    <span class="sr-only">0% Complete</span>
+                                                            <div className="progres">
+                                                                <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                    <span className="sr-only">0% Complete</span>
                                                                 </div>
                                                             </div>
                                                         </div>        
@@ -223,9 +223,9 @@ class Andrews extends Component {
                                                         <div className="col-md-2" id="figures">0</div>
                                                         <div className="col-md-10">
                                                         <div className="playerchat">
-                                                            <div class="progres">
-                                                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                    <span class="sr-only">0% Complete</span>
+                                                            <div className="progres">
+                                                                <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                    <span className="sr-only">0% Complete</span>
                                                                 </div>
                                                             </div>
                                                         </div>        
@@ -234,9 +234,9 @@ class Andrews extends Component {
                                                         <div className="col-md-2" id="figures">0</div>
                                                         <div className="col-md-10">
                                                         <div className="playerchat">
-                                                            <div class="progres">
-                                                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                    <span class="sr-only">0% Complete</span>
+                                                            <div className="progres">
+                                                                <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                    <span className="sr-only">0% Complete</span>
                                                                 </div>
                                                             </div>
                                                         </div>        
@@ -245,9 +245,9 @@ class Andrews extends Component {
                                                         <div className="col-md-2" id="figures">0</div>
                                                         <div className="col-md-10">
                                                         <div className="playerchat">
-                                                            <div class="progres">
-                                                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                    <span class="sr-only">0% Complete</span>
+                                                            <div className="progres">
+                                                                <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                    <span className="sr-only">0% Complete</span>
                                                                 </div>
                                                             </div>
                                                         </div>        
@@ -256,9 +256,9 @@ class Andrews extends Component {
                                                         <div className="col-md-2" id="figures">0</div>
                                                         <div className="col-md-10">
                                                         <div className="playerchat">
-                                                            <div class="progres">
-                                                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                    <span class="sr-only">0% Complete</span>
+                                                            <div className="progres">
+                                                                <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                    <span className="sr-only">0% Complete</span>
                                                                 </div>
                                                             </div>
                                                         </div>        
@@ -268,15 +268,15 @@ class Andrews extends Component {
 
 
 
-                                                <div role="tabpanel" class="tab-pane" id="defence">
+                                                <div role="tabpanel" className="tab-pane" id="defence">
                                                     
                                                     <div className="discription"><p>Tackles won</p></div>
                                                         <div className="col-md-2" id="figures">0</div>
                                                         <div className="col-md-10">
                                                         <div className="playerchat">
-                                                            <div class="progres">
-                                                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                    <span class="sr-only">0% Complete</span>
+                                                            <div className="progres">
+                                                                <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                    <span className="sr-only">0% Complete</span>
                                                                 </div>
                                                             </div>
                                                         </div>        
@@ -285,9 +285,9 @@ class Andrews extends Component {
                                                         <div className="col-md-2" id="figures">0</div>
                                                         <div className="col-md-10">
                                                         <div className="playerchat">
-                                                            <div class="progres">
-                                                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                    <span class="sr-only">0% Complete</span>
+                                                            <div className="progres">
+                                                                <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                    <span className="sr-only">0% Complete</span>
                                                                 </div>
                                                             </div>
                                                         </div>        
@@ -296,9 +296,9 @@ class Andrews extends Component {
                                                         <div className="col-md-2" id="figures">0</div>
                                                         <div className="col-md-10">
                                                         <div className="playerchat">
-                                                            <div class="progres">
-                                                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                    <span class="sr-only">0% Complete</span>
+                                                            <div className="progres">
+                                                                <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                    <span className="sr-only">0% Complete</span>
                                                                 </div>
                                                             </div>
                                                         </div>        
@@ -307,9 +307,9 @@ class Andrews extends Component {
                                                         <div className="col-md-2" id="figures">0</div>
                                                         <div className="col-md-10">
                                                         <div className="playerchat">
-                                                            <div class="progres">
-                                                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                    <span class="sr-only">0% Complete</span>
+                                                            <div className="progres">
+                                                                <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                    <span className="sr-only">0% Complete</span>
                                                                 </div>
                                                             </div>
                                                         </div>        
@@ -318,9 +318,9 @@ class Andrews extends Component {
                                                         <div className="col-md-2" id="figures">0</div>
                                                         <div className="col-md-10">
                                                         <div className="playerchat">
-                                                            <div class="progres">
-                                                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                    <span class="sr-only">0% Complete</span>
+                                                            <div className="progres">
+                                                                <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                    <span className="sr-only">0% Complete</span>
                                                                 </div>
                                                             </div>
                                                         </div>        
@@ -333,14 +333,14 @@ class Andrews extends Component {
 
 
 
-                                                <div role="tabpanel" class="tab-pane" id="distribution">
+                                                <div role="tabpanel" className="tab-pane" id="distribution">
                                                 <div className="discription"><p>Successful passes</p></div>
                                                     <div className="col-md-2" id="figures">0</div>
                                                     <div className="col-md-10">
                                                     <div className="playerchat">
-                                                        <div class="progres">
-                                                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                <span class="sr-only">0% Complete</span>
+                                                        <div className="progres">
+                                                            <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                <span className="sr-only">0% Complete</span>
                                                             </div>
                                                         </div>
                                                     </div>        
@@ -349,9 +349,9 @@ class Andrews extends Component {
                                                     <div className="col-md-2" id="figures">0</div>
                                                     <div className="col-md-10">
                                                     <div className="playerchat">
-                                                        <div class="progres">
-                                                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                <span class="sr-only">0% Complete</span>
+                                                        <div className="progres">
+                                                            <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                <span className="sr-only">0% Complete</span>
                                                             </div>
                                                         </div>
                                                     </div>        
@@ -360,9 +360,9 @@ class Andrews extends Component {
                                                     <div className="col-md-2" id="figures">0</div>
                                                     <div className="col-md-10">
                                                     <div className="playerchat">
-                                                        <div class="progres">
-                                                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                <span class="sr-only">0% Complete</span>
+                                                        <div className="progres">
+                                                            <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                <span className="sr-only">0% Complete</span>
                                                             </div>
                                                         </div>
                                                     </div>        
@@ -371,9 +371,9 @@ class Andrews extends Component {
                                                     <div className="col-md-2" id="figures">0</div>
                                                     <div className="col-md-10">
                                                     <div className="playerchat">
-                                                        <div class="progres">
-                                                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                <span class="sr-only">0% Complete</span>
+                                                        <div className="progres">
+                                                            <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                <span className="sr-only">0% Complete</span>
                                                             </div>
                                                         </div>
                                                     </div>        
@@ -382,9 +382,9 @@ class Andrews extends Component {
                                                     <div className="col-md-2" id="figures">0</div>
                                                     <div className="col-md-10">
                                                     <div className="playerchat">
-                                                        <div class="progres">
-                                                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                <span class="sr-only">0% Complete</span>
+                                                        <div className="progres">
+                                                            <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                <span className="sr-only">0% Complete</span>
                                                             </div>
                                                         </div>
                                                     </div>        
@@ -401,15 +401,15 @@ class Andrews extends Component {
 
 
 
-                                                <div role="tabpanel" class="tab-pane" id="discipline">
+                                                <div role="tabpanel" className="tab-pane" id="discipline">
                                                     
                                                     <div className="discription"><p>Fouls won</p></div>
                                                         <div className="col-md-2" id="figures">0</div>
                                                         <div className="col-md-10">
                                                         <div className="playerchat">
-                                                            <div class="progres">
-                                                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                    <span class="sr-only">0% Complete</span>
+                                                            <div className="progres">
+                                                                <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                    <span className="sr-only">0% Complete</span>
                                                                 </div>
                                                             </div>
                                                         </div>        
@@ -418,9 +418,9 @@ class Andrews extends Component {
                                                         <div className="col-md-2" id="figures">0</div>
                                                         <div className="col-md-10">
                                                         <div className="playerchat">
-                                                            <div class="progres">
-                                                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                    <span class="sr-only">0% Complete</span>
+                                                            <div className="progres">
+                                                                <div className="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                    <span className="sr-only">0% Complete</span>
                                                                 </div>
                                                             </div>
                                                         </div>        
@@ -429,9 +429,9 @@ class Andrews extends Component {
                                                         <div className="col-md-2" id="figures">0</div>
                                                         <div className="col-md-10">
                                                         <div className="playerchat">
-                                                            <div class="progres">
-                                                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                    <span class="sr-only">0% Complete</span>
+                                                            <div className="progres">
+                                                                <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                    <span className="sr-only">0% Complete</span>
                                                                 </div>
                                                             </div>
                                                         </div>        
@@ -440,9 +440,9 @@ class Andrews extends Component {
                                                         <div className="col-md-2" id="figures">0</div>
                                                         <div className="col-md-10">
                                                         <div className="playerchat">
-                                                            <div class="progres">
-                                                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                    <span class="sr-only">0% Complete</span>
+                                                            <div className="progres">
+                                                                <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                    <span className="sr-only">0% Complete</span>
                                                                 </div>
                                                             </div>
                                                         </div>        
@@ -451,9 +451,9 @@ class Andrews extends Component {
                                                         <div className="col-md-2" id="figures">0</div>
                                                         <div className="col-md-10">
                                                         <div className="playerchat">
-                                                            <div class="progres">
-                                                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
-                                                                    <span class="sr-only">0% Complete</span>
+                                                            <div className="progres">
+                                                                <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style={{ width: "0%" }}>
+                                                                    <span className="sr-only">0% Complete</span>
                                                                 </div>
                                                             </div>
                                                         </div>        
@@ -480,21 +480,21 @@ class Andrews extends Component {
                                 <h3>TEAMMATES</h3>
                             </div>
                         <div className="row">
-                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading" role="tab" id="headingOne">
-                                            <h4 class="panel-title">
+                                <div className="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                    <div className="panel panel-default">
+                                        <div className="panel-heading" role="tab" id="headingOne">
+                                            <h4 className="panel-title">
                                                 <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                                     FORWARD
                                                 </a>
                                             </h4>
                                         </div>
-                                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                                            <div class="panel-body">
+                                        <div id="collapseOne" className="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                            <div className="panel-body">
                                                 <ul>                                       
                                                     <li>
                                                     <Link to="/andrews">
-                                                         <img src={andrews} alt="andrews" class="img-responsive"/>
+                                                         <img src={andrews} alt="andrews" className="img-responsive"/>
                                                         <div className="playerinfo">
                                                             <span>3</span>
                                                             <span id="playername">Andrews</span>
@@ -518,16 +518,16 @@ class Andrews extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading" role="tab" id="headingTwo">
-                                            <h4 class="panel-title">
-                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <div className="panel panel-default">
+                                        <div className="panel-heading" role="tab" id="headingTwo">
+                                            <h4 className="panel-title">
+                                                <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                     MIDFIELD
                                                 </a>
                                             </h4>
                                         </div>
-                                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                            <div class="panel-body">
+                                        <div id="collapseTwo" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                            <div className="panel-body">
                                             <ul>
                                                     <li>
                                                     <Link to="/enock">
@@ -554,16 +554,16 @@ class Andrews extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading" role="tab" id="headingThree">
-                                            <h4 class="panel-title">
-                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <div className="panel panel-default">
+                                        <div className="panel-heading" role="tab" id="headingThree">
+                                            <h4 className="panel-title">
+                                                <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                                     DEFENCE
                                                 </a>
                                             </h4>
                                         </div>
-                                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                            <div class="panel-body">
+                                        <div id="collapseThree" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                            <div className="panel-body">
                                             <ul>
                                                     <li>
                                                     <Link to="/appiah">
@@ -592,16 +592,16 @@ class Andrews extends Component {
                                     </div>
 
                                     
-                                   <div class="panel panel-default">
-                                        <div class="panel-heading" role="tab" id="headingFour">
-                                            <h4 class="panel-title">
-                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                   <div className="panel panel-default">
+                                        <div className="panel-heading" role="tab" id="headingFour">
+                                            <h4 className="panel-title">
+                                                <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
                                                     GOALKEEPERS
                                                 </a>
                                             </h4>
                                         </div>
-                                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                                             <div class="panel-body">
+                                        <div id="collapseFour" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                             <div className="panel-body">
                                             <ul>
                                                     <li>
                                                     <Link to="/bismark">
@@ -622,13 +622,13 @@ class Andrews extends Component {
                             </div>
 
                             <div className="row">
-                                <img src={jerseygrid} alt="pizza" class="img-responsive" />
+                                <img src={jerseygrid} alt="pizza" className="img-responsive" />
                             </div>
                         </div>
                     </div>
                 </div>
                 
-                <div class="container-fluid"  style={{padding:"0px"}}>
+                <div className="container-fluid"  style={{padding:"0px"}}>
                    <Footer/>
                 </div>
             </div>

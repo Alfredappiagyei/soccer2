@@ -25,16 +25,16 @@ class Footer extends Component {
 
                       <div className="row" style={{paddingTop:"20px"}}>
                           <div className="col-md-6 col-xs-12">
-                          <span className="contacts"><i class="fa fa-envelope"></i><a href="mailto:soccerangelsa67@gmail.com? "> soccerangelsa67@gmail.com</a></span>
-                          <span className="contacts"><i class="fa fa-envelope"></i><a href="mailto:soccerangels@gmail.com? "> soccerangels@gmail.com</a></span>
-                          <span className="contacts"><i class="fa fa-fone"></i><a href="tel:+233240311729"> +233 240311729 </a>/ <a href="tel:+233547908886"> +233 240311729 </a></span>
+                          <span className="contacts"><i className="fa fa-envelope"></i><a href="mailto:soccerangelsa67@gmail.com? "> soccerangelsa67@gmail.com</a></span>
+                          <span className="contacts"><i className="fa fa-envelope"></i><a href="mailto:soccerangels@gmail.com? "> soccerangels@gmail.com</a></span>
+                          <span className="contacts"><i className="fa fa-fone"></i><a href="tel:+233240311729"> +233 240311729 </a>/ <a href="tel:+233547908886"> +233 240311729 </a></span>
                           </div>
 
                           <div className="col-md-6 col-xs-12">
-                          <span className="socialinks"><a href="https://twitter.com/SoccerAngelAca1"><i class="fa fa-twitter"></i></a></span> 
-                          <span className="socialinks"><a href="https://web.facebook.com/Soccer-Angels-Academy-115197873244725/"><i class="fa fa-facebook"></i></a></span> 
-                          <span className="socialinks"><a  href="https://www.youtube.com/channel/UC6AD72yTtZpE7ox25eb6GZg" ><i class="fa fa-youtube"></i></a></span> 
-                          <span className="socialinks"><a href="https://www.instagram.com/p/CAIWNzvF676/"><i class="fa fa-instagram"></i></a></span>  
+                          <span className="socialinks"><a href="https://twitter.com/SoccerAngelAca1"><i className="fa fa-twitter"></i></a></span> 
+                          <span className="socialinks"><a href="https://web.facebook.com/Soccer-Angels-Academy-115197873244725/"><i className="fa fa-facebook"></i></a></span> 
+                          <span className="socialinks"><a  href="https://www.youtube.com/channel/UC6AD72yTtZpE7ox25eb6GZg" ><i className="fa fa-youtube"></i></a></span> 
+                          <span className="socialinks"><a href="https://www.instagram.com/p/CAIWNzvF676/"><i className="fa fa-instagram"></i></a></span>  
                           </div>
                
                          </div>  

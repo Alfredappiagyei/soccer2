@@ -40,7 +40,7 @@ class JuvenileScreening extends Component {
                    <img
                       src={ScreningImage1}
                       alt="pizza"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                    </div>
                    <div className="detailsContext">
@@ -59,7 +59,7 @@ class JuvenileScreening extends Component {
                    <img
                       src={ScreningImage2}
                       alt="precious"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                    </div>
                    <div className="detailsContext">
@@ -76,7 +76,7 @@ class JuvenileScreening extends Component {
                      <img
                   src={jerseygrid}
                   alt="jersaecollection"
-                  class="img-responsive"
+                  className="img-responsive"
                 />
                      </div>
                      <div className="recomended">
@@ -84,17 +84,17 @@ class JuvenileScreening extends Component {
                      </div>
                      <hr/>
 
-                <div class="row" id="features_subRows">
+                <div className="row" id="features_subRows">
                 <Link to="/boahdetails">
-                    <div class="col-md-6 col-xs-5">
+                    <div className="col-md-6 col-xs-5">
                     {" "}
                     <img
                       src={precious }
                       alt="pizza"
-                      class="img-responsive"
+                      className="img-responsive"
                     />               
                 </div>
-                <div class="col-md-6 col-xs-7 details-tranfare">
+                <div className="col-md-6 col-xs-7 details-tranfare">
                   
                     <p>
                        Percious Boah welcomes Dreams fc move, but Soccer Angels
@@ -106,18 +106,18 @@ class JuvenileScreening extends Component {
                 <hr/>
 
 
-              <div class="row" id="features_subRows">
-                    <div class="col-md-6 col-xs-5">
+              <div className="row" id="features_subRows">
+                    <div className="col-md-6 col-xs-5">
                   <Link to="#">
                     {" "}
                     <img
                       src={soccerHomeimage1}
                       alt="pizza"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                   </Link>
                 </div>
-                <div class="col-md-6 col-xs-7  details-tranfare">
+                <div className="col-md-6 col-xs-7  details-tranfare">
                   <Link to="#">
                     <p>
                       Soccer Angels has officcially signed Mustapha Osman from
@@ -128,18 +128,18 @@ class JuvenileScreening extends Component {
               </div>
               <hr/>
 
-              <div class="row" id="features_subRows">
-                    <div class="col-md-6 col-xs-6">
+              <div className="row" id="features_subRows">
+                    <div className="col-md-6 col-xs-6">
                   <Link to="#">
                     {" "}
                     <img
                       src={soccerHomeimage1}
                       alt="pizza"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                   </Link>
                 </div>
-                <div class="col-md-6 col-xs-6  details-tranfare">
+                <div className="col-md-6 col-xs-6  details-tranfare">
                   <Link to="#">
                     <p>
                       Soccer Angels has officcially signed Mustapha Osman from
@@ -151,18 +151,18 @@ class JuvenileScreening extends Component {
               <hr/>
 
 
-              <div class="row" id="features_subRows">
-                    <div class="col-md-6 col-xs-5">
+              <div className="row" id="features_subRows">
+                    <div className="col-md-6 col-xs-5">
                   <Link to="#">
                     {" "}
                     <img
                       src={soccerHomeimage1}
                       alt="pizza"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                   </Link>
                 </div>
-                <div class="col-md-6 col-xs-7  details-tranfare">
+                <div className="col-md-6 col-xs-7  details-tranfare">
                   <Link to="#">
                     <p>
                       Soccer Angels has officcially signed Mustapha Osman from

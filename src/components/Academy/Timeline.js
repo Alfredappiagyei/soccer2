@@ -38,79 +38,79 @@ class Timeline extends Component {
 
 
                 <section className="container-fluid" style={{background:"lawngreen"}}>
-                <div class="timeline">
-                            <div class="time">
-                                <div class="img"><img src="https://picsum.photos/400" alt="timeline"/></div>
-                                <div class="wrap">
-                                    <div class="date">Upper heading</div>
-                                    <h3 class="title">Heading</h3>
-                                    <div class="content">
+                <div className="timeline">
+                            <div className="time">
+                                <div className="img"><img src="https://picsum.photos/400" alt="timeline"/></div>
+                                <div className="wrap">
+                                    <div className="date">Upper heading</div>
+                                    <h3 className="title">Heading</h3>
+                                    <div className="content">
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio omnis inventore quisquam ratione ut aliquid saepe beatae culpa atque adipisci, error, deleniti dolor iusto iste possimus asperiores magni sunt eum?</p>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="time">
-                                <div class="img"><img src="https://picsum.photos/403" alt="timeline"/></div>
-                                <div class="wrap">
-                                    <div class="date">Upper heading</div>
-                                    <h3 class="title">Heading</h3>
-                                    <div class="content">
+                            <div className="time">
+                                <div className="img"><img src="https://picsum.photos/403" alt="timeline"/></div>
+                                <div className="wrap">
+                                    <div className="date">Upper heading</div>
+                                    <h3 className="title">Heading</h3>
+                                    <div className="content">
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio omnis inventore quisquam ratione ut aliquid saepe beatae culpa atque adipisci, error, deleniti dolor iusto iste possimus asperiores magni sunt eum?</p>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="time">
-                                <div class="img"><img src="https://picsum.photos/402" alt="timeline"/></div>
-                                <div class="wrap">
-                                    <div class="date">Upper heading</div>
-                                    <h3 class="title">Heading</h3>
-                                    <div class="content">
+                            <div className="time">
+                                <div className="img"><img src="https://picsum.photos/402" alt="timeline"/></div>
+                                <div className="wrap">
+                                    <div className="date">Upper heading</div>
+                                    <h3 className="title">Heading</h3>
+                                    <div className="content">
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio omnis inventore quisquam ratione ut aliquid saepe beatae culpa atque adipisci, error, deleniti dolor iusto iste possimus asperiores magni sunt eum?</p>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="time">
-                                <div class="img"><img src="https://picsum.photos/401" alt="timeline"/></div>
-                                <div class="wrap">
-                                    <div class="date">Upper heading</div>
-                                    <h3 class="title">Heading</h3>
-                                    <div class="content">
+                            <div className="time">
+                                <div className="img"><img src="https://picsum.photos/401" alt="timeline"/></div>
+                                <div className="wrap">
+                                    <div className="date">Upper heading</div>
+                                    <h3 className="title">Heading</h3>
+                                    <div className="content">
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio omnis inventore quisquam ratione ut aliquid saepe beatae culpa atque adipisci, error, deleniti dolor iusto iste possimus asperiores magni sunt eum?</p>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="time">
-                                <div class="img"><img src="https://picsum.photos/407" alt="timeline"/></div>
-                                <div class="wrap">
-                                    <div class="date">Upper heading</div>
-                                    <h3 class="title">Heading</h3>
-                                    <div class="content">
+                            <div className="time">
+                                <div className="img"><img src="https://picsum.photos/407" alt="timeline"/></div>
+                                <div className="wrap">
+                                    <div className="date">Upper heading</div>
+                                    <h3 className="title">Heading</h3>
+                                    <div className="content">
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio omnis inventore quisquam ratione ut aliquid saepe beatae culpa atque adipisci, error, deleniti dolor iusto iste possimus asperiores magni sunt eum?</p>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="time">
-                                <div class="img"><img src="https://picsum.photos/408" alt="timeline"/></div>
-                                <div class="wrap">
-                                    <div class="date">Upper heading</div>
-                                    <h3 class="title">Heading</h3>
-                                    <div class="content">
+                            <div className="time">
+                                <div className="img"><img src="https://picsum.photos/408" alt="timeline"/></div>
+                                <div className="wrap">
+                                    <div className="date">Upper heading</div>
+                                    <h3 className="title">Heading</h3>
+                                    <div className="content">
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio omnis inventore quisquam ratione ut aliquid saepe beatae culpa atque adipisci, error, deleniti dolor iusto iste possimus asperiores magni sunt eum?</p>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="time">
-                                <div class="img"><img src="https://picsum.photos/409" alt="timeline"/></div>
-                                <div class="wrap">
-                                    <div class="date">Upper heading</div>
-                                    <h3 class="title">Heading</h3>
-                                    <div class="content">
+                            <div className="time">
+                                <div className="img"><img src="https://picsum.photos/409" alt="timeline"/></div>
+                                <div className="wrap">
+                                    <div className="date">Upper heading</div>
+                                    <h3 className="title">Heading</h3>
+                                    <div className="content">
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio omnis inventore quisquam ratione ut aliquid saepe beatae culpa atque adipisci, error, deleniti dolor iusto iste possimus asperiores magni sunt eum?</p>
                                     </div>
                                 </div>
