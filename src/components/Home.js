@@ -54,8 +54,8 @@ class Home extends Component {
       var itemsDiv = ".MultiCarousel-inner";
       var itemWidth = "";
 
-      $(".leftLst, .rightLst").click(function () {
-        var condition = $(this).hasclass("leftLst");
+      $(".leftList, .rightList").click(function () {
+        var condition = $(this).hasClass("leftList");
         if (condition) click(0, this);
         else click(1, this);
       });
@@ -132,7 +132,7 @@ class Home extends Component {
         } else if (e === 1) {
           var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
           translateXval = parseInt(xds) + parseInt(itemWidth * s);
-          $(el + " " + leftBtn).removeclass("over");
+          $(el + " " + leftBtn).removeClass("over");
 
           if (translateXval >= itemsCondition - itemWidth / 2) {
             translateXval = itemsCondition;
@@ -161,7 +161,7 @@ class Home extends Component {
       var itemWidth = "";
 
       $(".leftslide, .rightslide").click(function () {
-        var condition = $(this).hasclass("leftslide");
+        var condition = $(this).hasClass("leftslide");
         if (condition) click(0, this);
         else click(1, this);
       });
@@ -238,7 +238,7 @@ class Home extends Component {
         } else if (e === 1) {
           var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
           translateXval = parseInt(xds) + parseInt(itemWidth * s);
-          $(el + " " + leftBtn).removeclass("over");
+          $(el + " " + leftBtn).removeClass("over");
 
           if (translateXval >= itemsCondition - itemWidth / 2) {
             translateXval = itemsCondition;
@@ -1178,10 +1178,10 @@ class Home extends Component {
                   </div>
                   
                 </div>
-                <button className="btn  leftLst" id="btne">
+                <button className="btn  leftList" id="btne">
                   <span className="glyphicon glyphicon-menu-left"></span>{" "}
                 </button>
-                <button className="btn  rightLst" id="btne">
+                <button className="btn  rightList" id="btne">
                   <span className="glyphicon glyphicon-menu-right"></span>{" "}
                 </button>
               </div>

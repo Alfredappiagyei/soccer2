@@ -696,12 +696,12 @@ font-family: 'Open Sans', sans-serif;
     .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
         .MultiCarousel .MultiCarousel-inner .item { float: left;}
         .MultiCarousel .MultiCarousel-inner .item > div { display: block; padding:5px; margin:5px; background:#f1f1f1; color:#666;}
-    .MultiCarousel .leftLst, .MultiCarousel .rightLst { border: none; position:absolute; color: #fff; background-color: lawngreen;
+    .MultiCarousel .leftList, .MultiCarousel .rightList { border: none; position:absolute; color: #fff; background-color: lawngreen;
        padding: 10px 10px; border-radius: 50%; margin-top: 80px;}
-    .MultiCarousel .leftLst { left:0; border: none; }
-    .MultiCarousel .rightLst { right:0; border: none; }
+    .MultiCarousel .leftList { left:0; border: none; }
+    .MultiCarousel .rightList { right:0; border: none; }
     
-    .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+    .MultiCarousel .leftList.over, .MultiCarousel .rightList.over { pointer-events: none; background:#ccc; }
 
 
 
