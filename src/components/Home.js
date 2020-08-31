@@ -451,7 +451,7 @@ class Home extends Component {
                             <h4>
                              <b> Soccer Angels</b>
                             </h4>                         
-                           <h3><b>hello</b></h3>
+                           <h3><b></b></h3>
                           <TimeAgo
                           datetime={'2020-08-28 14:12:00'}
                           locale='vi'/>
@@ -476,7 +476,7 @@ class Home extends Component {
                         <h4>
                              <b> Soccer Angels</b>
                             </h4>                         
-                           <h3><b>hello</b></h3>
+                           <h3><b></b></h3>
                           <TimeAgo
                           datetime={'2020-08-28 14:12:00'}
                           locale='vi'/>
@@ -501,7 +501,7 @@ class Home extends Component {
                         <h4>
                              <b> Soccer Angels</b>
                             </h4>                         
-                           <h3><b>hello</b></h3>
+                           <h3><b></b></h3>
                           <TimeAgo
                           datetime={'2020-08-28 14:12:00'}
                           locale='vi'/>
@@ -526,7 +526,7 @@ class Home extends Component {
                         <h4>
                              <b>Junior Premire League</b>
                             </h4>                         
-                           <h3><b>hello</b></h3>
+                           <h3><b></b></h3>
                           <TimeAgo
                           datetime={'2020-08-28 14:12:00'}
                           locale='vi'/>
@@ -552,7 +552,7 @@ class Home extends Component {
                         <h4>
                              <b> Soccer Angels U13</b>
                             </h4>                         
-                           <h3><b>hello</b></h3>
+                           <h3><b></b></h3>
                           <TimeAgo
                           datetime={'2020-08-28 14:12:00'}
                           locale='vi'/>
