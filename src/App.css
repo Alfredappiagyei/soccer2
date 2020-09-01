@@ -50,16 +50,54 @@
   margin-right: -50%;
 }
 
-#more_button {
+.more_button_mobile {
+  background-color: lawngreen;
+  /* padding: 10px 30px ;
+  margin: 0px 20px 0px 0px; */
+  color: #141414;
+  font-size: 15px;
+  border: none;
+  
+  
+}
+.more_button_desktop {
   float: right;
   background-color: lawngreen;
   padding: 10px 30px ;
   margin: 0px 20px 0px 0px;
+  font-family: 'Airial Rounded' !important;
   color: #141414;
   font-size: 15px;
   border: none;
   
 }
+
+.more_button_mobile {
+  display: none; 
+} 
+ 
+ 
+@media only screen and (max-width: 600px) { 
+  .more_button_desktop {
+   display: none;
+ }
+
+
+ .more_button_mobile {
+  background-color:#141414;
+  padding: 10px 30px ;
+  color: lawngreen;
+  font-size: 15px;
+  font-family: 'Airial Rounded' !important;
+  border: none;
+  display: block;
+  width: 100%;
+
+}
+  
+ }
+
+
  
 section {
   padding: 80px 10px;

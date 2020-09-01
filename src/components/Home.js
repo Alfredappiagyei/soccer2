@@ -416,7 +416,7 @@ class Home extends Component {
         <section className="container">
           <div className="row">
             <Link to="/seatvgo">
-              <button id="more_button">MORE</button>
+              <button className="more_button_desktop" id="desktopmore">MORE</button>
             </Link>
             <Link to="/seatvgo" className="header">
               <h2>Featured videos</h2>
@@ -571,8 +571,11 @@ class Home extends Component {
             </div>
           </div>
           <div className="line"></div>
+          <Link to="/seatvgo">
+              <button className="more_button_mobile">MORE</button>
+            </Link>
         </section>
-
+        
        
 
 
