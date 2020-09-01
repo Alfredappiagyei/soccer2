@@ -2,11 +2,19 @@
 /*-------------------------
  REUSERBLE CODE 
  -------------------------*/
- 
- .container {
-  margin-right: auto;
-  margin-left: auto;
-}
+  .barnav {
+    margin:0px 40px;
+    
+  }
+
+  
+@media only screen and (max-width: 600px) { 
+  .barnav {
+    margin-right: auto;
+    margin-left: auto;
+  }
+ }
+  
 
  .justify {
     position: relative;
@@ -21,6 +29,12 @@
   background-color:lawngreen;
 }
  
+ 
+section {
+  margin: 80px 15px;
+} 
+ 
+
 .bottom {
   overflow: hidden;
   text-align: center;
@@ -57,8 +71,7 @@
   color: #141414;
   font-size: 15px;
   border: none;
-  
-  
+   
 }
 .more_button_desktop {
   float: right;
@@ -98,11 +111,47 @@
  }
 
 
- 
-section {
-  padding: 80px 10px;
+ .homesocialheader {
+  background-color:#141414;
+  padding: 20px 0px;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {   
+ .homesocialheader {
+  padding: 10px 0px;
   margin: 0px;
 }
+
+ }
+.homesocialheader p{
+ float: left;
+ margin-left: 20px;
+ color: lawngreen;
+}
+
+
+@media only screen and (max-width: 600px) { 
+   
+  .homesocialheader img {
+   display: none;
+ }
+ 
+  }
+.homesocialinks{
+  float: right;
+  margin-right: 20px;
+  font-size: 22px;
+ color: lawngreen;
+ background-color: #141414;
+ 
+}
+ 
+
+ 
+ 
 
 .body {
   background-color: rgba(240, 255, 255, 0.486);
@@ -262,10 +311,11 @@ section {
     padding: 5px;
     font: 20px;
     border: none;
-    margin: 30px 40px 0px 20px;
+    margin: 30px 40px 0px 0px;
     font: 16px;
     text-decoration: none;
     position: relative;
+    font-family: 'Airial Rounded' !important;
     
   }
     }

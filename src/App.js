@@ -77,9 +77,8 @@ import JuvenileScreening from './FullDetails/LatestNewsDetails/JuvinalleRegister
 function App() {
   return (
     <Router> 
-      <div>
-
-        <nav className="navbar navbar-default" style={{position:"relative", width:"100%",marginBottom:"0px", left:"0px", border:"none",borderRadius:"none", zIndex:"2",  backgroundColor: '#444444', color: "#fff", alignContent:"center" }}>
+      <div className="barnav">
+        <nav className="navbar navbar-default" style={{position:"relative", width:"100%",marginBottom:"0px", left:"0px", border:"none",borderRadius:"0px", zIndex:"2",  backgroundColor: '#444444', color: "#fff", alignContent:"center" }}>
           <div className="container-fluid">
 
             <div className="navbar-header">

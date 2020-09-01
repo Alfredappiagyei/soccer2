@@ -16,7 +16,7 @@ class Footer extends Component {
     render() {
 
         return (
-            <section className="container-fluid   footer-container">
+            <div className="container-fluid   footer-container">
                  <div className="container">
               <div className="row" style={{alignItems:"center",display:"block"}}>
                <img src={footlogo} alt="soccerangelslogo"   className="img-responsive" height="100px" width="100px"  /> 
@@ -48,7 +48,7 @@ class Footer extends Component {
             
                  </div>
                  </div>             
-            </section>
+            </div>
 
 
         )

@@ -19,6 +19,7 @@ import jayjay from "../soccer/photos/jayjay.JPG";
 import pascal from "../soccer/photos/pascal.JPG";
 import juvenile2 from "../soccer/photos/juvinalle2.jpg";
 import mainheadline from "../soccer/photos/headilineimg.jpg";
+import nationalflag from "../soccer/photos/nationalflag.jpg";
 
 
 // profile images
@@ -115,19 +116,19 @@ class Home extends Component {
 
       //this function used to move the items
       function ResCarousel(e, el, s) {
-        var leftBtn = ".leftLst";
-        var rightBtn = ".rightLst";
+        var leftBtn = ".leftList";
+        var rightBtn = ".rightList";
         var translateXval = "";
         var divStyle = $(el + " " + itemsDiv).css("transform");
         var values = divStyle.match(/-?[\d.]+/g);
         var xds = Math.abs(values[4]);
         if (e === 0) {
           translateXval = parseInt(xds) - parseInt(itemWidth * s);
-          $(el + " " + rightBtn).removeclass("over");
+          $(el + " " + rightBtn).removeClass("over");
 
           if (translateXval <= itemWidth / 2) {
             translateXval = 0;
-            $(el + " " + leftBtn).addclass("over");
+            $(el + " " + leftBtn).addClass("over");
           }
         } else if (e === 1) {
           var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
@@ -136,7 +137,7 @@ class Home extends Component {
 
           if (translateXval >= itemsCondition - itemWidth / 2) {
             translateXval = itemsCondition;
-            $(el + " " + rightBtn).addclass("over");
+            $(el + " " + rightBtn).addClass("over");
           }
         }
         $(el + " " + itemsDiv).css(
@@ -152,6 +153,11 @@ class Home extends Component {
         ResCarousel(ell, Parent, slide);
       }
     });
+
+
+
+
+
 
     // FEATURED VIDEOS
 
@@ -229,11 +235,11 @@ class Home extends Component {
         var xds = Math.abs(values[4]);
         if (e === 0) {
           translateXval = parseInt(xds) - parseInt(itemWidth * s);
-          $(el + " " + rightBtn).removeclass("over");
+          $(el + " " + rightBtn).removeClass("over");
 
           if (translateXval <= itemWidth / 2) {
             translateXval = 0;
-            $(el + " " + leftBtn).addclass("over");
+            $(el + " " + leftBtn).addClass("over");
           }
         } else if (e === 1) {
           var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
@@ -242,7 +248,7 @@ class Home extends Component {
 
           if (translateXval >= itemsCondition - itemWidth / 2) {
             translateXval = itemsCondition;
-            $(el + " " + rightBtn).addclass("over");
+            $(el + " " + rightBtn).addClass("over");
           }
         }
         $(el + " " + itemsDiv).css(
@@ -260,11 +266,22 @@ class Home extends Component {
     });
      
     return (
-      <div className="body">
-       
+  
+      <div className="body">   
+        <div className=" homesocialheader">
+          <div className="row">
+                          <span className="homesocialinks"><img src={nationalflag} 
+                            alt="nationality"
+                            className="img-responsive" width="40" height="40"></img></span>
+                          <span className="homesocialinks"><i className="fa fa-twitter"></i></span> 
+                          <span className="homesocialinks"><i className="fa fa-facebook"></i></span> 
+                          <span className="homesocialinks"><i className="fa fa-youtube"></i></span> 
+                          <span className="homesocialinks"><i className="fa fa-instagram"></i></span>    
+                          <p>welcome:  <span>home</span></p>
+          </div>
+        </div>
 
-
-        <section className="container">
+        <section>
           <Link to="/boahdetails">
           <div className="row">
           <img
@@ -286,7 +303,7 @@ class Home extends Component {
 
 
       
-        <header className="container">
+        <section>
           <div className="row">
             <div
               id="carousel-example-generic"
@@ -388,7 +405,7 @@ class Home extends Component {
             </div>
           </div>
           <div className="line"></div>
-        </header>
+        </section>
 
        
 
@@ -413,7 +430,7 @@ class Home extends Component {
 
 
 
-        <section className="container">
+        <section>
           <div className="row">
             <Link to="/seatvgo">
               <button className="more_button_desktop" id="desktopmore">MORE</button>
@@ -509,6 +526,7 @@ class Home extends Component {
                       </div>
                     </div>
                   </div>
+                  
                   <div className="video">
                     <div className="pad15">
                       <div className="thumbnail">
@@ -600,7 +618,7 @@ class Home extends Component {
 
 
 
-        <section className="container">
+        <section>
           <div className="row">
             <Link to="transfarenews" className="header">
               {" "}
@@ -816,7 +834,7 @@ class Home extends Component {
 
         <div className="line"></div>
 
-        <section className="container">
+        <section>
           <div className="row">
             <div>
               <div
@@ -1198,7 +1216,7 @@ class Home extends Component {
 
 
 
-        <section className="container">
+        <section >
           <div className="row">
             <Link to="#" className="header">
               <h2>Features</h2>
@@ -1227,7 +1245,7 @@ class Home extends Component {
                 </Link>
               </div>
             </div>
-
+          
             <div className="col-md-6">
               <div className="row" id="features_subRows">
                 <div className="col-md-4 col-xs-5">
@@ -1246,7 +1264,7 @@ class Home extends Component {
                   </p>
                 </div>
               </div>
-
+              <hr/>
               <div className="row" id="features_subRows">
                 <div className="col-md-4 col-xs-5">
                   <Link to="#">
@@ -1264,7 +1282,7 @@ class Home extends Component {
                   </p>
                 </div>
               </div>
-
+              <hr/>
               <div className="row" id="features_subRows">
                 <div className="col-md-4 col-xs-5">
                   <Link to="#">
@@ -1282,7 +1300,7 @@ class Home extends Component {
                   </p>
                 </div>
               </div>
-
+              <hr/>
               <div className="row" id="features_subRows">
                 <div className="col-md-4 col-xs-5">
                   <Link to="#">
@@ -1319,7 +1337,7 @@ class Home extends Component {
 
 
 
-        <section className="container" id="transfare_news">
+        <section  id="transfare_news">
           <div className="row">
             <Link to="#" className="header">
               {" "}
@@ -1351,7 +1369,7 @@ class Home extends Component {
                 </Link>      
               </div>
             </div>
-
+            
             <div className="col-md-6">
               <div className="row" id="features_subRows">
                 <div className="col-md-4 col-xs-5">
@@ -1377,7 +1395,7 @@ class Home extends Component {
                   </Link>
                 </div>
               </div>
-
+              <hr/>
               <div className="row" id="features_subRows">
                 <div className="col-md-4 col-xs-5">
                   <Link to="#">
@@ -1401,7 +1419,7 @@ class Home extends Component {
                   </Link>
                 </div>
               </div>
-
+              <hr/>
               <div className="row" id="features_subRows">
                 <div className="col-md-4 col-xs-5">
                   <Link to="#">
@@ -1427,7 +1445,7 @@ class Home extends Component {
                   </Link>
                 </div>
               </div>
-
+                <hr/>
               <div className="row" id="features_subRows">
                 <div className="col-md-4 col-xs-5">
                   <Link to="#">
