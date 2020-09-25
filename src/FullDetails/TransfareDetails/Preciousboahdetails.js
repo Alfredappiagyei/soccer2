@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import precious from "../photos/precious.jpg";
+import precious from "../photos/boah.PNG";
 import precious2 from "../photos/precious2.JPG";
 import jerseygrid from "../photos/0.gif";
 import soccerHomeimage1 from "../photos/soccer1.JPG";
@@ -25,8 +25,7 @@ class BoahDetails extends Component {
              <div className="container-fluid">
                   <div className='detailsHeading'>
                       <h1>
-                      Percious Boah welcomes Dreams fc move, but Soccer Angels
-                      Academy will recognise truth about his trajectory
+                      Dreams Fc Striker Percious Boah Get A National Team Call Up
                       </h1>                     
                   </div>
 
@@ -45,14 +44,13 @@ class BoahDetails extends Component {
                    </div>
                    <div className="detailsContext">
                        <p>
-                       Former Dompim Soccer Angels Football play maker Precious Boah ends national U -20 call up.
-                       Precious Boah which has spend most of his time with Dompim Soccer Angels football Academy and now 
-                       with still believe Fc has been called to national
-                       U-20 male team by coach Karim Zito and Evans Adotey. Boah among 70 players invited by the coaches.
+                       Percious Boah with jersey number ten (10) in the middle of the photograph, who plays his football
+                        for Dawu based club Dreams FC have gotten a call up to Ghana National U-20 team known as the Black Satellites,
+                        which  is considered to be the feeder team for the Ghana national football team.
                        </p>
                        <p>
-                       Dompim Soccer Angels football Academy and now  with still believe Fc has been called to national           
-                       U-20 male team by coach Karim Zito and Evans Adotey. Boah among 70 players invited by the coaches.
+                       Boah started his football career from a second division side Assin Dansame Young Mighty Atoms,
+                        played for Domping Soccer Angel Football Academy and now a striker for Dreams Football Club.
                        </p>
                    </div>
 
@@ -65,8 +63,9 @@ class BoahDetails extends Component {
                    </div>
                    <div className="detailsContext">
                        <p>
-                       Soccer Angels Football Academy is happy for their former player call up to the national team. 
-                       Boah deserve it and we wish him well said by the club Administration manager Francis Anapey.
+                       This comes after the coach of Black Satellites Yaw Preko had shown interest in him and thinks
+                        that his addition is expected to boost the team’s
+                        attacking options as the team yearns for an improved goal scoring in the upcoming matches.
                        </p>
                    </div>
                </div>

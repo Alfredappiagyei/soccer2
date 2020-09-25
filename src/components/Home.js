@@ -5,8 +5,9 @@ import $ from "jquery";
 import soccerHomeimage1 from "../soccer/photos/soccer1.JPG";
 import soccerHomeimage2 from "../soccer/photos/soccer31.jpg";
 import soccerHomeimage3 from "../soccer/photos/soccer14.JPG";
+import boahnationalcall from "../soccer/photos/boah.PNG";
 import soccerangelslogo from "../soccer/photos/soccerangelslogo.JPG";
-import Chairmanshipposition from "../soccer/photos/chaimanship.JPG";
+import ladiesnews from "../soccer/photos/headline.PNG";
 import jerseyimage1 from "../soccer/photos/Picture8.jpg";
 import jerseyimage2 from "../soccer/photos/Picture9.jpg";
 import jerseyimage3 from "../soccer/photos/Picture7.jpg";
@@ -18,7 +19,7 @@ import pressrelease from "../soccer/photos/press.JPG";
 import jayjay from "../soccer/photos/jayjay.JPG";
 import pascal from "../soccer/photos/pascal.JPG";
 import juvenile2 from "../soccer/photos/juvinalle2.jpg";
-import mainheadline from "../soccer/photos/headilineimg.jpg";
+import mainheadline from "../soccer/photos/headline.PNG";
 import nationalflag from "../soccer/photos/nationalflag.jpg";
 
 
@@ -282,7 +283,7 @@ class Home extends Component {
         </div>
 
         <section>
-          <Link to="/boahdetails">
+          <Link to="#">
           <div className="row">
           <img
                             src={mainheadline}
@@ -294,8 +295,8 @@ class Home extends Component {
 
           <div className="row mainHeadline">
               <h1>
-                      Percious Boah welcomes Dreams fc move, but Soccer Angels
-                      Academy will recognise truth about his trajectory
+                       Soccer Angels ladies starts their pre-season at Assin Ningo ahead  of the next 
+                       division one league season
               </h1>
           </div>
           </Link>
@@ -635,7 +636,7 @@ class Home extends Component {
                       <div className="row">
                         <Link to="#">
                           <img
-                            src={Chairmanshipposition}
+                            src={ladiesnews }
                             alt="pizza"
                             className="img-responsive"
                           />
@@ -644,9 +645,10 @@ class Home extends Component {
                     </div>
                     <div className="col-md-8 col-xs-8">
                       <p className="latest_news_sub_headline">
-                        The C.E.O of Soccer Angels Academy has been appointed
-                        the new Assin district football association chairman
-                      </p>
+                      Soccer Angels ladies starts their pre-season at Assin Ningo ahead  of the next 
+                       division one league season
+
+                       </p>
                     </div>
                   </div>
                   <hr />
@@ -1348,11 +1350,11 @@ class Home extends Component {
           <div className="row" id="features_mainRows">
             <div className="col-md-6">
               <div className="row" id="features_subRows">
-              <Link to="#">
+              <Link to="/boahdetails">
                 <div className="col-md-12 col-xs-12">              
                     {" "}
                     <img
-                      src={soccerHomeimage3}
+                      src={boahnationalcall}
                       alt="angels"
                       className="img-responsive"
                     />
@@ -1361,8 +1363,7 @@ class Home extends Component {
                 <div className="col-md-12 col-xs-12">
                   <div className="col-md-12 col-xs-12 transfarenews-headline">
                     <h4>
-                      Soccer angels could look for creative solution to solve a
-                      tranfare problem
+                    Dreams Fc Striker Percious Boah Get A National Team Call Up
                     </h4>
                   </div>
                 </div>
@@ -1376,7 +1377,7 @@ class Home extends Component {
                   <Link to="#">
                     {" "}
                     <img
-                      src={soccerHomeimage2}
+                      src={soccerHomeimage3}
                       alt="pizza"
                       className="img-responsive"
                     />
@@ -1385,90 +1386,16 @@ class Home extends Component {
 
                 <div className="col-md-8 col-xs-7 transfare_news_sub_headline">
                   <Link to="/boahdetails">
-                    <h4>
-                      <b>OFFICIAL:PERCIOUS BOAH JOINS DREAMS FC</b>{" "}
-                    </h4>
                     <p>
-                      Percious Boah welcomes Dreams fc move, but Soccer Angels
-                      Academy will recognise truth about his trajectory
+                    Soccer angels could look for creative solution to solve a
+                      tranfare problem
                     </p>
                   </Link>
                 </div>
               </div>
               <hr/>
-              <div className="row" id="features_subRows">
-                <div className="col-md-4 col-xs-5">
-                  <Link to="#">
-                    {" "}
-                    <img
-                      src={soccerHomeimage1}
-                      alt="pizza"
-                      className="img-responsive"
-                    />
-                  </Link>
-                </div>
-                <div className="col-md-8 col-xs-7 transfare_news_sub_headline">
-                  <Link to="#">
-                    <h4>
-                      <b>OFFICIAL:JUSTICE ASAMOAH JOINS SOCCER ANGELS</b>{" "}
-                    </h4>
-                    <p>
-                      Soccer Angels has officcially signed Godfred Amoakoh
-                      Boateng from Victory fc
-                    </p>
-                  </Link>
-                </div>
-              </div>
-              <hr/>
-              <div className="row" id="features_subRows">
-                <div className="col-md-4 col-xs-5">
-                  <Link to="#">
-                    {" "}
-                    <img
-                      src={soccerHomeimage1}
-                      alt="pizza"
-                      className="img-responsive"
-                    />
-                  </Link>
-                </div>
-                <div className="col-md-8 col-xs-7 transfare_news_sub_headline">
-                  <Link to="#">
-                    <h4>
-                      <b>
-                        OFFICIAL:GODFRED AMOAKOH BOATENG JOINS SOCCER ANGELS
-                      </b>{" "}
-                    </h4>
-                    <p>
-                      Soccer Angels has officcially signed Godfred Amoakoh
-                      Boateng from Victory fc
-                    </p>
-                  </Link>
-                </div>
-              </div>
-                <hr/>
-              <div className="row" id="features_subRows">
-                <div className="col-md-4 col-xs-5">
-                  <Link to="#">
-                    {" "}
-                    <img
-                      src={soccerHomeimage1}
-                      alt="pizza"
-                      className="img-responsive"
-                    />
-                  </Link>
-                </div>
-                <div className="col-md-8 col-xs-7 transfare_news_sub_headline">
-                  <Link to="#">
-                    <h4>
-                      <b>OFFICIAL:MUSTAPHA OSMAN JOINS SOCCER ANGELS</b>{" "}
-                    </h4>
-                    <p>
-                      Soccer Angels has officcially signed Mustapha Osman from
-                      Lakers fc
-                    </p>
-                  </Link>
-                </div>
-              </div>
+             
+             
             </div>
           </div>
         </section>

@@ -8,6 +8,7 @@ import TransfareNews from './components/News/TransfareNews';
 import Contacts from './components/Legal/Contacts';
 
 
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -58,6 +59,9 @@ import SecondDivision from './components/Fixtures/Secdivision';
 
 import BoahDetails from './FullDetails/TransfareDetails/Preciousboahdetails';
 import JuvenileScreening from './FullDetails/LatestNewsDetails/JuvinalleRegister';
+
+// Authentications
+import Register from './Authentication/Register';
 
 
 
@@ -261,7 +265,13 @@ function App() {
           
           {/* latestNews */}
           <Route path="/juvinileregister" exact component={JuvenileScreening} /> 
+          
 
+
+
+
+          {/* Authentications */}
+          <Route path="/register" exact component={Register} /> 
              </Switch>
 
 
