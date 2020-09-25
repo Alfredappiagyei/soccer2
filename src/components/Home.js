@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import $ from "jquery";
 
 import soccerHomeimage1 from "../soccer/photos/soccer1.JPG";
-import soccerHomeimage2 from "../soccer/photos/soccer31.jpg";
 import soccerHomeimage3 from "../soccer/photos/soccer14.JPG";
 import boahnationalcall from "../soccer/photos/boah.PNG";
 import soccerangelslogo from "../soccer/photos/soccerangelslogo.JPG";
@@ -1391,9 +1390,7 @@ class Home extends Component {
                   </Link>
                 </div>
               </div>
-              <hr/>
-             
-             
+              <hr/>            
             </div>
           </div>
         </section>
