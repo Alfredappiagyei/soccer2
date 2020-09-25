@@ -1,15 +1,14 @@
 import React, {Component} from "react";
-
-import soccerHomeimage1 from './photos/soccer1.JPG'
-import soccerHomeimage2 from './photos/soccer31.jpg'
-import soccerHomeimage3 from './photos/soccer14.JPG'
-import Chairmanshipposition from './photos/chaimanship.JPG'
-import jerseyimage1 from './photos/Picture8.jpg'
-import jerseyimage2 from './photos/Picture9.jpg'
-import jerseygrid from './photos/0.gif'
-import asante from './photos/W-asante.JPG'
-import pascal from './photos/pascal.JPG'
+ 
+import soccerHomeimage3 from './photos/soccer14.JPG';
+import jerseyimage2 from './photos/Picture9.jpg';
+import jerseygrid from './photos/0.gif';
+import asante from './photos/W-asante.JPG';
+import pascal from './photos/pascal.JPG';
 import jayjay from "./photos/jayjay.JPG";
+import boahnationalcall from "./photos/boah.PNG";
+import ladiesnews from "./photos/headline.PNG";
+import juvenile2 from "./photos/juvinalle1.jpg";
 
 
 
@@ -28,65 +27,66 @@ class TransfareNews extends Component {
         return( 
                 <div id="transfare">
  
+ 
 
- <section class="container">
+
+ <section>
           <div className="row">
-            <Link to="#" className="header">
+            <Link to="transfarenews" className="header">
               {" "}
               <h2>Latest News</h2>
             </Link>
           </div>
 
-          <div class="row" id="latest_news_rows">
-            <div class="col-md-9 col-xs-12">
-              <div class="row" id="latest_news_rows">
-                <div class="col-md-6 col-xs-12">
-                  <div class="row">
-                    <div class="col-md-4 col-xs-4">
+          <div className="row" id="latest_news_rows">
+            <div className="col-md-9 col-xs-12">
+              <div className="row" id="latest_news_rows">
+                <div className="col-md-6 col-xs-12">
+                  <div className="row">
+                    <div className="col-md-4 col-xs-4">
                       <div className="row">
                         <Link to="#">
                           <img
-                            src={Chairmanshipposition}
+                            src={ladiesnews }
                             alt="pizza"
-                            class="img-responsive"
+                            className="img-responsive"
                           />
                         </Link>
                       </div>
                     </div>
-                    <div class="col-md-8 col-xs-8">
+                    <div className="col-md-8 col-xs-8">
                       <p className="latest_news_sub_headline">
-                        The C.E.O of Soccer Angels Academy has been appointed
-                        the new Assin district football association chairman
-                      </p>
+                      Soccer Angels ladies starts their pre-season at Assin Ningo ahead  of the next 
+                       division one league season
+
+                       </p>
                     </div>
                   </div>
                   <hr />
-                  <div class="row">
-                    <div class="col-md-4 col-xs-4">
-                      <Link to="#">
+                  <div className="row">
+                  <Link to="/boahdetails">
+                    <div className="col-md-4 col-xs-4">             
                         <img
-                          src={soccerHomeimage2}
+                          src={boahnationalcall}
                           alt="pizza"
-                          class="img-responsive"
+                          className="img-responsive"
                         />
-                      </Link>
                     </div>
-                    <div class="col-md-8 col-xs-8">
+                    <div className="col-md-8 col-xs-8">
                       <p className="latest_news_sub_headline">
-                        Dreams Football Club has officially signed Soccer Angels
-                        supper star Percious Boah on a four year long deal from
-                        Soccer Angels Academy.
+                      Dreams Fc Striker Percious Boah Get A National Team Call Up
                       </p>
                     </div>
+                    </Link>
                   </div>
                   <hr />
-                  <div class="row">
-                    <div class="col-md-4 col-xs-4">
+                  <div className="row">
+                    <div className="col-md-4 col-xs-4">
                       <Link to="#">
-                        <img src={asante} alt="pizza" class="img-responsive" />
+                        <img src={asante} alt="pizza" className="img-responsive" />
                       </Link>
                     </div>
-                    <div class="col-md-8 col-xs-8">
+                    <div className="col-md-8 col-xs-8">
                       <p className="latest_news_sub_headline">
                         Soccer Angels Academy has officcially appointed
                         Mr.WILLIAM ASANTE as the new communication director of
@@ -96,13 +96,13 @@ class TransfareNews extends Component {
                   </div>
                   <hr />
 
-                  <div class="row">
-                    <div class="col-md-4 col-xs-4">
+                  <div className="row">
+                    <div className="col-md-4 col-xs-4">
                       <Link to="#">
-                        <img src={pascal} alt="pizza" class="img-responsive" />
+                        <img src={pascal} alt="pizza" className="img-responsive" />
                       </Link>
                     </div>
-                    <div class="col-md-8 col-xs-8">
+                    <div className="col-md-8 col-xs-8">
                       <p className="latest_news_sub_headline">
                         Soccer Angels Academy has officcially appointed NANA
                         KWAKU PASCAL (Head of sports, SPLASH FM) as
@@ -111,50 +111,50 @@ class TransfareNews extends Component {
                     </div>
                   </div>
                 </div>
-
-                <div class="col-md-6 col-xs-12">
-                  <div class="row">
-                    <div class="col-md-4 col-xs-4">
-                      <Link to="#">
+              
+                <div className="col-md-6 col-xs-12">
+                  <div className="row">
+                  <Link to="/juvinileregister">
+                    <div className="col-md-4 col-xs-4">            
                         <img
-                          src={jerseyimage1}
+                          src={juvenile2}
                           alt="pizza"
-                          class="img-responsive"
+                          className="img-responsive"
                         />
-                      </Link>
                     </div>
-                    <div class="col-md-8 col-xs-8">
+                    <div className="col-md-8 col-xs-8">
                       <p className="latest_news_sub_headline">
-                        Soccer Angels unviel its new jersey for the 2020-2021
-                        league
+                      Central regional football association visited Assin District football association for 
+                      Juvenile screening                  
                       </p>
                     </div>
+                    </Link>
                   </div>
                   <hr />
-                  <div class="row">
-                    <div class="col-md-4 col-xs-4">
+                  <div className="row">
+                    <div className="col-md-4 col-xs-4">
                       <Link to="#">
                         <img
                           src={jerseyimage2}
                           alt="pizza"
-                          class="img-responsive"
+                          className="img-responsive"
                         />
                       </Link>
                     </div>
-                    <div class="col-md-8 col-xs-8">
+                    <div className="col-md-8 col-xs-8">
                       <p className="latest_news_sub_headline">
                         Soccer Angels home tracksuit
                       </p>
                     </div>
                   </div>
                   <hr />
-                  <div class="row">
-                    <div class="col-md-4 col-xs-4">
+                  <div className="row">
+                    <div className="col-md-4 col-xs-4">
                       <Link to="#">
-                        <img src={jayjay} alt="pizza" class="img-responsive" />
+                        <img src={jayjay} alt="pizza" className="img-responsive" />
                       </Link>
                     </div>
-                    <div class="col-md-8 col-xs-8">
+                    <div className="col-md-8 col-xs-8">
                       <p className="latest_news_sub_headline">
                         Soccer Angels Academy has officcially appointed JAY JAY
                         (Sports presenter at NKWA FM) as the new Deputy
@@ -166,25 +166,28 @@ class TransfareNews extends Component {
               </div>
             </div>
 
-            <div class="col-md-3 col-xs-12">
+            <div className="col-md-3 col-xs-12">
               <div className="row" style={{ minHeight: "200px" }}>
                 <img
                   src={jerseygrid}
                   alt="jersaecollection"
-                  class="img-responsive"
+                  className="img-responsive"
                 />
               </div>
             </div>
           </div>
+          
+        <div className="line"></div>
         </section>
 
 
 
               
 
- 
+  
 
-        <section class="container" id="transfare_news">
+
+        <section  id="transfare_news">
           <div className="row">
             <Link to="#" className="header">
               {" "}
@@ -195,129 +198,50 @@ class TransfareNews extends Component {
           <div className="row" id="features_mainRows">
             <div className="col-md-6">
               <div className="row" id="features_subRows">
-              <Link to="#">
-                <div className="col-md-12 col-xs-12">      
+              <Link to="/boahdetails">
+                <div className="col-md-12 col-xs-12">              
                     {" "}
                     <img
-                      src={soccerHomeimage3}
+                      src={boahnationalcall}
                       alt="angels"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
-                     <h4 class="bottom"><b>Transfare News</b></h4>   
-                
-                  <div className="line"></div>
+                       <h4 className="bottom"><b>Transfare News</b></h4>                             
                 </div>
                 <div className="col-md-12 col-xs-12">
-                  <div class="col-md-12 col-xs-12  transfarenews-headline">
+                  <div className="col-md-12 col-xs-12 transfarenews-headline">
                     <h4>
-                      Soccer angels could look for creative solution to solve a
-                      tranfare problem
+                    Dreams Fc Striker Percious Boah Get A National Team Call Up
                     </h4>
                   </div>
                 </div>
-                </Link>
+                </Link>      
               </div>
             </div>
-
-            <div class="col-md-6">
-              <div class="row" id="features_subRows">
-                <div class="col-md-4 col-xs-5">
+            
+            <div className="col-md-6">
+              <div className="row" id="features_subRows">
+                <div className="col-md-4 col-xs-5">
                   <Link to="#">
                     {" "}
                     <img
-                      src={soccerHomeimage2}
+                      src={soccerHomeimage3}
                       alt="pizza"
-                      class="img-responsive"
+                      className="img-responsive"
                     />
                   </Link>
                 </div>
 
-                <div class="col-md-8 col-xs-7 transfare_news_sub_headline">
-                  <Link to="boahdetails">
-                    <h4>
-                      <b>OFFICIAL:PERCIOUS BOAH JOINS DREAMS FC</b>{" "}
-                    </h4>
+                <div className="col-md-8 col-xs-7 transfare_news_sub_headline">
+                  <Link to="/boahdetails">
                     <p>
-                      Percious Boah welcomes Dreams fc move, but Soccer Angels
-                      Academy will recognise truth about his trajectory
+                    Soccer angels could look for creative solution to solve a
+                      tranfare problem
                     </p>
                   </Link>
                 </div>
               </div>
-
-              <div class="row" id="features_subRows">
-                <div class="col-md-4 col-xs-5">
-                  <Link to="#">
-                    {" "}
-                    <img
-                      src={soccerHomeimage1}
-                      alt="pizza"
-                      class="img-responsive"
-                    />
-                  </Link>
-                </div>
-                <div class="col-md-8 col-xs-7 transfare_news_sub_headline">
-                  <Link to="#">
-                    <h4>
-                      <b>OFFICIAL:JUSTICE ASAMOAH JOINS SOCCER ANGELS</b>{" "}
-                    </h4>
-                    <p>
-                      Soccer Angels has officcially signed Godfred Amoakoh
-                      Boateng from Victory fc
-                    </p>
-                  </Link>
-                </div>
-              </div>
-
-              <div class="row" id="features_subRows">
-                <div class="col-md-4 col-xs-5">
-                  <Link to="#">
-                    {" "}
-                    <img
-                      src={soccerHomeimage1}
-                      alt="pizza"
-                      class="img-responsive"
-                    />
-                  </Link>
-                </div>
-                <div class="col-md-8 col-xs-7 transfare_news_sub_headline">
-                  <Link to="#">
-                    <h4>
-                      <b>
-                        OFFICIAL:GODFRED AMOAKOH BOATENG JOINS SOCCER ANGELS
-                      </b>{" "}
-                    </h4>
-                    <p>
-                      Soccer Angels has officcially signed Godfred Amoakoh
-                      Boateng from Victory fc
-                    </p>
-                  </Link>
-                </div>
-              </div>
-
-              <div class="row" id="features_subRows">
-                <div class="col-md-4 col-xs-5">
-                  <Link to="#">
-                    {" "}
-                    <img
-                      src={soccerHomeimage1}
-                      alt="pizza"
-                      class="img-responsive"
-                    />
-                  </Link>
-                </div>
-                <div class="col-md-8 col-xs-7 transfare_news_sub_headline">
-                  <Link to="#">
-                    <h4>
-                      <b>OFFICIAL:MUSTAPHA OSMAN JOINS SOCCER ANGELS</b>{" "}
-                    </h4>
-                    <p>
-                      Soccer Angels has officcially signed Mustapha Osman from
-                      Lakers fc
-                    </p>
-                  </Link>
-                </div>
-              </div>
+              <hr/>            
             </div>
           </div>
         </section>

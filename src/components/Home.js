@@ -656,16 +656,14 @@ class Home extends Component {
                   <Link to="/boahdetails">
                     <div className="col-md-4 col-xs-4">             
                         <img
-                          src={soccerHomeimage2}
+                          src={boahnationalcall}
                           alt="pizza"
                           className="img-responsive"
                         />
                     </div>
                     <div className="col-md-8 col-xs-8">
                       <p className="latest_news_sub_headline">
-                        Dreams Football Club has officially signed Soccer Angels
-                        supper star Percious Boah on a four year long deal from
-                        Soccer Angels Academy.
+                      Dreams Fc Striker Percious Boah Get A National Team Call Up
                       </p>
                     </div>
                     </Link>

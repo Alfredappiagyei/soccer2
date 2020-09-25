@@ -1,10 +1,8 @@
 import React, { Component } from "react";
-import justify from '../News/photos/justify.JPG'
 import pressrelease from '../News/photos/press.JPG'
 import Footer from "../Footer";
 
- 
-//  import {
+ //  import {
 
 //      BrowserRouter as Router,
 //      Switch,
@@ -19,21 +17,6 @@ class Anouncement extends Component {
         return (
             <div>
                
-
-        <section>
-          <div className="container justifyimg_container">
-            <img
-              src={justify}
-              alt="justify"
-              className="img-responsive"
-              style={{ margin: "auto" }}
-            ></img>
-          </div>
-          </section>
-
-
-
-
 
         <section className="league">   
           <div className="row">
