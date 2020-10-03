@@ -66,18 +66,6 @@ import Register from './Authentication/Register';
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 function App() {
   return (
     <Router> 
@@ -211,6 +199,13 @@ function App() {
             </div>
           </div>
         </nav>
+
+
+
+
+
+
+        
 
 
 
