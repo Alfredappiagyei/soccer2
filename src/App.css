@@ -3,35 +3,81 @@
  REUSERBLE CODE 
  -------------------------*/
   .barnav {
-    margin:0px 40px;
+    margin:0px 22px;
+    background-color: #fff;
     
   }
+
+  .container-fluid {
+    margin: 80px 0px;
+
+  }
+
+  #headimage {
+     background-image: url(./soccer/photos/headline-min.PNG); 
+     min-height: 700px;
+      background-position: center; 
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+  }
+  
+ .mainHeadline {
+  background-color: #141414;
+}
+
+ .mainHeadline h1 {
+  color: lawngreen;
+  letter-spacing: -0.39px;
+  position: relative;
+  font-family: 'Airial Rounded' !important;
+  font-weight: 900;
+  padding: 5px 15px;
+  text-align: center;
+  margin: 10px 20x;
+
+} 
+
+@media only screen and (max-width: 600px) { 
+  .mainHeadline h1 {
+    position: relative;
+    font-family: 'Airial Rounded' !important;
+    margin: 2px 10x;
+    font-size:30px ;
+    color: #fff; 
+  } 
+ }
+
+
+
+
+
+
+
+
 
   
 @media only screen and (max-width: 600px) { 
   .barnav {
-    margin: 0px;
+    margin: 0px 0px;
   }
  }
+
+  
    
 
  .line {
-  min-height: 5px;
+  min-height: 3px;
   background-color:lawngreen;
 }
- 
- 
-section {
-  margin: 80px 15px;
-} 
- 
 
 @media only screen and (max-width: 600px) { 
    
-section {
-  margin: 80px 0px;
+ .line {
+  display: none;
 }
- }
+   }
+  
 .bottom {
   overflow: hidden;
   text-align: center;
@@ -40,26 +86,7 @@ section {
   background-color: #141414;
   
 }
-.bottom:before,
-.bottom:after {
-  background-color: lawngreen;
-  content: "";
-  display: inline-block;
-  height: 1px;
-  position: relative;
-  vertical-align: middle;
-  width: 50%;
   
-}
-.bottom:before {
-  right: 0.5em;
-  margin-left: -50%;
-  color: red;
-}
-.bottom:after {
-  left: 0.5em;
-  margin-right: -50%;
-}
 
 .more_button_mobile {
   background-color: lawngreen;
@@ -109,7 +136,7 @@ section {
 
  .homesocialheader {
   background-color:#141414;
-  padding: 20px 0px;
+  padding: 10px 0px;
 
 }
 
@@ -139,19 +166,12 @@ section {
 .homesocialinks{
   float: right;
   margin-right: 20px;
-  font-size: 22px;
+  font-size: 20px;
  color: lawngreen;
  background-color: #141414;
  
 }
  
-
- 
- 
-
-.body {
-  background-color: rgba(240, 255, 255, 0.486);
-}
 
 .header h2{
   font-size: 35px;
@@ -240,32 +260,7 @@ section {
    padding: 5px 10px;
 }
   }
-
-/*-----------------------
- justify 
- -----------------------*/
-
- .mainHeadline {
-  background-color: #141414;
-}
-
-
- .mainHeadline h1 {
-  color: lawngreen;
-  letter-spacing: -0.39px;
-  position: relative;
-  font-family: 'Airial Rounded' !important;
-  font-weight: 900;
-  padding: 5px 15px;
-  text-align: center;
-  margin: 10px 20x;
-
-} 
-
-
-
-
-
+ 
 
 /*--------------------------------
           HEADER
@@ -357,13 +352,13 @@ section {
   display: block;
   font-size: 18px;
   color: #fff;
-  margin: 12px 0px 0px 30px;
+  margin: 5px 10px 13px 10px;
   
 
 }
 
 
-.dropdown-content a:hover {background-color: rgba(0, 0, 0, 0.692);}
+.dropdown-content a:hover {color:#fff ;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
@@ -371,84 +366,105 @@ section {
 
 
 
-
-#carousel_item1 {
-   background-color: green; 
-  padding: 50px 0px;
-  
+.fixturecontainer{
+  background: url(soccer/photos/soccerangelslogo.JPG);
+  background-size: cover; 
 }
-
-
-
-
-#first-carousel-mainrow {
-  background-color: red;
-}
-
 
 #lastmatch_colon{
-  background-color: rgba(20,20,20,0.65);
+  background-color: rgba(20,20,20,0.55);
   background-size: cover;
-  font-family: sans-serif;
-  border:3px solid lawngreen ;
-  color: #fff;
-  min-height: 322px;
+  min-height: 300px;
   
   }
+
+  @media only screen and (min-width: 1360px) {       
+    #lastmatch_colon{
+     margin-top: -20px;
+      
+      }
+    }
    
+@media only screen and (max-width: 600px) {  
+  #lastmatch_colon{
+    margin: 10px 0px;
+     
+     } 
+}
+
+@media only screen and (min-width: 768px) {       
+  #lastmatch_colon{
+    margin: 2px 0px;
+     
+     } 
+}
+
+  
+  
 #upcoming_colon{
-  background-color: rgba(20,20,20,0.65);
+  background-color: rgba(20,20,20,0.55);
   background-size: cover;
   font-family: sans-serif;
-  border:3px solid lawngreen ;
   color: #fff;
-  min-height: 322px;
-  
+  min-height: 300px;
   
   }
 
+@media only screen and (max-width: 600px) {  
   
 
-#last_match_header_text {
-  color:#fff;
-  text-decoration: none;
-  font-size: 25px;
-  font-family: sans-serif;
-  font-weight: bold;
-  margin: 20px 0px 60px 0px;
-}
+     }
+    
+@media only screen and (min-width: 768px) {       
+   
+    }
 
 #upcoming_match_header_text {
   color:#fff;
-  text-decoration: none;
   font-size: 25px;
   font-family: sans-serif;
   font-weight: bold;
-  margin: 20px 0px 60px 0px;
+  margin: 20px 0px 40px 0px;
 }
+
+@media only screen and (max-width: 600px) {  
+ 
+#upcoming_match_header_text {
+  color:lawngreen;
+  font-size: 20px;  
+} 
+
+}
+
+  
+@media only screen and (min-width: 768px) {       
+  
+#upcoming_match_header_text {
+  color:lawngreen;
+  font-size: 22px;
+   
+}   
+}
+
+
+
+
+
 
 
 #match_header{
   font-size: 40px;
-  font-weight: bolder;
   color: #ddd;
 }
-#last_match_button{
-  padding: 20px;
-  font: 16px sans-serif;
-  font-size: 20px;
-  color: #ddd;
-  border: none;
-  background-color: #444444;
-}
+ 
 
-#upcoming_match_button{
-  padding: 20px;
-  font: 16px sans-serif;
-  font-size: 20px;
+#upcoming_match_text{
+  font-family: Arial, Helvetica, sans-serif;
   color: #ddd;
-  border: none;
-  background-color: #444444;
+  font-size: 40px;
+  justify-self: center;
+  font-weight: bold;
+
 }
 
 
@@ -490,13 +506,13 @@ section {
  
  @media only screen and (max-width: 600px) { 
   .features-headline h4 {
-    font-size: 32px;
+    font-size: 31px;
     color: #141414;
     letter-spacing: -0.39px;
     line-height: 1.0;
     position: relative;
     font-family: 'Airial Rounded' !important;
-    font-weight: 600;
+    font-weight: 550;
     
   }
   }
@@ -516,36 +532,9 @@ section {
 
 
 
-/*-----------------------------
- LEAGUE
- ------------------------------ */
 
-.league{
-background: url(soccer/photos/soccerangelslogo.JPG);
-background-size: cover;
-font-family: 'Open Sans', sans-serif;
-
- }
-
-.league_second_colon {
-  background-color: rgba(60, 50, 50, 0.815);
-  color: #fff;
-  min-height: 500px;
-  padding: 200px 0px 480px 0px;
-} 
-
-
-.league_first_colon {
-  background-color: rgba(60, 50, 50, 0.815);
-  color: #fff;
-  font-family: 'Open Sans', sans-serif;
-} 
 
  
-
- 
-
-
 
 
 
@@ -556,7 +545,7 @@ font-family: 'Open Sans', sans-serif;
   background-color: rgba(240, 255, 255, 0.486);
  }
   .transfarenews-headline h4{
-    font-size: 42px;
+    font-size: 35px;
     color: #141414;
     letter-spacing: -0.59px;
     line-height: 1.0;
@@ -568,13 +557,13 @@ font-family: 'Open Sans', sans-serif;
   
   @media only screen and (max-width: 600px) { 
     .transfarenews-headline h4{
-      font-size: 32px;
+      font-size: 31px;
       color: #141414;
       letter-spacing: -0.39px;
       line-height: 1.0;
       position: relative;
       font-family: 'Airial Rounded' !important;
-      font-weight: 600;
+      font-weight: 550;
       
     }
     }
@@ -809,499 +798,6 @@ font-family: 'Open Sans', sans-serif;
 
 
 
-
-
-/* ---------------------------------
-       FIRST TEAM 
------------------------------------*/
-/* reuserble code */
-#jerseynumber{
-  background-color: #141414;
-  color: lawngreen;
-  display: block;
-  text-align: center;
-  align-content: center;
-  justify-content: center;
-}
-
-
-
-/* bismark */
-
-.bismark {
-  background: url(components/firstTeam/photos/Baaye.JPG);
-  background-size: cover;
-  font-family: 'Open Sans', sans-serif;
-  min-height: 550px;
-  width: 100%;
-  position: relative;
-  
-  }
-  
-  #bismarkdetails {
-    background-color: rgba(0,0,0,0);
-    color: #fff;
-    width: 100%;
-  }
-
-
-
-
-
-
-
-
-
-
-/* appiah */
-.appiah {
-background: url(components/firstTeam/photos/Appiah.JPG);
-background-size: cover;
-font-family: 'Open Sans', sans-serif;
-min-height: 550px;
-width: 100%;
-
-}
-
-#appiahdetails {
-  background-color: rgba(0,0,0,0);
-  color: #fff;
-  width: 100%;
-}
-
-/* cosmos */
-.cosmos {
-  background: url(components/firstTeam/photos/cosmos.JPG);
-  background-size: cover;
-  font-family: 'Open Sans', sans-serif;
-  min-height: 550px;
-  width: 100%;
-  
-  }
-  
-#cosmosdetails {
-  background-color: rgba(0,0,0,0);
-  color: #fff;
-  width: 100%;
-}
-
-
-/* elvis */
-.elvis {
-  background: url(components/firstTeam/photos/Elvis.JPG);
-  background-size: cover;
-  font-family: 'Open Sans', sans-serif;
-  min-height: 550px;
-  width: 100%;
-  
-  }
-  
-#elvisdetails {
-  background-color: rgba(0,0,0,0);
-  color: #fff;
-  width: 100%;
-}
-
-
-
-/* Enock*/
-.enock {
-  background: url(components/firstTeam/photos/shargaa.JPG);
-  background-size: cover;
-  font-family: 'Open Sans', sans-serif;
-  min-height: 550px;
-  width: 100%;
-  
-  }
-  
-#enockdetails {
-  background-color: rgba(0,0,0,0);
-  color: #fff;
-  width: 100%;
-}
-
-
-
-/* Cobby*/
-.cobby {
-  background: url(components/firstTeam/photos/cobby.JPG);
-  background-size: cover;
-  font-family: 'Open Sans', sans-serif;
-  min-height: 550px;
-  width: 100%;
-  
-  }
-  
-#cobbydetails {
-  background-color: rgba(0,0,0,0);
-  color: #fff;
-  width: 100%;
-}
-
-
-
-/* Andrews*/
-.andrews {
-  background: url(components/firstTeam/photos/Andrews.JPG);
-  background-size: cover;
-  font-family: 'Open Sans', sans-serif;
-  min-height: 550px;
-  width: 100%;
-  
-  }
-  
-#andrewsdetails {
-  background-color: rgba(0,0,0,0);
-  color: #fff;
-  width: 100%;
-}
-
-
-
-/* Richmond*/
-.richmond {
-  background: url(components/firstTeam/photos/Richmond.JPG);
-  background-size: cover;
-  font-family: 'Open Sans', sans-serif;
-  min-height: 550px;
-  width: 100%;
-  
-  }
-  
-#richmonddetails {
-  background-color: rgba(0,0,0,0);
-  color: #fff;
-  width: 100%;
-}
-
-
-
-/* Richmond*/
-.theophilus {
-  background: url(components/firstTeam/photos/theophilus.JPG);
-  background-size: cover;
-  font-family: 'Open Sans', sans-serif;
-  min-height: 550px;
-  width: 100%;
-  
-  }
-  
-#theophilusdetails {
-  background-color: rgba(0,0,0,0);
-  color: #fff;
-  width: 100%;
-}
-
-
-.ketu {
-  background: url(components/firstTeam/photos/Ketu.JPG);
-  background-size: cover;
-  font-family: 'Open Sans', sans-serif;
-  min-height: 550px;
-  width: 100%;
-  
-  }
-  
-#ketudetails {
-  background-color: rgba(0,0,0,0);
-  color: #fff;
-  width: 100%;
-}
-
-
-.benard {
-  background: url(components/firstTeam/photos/Benard.JPG);
-  background-size: cover;
-  font-family: 'Open Sans', sans-serif;
-  min-height: 550px;
-  width: 100%;
-  
-  }
-  
-#benarddetails {
-  background-color: rgba(0,0,0,0);
-  color: #fff;
-  width: 100%;
-}
-
-
-.bright {
-  background: url(components/firstTeam/photos/Bright.JPG);
-  background-size: cover;
-  font-family: 'Open Sans', sans-serif;
-  min-height: 550px;
-  width: 100%;
-  
-  }
-  
-#brightdetails {
-  background-color: rgba(0,0,0,0);
-  color: #fff;
-  width: 100%;
-}
-
-
-.jonathan {
-  background: url(components/firstTeam/photos/Jonathan.JPG);
-  background-size: cover;
-  font-family: 'Open Sans', sans-serif;
-  min-height: 550px;
-  width: 100%;
-  
-  }
-  
-#jonathandetails {
-  background-color: rgba(0,0,0,0);
-  color: #fff;
-  width: 100%;
-}
-
-
-
-.ansah {
-  background: url(components/firstTeam/photos/Jonathan.JPG);
-  background-size: cover;
-  font-family: 'Open Sans', sans-serif;
-  min-height: 550px;
-  width: 100%;
-  
-  }
-  
-#ansahdetails {
-  background-color: rgba(0,0,0,0);
-  color: #fff;
-  width: 100%;
-}
-
-
-
-.ishmael {
-  background: url(components/firstTeam/photos/Jonathan.JPG);
-  background-size: cover;
-  font-family: 'Open Sans', sans-serif;
-  min-height: 550px;
-  width: 100%;
-  
-  }
-  
-#ishmaeldetails {
-  background-color: rgba(0,0,0,0);
-  color: #fff;
-  width: 100%;
-}
-
-
-.ebenezer {
-  background: url(components/firstTeam/photos/Jonathan.JPG);
-  background-size: cover;
-  font-family: 'Open Sans', sans-serif;
-  min-height: 550px;
-  width: 100%;
-  
-  }
-  
-#ebenezerdetails {
-  background-color: rgba(0,0,0,0);
-  color: #fff;
-  width: 100%;
-}
- 
-
-
-.christian {
-  background: url(components/firstTeam/photos/Jonathan.JPG);
-  background-size: cover;
-  font-family: 'Open Sans', sans-serif;
-  min-height: 550px;
-  width: 100%;
-  
-  } 
-  
-#christiandetails {
-  background-color: rgba(0,0,0,0);
-  color: #fff;
-  width: 100%;
-}
-
-
-
-.coffie {
-  background: url(components/firstTeam/photos/Jonathan.JPG);
-  background-size: cover;
-  font-family: 'Open Sans', sans-serif;
-  min-height: 550px;
-  width: 100%;
-  
-  }
-  
-#coffiedetails {
-  background-color: rgba(0,0,0,0);
-  color: #fff;
-  width: 100%;
-}
-
-
-
-
-.patrick {
-  background: url(components/firstTeam/photos/Jonathan.JPG);
-  background-size: cover;
-  font-family: 'Open Sans', sans-serif;
-  min-height: 550px;
-  width: 100%;
-  
-  }
-  
-#patrickdetails {
-  background-color: rgba(0,0,0,0);
-  color: #fff;
-  width: 100%;
-}
-
-
-
-
-
-.mustapha {
-  background: url(components/firstTeam/photos/Jonathan.JPG);
-  background-size: cover;
-  font-family: 'Open Sans', sans-serif;
-  min-height: 550px;
-  width: 100%;
-  
-  }
-  
-#mustaphadetails {
-  background-color: rgba(0,0,0,0);
-  color: #fff;
-  width: 100%;
-}
-
-
-
-
-.asamoah {
-  background: url(components/firstTeam/photos/Jonathan.JPG);
-  background-size: cover;
-  font-family: 'Open Sans', sans-serif;
-  min-height: 550px;
-  width: 100%;
-  
-  }
-  
-#asamoahdetails {
-  background-color: rgba(0,0,0,0);
-  color: #fff;
-  width: 100%;
-}
-
-
-
-.miller {
-  background: url(components/firstTeam/photos/Jonathan.JPG);
-  background-size: cover;
-  font-family: 'Open Sans', sans-serif;
-  min-height: 550px;
-  width: 100%;
-  
-  }
-  
-#millerdetails {
-  background-color: rgba(0,0,0,0);
-  color: #fff;
-  width: 100%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/*----------------------------
- PLAYER STATS
- ----------------------------- */
-
-.stat span {
-  display: flex;
-}
-.stat p {
-  margin: 10px 0px 0px 10px;
-  font-size: 15px;
-  font-weight: bold;
-}
- 
-#dropdowninside {
-  background-color: #141414;
-  padding: 10px 128px;
-  color: #fff;
-  font-size: 20px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-
-}  
-
- 
- .playerinfo {
-   font-size: 26px;
-   padding: 5px 10px;
-   background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
- }
-
-.teammates {
-  background-color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  color: #fff;
-  padding: 1px 0px;
-}
-
-
-.teammates h3 {
-  margin: 11px 0px;
-}
-
-
- ul {
-  display: block;
-  padding-inline-start: 0px;
-  list-style-type: none;
-   
-}
- #playername {
-  margin-left: 170px;
-  
-} 
-.panel-heading {
-  background-color: #141414;
-  display: block;
-  text-align: center;
-}
-
- .discription {
-   display: block;
-   text-align: center;
- }
-  
- .progres {
-  height: 10px;
-  margin-bottom: 20px;
-  overflow: hidden;
-  background-color: #f5f5f5;
-  /* border-radius: 4px; */
-  box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
-}
-#figures {
-  text-align: center;
-  color: #666;
-  font-size: 14px;
-}
-
   
 /* FIRST TEAM AND ACADEMY */
 
@@ -1320,7 +816,7 @@ width: 100%;
 body {
   margin: 30px;
   padding: 0;
-  background: #ddd;
+  background: #fff;
   font-family: Arial, Helvetica, sans-serif;
 }
 

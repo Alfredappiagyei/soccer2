@@ -12,10 +12,7 @@ import cobby from '../firstTeam/photos/cobby.JPG'
 import jerseygrid from '../firstTeam/photos/0.gif'
  
 import {
-
-    // BrowserRouter as Router,
-    // Switch,
-    // Route,
+ 
     Link
   
   } from "react-router-dom";
@@ -26,7 +23,7 @@ class Elvis extends Component {
         return (
             <div>
                 <div className="elvis">
-                    <div className="container" id="elvisdetails">
+                    <div className="container"  id="playerdetails">
                         <div className="col-md-6 col-xs-12">
                             <h1 style={{ fontSize: "80px", marginBottom: "20px" }}><b>66</b></h1>
                             <h1 style={{ fontSize: "50px" }}><b>Elvis</b></h1>
@@ -46,13 +43,11 @@ class Elvis extends Component {
                         <div className="col-md-9 col-xs-12">
                             <div className="row">
                                 <nav className="navbar navbar-default" style={{ backgroundColor: '#333333', color: "#fff", }}>
-                                    <div className="container-fluid">
                                         <div className="navbar-header">
                                             <Link to="/firstteam" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", background: "lawngreen" }}><b>Elvis</b> </Link>
                                             {/* <Link to="/academy" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", fontStyle: "linethrough" }}><b>Videos</b> </Link> */}
 
                                         </div>
-                                    </div>
                                 </nav>
                             </div>
                             <div className="row  stat">
@@ -616,7 +611,7 @@ class Elvis extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="container-fluid"  style={{padding:"0px"}}>
+                <div >
                    <Footer/>
                 </div>
             </div>

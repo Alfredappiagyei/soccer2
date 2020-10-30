@@ -13,10 +13,7 @@ import jerseygrid from '../firstTeam/photos/0.gif'
 
  
 import {
-
-    // BrowserRouter as Router,
-    // Switch,
-    // Route,
+ 
     Link
   
   } from "react-router-dom";
@@ -47,14 +44,14 @@ class Bismark extends Component {
                         <div className="col-md-9 col-xs-12">
                             <div className="row">
                                 <nav className="navbar navbar-default" style={{ backgroundColor: '#333333', color: "#fff", }}>
-                                    <div className="container-fluid">
+                                    
                                         <div className="navbar-header">
                                             <Link to="/firstteam" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", background: "lawngreen" }}><b>Bismark</b> </Link>
                                             
                                             {/* <Link to="/academy" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", fontStyle: "linethrough" }}><b>Videos</b> </Link> */}
 
                                         </div>
-                                    </div>
+                                    
                                 </nav>
                             </div>
                             <div className="row  stat">
@@ -627,7 +624,7 @@ class Bismark extends Component {
                     </div>
                 </div>
                 
-                <div className="container-fluid"  style={{padding:"0px"}}>
+                <div>
                    <Footer/>
                 </div>
             </div>

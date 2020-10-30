@@ -1,0 +1,412 @@
+
+
+
+/* ---------------------------------
+       FIRST TEAM 
+-----------------------------------*/
+/* reuserble code */
+#jerseynumber{
+    background-color: #141414;
+    
+  }
+
+  #jerseynumber b{
+    color: red;
+    text-align: center;
+    
+  }
+  
+  
+  #playerdetails{
+    background-color: rgba(0,0,0,0);
+    color: #fff;
+    width: 100%;
+  }
+
+
+  .playerimagecard {
+    width: 110px;
+    height: 130px;
+
+  }
+
+  #playernumbercard {
+    position: relative;
+      text-align: center;  
+     padding: 35px 5px 0px 5px; 
+    /* width: 30px; */
+     background-color: red; 
+    
+  }
+
+   #playernumbercard  b {
+   color: white;
+   font-size: 22px;
+   justify-content: center;
+    
+  } 
+
+   #playernumbercard:before {
+    content: '';
+    position: absolute;
+    right:-5px ;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    border-left: 5px solid red;
+    border-top: 5px solid red;
+    border-bottom: 5px solid transparent;
+    
+
+  } 
+    
+  #playercardname {  
+     align-content: center;
+     padding: 10px 0px 0px 10px;
+  }
+
+  
+
+  #playercardname b{  
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+      
+  }
+   
+  #wholedettailcard {
+    
+    display: flex;
+  }
+
+@media only screen and (max-width: 600px) {   
+      #wholedettailcard {
+        margin: 8px 0px;
+        display: flex;
+        background-color: lightgrey;
+      }
+     }
+  
+  /* bismark */
+  
+  .bismark {
+    background: url(components/firstTeam/photos/Baaye.JPG);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 550px;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    
+    }
+    
+  
+  /* appiah */
+  .appiah {
+  background: url(components/firstTeam/photos/Appiah.JPG);
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  min-height: 550px;
+  width: 100%;
+  background-position: left;
+  
+  }
+   
+  /* cosmos */
+  .cosmos {
+    background: url(components/firstTeam/photos/cosmos.JPG);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 550px;
+    width: 100%;
+    
+    }
+     
+  
+  
+  /* elvis */
+  .elvis {
+    background: url(components/firstTeam/photos/Elvis.JPG);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 550px;
+    width: 100%;
+    
+    }
+    
+
+  /* Enock*/
+  .enock {
+    background: url(components/firstTeam/photos/shargaa.JPG);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 550px;
+    width: 100%;
+    
+    }
+    
+  
+  /* Cobby*/
+  .cobby {
+    background: url(components/firstTeam/photos/cobby.JPG);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 550px;
+    width: 100%;
+    
+    }
+    
+  
+  
+  /* Andrews*/
+  .andrews {
+    background: url(components/firstTeam/photos/Andrews.JPG);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 550px;
+    width: 100%;
+    
+    }
+  
+  
+  /* Richmond*/
+  .richmond {
+    background: url(components/firstTeam/photos/Richmond.JPG);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 550px;
+    width: 100%;
+    
+    }
+    
+ 
+  /* Richmond*/
+  .theophilus {
+    background: url(components/firstTeam/photos/theophilus.JPG);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 550px;
+    width: 100%;
+    
+    }
+    
+  
+  .ketu {
+    background: url(components/firstTeam/photos/Ketu.JPG);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 550px;
+    width: 100%;
+    
+    }
+    
+  
+  .benard {
+    background: url(components/firstTeam/photos/Benard.JPG);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 550px;
+    width: 100%;
+    
+    }
+    
+  
+  .bright {
+    background: url(components/firstTeam/photos/Bright.JPG);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 550px;
+    width: 100%;
+    
+    }
+   
+  
+  .jonathan {
+    background: url(components/firstTeam/photos/Jonathan.JPG);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 550px;
+    width: 100%;
+    
+    }
+  
+  
+  .ansah {
+    background: url(components/firstTeam/photos/Jonathan.JPG);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 550px;
+    width: 100%;
+    
+    }
+    
+  
+  .ishmael {
+    background: url(components/firstTeam/photos/Jonathan.JPG);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 550px;
+    width: 100%;
+    
+    }
+  
+  
+  .ebenezer {
+    background: url(components/firstTeam/photos/Jonathan.JPG);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 550px;
+    width: 100%;
+    
+    }
+    
+  
+  .christian {
+    background: url(components/firstTeam/photos/Jonathan.JPG);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 550px;
+    width: 100%;
+    
+    } 
+  
+  
+  .coffie {
+    background: url(components/firstTeam/photos/Jonathan.JPG);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 550px;
+    width: 100%;
+    
+    }
+  
+  
+  .patrick {
+    background: url(components/firstTeam/photos/Jonathan.JPG);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 550px;
+    width: 100%;
+    
+    }
+    
+  
+  .mustapha {
+    background: url(components/firstTeam/photos/Jonathan.JPG);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 550px;
+    width: 100%;
+    
+    }
+    
+ 
+  
+  .asamoah {
+    background: url(components/firstTeam/photos/Jonathan.JPG);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 550px;
+    width: 100%;
+    
+    }
+    
+  
+  .miller {
+    background: url(components/firstTeam/photos/Jonathan.JPG);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 550px;
+    width: 100%;
+    
+    }
+  
+
+
+
+
+
+
+  
+
+/*----------------------------
+ PLAYER STATS
+ ----------------------------- */
+
+.stat span {
+    display: flex;
+  }
+  .stat p {
+    margin: 10px 0px 0px 10px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+   
+  #dropdowninside {
+    background-color: #141414;
+    padding: 10px 128px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+  
+  }  
+  
+   
+   .playerinfo {
+     font-size: 20px;
+     padding: 5px 10px;
+     background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-weight: bold;
+   }
+  
+  .teammates {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #fff;
+    padding: 1px 0px;
+  }
+  
+  
+  .teammates h3 {
+    margin: 11px 0px;
+  }
+  
+  
+   ul {
+    display: block;
+    padding-inline-start: 0px;
+    list-style-type: none;
+     
+  }
+   #playername {
+    margin-left: 170px;
+    
+  } 
+  .panel-heading {
+    background-color: #141414;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+  
+  }
+  
+   .discription {
+     display: block;
+     text-align: center;
+   }
+    
+   .progres {
+    height: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+     border-radius: 4px; 
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+  }
+  /* #figures {
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+  } */

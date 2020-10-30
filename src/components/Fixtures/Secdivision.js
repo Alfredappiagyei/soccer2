@@ -5,13 +5,9 @@ import React, { Component } from "react";
 import soccerHomeimage1 from './photos/soccer1.JPG'
 import soccerangelslogo from './photos/soccerangelslogo.JPG'
 import {
-
-    // BrowserRouter as Router,
-    // Switch,
-    // Route,
     Link
-
 } from "react-router-dom";
+
 import Footer from "../Footer";
 
 
@@ -19,7 +15,7 @@ class  SecondDivision extends Component {
     render() {
         return (
 
-            <div className="conatiner-fluid" style={{margin:"0px"}}>
+            <div className="conatiner-fluid" >
             <div className="row" style={{ backgroundColor: "lawngreen", color: "#141414", margin:"0px 0px 0px 0px" }}><h3>FIXTURES AND RESULLTS</h3>  </div> 
             <div className="carousel-inner carousel-content" role="listbox">
             <div className="item active"  id="carousel_item1" >
@@ -79,28 +75,10 @@ class  SecondDivision extends Component {
             </div>
         
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-           
-                
-
-
-                                
+                              
                             <div className="row">
-                                <nav className="navbar navbar-default" style={{ backgroundColor: '#141414', color: "#fff", }}>
-                                    <div className="container-fluid">
+                                <nav className="navbar navbar-default" style={{ backgroundColor: '#141414', color: "#fff", borderRadius:"none" }}>
+                
                                         <div className="navbar-header">
                                             <Link to="/secondivision" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", }}><p>2ND DIVISION</p> </Link>
                                             {/* <Link to="#" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", }}><p>U10S </p> </Link>
@@ -108,14 +86,14 @@ class  SecondDivision extends Component {
                                             <Link to="#" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", }}><p>U17S</p> </Link>
                                             <Link to="#" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", }}><p>3RD DIVISION</p> </Link> */}
                                         </div>
-                                    </div>
+                                
                                 </nav>
                             </div>
 
                 </div>
 
                
-            <div className="container-fluid" style={{padding:"0px"}}>
+            <div >
                    <Footer/>
             </div>
      </div > 

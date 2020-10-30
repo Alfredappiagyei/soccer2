@@ -7,18 +7,13 @@ import shargaa from '../firstTeam/photos/shargaa.JPG'
 import theophilus from '../firstTeam/photos/theophilus.JPG'
 import cobby from '../firstTeam/photos/cobby.JPG'
 import baaye from '../firstTeam/photos/Baaye.JPG'
-
 import jerseygrid from '../firstTeam/photos/0.gif'
 
  
 import {
-
-    // BrowserRouter as Router,
-    // Switch,
-    // Route,
-    Link
-  
+    Link 
   } from "react-router-dom";
+
   import Footer from "../Footer";
 
 class Andrews extends Component {
@@ -26,7 +21,7 @@ class Andrews extends Component {
         return (
             <div>
                 <div className="andrews">
-                    <div className="container" id="andrewsdetails">
+                    <div className="container" id="playerdetails">
                         <div className="col-md-6 col-xs-12">
                             <h1 style={{ fontSize: "80px", marginBottom: "20px" }}><b>10</b></h1>
                              <h1 style={{ fontSize: "50px" }}><b>Andrews</b></h1> 
@@ -45,15 +40,14 @@ class Andrews extends Component {
                     <div className="row">
                         <div className="col-md-9 col-xs-12">
                             <div className="row">
-                                <nav className="navbar navbar-default" style={{ backgroundColor: '#333333', color: "#fff", }}>
-                                    <div className="container-fluid">
+                                <nav className="navbar navbar-default" style={{ backgroundColor: '#333333', color: "#fff", }}>   
                                         <div className="navbar-header">
                                             <Link to="/firstteam" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", background: "lawngreen" }}><b>Andrews</b> </Link>
                                             
                                             {/* <Link to="/academy" className="navbar-brand" style={{ color: "#fff", font: "22px sans serif", fontStyle: "linethrough" }}><b>Videos</b> </Link> */}
 
                                         </div>
-                                    </div>
+                                
                                 </nav>
                             </div>
                             <div className="row  stat">
@@ -462,19 +456,10 @@ class Andrews extends Component {
                                     </div>
                                 </div>
                             </div>
-
-
-
-
-
-
-
-
-
-
-
-
                         </div>
+
+
+                        
                         <div className="col-md-3 col-xs-12">
                             <div className="row teammates">
                                 <h3>TEAMMATES</h3>
@@ -628,7 +613,7 @@ class Andrews extends Component {
                     </div>
                 </div>
                 
-                <div className="container-fluid"  style={{padding:"0px"}}>
+                <div  style={{padding:"0px"}}>
                    <Footer/>
                 </div>
             </div>

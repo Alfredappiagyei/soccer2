@@ -2,21 +2,11 @@ import React, { Component } from "react";
 import footlogo from './Fans/photos/footlogo.JPG'
 
 
-
- 
-// import {
-
-//     // BrowserRouter as Router,
-//     // Switch,
-//     // Route,
-//     Link
-  
-//   } from "react-router-dom";
 class Footer extends Component {
     render() {
 
         return (
-            <div className="container-fluid   footer-container">
+            <div className="   footer-container">
                  <div className="container">
               <div className="row" style={{alignItems:"center",display:"block"}}>
                <img src={footlogo} alt="soccerangelslogo"   className="img-responsive" height="100px" width="100px"  /> 

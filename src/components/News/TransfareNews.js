@@ -14,9 +14,6 @@ import juvenile2 from "./photos/juvinalle1.jpg";
 
 import {
 
-    // BrowserRouter as Router,
-    // Switch,
-    // Route,
     Link
   
   } from "react-router-dom";
@@ -28,9 +25,10 @@ class TransfareNews extends Component {
                 <div id="transfare">
  
  
+ 
 
 
- <section>
+ <div className="container-fluid">
           <div className="row">
             <Link to="transfarenews" className="header">
               {" "}
@@ -178,16 +176,14 @@ class TransfareNews extends Component {
           </div>
           
         <div className="line"></div>
-        </section>
+        </div>
 
 
 
-              
-
-  
 
 
-        <section  id="transfare_news">
+
+        <div className="container-fluid"  id="transfare_news">
           <div className="row">
             <Link to="#" className="header">
               {" "}
@@ -244,7 +240,7 @@ class TransfareNews extends Component {
               <hr/>            
             </div>
           </div>
-        </section>
+        </div>
 
                   <footer>
                   <Footer />

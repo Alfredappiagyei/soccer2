@@ -18,11 +18,10 @@ class Anouncement extends Component {
             <div>
                
 
-        <section className="league">   
+        <div  className="container-fluid   league">   
           <div className="row">
             <div className="col-md-6 league_first_colon">
               <div className="row" style={{ margin: "auto" }}>
-              <h2>Press Release</h2>
               </div>
               <div className="row">
                 <img
@@ -45,7 +44,7 @@ class Anouncement extends Component {
             </div>
           </div>
       
-      </section>
+      </div>
 
 
                 <footer>

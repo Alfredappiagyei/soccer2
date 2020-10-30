@@ -6,7 +6,7 @@ import soccerHomeimage1 from "../soccer/photos/soccer1.JPG";
 import soccerHomeimage3 from "../soccer/photos/soccer14.JPG";
 import boahnationalcall from "../soccer/photos/boah.PNG";
 import soccerangelslogo from "../soccer/photos/soccerangelslogo.JPG";
-import ladiesnews from "../soccer/photos/headline.PNG";
+import ladiesnews from "../soccer/photos/headline-min.PNG";
 import jerseyimage1 from "../soccer/photos/Picture8.jpg";
 import jerseyimage2 from "../soccer/photos/Picture9.jpg";
 import jerseyimage3 from "../soccer/photos/Picture7.jpg";
@@ -18,10 +18,8 @@ import pressrelease from "../soccer/photos/press.JPG";
 import jayjay from "../soccer/photos/jayjay.JPG";
 import pascal from "../soccer/photos/pascal.JPG";
 import juvenile2 from "../soccer/photos/juvinalle2.jpg";
-import mainheadline from "../soccer/photos/headline.PNG";
+// import mainheadline from "../soccer/photos/headline-min.PNG";
 import nationalflag from "../soccer/photos/nationalflag.jpg";
-
-
 // profile images
 import baaye from "../soccer/photos/Baaye.JPG";
 import appiah from "../soccer/photos/Appiah.JPG";
@@ -37,237 +35,48 @@ import benard from "../soccer/photos/Benard.JPG";
 import bright from "../soccer/photos/Bright.JPG";
 import jonathan from "../soccer/photos/Jonathan.JPG";
 
-
-
 import {
-  // BrowserRouter as Router,
-  // Switch,
-  // Route,
   Link,
 } from "react-router-dom";
+
 import TimeAgo from "timeago-react";
 import Footer from "./Footer";
 
+
 class Home extends Component {
   render() {
-    $(document).ready(function () {
-      var itemsMainDiv = ".MultiCarousel";
-      var itemsDiv = ".MultiCarousel-inner";
-      var itemWidth = "";
 
-      $(".leftList, .rightList").click(function () {
-        var condition = $(this).hasClass("leftList");
-        if (condition) click(0, this);
-        else click(1, this);
-      });
-
-      ResCarouselSize();
-
-      $(window).resize(function () {
-        ResCarouselSize();
-      });
-
-      //this function define the size of the items
-      function ResCarouselSize() {
-        var incno = 0;
-        var dataItems = "data-items";
-        var itemclass = ".item";
-        var id = 0;
-        var btnParentSb = "";
-        var itemsSplit = "";
-        var sampwidth = $(itemsMainDiv).width();
-        var bodyWidth = $("body").width();
-        $(itemsDiv).each(function () {
-          id = id + 1;
-          var itemNumbers = $(this).find(itemclass).length;
-          btnParentSb = $(this).parent().attr(dataItems);
-          itemsSplit = btnParentSb.split(",");
-          $(this)
-            .parent()
-            .attr("id", "MultiCarousel" + id);
-
-          if (bodyWidth >= 1200) {
-            incno = itemsSplit[3];
-            itemWidth = sampwidth / incno;
-          } else if (bodyWidth >= 992) {
-            incno = itemsSplit[2];
-            itemWidth = sampwidth / incno;
-          } else if (bodyWidth >= 768) {
-            incno = itemsSplit[1];
-            itemWidth = sampwidth / incno;
-          } else {
-            incno = itemsSplit[0];
-            itemWidth = sampwidth / incno;
-          }
-          $(this).css({
-            transform: "translateX(0px)",
-            width: itemWidth * itemNumbers,
-          });
-          $(this)
-            .find(itemclass)
-            .each(function () {
-              $(this).outerWidth(itemWidth);
-            });
-
-          $(".leftList").addClass("over");
-          $(".rightList").removeClass("over");
-        });
-      }
-
-      //this function used to move the items
-      function ResCarousel(e, el, s) {
-        var leftBtn = ".leftList";
-        var rightBtn = ".rightList";
-        var translateXval = "";
-        var divStyle = $(el + " " + itemsDiv).css("transform");
-        var values = divStyle.match(/-?[\d.]+/g);
-        var xds = Math.abs(values[4]);
-        if (e === 0) {
-          translateXval = parseInt(xds) - parseInt(itemWidth * s);
-          $(el + " " + rightBtn).removeClass("over");
-
-          if (translateXval <= itemWidth / 2) {
-            translateXval = 0;
-            $(el + " " + leftBtn).addClass("over");
-          }
-        } else if (e === 1) {
-          var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
-          translateXval = parseInt(xds) + parseInt(itemWidth * s);
-          $(el + " " + leftBtn).removeClass("over");
-
-          if (translateXval >= itemsCondition - itemWidth / 2) {
-            translateXval = itemsCondition;
-            $(el + " " + rightBtn).addClass("over");
-          }
-        }
-        $(el + " " + itemsDiv).css(
-          "transform",
-          "translateX(" + -translateXval + "px)"
-        );
-      }
-
-      //It is used to get some elements from btn
-      function click(ell, ee) {
-        var Parent = "#" + $(ee).parent().attr("id");
-        var slide = $(Parent).attr("data-slide");
-        ResCarousel(ell, Parent, slide);
-      }
-    });
-
-
-
-
-
-
+    $(document).ready(function (){var itemsMainDiv = ".MultiCarousel";var itemsDiv = ".MultiCarousel-inner";var itemWidth = "";$(".leftList, .rightList").click(function () {
+        var condition = $(this).hasClass("leftList");if (condition) click(0, this);else click(1, this);});ResCarouselSize();$(window).resize(function (){ResCarouselSize();});
+      function ResCarouselSize() {var incno = 0;var dataItems = "data-items";var itemclass = ".item";var id = 0;var btnParentSb = "";var itemsSplit = "";var sampwidth = $(itemsMainDiv).width();
+        var bodyWidth = $("body").width();$(itemsDiv).each(function () {id = id + 1;var itemNumbers = $(this).find(itemclass).length;btnParentSb = $(this).parent().attr(dataItems);itemsSplit = btnParentSb.split(",");
+          $(this).parent().attr("id", "MultiCarousel" + id);if (bodyWidth >= 1200){incno = itemsSplit[3];itemWidth = sampwidth / incno;}else if (bodyWidth >= 992) {incno = itemsSplit[2];
+            itemWidth = sampwidth / incno;}else if (bodyWidth >= 768){incno = itemsSplit[1];itemWidth = sampwidth / incno;}else {incno = itemsSplit[0];
+            itemWidth = sampwidth / incno;}$(this).css({transform: "translateX(0px)",width: itemWidth * itemNumbers,});$(this).find(itemclass).each(function () {
+              $(this).outerWidth(itemWidth);});$(".leftList").addClass("over");$(".rightList").removeClass("over");});}function ResCarousel(e, el, s) {var leftBtn = ".leftList";var rightBtn = ".rightList";var translateXval = "";var divStyle = $(el + " " + itemsDiv).css("transform");var values = divStyle.match(/-?[\d.]+/g);var xds = Math.abs(values[4]);if (e === 0) {translateXval = parseInt(xds) - parseInt(itemWidth * s);
+             $(el + " " + rightBtn).removeClass("over");if(translateXval <= itemWidth / 2) {translateXval = 0;$(el + " " + leftBtn).addClass("over");}} else if (e === 1) {var itemsCondition = $(el).find(itemsDiv)
+            .width() - $(el).width();translateXval = parseInt(xds) + parseInt(itemWidth * s);$(el + " " + leftBtn).removeClass("over");if (translateXval >= itemsCondition - itemWidth / 2){translateXval = itemsCondition;
+            $(el + " " + rightBtn).addClass("over");}}$(el + " " + itemsDiv).css("transform","translateX(" + -translateXval + "px)");}
+           function click(ell,ee) {var Parent = "#"+$(ee).parent().attr("id");var slide=$(Parent).attr("data-slide");ResCarousel(ell,Parent,slide);}});
     // FEATURED VIDEOS
-
-    $(document).ready(function () {
-      var itemsMainDiv = ".vidMultiCarousel";
-      var itemsDiv = ".vidMultiCarousel-inner";
-      var itemWidth = "";
-
-      $(".leftslide, .rightslide").click(function () {
-        var condition = $(this).hasClass("leftslide");
-        if (condition) click(0, this);
-        else click(1, this);
-      });
-
-      ResCarouselSize();
-
-      $(window).resize(function () {
-        ResCarouselSize();
-      });
-
-      //this function define the size of the items
-      function ResCarouselSize() {
-        var incno = 0;
-        var dataItems = "data-items";
-        var itemclass = ".video";
-        var id = 0;
-        var btnParentSb = "";
-        var itemsSplit = "";
-        var sampwidth = $(itemsMainDiv).width();
-        var bodyWidth = $("body").width();
-        $(itemsDiv).each(function () {
-          id = id + 1;
-          var itemNumbers = $(this).find(itemclass).length;
-          btnParentSb = $(this).parent().attr(dataItems);
-          itemsSplit = btnParentSb.split(",");
-          $(this)
-            .parent()
-            .attr("id", "vidMultiCarousel" + id);
-
-          if (bodyWidth >= 1200) {
-            incno = itemsSplit[2];
-            itemWidth = sampwidth / incno;
-          } else if (bodyWidth >= 992) {
-            incno = itemsSplit[2];
-            itemWidth = sampwidth / incno;
-          } else if (bodyWidth >= 768) {
-            incno = itemsSplit[1];
-            itemWidth = sampwidth / incno;
-          } else {
-            incno = itemsSplit[0];
-            itemWidth = sampwidth / incno;
-          }
-          $(this).css({
-            transform: "translateX(0px)",
-            width: itemWidth * itemNumbers,
-          });
-          $(this)
-            .find(itemclass)
-            .each(function () {
-              $(this).outerWidth(itemWidth);
-            });
-
-          $(".leftslide").addClass("over");
-          $(".rightslide").removeClass("over");
-        });
-      }
-
-      //this function used to move the items
-      function ResCarousel(e, el, s) {
-        var leftBtn = ".leftslide";
-        var rightBtn = ".rightslide";
-        var translateXval = "";
-        var divStyle = $(el + " " + itemsDiv).css("transform");
-        var values = divStyle.match(/-?[\d.]+/g);
-        var xds = Math.abs(values[4]);
-        if (e === 0) {
-          translateXval = parseInt(xds) - parseInt(itemWidth * s);
-          $(el + " " + rightBtn).removeClass("over");
-
-          if (translateXval <= itemWidth / 2) {
-            translateXval = 0;
-            $(el + " " + leftBtn).addClass("over");
-          }
-        } else if (e === 1) {
-          var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
-          translateXval = parseInt(xds) + parseInt(itemWidth * s);
-          $(el + " " + leftBtn).removeClass("over");
-
-          if (translateXval >= itemsCondition - itemWidth / 2) {
-            translateXval = itemsCondition;
-            $(el + " " + rightBtn).addClass("over");
-          }
-        }
-        $(el + " " + itemsDiv).css(
-          "transform",
-          "translateX(" + -translateXval + "px)"
-        );
-      }
-
-      //It is used to get some elements from btn
-      function click(ell, ee) {
-        var Parent = "#" + $(ee).parent().attr("id");
-        var slide = $(Parent).attr("data-slide");
-        ResCarousel(ell, Parent, slide);
-      }
-    });
-     
+    $(document).ready(function () {var itemsMainDiv = ".vidMultiCarousel"; var itemsDiv = ".vidMultiCarousel-inner";var itemWidth = "";$(".leftslide, .rightslide").click(function () {
+      var condition = $(this).hasClass("leftslide");if (condition) click(0, this);else click(1, this);}); ResCarouselSize();$(window).resize(function () { ResCarouselSize();
+      });function ResCarouselSize() { var incno = 0; var dataItems = "data-items";var itemclass = ".video"; var id = 0; var btnParentSb = ""; var itemsSplit = "";
+        var sampwidth = $(itemsMainDiv).width();var bodyWidth = $("body").width();$(itemsDiv).each(function () { id = id + 1; var itemNumbers = $(this).find(itemclass).length; btnParentSb = $(this).parent().attr(dataItems);
+          itemsSplit = btnParentSb.split(",");$(this).parent().attr("id", "vidMultiCarousel" + id);if (bodyWidth >= 1200){incno = itemsSplit[2];
+            itemWidth = sampwidth / incno;} else if (bodyWidth >= 992) {incno = itemsSplit[2];itemWidth = sampwidth / incno;} else if (bodyWidth >= 768) { incno = itemsSplit[1];
+            itemWidth = sampwidth / incno;}else{incno = itemsSplit[0];itemWidth = sampwidth / incno;} $(this).css({transform: "translateX(0px)",width: itemWidth * itemNumbers,
+          });$(this).find(itemclass).each(function (){$(this).outerWidth(itemWidth);});$(".leftslide").addClass("over");$(".rightslide").removeClass("over");
+        });}function ResCarousel(e, el, s){var leftBtn = ".leftslide";var rightBtn = ".rightslide";var translateXval = "";var divStyle = $(el + " " + itemsDiv).css("transform");var values = divStyle.match(/-?[\d.]+/g);
+        var xds = Math.abs(values[4]);if (e === 0){translateXval = parseInt(xds)-parseInt(itemWidth * s);$(el + " " + rightBtn).removeClass("over");if (translateXval <= itemWidth / 2) {translateXval = 0;
+          $(el + " " + leftBtn).addClass("over");}}else if (e === 1){var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();translateXval = parseInt(xds) + parseInt(itemWidth * s);$(el + " " + leftBtn).removeClass("over");
+        if (translateXval >= itemsCondition - itemWidth / 2){translateXval = itemsCondition;$(el + " " + rightBtn).addClass("over");}}$(el + " " + itemsDiv).css("transform","translateX(" + -translateXval + "px)" );}
+      function click(a,t){var r="#"+$(t).parent().attr("id"),e=$(r).attr("data-slide");ResCarousel(a,r,e)}
+    });   
     return (
   
-      <div className="body">   
+      <div className="body"> 
+
         <div className=" homesocialheader">
           <div className="row">
                           <span className="homesocialinks"><img src={nationalflag} 
@@ -281,68 +90,35 @@ class Home extends Component {
           </div>
         </div>
 
-        <section>
-          <Link to="#">
-          <div className="row">
-          <img
-                            src={mainheadline}
-                            alt="precious"
-                            className="img-responsive"
-                          />
-          </div>
+
+        <div className="container-fluid" style={{margin:"0px"}}>
+          <Link to="#" style={{textDecoration:"none"}}>
+          <div className="row" id="headimage"> </div>
           <div className="line"></div>
 
-          <div className="row mainHeadline">
+        <div className="row mainHeadline"> 
               <h1>
                        Soccer Angels ladies starts their pre-season at Assin Ningo ahead  of the next 
                        division one league season
               </h1>
           </div>
           </Link>
-          </section>
-
-
+          </div>
+ 
       
-        <section>
-          <div className="row">
-            <div
-              id="carousel-example-generic"
-              className="carousel slide"
-              data-ride="carousel"
-            >
-              <ol className="carousel-indicators">
-                <li
-                  data-target="#carousel-example-generic"
-                  data-slide-to="0"
-                  className="active"
-                ></li>
-                <li
-                  data-target="#carousel-example-generic"
-                  data-slide-to="1"
-                ></li>
-                <li
-                  data-target="#carousel-example-generic"
-                  data-slide-to="2"
-                ></li>
-              </ol>
-
-              <div className="carousel-inner carousel-content" role="listbox">
-                <div className="row" id="line"></div>
-                <div className="item active" id="carousel_item1">
-                  <div className="row">
+      
+        <div className="container-fluid  fixturecontainer">
+        <div className="row">
                     <div className="col-xs-12 col-md-4" id="lastmatch_colon">
                       <div className="row" style={{ minHeight: "200px" }}>
-                        <img
-                          src={jerseygrid}
-                          alt="jersaecollection"
-                          className="img-responsive"
-                        />
+                        ....
                       </div>
                     </div>
+                    
                     <div className="col-xs-12 col-md-8">
                       <div className="col-xs-12 col-md-6" id="upcoming_colon">
                         <p id="upcoming_match_header_text">
-                          <b>UPCOMING MATCH</b>
+                          UPCOMING MATCH
                         </p>
                         <div className="col-xs-4  col-md-4">
                           {" "}
@@ -351,12 +127,12 @@ class Home extends Component {
                             alt="pizza"
                             className="img-responsive"
                           />
-                          <p>Suampongman Utd</p>
+                          <p>Suampongman</p>
                         </div>
                         <div className="col-xs-4  col-md-4">
-                          <button id="upcoming_match_button">
-                            <b>VS</b>
-                          </button>
+                          <p id="upcoming_match_text">
+                            VS
+                          </p>
                         </div>
                         <div className="col-xs-4  col-md-4">
                           {" "}
@@ -365,30 +141,30 @@ class Home extends Component {
                             alt="pizza"
                             className="img-responsive"
                           />
-                          <p> Soccer Angels Academy</p>
+                          <p> Soccer Angels</p>
                         </div>
                         <div id="match_text"></div>
                       </div>
                       <div className="col-xs-12 col-md-6" id="upcoming_colon">
                         <p id="upcoming_match_header_text">
-                          <b>UPCOMING MATCH</b>
+                          UPCOMING MATCH
                         </p>
                         <div className="col-xs-4  col-md-4">
-                          {" "}
+                          
                           <img
                             src={soccerangelslogo}
                             alt="pizza"
                             className="img-responsive"
                           />
-                          <p>Soccer Angels Academy</p>
+                          <p>Soccer Angels </p>
                         </div>
                         <div className="col-xs-4  col-md-4">
-                          <button id="upcoming_match_button">
-                            <b>VS</b>
-                          </button>
+                          <p id="upcoming_match_text">
+                            VS
+                          </p>
                         </div>
                         <div className="col-xs-4  col-md-4">
-                          {" "}
+                          
                           <img
                             src={soccerHomeimage1}
                             alt="pizza"
@@ -400,37 +176,15 @@ class Home extends Component {
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="line"></div>
-        </section>
+        </div>
 
-       
+    
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <section>
+        <div className="container-fluid">
           <div className="row">
             <Link to="/seatvgo">
               <button className="more_button_desktop" id="desktopmore">MORE</button>
@@ -592,7 +346,7 @@ class Home extends Component {
           <Link to="/seatvgo">
               <button className="more_button_mobile">MORE</button>
             </Link>
-        </section>
+        </div>
         
        
 
@@ -618,9 +372,9 @@ class Home extends Component {
 
 
 
-        <section>
+        <div className="container-fluid">
           <div className="row">
-            <Link to="transfarenews" className="header">
+            <Link  className="header">
               {" "}
               <h2>Latest News</h2>
             </Link>
@@ -629,6 +383,7 @@ class Home extends Component {
           <div className="row" id="latest_news_rows">
             <div className="col-md-9 col-xs-12">
               <div className="row" id="latest_news_rows">
+
                 <div className="col-md-6 col-xs-12">
                   <div className="row">
                     <div className="col-md-4 col-xs-4">
@@ -668,36 +423,10 @@ class Home extends Component {
                     </Link>
                   </div>
                   <hr />
-                  <div className="row">
-                    <div className="col-md-4 col-xs-4">
-                      <Link to="#">
-                        <img src={asante} alt="pizza" className="img-responsive" />
-                      </Link>
-                    </div>
-                    <div className="col-md-8 col-xs-8">
-                      <p className="latest_news_sub_headline">
-                        Soccer Angels Academy has officcially appointed
-                        Mr.WILLIAM ASANTE as the new communication director of
-                        the team.
-                      </p>
-                    </div>
-                  </div>
+                  
                   <hr />
 
-                  <div className="row">
-                    <div className="col-md-4 col-xs-4">
-                      <Link to="#">
-                        <img src={pascal} alt="pizza" className="img-responsive" />
-                      </Link>
-                    </div>
-                    <div className="col-md-8 col-xs-8">
-                      <p className="latest_news_sub_headline">
-                        Soccer Angels Academy has officcially appointed NANA
-                        KWAKU PASCAL (Head of sports, SPLASH FM) as
-                        Communication Team member .
-                      </p>
-                    </div>
-                  </div>
+
                 </div>
               
                 <div className="col-md-6 col-xs-12">
@@ -719,37 +448,8 @@ class Home extends Component {
                     </Link>
                   </div>
                   <hr />
-                  <div className="row">
-                    <div className="col-md-4 col-xs-4">
-                      <Link to="#">
-                        <img
-                          src={jerseyimage2}
-                          alt="pizza"
-                          className="img-responsive"
-                        />
-                      </Link>
-                    </div>
-                    <div className="col-md-8 col-xs-8">
-                      <p className="latest_news_sub_headline">
-                        Soccer Angels home tracksuit
-                      </p>
-                    </div>
-                  </div>
-                  <hr />
-                  <div className="row">
-                    <div className="col-md-4 col-xs-4">
-                      <Link to="#">
-                        <img src={jayjay} alt="pizza" className="img-responsive" />
-                      </Link>
-                    </div>
-                    <div className="col-md-8 col-xs-8">
-                      <p className="latest_news_sub_headline">
-                        Soccer Angels Academy has officcially appointed JAY JAY
-                        (Sports presenter at NKWA FM) as the new Deputy
-                        communication director of the team.
-                      </p>
-                    </div>
-                  </div>
+                 
+                  
                 </div>
               </div>
             </div>
@@ -766,74 +466,14 @@ class Home extends Component {
           </div>
           
         <div className="line"></div>
-        </section>
+        </div>
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        {/* ABOUT LEAGUE */}
-        <section className="league">
-          
-            <div className="row">
-              <div className="col-md-6 league_first_colon">
-                <div className="row" style={{ margin: "auto" }}>
-                <h2>Press Release</h2>
-                </div>
-                <div className="row">
-                  <img
-                    src={pressrelease}
-                    alt="pressrelease"
-                    className="img-responsive"
-                  />
-                </div>
-              </div>
-              <div className="col-md-6  league_second_colon">
-                <h2>Official Anouncement</h2>
-                <ul>
-                  <li>ISSAC ENTSIE</li>
-                  <li>BENJAMIN APPIAH</li>
-                  <li>PRINCE MAHAMA</li>
-                  <li>MILLER AUGUSTINE</li>
-                  <li>ERNEST OPPONG</li>
-                </ul>
-                <h2>Joins the senior side of Soccer Angels Academy</h2>
-              </div>
-            </div>
-        
-        </section>
-
-        <div className="line"></div>
-
-        <section>
+        <div className="container-fluid">
           <div className="row">
             <div>
               <div
@@ -1208,14 +848,14 @@ class Home extends Component {
             </div>
           </div>
           <div className="line"></div>
-        </section>
+        </div>
 
         
 
 
 
 
-        <section >
+        <div className="container-fluid" >
           <div className="row">
             <Link to="#" className="header">
               <h2>Features</h2>
@@ -1227,9 +867,8 @@ class Home extends Component {
               <div className="row">
               <Link to="#">
                 <div className="col-md-12 col-xs-12" style={{ padding: "40px" }}>             
-                    {" "}
                     <img
-                      src={jerseyimage1}
+                      src={jerseyimage2}
                       alt="pizza"
                       className="img-responsive"
                     />
@@ -1237,8 +876,7 @@ class Home extends Component {
                 </div>
                 <div className="col-md-12 col-xs-12 features-headline">
                   <h4>
-                    {" "}
-                    Soccer Angels new home kit for the 20201 season
+                  Soccer Angels men's tracksuit for the 20201 season
                   </h4>
                 </div>
                 </Link>
@@ -1251,7 +889,7 @@ class Home extends Component {
                   <Link to="#">
                     {" "}
                     <img
-                      src={jerseyimage2}
+                      src={jerseyimage4}
                       alt="pizza"
                       className="img-responsive"
                     />
@@ -1264,24 +902,7 @@ class Home extends Component {
                 </div>
               </div>
               <hr/>
-              <div className="row" id="features_subRows">
-                <div className="col-md-4 col-xs-5">
-                  <Link to="#">
-                    {" "}
-                    <img
-                      src={jerseyimage5}
-                      alt="pizza"
-                      className="img-responsive"
-                    />
-                  </Link>
-                </div>
-                <div className="col-md-8 col-xs-7">
-                  <p className="features_sub_headline">
-                    Soccer Angels away jersey kit
-                  </p>
-                </div>
-              </div>
-              <hr/>
+             
               <div className="row" id="features_subRows">
                 <div className="col-md-4 col-xs-5">
                   <Link to="#">
@@ -1300,43 +921,14 @@ class Home extends Component {
                 </div>
               </div>
               <hr/>
-              <div className="row" id="features_subRows">
-                <div className="col-md-4 col-xs-5">
-                  <Link to="#">
-                    {" "}
-                    <img
-                      src={jerseyimage4}
-                      alt="pizza"
-                      className="img-responsive"
-                    />
-                  </Link>
-                </div>
-                <div className="col-md-8 col-xs-7">
-                  <p className="features_sub_headline">
-                    Soccer Angels shake up kit
-                  </p>
-                </div>
-              </div>
+              
             </div>
           </div>
-        </section>
+        </div>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <section  id="transfare_news">
+        <div className="container-fluid"  id="transfare_news">
           <div className="row">
             <Link to="#" className="header">
               {" "}
@@ -1393,8 +985,9 @@ class Home extends Component {
               <hr/>            
             </div>
           </div>
-        </section>
+        </div>
 
+    
         <footer>
           <Footer />
         </footer>

@@ -4,15 +4,11 @@ import React, { Component } from 'react'
 class Contacts extends Component {
 render() {
            
-
-  /* easing functions from: https://github.com/gdsmith/jquery.easing/blob/master/jquery.easing.js
-*/
- 
     return (
-      <div style={{margin:"0px",padding:"0px"}}>
-        <div className="container" width="100%">
+      <div >
+        <div className="container-fluid">
         <div className="row">
-            <div className="col-md-8">
+            <div className="col-md-7">
                 <div className="row"><h1><b>Contact Us</b></h1> </div>
                     <hr/>
 
@@ -55,7 +51,7 @@ render() {
                 </div>
                 <hr/>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-5">
                 <div className="row">  
                 <h3>Get in touch with us</h3>                          
                 <form action="https://getform.io/f/275659fa-c96e-4145-8b25-ce4ebcb0fe6d" method="POST">
@@ -77,7 +73,7 @@ render() {
     </div>
 
 
-    <div class="container-fluid"  style={{padding:"0px"}}>
+    <div >
        <Footer/>
     </div>
 
