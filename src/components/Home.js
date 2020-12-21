@@ -2,10 +2,9 @@ import React, { Component } from "react";
 
 import $ from "jquery";
 
-import soccerHomeimage1 from "../soccer/photos/soccer1.JPG";
+
 import soccerHomeimage3 from "../soccer/photos/soccer14.JPG";
 import boahnationalcall from "../soccer/photos/boah.PNG";
-import soccerangelslogo from "../soccer/photos/soccerangelslogo.JPG";
 import ladiesnews from "../soccer/photos/headline-min.PNG";
 import jerseyimage2 from "../soccer/photos/Picture9.jpg";
 import jerseyimage3 from "../soccer/photos/Picture7.jpg";
@@ -14,6 +13,12 @@ import jerseyimage4 from "../soccer/photos/Picture10.jpg";
 import juvenile2 from "../soccer/photos/juvinalle2.jpg";
 // import mainheadline from "../soccer/photos/headline-min.PNG";
 import nationalflag from "../soccer/photos/nationalflag.jpg";
+
+
+// MATCHES
+import logo from "../soccer/photos/soccerangelslogo.jpg";
+
+
 // profile images
 import baaye from "../soccer/photos/Baaye.JPG";
 import appiah from "../soccer/photos/Appiah.JPG";
@@ -28,6 +33,8 @@ import ketu from "../soccer/photos/Ketu.JPG";
 import benard from "../soccer/photos/Benard.JPG";
 import bright from "../soccer/photos/Bright.JPG";
 import jonathan from "../soccer/photos/Jonathan.JPG";
+
+
 
 import {
   Link,
@@ -99,11 +106,11 @@ class Home extends Component {
           </Link>
           </div>
  
-      
+    
       
         <div className="container-fluid  fixturecontainer">
         <div className="row">
-                    <div className="col-xs-12 col-md-4" id="lastmatch_colon">
+                    <div className="col-xs-12 col-md-4 col-sm-12" id="lastmatch_colon">
                       <div className="row" style={{ minHeight: "200px" }}>
                         ....
                       </div>
@@ -117,7 +124,7 @@ class Home extends Component {
                         <div className="col-xs-4  col-md-4">
                           {" "}
                           <img
-                            src={soccerHomeimage1}
+                            src={logo}
                             alt="pizza"
                             className="img-responsive"
                           />
@@ -131,7 +138,7 @@ class Home extends Component {
                         <div className="col-xs-4  col-md-4">
                           {" "}
                           <img
-                            src={soccerangelslogo}
+                            src={logo}
                             alt="pizza"
                             className="img-responsive"
                           />
@@ -146,7 +153,7 @@ class Home extends Component {
                         <div className="col-xs-4  col-md-4">
                           
                           <img
-                            src={soccerangelslogo}
+                            src={logo}
                             alt="pizza"
                             className="img-responsive"
                           />
@@ -160,8 +167,8 @@ class Home extends Component {
                         <div className="col-xs-4  col-md-4">
                           
                           <img
-                            src={soccerHomeimage1}
-                            alt="pizza"
+                            src={logo}
+                            alt="OP"
                             className="img-responsive"
                           />
                           <p>Twifo Wasko</p>
@@ -172,8 +179,7 @@ class Home extends Component {
                   </div>
         </div>
 
-    
-
+     
 
 
 
@@ -480,46 +486,26 @@ class Home extends Component {
                 <div className="MultiCarousel-inner">
                   <div className="item">
                     <div className="pad15">
-                      <div className="card">
-                        <Link to="/bismark">
-                          {" "}
-                          <img
-                            src={baaye}
-                            alt="pizza"
-                            className="img-responsive"
-                          />{" "}
-                        </Link>
-                        <div className="card-body">
-                          <h4>
-                            <strong>16</strong>
-                          </h4>
-                          <h5>
-                            <b>Bismark</b>
-                          </h5>
-                        </div>
-                      </div>
+                      <figure className="card">
+                         <img src={baaye} alt="BAAYE" 
+                           className="img-responsive"
+                         />
+                         <figcaption>
+                           <p>this is for the baaye</p>
+                         </figcaption>
+                      </figure>
                     </div>
                   </div>
                   <div className="item">
                     <div className="pad15">
-                      <div className="card">
-                        <Link to="/bright">
-                          {" "}
-                          <img
-                            src={bright}
-                            alt="Bright"
-                            className="img-responsive"
-                          />{" "}
-                        </Link>
-                        <div className="card-body">
-                          <h4>
-                            <strong>99</strong>
-                          </h4>
-                          <h5>
-                            <b>Bright</b>
-                          </h5>
-                        </div>
-                      </div>
+                      <figure className="card">
+                         <img  src={bright} alt="BRIGHT" 
+                           className="img-responsive"
+                         />
+                         <figcaption>
+                           <p>this is for the BRIGHT</p>
+                         </figcaption>
+                      </figure>
                     </div>
                   </div>
                   <div className="item">

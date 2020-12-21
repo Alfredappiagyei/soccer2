@@ -56,7 +56,7 @@ function App() {
   return (
     <Router> 
       <div className="barnav">
-        <nav className="navbar navbar-default" style={{position:"relative", width:"100%",marginBottom:"0px", left:"0px", border:"none",borderRadius:"0px", zIndex:"2",  backgroundColor: '#444444', color: "#fff", alignContent:"center" }}>
+        <nav className="navbar navbar-default" >
           
 
             <div className="navbar-header">
@@ -80,7 +80,7 @@ function App() {
                   <li >
                   <button className="dropbtn"><Link to="/" style={{textDecoration:"none",color:"#fff" }}><p>HOME</p></Link></button>
                   </li>
-                  
+                
                   <li>
                   <div className="dropdown">
                     <button className="dropbtn"><p>NEWS</p>
@@ -94,7 +94,7 @@ function App() {
                     </div>
                   </div>
                 </li>
-
+          
                 <li>
                   <div className="dropdown">
                     <button className="dropbtn"><p>FIXTURES</p>
@@ -113,7 +113,8 @@ function App() {
                     </div>
                   </div>
                 </li>
-
+                
+          
                 <li>
                   <div className="dropdown">
                     <button className="dropbtn"><p>TEAM</p>
@@ -130,6 +131,7 @@ function App() {
                     </div>
                   </div>
                 </li>
+              
             
                 <li>
                   <div className="dropdown">
@@ -143,6 +145,7 @@ function App() {
                     </div>
                   </div>
                 </li>
+              
             
                 <li>
                   <div className="dropdown">
@@ -156,7 +159,8 @@ function App() {
                     </div>
                   </div>
                 </li>
-
+              
+                       
                 <li>
                   <div className="dropdown">
                   <button className="dropbtn"><p>HELP</p>
