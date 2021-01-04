@@ -21,7 +21,7 @@ import SeatvGo from './components/Fans/SeatvGo';
 import Atoz from './components/Legal/Atoz';
 import History from './components/Academy/History';
 import Timeline from './components/Academy/Timeline';
-import logo from './soccer/photos/soccerangelslogo.jpg';
+import teamlogo from "./soccer/photos/teamLogo.jpg";
 import Anouncement from './components/News/Anouncement';
 
 // Firstteam
@@ -68,7 +68,7 @@ function App() {
                 </button>
                <div> 
               <Link to="/">
-             <img src={logo} alt="soccerangelslogo" id="logo"  className="img-responsive" height="100px" width="100px" style={{borderRadius:"50%"}} /> 
+             <img src={teamlogo} alt="soccerangelslogo" id="logo"  className="img-responsive" height="100px" width="100px" style={{borderRadius:"50%"}} /> 
               <h3 id="textlogo">SAFA</h3>
              </Link>      
               </div>            

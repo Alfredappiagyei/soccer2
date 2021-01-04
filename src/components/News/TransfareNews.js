@@ -1,11 +1,7 @@
 import React, {Component} from "react";
  
 import soccerHomeimage3 from './photos/soccer14.JPG';
-import jerseyimage2 from './photos/Picture9.jpg';
 import jerseygrid from './photos/0.gif';
-import asante from './photos/W-asante.JPG';
-import pascal from './photos/pascal.JPG';
-import jayjay from "./photos/jayjay.JPG";
 import boahnationalcall from "./photos/boah.PNG";
 import ladiesnews from "./photos/headline.PNG";
 import juvenile2 from "./photos/juvinalle1.jpg";

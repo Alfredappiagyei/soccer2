@@ -16,7 +16,7 @@ import nationalflag from "../soccer/photos/nationalflag.jpg";
 
 
 // MATCHES
-import logo from "../soccer/photos/soccerangelslogo.jpg";
+import logo from "../soccer/photos/teamLogo.jpg";
 
 
 // profile images

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
  
  
-import soccerHomeimage1 from './photos/soccer1.JPG'
+
 import logo from './photos/soccerangelslogo.JPG'
 import {
     Link
