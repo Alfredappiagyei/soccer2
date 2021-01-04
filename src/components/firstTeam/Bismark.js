@@ -26,15 +26,14 @@ class Bismark extends Component {
                 <div className="bismark">
                     <div className="container" id="bismarkdetails">
                         <div className="col-md-6 col-xs-12">
-                            <h1 style={{ fontSize: "80px", marginBottom: "20px" }}><b>16</b></h1>
-                             <h1 style={{ fontSize: "50px" }}><b>Bismark</b></h1> 
-                            <h1 style={{ fontSize: "80px" }}><b>Baaye</b></h1>
-                            <h2>GOALKEEPER</h2>
+                           <p id="jerseyNumber">16</p>
+                             <p id="playerFirstName">Bismark</p> 
+                            <p id="playerSurName">Baaye</p>
+                            <p>GOALKEEPER</p>
                         </div>
                         <div className="col-md-6 col-xs-12">
                             <h3>D.O.B <br /> <h2><b>7/05/2003</b></h2></h3>
                             <h3>Place of birth <br /> <h2><b>Tepa Achina</b></h2></h3>
-
                         </div>
                     </div>
                 </div >

@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 import './Firstteam.css'
 import './soccer/css/bootstrap.min.css';
-import Home from "./components/Home"
+import Home from "./components/Home";
 import TransfareNews from './components/News/TransfareNews';
 import Contacts from './components/Legal/Contacts';
 
@@ -21,7 +21,7 @@ import SeatvGo from './components/Fans/SeatvGo';
 import Atoz from './components/Legal/Atoz';
 import History from './components/Academy/History';
 import Timeline from './components/Academy/Timeline';
-import logo from './soccer/photos/soccerangelslogo.JPG'
+import logo from './soccer/photos/soccerangelslogo.jpg'
 import Anouncement from './components/News/Anouncement';
 
 // Firstteam

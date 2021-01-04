@@ -24,10 +24,10 @@ class Cosmos extends Component {
                 <div className="cosmos">
                     <div className="container"  id="playerdetails">
                         <div className="col-md-6 col-xs-12">
-                            <h1 style={{ fontSize: "80px", marginBottom: "20px" }}><b>34</b></h1>
-                            {/* <h1 style={{ fontSize: "50px" }}><b>Daniel</b></h1> */}
-                            <h1 style={{ fontSize: "80px" }}><b>Cosmos</b></h1>
-                            <h2>DEFENDER</h2>
+                        <p id="jerseyNumber">34</p>
+                             <p id="playerFirstName">......</p> 
+                            <p id="playerSurName">Cosmos</p>
+                            <p>DEFENDER</p>
                         </div>
                         <div className="col-md-6 col-xs-12">
                             <h3>D.O.B <br /> <h2><b>dkfbjn</b></h2></h3>

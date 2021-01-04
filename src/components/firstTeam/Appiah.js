@@ -24,10 +24,10 @@ class Appiah extends Component {
                 <div className="appiah">
                     <div className="container"  id="playerdetails">
                         <div className="col-md-6 col-xs-12">
-                            <h1 style={{ fontSize: "80px", marginBottom: "20px" }}><b>3</b></h1>
-                            <h1 style={{ fontSize: "50px" }}><b>Daniel</b></h1>
-                            <h1 style={{ fontSize: "80px" }}><b>Appiah</b></h1>
-                            <h2>DEFENDER</h2>
+                            <p id="jerseyNumber">3</p>
+                            <p id="playerFirstName">Daniel</p>
+                            <p  id="playerSurName">Appiah</p>
+                            <p>DEFENDER</p>
                         </div>
                         <div className="col-md-6 col-xs-12">
                             <h3>D.O.B <br /> <h2><b>1/8/2004</b></h2></h3>

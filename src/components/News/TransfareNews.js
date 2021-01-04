@@ -26,12 +26,11 @@ class TransfareNews extends Component {
  
  
  
-
-
- <div className="container-fluid">
+ 
+          {/* LATEST NEWS */}
+          <div className="container-fluid latestNewsContainer">
           <div className="row">
-            <Link to="transfarenews" className="header">
-              {" "}
+            <Link  className="header">
               <h2>Latest News</h2>
             </Link>
           </div>
@@ -39,7 +38,9 @@ class TransfareNews extends Component {
           <div className="row" id="latest_news_rows">
             <div className="col-md-9 col-xs-12">
               <div className="row" id="latest_news_rows">
+
                 <div className="col-md-6 col-xs-12">
+
                   <div className="row">
                     <div className="col-md-4 col-xs-4">
                       <div className="row">
@@ -52,10 +53,10 @@ class TransfareNews extends Component {
                         </Link>
                       </div>
                     </div>
-                    <div className="col-md-8 col-xs-8">
-                      <p className="latest_news_sub_headline">
-                      Soccer Angels ladies starts their pre-season at Assin Ningo ahead  of the next 
-                       division one league season
+                    <div className="col-md-8 col-xs-8 latest_news_sub_headline">
+                      <p>
+                         Soccer Angels ladies starts their pre-season at Assin Ningo ahead  of the next 
+                          division one league season
 
                        </p>
                     </div>
@@ -70,44 +71,15 @@ class TransfareNews extends Component {
                           className="img-responsive"
                         />
                     </div>
-                    <div className="col-md-8 col-xs-8">
-                      <p className="latest_news_sub_headline">
-                      Dreams Fc Striker Percious Boah Get A National Team Call Up
+                    <div className="col-md-8 col-xs-8 latest_news_sub_headline">
+                      <p>
+                        Dreams Fc Striker Percious Boah Get A National Team Call Up
                       </p>
                     </div>
                     </Link>
                   </div>
                   <hr />
-                  <div className="row">
-                    <div className="col-md-4 col-xs-4">
-                      <Link to="#">
-                        <img src={asante} alt="pizza" className="img-responsive" />
-                      </Link>
-                    </div>
-                    <div className="col-md-8 col-xs-8">
-                      <p className="latest_news_sub_headline">
-                        Soccer Angels Academy has officcially appointed
-                        Mr.WILLIAM ASANTE as the new communication director of
-                        the team.
-                      </p>
-                    </div>
-                  </div>
-                  <hr />
-
-                  <div className="row">
-                    <div className="col-md-4 col-xs-4">
-                      <Link to="#">
-                        <img src={pascal} alt="pizza" className="img-responsive" />
-                      </Link>
-                    </div>
-                    <div className="col-md-8 col-xs-8">
-                      <p className="latest_news_sub_headline">
-                        Soccer Angels Academy has officcially appointed NANA
-                        KWAKU PASCAL (Head of sports, SPLASH FM) as
-                        Communication Team member .
-                      </p>
-                    </div>
-                  </div>
+            
                 </div>
               
                 <div className="col-md-6 col-xs-12">
@@ -120,8 +92,8 @@ class TransfareNews extends Component {
                           className="img-responsive"
                         />
                     </div>
-                    <div className="col-md-8 col-xs-8">
-                      <p className="latest_news_sub_headline">
+                    <div className="col-md-8 col-xs-8 latest_news_sub_headline">
+                      <p>
                       Central regional football association visited Assin District football association for 
                       Juvenile screening                  
                       </p>
@@ -129,37 +101,8 @@ class TransfareNews extends Component {
                     </Link>
                   </div>
                   <hr />
-                  <div className="row">
-                    <div className="col-md-4 col-xs-4">
-                      <Link to="#">
-                        <img
-                          src={jerseyimage2}
-                          alt="pizza"
-                          className="img-responsive"
-                        />
-                      </Link>
-                    </div>
-                    <div className="col-md-8 col-xs-8">
-                      <p className="latest_news_sub_headline">
-                        Soccer Angels home tracksuit
-                      </p>
-                    </div>
-                  </div>
-                  <hr />
-                  <div className="row">
-                    <div className="col-md-4 col-xs-4">
-                      <Link to="#">
-                        <img src={jayjay} alt="pizza" className="img-responsive" />
-                      </Link>
-                    </div>
-                    <div className="col-md-8 col-xs-8">
-                      <p className="latest_news_sub_headline">
-                        Soccer Angels Academy has officcially appointed JAY JAY
-                        (Sports presenter at NKWA FM) as the new Deputy
-                        communication director of the team.
-                      </p>
-                    </div>
-                  </div>
+                 
+                  
                 </div>
               </div>
             </div>
@@ -173,8 +116,7 @@ class TransfareNews extends Component {
                 />
               </div>
             </div>
-          </div>
-          
+          </div>   
         <div className="line"></div>
         </div>
 
@@ -182,8 +124,7 @@ class TransfareNews extends Component {
 
 
 
-
-        <div className="container-fluid"  id="transfare_news">
+        <div className="container-fluid transfareNewsContainer">
           <div className="row">
             <Link to="#" className="header">
               {" "}
@@ -207,7 +148,7 @@ class TransfareNews extends Component {
                 <div className="col-md-12 col-xs-12">
                   <div className="col-md-12 col-xs-12 transfarenews-headline">
                     <h4>
-                    Dreams Fc Striker Percious Boah Get A National Team Call Up
+                       Dreams Fc Striker Percious Boah Get A National Team Call Up
                     </h4>
                   </div>
                 </div>
@@ -217,9 +158,8 @@ class TransfareNews extends Component {
             
             <div className="col-md-6">
               <div className="row" id="features_subRows">
-                <div className="col-md-4 col-xs-5">
+                <div className="col-md-3 col-xs-4">
                   <Link to="#">
-                    {" "}
                     <img
                       src={soccerHomeimage3}
                       alt="pizza"
@@ -228,10 +168,10 @@ class TransfareNews extends Component {
                   </Link>
                 </div>
 
-                <div className="col-md-8 col-xs-7 transfare_news_sub_headline">
+                <div className="col-md-9 col-xs-8  transfare_news_sub_headline">
                   <Link to="/boahdetails">
                     <p>
-                    Soccer angels could look for creative solution to solve a
+                      Soccer angels could look for creative solution to solve a
                       tranfare problem
                     </p>
                   </Link>

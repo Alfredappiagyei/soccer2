@@ -25,10 +25,11 @@ class Elvis extends Component {
                 <div className="elvis">
                     <div className="container"  id="playerdetails">
                         <div className="col-md-6 col-xs-12">
-                            <h1 style={{ fontSize: "80px", marginBottom: "20px" }}><b>66</b></h1>
-                            <h1 style={{ fontSize: "50px" }}><b>Elvis</b></h1>
-                            <h1 style={{ fontSize: "80px" }}><b>Esumang</b></h1>
-                            <h2>DEFENDER</h2>
+                            <p id="jerseyNumber">66</p>
+                            <p id="playerFirstName">Elvis</p> 
+                            <p id="playerSurName">Esumang</p>
+                            <p>DEFENDER</p>
+                             
                         </div>
                         <div className="col-md-6 col-xs-12">
                             <h3>D.O.B <br /> <h2><b>5/9/2008</b></h2></h3>

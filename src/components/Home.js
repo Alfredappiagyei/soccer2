@@ -78,8 +78,8 @@ class Home extends Component {
   
       <div className="body"> 
 
-        <div className=" homesocialheader">
-          <div className="row">
+                 <div className=" homesocialheader">
+                      <div className="row">
                           <span className="homesocialinks"><img src={nationalflag} 
                             alt="nationality"
                             className="img-responsive" width="40" height="40"></img></span>
@@ -88,27 +88,23 @@ class Home extends Component {
                           <span className="homesocialinks"><i className="fa fa-youtube"></i></span> 
                           <span className="homesocialinks"><i className="fa fa-instagram"></i></span>    
                           <p>welcome:  <span>home</span></p>
-          </div>
-        </div>
+                       </div>
+                   </div>
 
 
-        <div className="container-fluid" style={{margin:"0px"}}>
-          <Link to="#" style={{textDecoration:"none"}}>
-          <div className="row" id="headimage"> </div>
-          <div className="line"></div>
-
-        <div className="row mainHeadline"> 
-              <h1>
-                       Soccer Angels ladies starts their pre-season at Assin Ningo ahead  of the next 
-                       division one league season
-              </h1>
-          </div>
-          </Link>
+          <div className="container-fluid" style={{margin:"0px"}}>
+            <Link to="#" style={{textDecoration:"none"}}>
+              <div className="row" id="headimage"></div>
+              <div className="line"></div>
+             <div className="row mainHeadline"> 
+              <h1>Soccer Angels ladies starts their pre-season at Assin Ningo ahead  of the next division one league season </h1>
+             </div>
+              </Link>
           </div>
  
     
       
-        <div className="container-fluid  fixturecontainer">
+        <div className="container-fluid  fixturecontainer ">
         <div className="row">
                     <div className="col-xs-12 col-md-4 col-sm-12" id="lastmatch_colon">
                       <div className="row" style={{ minHeight: "200px" }}>
@@ -121,70 +117,45 @@ class Home extends Component {
                         <p id="upcoming_match_header_text">
                           UPCOMING MATCH
                         </p>
-                        <div className="col-xs-4  col-md-4">
-                          {" "}
-                          <img
-                            src={logo}
-                            alt="pizza"
-                            className="img-responsive"
-                          />
+                        <div className="col-xs-4  col-md-4">                   
+                          <img src = {logo} alt="SOCCER ANGELS ACADEMY" className="img-responsive" />
                           <p>Suampongman</p>
                         </div>
                         <div className="col-xs-4  col-md-4">
-                          <p id="upcoming_match_text">
-                            VS
-                          </p>
+                          <p id="upcoming_match_text"> VS </p>
                         </div>
                         <div className="col-xs-4  col-md-4">
-                          {" "}
-                          <img
-                            src={logo}
-                            alt="pizza"
-                            className="img-responsive"
-                          />
+                          <img  src={logo} alt="SOCCER ANGELS ACADEMY" className="img-responsive" />
                           <p> Soccer Angels</p>
                         </div>
                         <div id="match_text"></div>
                       </div>
+
                       <div className="col-xs-12 col-md-6" id="upcoming_colon">
                         <p id="upcoming_match_header_text">
                           UPCOMING MATCH
                         </p>
-                        <div className="col-xs-4  col-md-4">
-                          
-                          <img
-                            src={logo}
-                            alt="pizza"
-                            className="img-responsive"
-                          />
+                        <div className="col-xs-4  col-md-4">    
+                          <img src={logo} alt="pizza" className="img-responsive" />
                           <p>Soccer Angels </p>
                         </div>
                         <div className="col-xs-4  col-md-4">
-                          <p id="upcoming_match_text">
-                            VS
-                          </p>
+                          <p id="upcoming_match_text">  VS </p>
                         </div>
-                        <div className="col-xs-4  col-md-4">
-                          
-                          <img
-                            src={logo}
-                            alt="OP"
-                            className="img-responsive"
-                          />
+                        <div className="col-xs-4  col-md-4">                     
+                          <img  src={logo}  alt="SOCCER ANGELS ACADEMY" className="img-responsive" />
                           <p>Twifo Wasko</p>
                         </div>
                         <div id="match_text"></div>
                       </div>
                     </div>
                   </div>
-        </div>
+             </div>
 
      
 
 
-
-
-        <div className="container-fluid">
+        <div className="container-fluid videoContainer">
           <div className="row">
             <Link to="/seatvgo">
               <button className="more_button_desktop" id="desktopmore">MORE</button>
@@ -218,7 +189,6 @@ class Home extends Component {
                           allowFullScreen
                         ></iframe>
                         <div className="caption">                       
-                            {" "}
                             <h4>
                              <b> Soccer Angels</b>
                             </h4>                         
@@ -350,32 +320,10 @@ class Home extends Component {
         
        
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <div className="container-fluid">
+      {/* LATEST NEWS */}
+        <div className="container-fluid latestNewsContainer">
           <div className="row">
             <Link  className="header">
-              {" "}
               <h2>Latest News</h2>
             </Link>
           </div>
@@ -385,6 +333,7 @@ class Home extends Component {
               <div className="row" id="latest_news_rows">
 
                 <div className="col-md-6 col-xs-12">
+
                   <div className="row">
                     <div className="col-md-4 col-xs-4">
                       <div className="row">
@@ -397,10 +346,10 @@ class Home extends Component {
                         </Link>
                       </div>
                     </div>
-                    <div className="col-md-8 col-xs-8">
-                      <p className="latest_news_sub_headline">
-                      Soccer Angels ladies starts their pre-season at Assin Ningo ahead  of the next 
-                       division one league season
+                    <div className="col-md-8 col-xs-8 latest_news_sub_headline">
+                      <p>
+                         Soccer Angels ladies starts their pre-season at Assin Ningo ahead  of the next 
+                          division one league season
 
                        </p>
                     </div>
@@ -415,18 +364,15 @@ class Home extends Component {
                           className="img-responsive"
                         />
                     </div>
-                    <div className="col-md-8 col-xs-8">
-                      <p className="latest_news_sub_headline">
-                      Dreams Fc Striker Percious Boah Get A National Team Call Up
+                    <div className="col-md-8 col-xs-8 latest_news_sub_headline">
+                      <p>
+                        Dreams Fc Striker Percious Boah Get A National Team Call Up
                       </p>
                     </div>
                     </Link>
                   </div>
                   <hr />
-                  
-                  <hr />
-
-
+            
                 </div>
               
                 <div className="col-md-6 col-xs-12">
@@ -439,8 +385,8 @@ class Home extends Component {
                           className="img-responsive"
                         />
                     </div>
-                    <div className="col-md-8 col-xs-8">
-                      <p className="latest_news_sub_headline">
+                    <div className="col-md-8 col-xs-8 latest_news_sub_headline">
+                      <p>
                       Central regional football association visited Assin District football association for 
                       Juvenile screening                  
                       </p>
@@ -463,17 +409,15 @@ class Home extends Component {
                 />
               </div>
             </div>
-          </div>
-          
+          </div>   
         <div className="line"></div>
         </div>
 
 
 
 
-
-
-        <div className="container-fluid">
+ {/* PLAYER ROFILE CAROUSEL */}
+        <div className="container-fluid profileContainer">
           <div className="row">
             <div>
               <div
@@ -484,40 +428,58 @@ class Home extends Component {
                 data-interval="1000"
               >
                 <div className="MultiCarousel-inner">
-                  <div className="item">
+                <div className="item">
                     <div className="pad15">
-                      <figure className="card">
-                         <img src={baaye} alt="BAAYE" 
-                           className="img-responsive"
-                         />
-                         <figcaption>
-                           <p>this is for the baaye</p>
-                         </figcaption>
-                      </figure>
+                      <div className="card">
+                        <Link to="/baaye">
+                          <img
+                            src={baaye}
+                            alt="Bright"
+                            className="img-responsive"
+                          />
+                        </Link>
+                        <div className="card-body">
+                          <h4>
+                            <strong>1</strong>
+                          </h4>
+                          <h5>
+                            <b>Bismark</b>
+                          </h5>
+                        </div>
+                      </div>
                     </div>
                   </div>
+                  
                   <div className="item">
                     <div className="pad15">
-                      <figure className="card">
-                         <img  src={bright} alt="BRIGHT" 
-                           className="img-responsive"
-                         />
-                         <figcaption>
-                           <p>this is for the BRIGHT</p>
-                         </figcaption>
-                      </figure>
+                      <div className="card">
+                        <Link to="/baaye">
+                          <img
+                            src={bright}
+                            alt="Bright"
+                            className="img-responsive"
+                          />
+                        </Link>
+                        <div className="card-body">
+                          <h4>
+                            <strong>99</strong>
+                          </h4>
+                          <h5>
+                            <b>Bright</b>
+                          </h5>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <div className="item">
                     <div className="pad15">
                       <div className="card">
                         <Link to="/jonathan">
-                          {" "}
                           <img
                             src={jonathan}
                             alt="Bright"
                             className="img-responsive"
-                          />{" "}
+                          />
                         </Link>
                         <div className="card-body">
                           <h4>
@@ -834,8 +796,8 @@ class Home extends Component {
 
 
 
-
-        <div className="container-fluid" >
+{/* FEATURES */}
+        <div className="container-fluid featuresContainer" >
           <div className="row">
             <Link to="#" className="header">
               <h2>Features</h2>
@@ -865,7 +827,7 @@ class Home extends Component {
           
             <div className="col-md-6">
               <div className="row" id="features_subRows">
-                <div className="col-md-4 col-xs-5">
+                <div className="col-md-3 col-xs-4">
                   <Link to="#">
                     {" "}
                     <img
@@ -875,8 +837,8 @@ class Home extends Component {
                     />
                   </Link>
                 </div>
-                <div className="col-md-8 col-xs-7 ">
-                  <p className="features_sub_headline">
+                <div className="col-md-9 col-xs-8 features_sub_headline">
+                  <p>
                     Soccer Angels men's tracksuit
                   </p>
                 </div>
@@ -884,7 +846,7 @@ class Home extends Component {
               <hr/>
              
               <div className="row" id="features_subRows">
-                <div className="col-md-4 col-xs-5">
+                <div className="col-md-3 col-xs-4">
                   <Link to="#">
                     {" "}
                     <img
@@ -894,8 +856,8 @@ class Home extends Component {
                     />
                   </Link>
                 </div>
-                <div className="col-md-8 col-xs-7">
-                  <p className="features_sub_headline">
+                <div className="col-md-9 col-xs-8 features_sub_headline">
+                  <p>
                     Soccer angels goalkeeper's training kit
                   </p>
                 </div>
@@ -908,7 +870,9 @@ class Home extends Component {
 
 
 
-        <div className="container-fluid"  id="transfare_news">
+
+{/* TRANSFARE NEWS */}
+        <div className="container-fluid transfareNewsContainer">
           <div className="row">
             <Link to="#" className="header">
               {" "}
@@ -932,7 +896,7 @@ class Home extends Component {
                 <div className="col-md-12 col-xs-12">
                   <div className="col-md-12 col-xs-12 transfarenews-headline">
                     <h4>
-                    Dreams Fc Striker Percious Boah Get A National Team Call Up
+                       Dreams Fc Striker Percious Boah Get A National Team Call Up
                     </h4>
                   </div>
                 </div>
@@ -942,9 +906,8 @@ class Home extends Component {
             
             <div className="col-md-6">
               <div className="row" id="features_subRows">
-                <div className="col-md-4 col-xs-5">
+                <div className="col-md-3 col-xs-4">
                   <Link to="#">
-                    {" "}
                     <img
                       src={soccerHomeimage3}
                       alt="pizza"
@@ -953,10 +916,10 @@ class Home extends Component {
                   </Link>
                 </div>
 
-                <div className="col-md-8 col-xs-7 transfare_news_sub_headline">
+                <div className="col-md-9 col-xs-8  transfare_news_sub_headline">
                   <Link to="/boahdetails">
                     <p>
-                    Soccer angels could look for creative solution to solve a
+                      Soccer angels could look for creative solution to solve a
                       tranfare problem
                     </p>
                   </Link>
@@ -967,6 +930,7 @@ class Home extends Component {
           </div>
         </div>
 
+{/* FOOTER */}
     
         <footer>
           <Footer />

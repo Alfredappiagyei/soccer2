@@ -25,10 +25,10 @@ class Enock extends Component {
                 <div className="enock">
                     <div className="container"  id="playerdetails">
                         <div className="col-md-6 col-xs-12">
-                            <h1 style={{ fontSize: "80px", marginBottom: "20px" }}><b>10</b></h1>
-                             <h1 style={{ fontSize: "50px" }}><b>Enock</b></h1> 
-                            <h1 style={{ fontSize: "80px" }}><b>Affum</b></h1>
-                            <h2>MIDFIELDER</h2>
+                            <p id="jerseyNumber">10</p>
+                            <p id="playerFirstName">Enock</p> 
+                            <p id="playerSurName">Affum</p>
+                            <p>MIDFIELDE</p>
                         </div>
                         <div className="col-md-6 col-xs-12">
                             <h3>D.O.B <br /> <h2><b>26/4/2004</b></h2></h3>

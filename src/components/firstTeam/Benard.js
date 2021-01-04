@@ -25,10 +25,10 @@ class Benard extends Component {
                 <div className="benard">
                     <div className="container"  id="playerdetails">
                         <div className="col-md-6 col-xs-12">
-                            <h1 style={{ fontSize: "80px", marginBottom: "20px" }}><b>9</b></h1>
-                             <h1 style={{ fontSize: "50px" }}><b>Benard</b></h1> 
-                            <h1 style={{ fontSize: "80px" }}><b>Kokonu Junior</b></h1>
-                            <h2>MIDFIELDER</h2>
+                        <p id="jerseyNumber">9</p>
+                             <p id="playerFirstName">Benard</p> 
+                            <p id="playerSurName">Kokonu Junior</p>
+                            <p>MIDFIELD</p>
                         </div>
                         <div className="col-md-6 col-xs-12">
                             <h3>D.O.B <br /> <h2><b>5/10/2005</b></h2></h3>

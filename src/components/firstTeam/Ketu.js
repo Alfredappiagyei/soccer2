@@ -23,10 +23,11 @@ class Ketu extends Component {
                 <div className="ketu">
                     <div className="container"  id="playerdetails">
                         <div className="col-md-6 col-xs-12">
-                            <h1 style={{ fontSize: "80px", marginBottom: "20px" }}><b>24</b></h1>
-                            <h1 style={{ fontSize: "50px" }}><b>Alex</b></h1>
-                            <h1 style={{ fontSize: "80px" }}><b>Ketu</b></h1>
-                            <h2>DEFENDER</h2>
+                            <p id="jerseyNumber">24</p>
+                            <p id="playerFirstName">Alex</p> 
+                            <p id="playerSurName">Ketu</p>
+                            <p>DEFENDER</p>  
+                           
                         </div>
                         <div className="col-md-6 col-xs-12">
                             <h3>D.O.B <br /> <h2><b>7/7/2003</b></h2></h3>

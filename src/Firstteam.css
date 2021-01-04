@@ -34,10 +34,10 @@
     position: relative;
       text-align: center;  
      padding: 35px 5px 0px 5px; 
-    /* width: 30px; */
      background-color: red; 
     
   }
+
 
    #playernumbercard  b {
    color: white;
@@ -57,7 +57,6 @@
     border-top: 5px solid red;
     border-bottom: 5px solid transparent;
     
-
   } 
     
   #playercardname {  
@@ -325,9 +324,6 @@
 
 
 
-
-
-  
 
 /*----------------------------
  PLAYER STATS

@@ -23,10 +23,10 @@ class Theophilus extends Component {
                 <div className="theophilus">
                     <div className="container"  id="playerdetails">
                         <div className="col-md-6 col-xs-12">
-                            <h1 style={{ fontSize: "80px", marginBottom: "20px" }}><b>13</b></h1>
-                             <h1 style={{ fontSize: "50px" }}><b>Theophilus</b></h1> 
-                            <h1 style={{ fontSize: "80px" }}><b>Tsiboah</b></h1>
-                            <h2>DEFENDER</h2>
+                            <p id="jerseyNumber">13</p>
+                            <p id="playerFirstName">Theophilus</p> 
+                            <p id="playerSurName">Tsiboah</p>
+                            <p>DEFENDER</p>                             
                         </div>
                         <div className="col-md-6 col-xs-12">
                             <h3>D.O.B <br /> <h2><b>6/4/2009</b></h2></h3>
