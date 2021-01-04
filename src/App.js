@@ -21,7 +21,7 @@ import SeatvGo from './components/Fans/SeatvGo';
 import Atoz from './components/Legal/Atoz';
 import History from './components/Academy/History';
 import Timeline from './components/Academy/Timeline';
-import logo from './soccer/photos/soccerangelslogo.jpg'
+import logo from './soccer/photos/soccerangelslogo.jpg';
 import Anouncement from './components/News/Anouncement';
 
 // Firstteam
